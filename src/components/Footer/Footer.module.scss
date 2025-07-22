@@ -1,0 +1,22 @@
+@use '@styles/colors.module';
+@use '@styles/functions';
+
+.root {
+  background: colors.$space;
+  color: colors.$white;
+}
+
+.link {
+  color: colors.$berry;
+
+  &:hover,
+  &:active,
+  &:focus {
+    text-decoration: underline;
+  }
+}
+
+.icon {
+  fill: currentColor;
+  width: functions.spacing(4);
+}
