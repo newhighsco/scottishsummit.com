@@ -1,12 +1,27 @@
-@use '@styles/colors.module';
+@use '~styles/breakpoints.module';
+@use '~styles/colors.module';
+@use '~styles/functions';
+@use '~styles/mixins';
 
 .root {
   background: colors.$space;
+  border-bottom: 1px solid colors.$mist;
   color: colors.$white;
+
+  // margin-bottom: functions.spacing(2.5);
+  position: sticky;
+}
+
+.content {
+  padding-block: functions.spacing(2);
 }
 
 .logo {
   width: auto;
+}
+
+.logoLockup {
+  margin-bottom: functions.spacing(-4.5);
 }
 
 .links {
@@ -21,4 +36,30 @@
   &:focus {
     text-decoration: underline;
   }
+}
+
+.list {
+  background: black;
+  position: absolute;
+  inset-inline: 0;
+  inset-block-start: 100%;
+
+  // @include mixins.mq(breakpoints.$tablet) {
+  //   &[hidden] {
+  //     display: block;
+  //   }
+  // }
+}
+
+.toggle {
+  color: colors.$white;
+
+  // @include mixins.mq(breakpoints.$tablet) {
+  //   display: none;
+  // }
+}
+
+.toggleIcon {
+  fill: currentColor;
+  width: functions.spacing(4);
 }

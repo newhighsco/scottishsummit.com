@@ -1,0 +1,16 @@
+@use '~styles/breakpoints.module';
+@use '~styles/mixins';
+
+.backdrop {
+  background-position-y: 50%;
+
+  @include mixins.tartan;
+
+  @include mixins.mq(breakpoints.$tablet) {
+    @include mixins.tartan(6);
+  }
+
+  @include mixins.mq(breakpoints.$desktop) {
+    @include mixins.tartan(10);
+  }
+}

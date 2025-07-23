@@ -1,13 +1,22 @@
-@use '@styles/colors.module';
-@use '@styles/functions';
+@use '~styles/colors.module';
+@use '~styles/functions';
 
 .root {
   background: colors.$space;
   color: colors.$white;
 }
 
+.content {
+  margin-top: functions.spacing(-2.5);
+  padding-bottom: functions.spacing(2);
+
+  > * + * {
+    margin-top: functions.spacing(2);
+  }
+}
+
 .link {
-  color: colors.$berry;
+  color: colors.$lychee;
 
   &:hover,
   &:active,
@@ -18,5 +27,20 @@
 
 .icon {
   fill: currentColor;
-  width: functions.spacing(4);
+  width: functions.spacing(3);
+}
+
+.iconLink {
+  display: inline-block;
+  margin-inline: functions.spacing(1);
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: colors.$lychee;
+  }
+}
+
+.logoLockup {
+  display: inline-block;
 }

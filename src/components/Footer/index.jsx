@@ -1,9 +1,6 @@
-import config from '@config'
-import footer from '@data/footer.json'
-import { ReactComponent as GithubIcon } from '@images/icons/github.svg'
 import {
+  ContentContainer,
   FooterContainer,
-  Grid,
   Icon,
   Navigation,
   SmartLink
@@ -11,51 +8,65 @@ import {
 import Link from 'next/link'
 import React from 'react'
 
+import LogoLockup from '~components/LogoLockup'
+import config from '~config'
+import footer from '~data/footer.json'
+import { ReactComponent as FacebookIcon } from '~images/icons/facebook.svg'
+import { ReactComponent as LinkedInIcon } from '~images/icons/linkedin.svg'
+import { ReactComponent as XIcon } from '~images/icons/x.svg'
+
 import styles from './Footer.module.scss'
 
 const { name, socialLinks } = config
 const iconLinks = {
-  Twitter: { icon: GithubIcon },
-  LinkIn: { icon: GithubIcon },
-  Facebook: { icon: GithubIcon }
+  X: { icon: XIcon },
+  LinkedIn: { icon: LinkedInIcon },
+  Facebook: { icon: FacebookIcon, prefix: 'Like' }
 }
 
 const Footer = () => (
-  <FooterContainer gutter theme={{ root: styles.root }}>
-    <Grid valign="middle">
-      <Grid.Item sizes={['one-half']}>
-        <Navigation
-          inline
-          links={footer.links}
-          renderLink={({ href, children, ...rest }) => (
-            <Link href={href} passHref legacyBehavior>
-              <SmartLink {...rest}>{children}</SmartLink>
-            </Link>
-          )}
-          theme={{ link: styles.link }}
-        />
-      </Grid.Item>
-      <Grid.Item sizes={['one-half']} align="right">
-        <Navigation
-          inline
-          links={Object.values(iconLinks)}
-          renderLink={({ icon: IconSvg, prefix = 'Follow' }, index) => {
-            const key = Object.keys(socialLinks)[index]
+  <FooterContainer align="center" gutter theme={{ root: styles.root }}>
+    <ContentContainer size="desktopLarge" theme={{ content: styles.content }}>
+      <Link href="/" passHref legacyBehavior prefetch={false}>
+        <SmartLink>
+          <LogoLockup className={styles.logoLockup} />
+        </SmartLink>
+      </Link>
+      <p>
+        {name} is run by {name} SCIO
+        <br />
+        Charity Number SC052785
+      </p>
+      <Navigation
+        inline
+        links={Object.values(iconLinks)}
+        renderLink={({ icon: IconSvg, prefix = 'Follow', ...rest }, index) => {
+          const key = Object.keys(socialLinks)[index]
 
-            return (
-              <SmartLink href={socialLinks[key]} target="_blank">
-                <Icon
-                  theme={{ root: styles.icon }}
-                  alt={[prefix, name, 'on', key].join(' ')}
-                >
-                  {IconSvg && <IconSvg />}
-                </Icon>
-              </SmartLink>
-            )
-          }}
-        />
-      </Grid.Item>
-    </Grid>
+          return (
+            <SmartLink href={socialLinks[key]} target="_blank" {...rest}>
+              <Icon
+                theme={{ root: styles.icon }}
+                alt={[prefix, name, 'on', key].join(' ')}
+              >
+                {IconSvg && <IconSvg />}
+              </Icon>
+            </SmartLink>
+          )
+        }}
+        theme={{ link: styles.iconLink }}
+      />
+      <Navigation
+        inline
+        links={footer.links}
+        renderLink={({ href, children, ...rest }) => (
+          <Link href={href} passHref legacyBehavior>
+            <SmartLink {...rest}>{children}</SmartLink>
+          </Link>
+        )}
+        theme={{ link: styles.link }}
+      />
+    </ContentContainer>
   </FooterContainer>
 )
 

@@ -1,1 +1,9 @@
-@use '@styles/fonts.module';
+@use '~styles/fonts.module';
+
+@font-face {
+  font-display: swap;
+  font-family: fonts.$montserrat;
+  font-weight: 700 900;
+  font-style: normal;
+  src: url('/fonts/montserrat.woff2') format('woff2');
+}

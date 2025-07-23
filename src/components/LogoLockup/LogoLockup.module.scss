@@ -1,6 +1,10 @@
-@use '@styles/functions';
+@use '~styles/functions';
+
+.root {
+  width: functions.spacing(10);
+}
 
 .icon {
   fill: currentColor;
-  width: functions.spacing(4);
+  width: 100%;
 }
