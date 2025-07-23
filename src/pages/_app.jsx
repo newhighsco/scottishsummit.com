@@ -13,7 +13,7 @@ const meta = {
     rel: 'preload',
     href: `/fonts/${font}.${extension}}`,
     as: 'font',
-    type: ` font/${extension}`,
+    type: `font/${extension}`,
     crossOrigin: 'anonymous'
   }))
 }
