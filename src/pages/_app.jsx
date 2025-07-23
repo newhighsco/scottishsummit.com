@@ -11,7 +11,7 @@ const fonts = { montserrat: { extension: 'woff2' } }
 const meta = {
   additionalLinkTags: Object.entries(fonts).map(([font, { extension }]) => ({
     rel: 'preload',
-    href: `/fonts/${font}.${extension}}`,
+    href: `/fonts/${font}.${extension}`,
     as: 'font',
     type: `font/${extension}`,
     crossOrigin: 'anonymous'
