@@ -1,16 +1,11 @@
 $black: #000;
 $white: #fff;
-$space: #29225c;
+$space: #29235c;
 $night: #391c53;
 $plum: #881c68;
 $berry: #b7196e;
 $lychee: #fe4c90;
 $mist: #cac8d7;
-
-// color.mix(color.adjust(colors.$mist, $lightness: 19%), colors.$plum)
-// $mist-on-plum: #c48eb4;
-// color.mix(color.adjust(colors.$mist, $lightness: 18.75%), colors.$night)
-// $mist-on-space: #9491ae;
 
 :export {
   black: $black;

@@ -1,0 +1,36 @@
+<svg
+	xmlns="http://www.w3.org/2000/svg" viewBox="0 0 344 344">
+	<defs>
+		<pattern id="pattern" width="8" height="8" patternUnits="userSpaceOnUse">
+      <polygon points="0,0 8,8 8,4 4,0" />
+      <polygon points="0,4 0,8 4,8" />
+      <!-- <polygon points="0,8 2,8 0,6"/>
+      <polygon points="3,8 5,8 0,3 0,5"/>
+      <polygon fill="red" points="6,8 8,8 0,0 0,2"/> -->
+		</pattern>
+		<mask id="grating" mask-type="alpha">
+			<rect fill="url(#pattern)" width="100%" height="100%"/>
+		</mask>
+	</defs>
+  <rect fill="#29225c" width="100%" height="100%" />
+  <g fill="#881c68">
+    <rect width="72" height="100%" x="148"/>
+    <rect width="72" height="100%" x="272"/>
+    <rect width="100%" height="72" y="148"/>
+    <rect width="100%" height="72" y="272"/>
+  </g>
+  <g fill="#b7196e">
+    <rect width="72" height="72" x="148" y="148"/>
+    <rect width="72" height="72" x="148" y="272"/>
+    <rect width="72" height="72" x="272" y="148"/>
+    <rect width="72" height="72" x="272" y="272"/>
+  </g>
+  <g fill="#cac8d7">
+    <g opacity="0.75">
+      <rect width="20" height="100%" x="236"/>
+      <rect width="100%" height="20" y="236"/>
+    </g>
+    <rect width="20" height="20" x="236" y="236"/>
+  </g>
+  <rect fill="#391c53" mask="url(#grating)" width="100%" height="100%" />
+</svg>
