@@ -42,10 +42,12 @@ $logo-spacing: 3.125;
 }
 
 .list {
-  inset-inline: 0;
-  inset-block-start: 100%;
-  margin-top: 3px;
-  position: absolute;
+  @include mixins.mq($max: breakpoints.$tablet) {
+    inset-inline: 0;
+    inset-block-start: 100%;
+    margin-top: 3px;
+    position: absolute;
+  }
 
   @include mixins.mq(breakpoints.$tablet) {
     position: static;
@@ -63,15 +65,21 @@ $logo-spacing: 3.125;
 }
 
 .link {
-  background: colors.$space;
-  display: block;
-  padding: functions.spacing(2);
-  text-align: center;
+  @include mixins.mq($max: breakpoints.$tablet) {
+    background: colors.$space;
+    display: block;
+    padding: functions.spacing(2);
+    text-align: center;
+
+    &:hover,
+    &:active,
+    &:focus {
+      background: colors.$berry;
+    }
+  }
 
   @include mixins.mq(breakpoints.$tablet) {
-    background: none;
     margin-left: functions.spacing(2);
-    padding: 0;
 
     &:hover,
     &:active,
@@ -83,12 +91,6 @@ $logo-spacing: 3.125;
 
   @include mixins.mq(breakpoints.$desktop) {
     margin-left: functions.spacing(4);
-  }
-
-  &:hover,
-  &:active,
-  &:focus {
-    background: colors.$berry;
   }
 }
 
