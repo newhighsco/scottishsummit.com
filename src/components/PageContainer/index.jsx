@@ -13,13 +13,21 @@ import backdropUrl from '~images/tartan.svg'
 import styles from './PageContainer.module.scss'
 
 const PageContainer = ({ meta, children }) => (
-  <ThemedPageContainer header={<Header />} footer={<Footer />} gutter>
+  <ThemedPageContainer
+    header={<Header />}
+    footer={
+      <>
+        <Footer />
+        <Backdrop
+          className={styles.backdrop}
+          style={{ backgroundImage: `url(${backdropUrl})` }}
+        />
+      </>
+    }
+    gutter
+  >
     <Meta {...meta} />
     {children}
-    <Backdrop
-      className={styles.backdrop}
-      style={{ backgroundImage: `url(${backdropUrl})` }}
-    />
   </ThemedPageContainer>
 )
 

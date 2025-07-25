@@ -2,10 +2,5 @@
 @forward '~@newhighsco/chipset/styles/mixins';
 
 @mixin tartan($count: 4) {
-  $offset: math.div(74, 345);
-  $size: math.div(100vw, $count);
-  $position: $size * $offset * -1;
-
-  background-size: $size;
-  background-position-x: $position;
+  background-size: math.div(100%, $count);
 }

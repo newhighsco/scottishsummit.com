@@ -1,3 +1,4 @@
+import { Prose } from '@newhighsco/chipset'
 import { LogoJsonLd, SocialProfileJsonLd } from 'next-seo'
 import { object } from 'prop-types'
 import React from 'react'
@@ -17,6 +18,10 @@ const HomePage = ({ meta }) => (
       sameAs={[socialLinks.twitter]}
     />
     {logo?.bitmap && <LogoJsonLd url={url} logo={urlJoin(url, logo.bitmap)} />}
+    <Prose>
+      <p style={{ height: 2000 }}>Start of long page</p>
+      <p>End of long page</p>
+    </Prose>
   </PageContainer>
 )
 

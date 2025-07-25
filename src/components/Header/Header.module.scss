@@ -3,11 +3,10 @@
 @use '~styles/functions';
 @use '~styles/mixins';
 
-$content-spacing: 2;
 $logo-spacing: 3.125;
 
 .root {
-  background: colors.$space;
+  background: rgba(colors.$space, $alpha: 0.95);
   border-bottom: 3px solid currentColor;
   border-image: linear-gradient(
       0deg,
@@ -20,18 +19,20 @@ $logo-spacing: 3.125;
   color: colors.$white;
   margin-bottom: functions.spacing($logo-spacing);
   position: sticky;
+  top: 0;
 }
 
 .content {
-  padding-block: functions.spacing($content-spacing);
+  padding-block: functions.spacing(2);
 }
 
 .logo {
   width: auto;
+  z-index: 1;
 }
 
 .logoLockup {
-  margin-bottom: functions.spacing(($logo-spacing + $content-spacing) * -1);
+  margin-bottom: functions.spacing(($logo-spacing + 2) * -1);
 }
 
 .links {
@@ -40,36 +41,69 @@ $logo-spacing: 3.125;
   width: auto;
 }
 
-.link {
-  &:hover,
-  &:active,
-  &:focus {
-    text-decoration: underline;
+.list {
+  inset-inline: 0;
+  inset-block-start: 100%;
+  margin-top: 3px;
+  position: absolute;
+
+  @include mixins.mq(breakpoints.$tablet) {
+    position: static;
+
+    &[hidden] {
+      display: block;
+    }
   }
 }
 
-.list {
-  background: black;
-  position: absolute;
-  inset-inline: 0;
-  inset-block-start: 100%;
+.item {
+  @include mixins.mq(breakpoints.$tablet) {
+    display: inline-block;
+  }
+}
 
-  // @include mixins.mq(breakpoints.$tablet) {
-  //   &[hidden] {
-  //     display: block;
-  //   }
-  // }
+.link {
+  background: colors.$space;
+  display: block;
+  padding: functions.spacing(2);
+  text-align: center;
+
+  @include mixins.mq(breakpoints.$tablet) {
+    background: none;
+    margin-left: functions.spacing(2);
+    padding: 0;
+
+    &:hover,
+    &:active,
+    &:focus {
+      background: none;
+      color: colors.$lychee;
+    }
+  }
+
+  @include mixins.mq(breakpoints.$desktop) {
+    margin-left: functions.spacing(4);
+  }
+
+  &:hover,
+  &:active,
+  &:focus {
+    background: colors.$berry;
+  }
 }
 
 .toggle {
-  color: colors.$white;
+  @include mixins.mq(breakpoints.$tablet) {
+    display: none;
+  }
 
-  // @include mixins.mq(breakpoints.$tablet) {
-  //   display: none;
-  // }
+  &:hover,
+  &:active,
+  &:focus {
+    color: colors.$logo;
+  }
 }
 
 .toggleIcon {
-  fill: currentColor;
   width: functions.spacing(4);
 }

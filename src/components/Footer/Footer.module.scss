@@ -1,13 +1,15 @@
 @use '~styles/colors.module';
 @use '~styles/functions';
 
+$logo-spacing: 2.75;
+
 .root {
   background: colors.$space;
   color: colors.$white;
+  margin-top: functions.spacing($logo-spacing);
 }
 
 .content {
-  margin-top: functions.spacing(-2.75);
   padding-bottom: functions.spacing(2);
 
   > * + * {
@@ -26,7 +28,6 @@
 }
 
 .icon {
-  fill: currentColor;
   width: functions.spacing(3);
 }
 
@@ -43,4 +44,5 @@
 
 .logoLockup {
   display: inline-block;
+  margin-top: functions.spacing($logo-spacing * -1);
 }

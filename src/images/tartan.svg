@@ -1,1 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 344 344"><defs><pattern id="pattern" width="8" height="8" patternUnits="userSpaceOnUse"><path d="m0 0 8 8V4L4 0zm0 4v4h4z"/></pattern><mask id="grating" mask-type="alpha"><rect width="100%" height="100%" fill="url(#pattern)"/></mask></defs><rect width="100%" height="100%" fill="#29225c"/><g fill="#881c68"><rect width="72" height="100%" x="148"/><rect width="72" height="100%" x="272"/><rect width="100%" height="72" y="148"/><rect width="100%" height="72" y="272"/></g><path fill="#b7196e" d="M148 148h72v72h-72zm0 124h72v72h-72zm124-124h72v72h-72zm0 124h72v72h-72z"/><g fill="#cac8d7"><g opacity=".75"><rect width="20" height="100%" x="236"/><rect width="100%" height="20" y="236"/></g><path d="M236 236h20v20h-20z"/></g><rect width="100%" height="100%" fill="#391c53" mask="url(#grating)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 344 344">
+  <defs>
+    <pattern id="pattern" width="8" height="8" patternUnits="userSpaceOnUse">
+      <path d="m0 0 8 8V4L4 0zm0 4v4h4z"/>
+    </pattern>
+    <mask id="grating" mask-type="alpha">
+      <rect width="100%" height="100%" fill="url(#pattern)"/>
+    </mask>
+  </defs>
+  <rect width="100%" height="100%" fill="#29225c"/>
+  <g fill="#881c68">
+    <rect width="72" height="100%" x="74"/>
+    <rect width="72" height="100%" x="198"/>
+    <rect width="100%" height="72" y="74"/>
+    <rect width="100%" height="72" y="198"/>
+  </g>
+  <path fill="#b7196e" d="M74 74h72v72h-72zm0 124h72v72h-72zm124-124h72v72h-72zm0 124h72v72h-72z"/>
+  <g fill="#cac8d7">
+    <g opacity=".8">
+      <rect width="20" height="100%" x="162"/>
+      <rect width="100%" height="20" y="162"/>
+    </g>
+    <path d="M162 162h20v20h-20z"/>
+  </g>
+  <rect width="100%" height="100%" fill="#391c53" mask="url(#grating)"/>
+</svg>
