@@ -3,17 +3,27 @@
 @use '~styles/functions';
 @use '~styles/mixins';
 
+$content-spacing: 2;
+$logo-spacing: 3.125;
+
 .root {
   background: colors.$space;
-  border-bottom: 1px solid colors.$mist;
+  border-bottom: 3px solid currentColor;
+  border-image: linear-gradient(
+      0deg,
+      currentColor,
+      currentColor 66.6%,
+      colors.$logo 66.6%,
+      colors.$logo
+    )
+    100% 1;
   color: colors.$white;
-
-  // margin-bottom: functions.spacing(2.5);
+  margin-bottom: functions.spacing($logo-spacing);
   position: sticky;
 }
 
 .content {
-  padding-block: functions.spacing(2);
+  padding-block: functions.spacing($content-spacing);
 }
 
 .logo {
@@ -21,7 +31,7 @@
 }
 
 .logoLockup {
-  margin-bottom: functions.spacing(-4.5);
+  margin-bottom: functions.spacing(($logo-spacing + $content-spacing) * -1);
 }
 
 .links {
