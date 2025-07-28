@@ -1,3 +1,11 @@
+## [1.0.1](https://github.com/newhighsco/scottishsummit.com/compare/v1.0.0...v1.0.1) (2025-07-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v15.4.4 ([#3](https://github.com/newhighsco/scottishsummit.com/issues/3)) ([b35454c](https://github.com/newhighsco/scottishsummit.com/commit/b35454c1eb7b25887aa34e6e5c005313ea497473))
+* **deps:** update newhighsco packages ([#4](https://github.com/newhighsco/scottishsummit.com/issues/4)) ([aaab848](https://github.com/newhighsco/scottishsummit.com/commit/aaab8480b1601337b1e5b840bcf1d18a57e910b8))
+
 # 1.0.0 (2025-07-28)
 
 
