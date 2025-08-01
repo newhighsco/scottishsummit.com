@@ -1,7 +1,7 @@
 {
   "name": "@newhighsco/scottishsummit.com",
   "description": "Scottish Summit website",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "New High Score",
   "license": "ISC",
   "private": true,
@@ -42,7 +42,7 @@
   "dependencies": {
     "@newhighsco/chipset": "6.17.6",
     "@newhighsco/next-plugin-svgr": "3.0.157",
-    "@newhighsco/press-start": "2.3.269",
+    "@newhighsco/press-start": "2.3.271",
     "@omlet/cli": "2.0.0",
     "next": "15.4.5",
     "next-compose-plugins": "2.2.1",
@@ -58,8 +58,8 @@
     "@newhighsco/browserslist-config": "2.0.0",
     "@newhighsco/commitlint-config": "1.1.46",
     "@newhighsco/editor-config": "1.2.0",
-    "@newhighsco/eslint-config": "4.1.41",
-    "@newhighsco/postcss-config": "3.5.339",
+    "@newhighsco/eslint-config": "4.1.42",
+    "@newhighsco/postcss-config": "3.5.340",
     "@newhighsco/prettier-config": "2.1.32",
     "@newhighsco/release-config": "1.4.6",
     "@newhighsco/stylelint-config": "4.0.17",
