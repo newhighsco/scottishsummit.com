@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/newhighsco/scottishsummit.com/compare/v1.0.4...v1.0.5) (2025-08-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/press-start to v2.3.273 ([#11](https://github.com/newhighsco/scottishsummit.com/issues/11)) ([189ce0a](https://github.com/newhighsco/scottishsummit.com/commit/189ce0a09c64b308c3f63eb1083070a1bb19d731))
+
 ## [1.0.4](https://github.com/newhighsco/scottishsummit.com/compare/v1.0.3...v1.0.4) (2025-08-01)
 
 
