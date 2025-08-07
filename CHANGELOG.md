@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/newhighsco/scottishsummit.com/compare/v1.0.6...v1.0.7) (2025-08-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency sass to v1.90.0 ([#13](https://github.com/newhighsco/scottishsummit.com/issues/13)) ([1a9f07d](https://github.com/newhighsco/scottishsummit.com/commit/1a9f07d73682be8a2d9c14f20e9ca1f2effe5fb7))
+
 ## [1.0.6](https://github.com/newhighsco/scottishsummit.com/compare/v1.0.5...v1.0.6) (2025-08-05)
 
 
