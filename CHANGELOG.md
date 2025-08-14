@@ -1,3 +1,10 @@
+## [1.0.9](https://github.com/newhighsco/scottishsummit.com/compare/v1.0.8...v1.0.9) (2025-08-14)
+
+
+### Bug Fixes
+
+* **header:** adjust breakpoint to prevent jumping ([945b12a](https://github.com/newhighsco/scottishsummit.com/commit/945b12a4da87788eef43275225f40e52c8a64ed3))
+
 ## [1.0.8](https://github.com/newhighsco/scottishsummit.com/compare/v1.0.7...v1.0.8) (2025-08-08)
 
 
