@@ -42,7 +42,7 @@ $logo-spacing: 3.125;
 }
 
 .list {
-  @include mixins.mq($max: breakpoints.$tablet) {
+  @include mixins.mq($max: breakpoints.$tablet - 1) {
     inset-inline: 0;
     inset-block-start: 100%;
     margin-top: 3px;
@@ -65,7 +65,7 @@ $logo-spacing: 3.125;
 }
 
 .link {
-  @include mixins.mq($max: breakpoints.$tablet) {
+  @include mixins.mq($max: breakpoints.$tablet - 1) {
     background: colors.$space;
     display: block;
     padding: functions.spacing(2);
