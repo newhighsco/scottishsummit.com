@@ -5,7 +5,6 @@ import {
   Navigation,
   SmartLink
 } from '@newhighsco/chipset'
-import Link from 'next/link'
 import React from 'react'
 
 import LogoLockup from '~components/LogoLockup'
@@ -27,11 +26,9 @@ const iconLinks = {
 const Footer = () => (
   <FooterContainer align="center" gutter theme={{ root: styles.root }}>
     <ContentContainer size="desktopLarge" theme={{ content: styles.content }}>
-      <Link href="/" passHref legacyBehavior prefetch={false}>
-        <SmartLink>
-          <LogoLockup className={styles.logoLockup} />
-        </SmartLink>
-      </Link>
+      <SmartLink href="/">
+        <LogoLockup className={styles.logoLockup} />
+      </SmartLink>
       <p>
         {name} is run by {name} SCIO
         <br />
@@ -56,16 +53,7 @@ const Footer = () => (
         }}
         theme={{ link: styles.iconLink }}
       />
-      <Navigation
-        inline
-        links={footer.links}
-        renderLink={({ href, children, ...rest }) => (
-          <Link href={href} passHref legacyBehavior>
-            <SmartLink {...rest}>{children}</SmartLink>
-          </Link>
-        )}
-        theme={{ link: styles.link }}
-      />
+      <Navigation inline links={footer.links} theme={{ link: styles.link }} />
     </ContentContainer>
   </FooterContainer>
 )
