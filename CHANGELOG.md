@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/newhighsco/scottishsummit.com/compare/v1.1.0...v1.2.0) (2025-08-29)
+
+
+### Features
+
+* use `ImageProvider` ([#28](https://github.com/newhighsco/scottishsummit.com/issues/28)) ([ce4882f](https://github.com/newhighsco/scottishsummit.com/commit/ce4882f812f0e5bd265cde2bf3bed49beb466daf))
+
 # [1.1.0](https://github.com/newhighsco/scottishsummit.com/compare/v1.0.18...v1.1.0) (2025-08-29)
 
 
