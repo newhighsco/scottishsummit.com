@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/newhighsco/scottishsummit.com/compare/v1.0.18...v1.1.0) (2025-08-29)
+
+
+### Features
+
+* **svg:** use `@newhighsco/svgr-config` ([#26](https://github.com/newhighsco/scottishsummit.com/issues/26)) ([2860e99](https://github.com/newhighsco/scottishsummit.com/commit/2860e99db7c2ee87fda2767655a78494028f3c1b))
+
 ## [1.0.18](https://github.com/newhighsco/scottishsummit.com/compare/v1.0.17...v1.0.18) (2025-08-29)
 
 
