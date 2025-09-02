@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/newhighsco/scottishsummit.com/compare/v1.2.0...v1.2.1) (2025-09-02)
+
+
+### Bug Fixes
+
+* **deps:** update newhighsco packages ([#30](https://github.com/newhighsco/scottishsummit.com/issues/30)) ([ad8136c](https://github.com/newhighsco/scottishsummit.com/commit/ad8136c1d44999126e3c765cdde70524074c27fd))
+
 # [1.2.0](https://github.com/newhighsco/scottishsummit.com/compare/v1.1.0...v1.2.0) (2025-08-29)
 
 
