@@ -82,8 +82,7 @@
   "eslintConfig": {
     "extends": [
       "@newhighsco/eslint-config"
-    ],
-    "root": true
+    ]
   },
   "omlet": {
     "aliases": {
