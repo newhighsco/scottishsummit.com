@@ -1,7 +1,7 @@
 import { Button, Card, Grid, Prose } from '@newhighsco/chipset'
 import { LogoJsonLd, SocialProfileJsonLd } from 'next-seo'
 import { object } from 'prop-types'
-import React from 'react'
+import React, { Fragment } from 'react'
 import urlJoin from 'url-join'
 
 import Image from '~components/Image'
@@ -10,9 +10,15 @@ import Section from '~components/Section'
 import config from '~config'
 import heroImage from '~images/2023.jpg'
 import keynoteImage from '~images/2024.jpg'
+import { formatDate } from '~utils/format'
 
 const { name, title, logo, socialLinks, url } = config
-const timeline = [{ heading: 'Call for speakers', date: 'TBC, 2025' }]
+const timeline = [
+  { heading: 'Call for speakers', date: 'TBC, 2025' },
+  { heading: 'Agenda Published', date: 'TBC, 2026' },
+  { heading: 'Workshops', date: new Date('2026-10-02') },
+  { heading: 'Event Day', date: new Date('2026-10-03') }
+]
 
 const HomePage = ({ meta }) => (
   <PageContainer meta={meta}>
@@ -82,64 +88,27 @@ const HomePage = ({ meta }) => (
         <h2>Timeline</h2>
       </Prose>
       <Grid>
-        {timeline.map(({ heading, date }) => (
-          <Grid.Item key={date}>
-            <Card heading={<h3>{heading}</h3>}>{date}</Card>
-          </Grid.Item>
-        ))}
-        {/* <Grid.Item>
-          <Card
-            heading={
-              <Prose>
-                <h3>Call for Speakers</h3>
-              </Prose>
-            }
-          >
-            TBC, 2025
-          </Card>
-        </Grid.Item> */}
-        {/* <Grid.Item>
-          <br />
-        </Grid.Item>
-        <Grid.Item>
-          <Card
-            heading={
-              <Prose>
-                <h3>Agenda Published</h3>
-              </Prose>
-            }
-          >
-            TBC, 2026
-          </Card>
-        </Grid.Item>
-        <Grid.Item>
-          <br />
-        </Grid.Item>
-        <Grid.Item>
-          <Card
-            heading={
-              <Prose>
-                <h3>Workshops</h3>
-              </Prose>
-            }
-          >
-            <time dateTime="2026-10-02">October 2nd, 2026</time>
-          </Card>
-        </Grid.Item>
-        <Grid.Item>
-          <br />
-        </Grid.Item>
-        <Grid.Item>
-          <Card
-            heading={
-              <Prose>
-                <h3>Event Day</h3>
-              </Prose>
-            }
-          >
-            <time dateTime="2026-10-03">October 3rd, 2026</time>
-          </Card>
-        </Grid.Item> */}
+        {timeline.map(({ heading, date }, index) => {
+          date =
+            date instanceof Date ? (
+              <time dateTime={date.toISOString()}>{formatDate(date)}</time>
+            ) : (
+              date
+            )
+
+          return (
+            <Fragment key={index}>
+              {index > 0 && (
+                <Grid.Item>
+                  <br />
+                </Grid.Item>
+              )}
+              <Grid.Item>
+                <Card heading={<h3>{heading}</h3>}>{date}</Card>
+              </Grid.Item>
+            </Fragment>
+          )
+        })}
       </Grid>
     </Section>
   </PageContainer>
