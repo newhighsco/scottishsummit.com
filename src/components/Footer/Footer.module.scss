@@ -3,10 +3,11 @@
 
 .root {
   background: colors.$space;
+  margin-bottom: functions.spacing(2.75);
 }
 
 .content {
-  padding-bottom: functions.spacing(2);
+  padding-bottom: functions.spacing(4);
 
   > * + * {
     margin-top: functions.spacing(2);
