@@ -17,7 +17,7 @@
   }
 
   &:first-child {
-    --spacing: #{functions.spacing(12)};
+    --spacing: #{functions.spacing(8)};
 
     @include mixins.mq(breakpoints.$tablet) {
       --spacing: #{functions.spacing(16)};
