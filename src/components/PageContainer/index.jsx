@@ -24,7 +24,6 @@ const PageContainer = ({ meta, children }) => (
         />
       </>
     }
-    gutter
   >
     <Meta {...meta} />
     {children}

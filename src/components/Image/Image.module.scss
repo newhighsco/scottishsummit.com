@@ -1,0 +1,7 @@
+@use '~styles/colors.module';
+@use '~styles/functions';
+
+.root {
+  outline: 1px dashed colors.$lychee;
+  outline-offset: functions.spacing(-1);
+}

@@ -1,0 +1,78 @@
+@use '~styles/breakpoints.module';
+@use '~styles/colors.module';
+@use '~styles/functions';
+@use '~styles/mixins';
+
+@mixin -opaque($color, $alpha: 0.85) {
+  background:
+    linear-gradient(rgba($color, $alpha)),
+    var(--background-image, none) 50% / cover;
+}
+
+.root {
+  --spacing: #{functions.spacing(6)};
+
+  @include mixins.mq(breakpoints.$tablet) {
+    --spacing: #{functions.spacing(8)};
+  }
+
+  &:first-child {
+    --spacing: #{functions.spacing(16)};
+  }
+}
+
+.outer {
+  position: relative;
+}
+
+.inner {
+  position: relative;
+  z-index: 2;
+}
+
+.content {
+  padding-top: var(--spacing);
+  position: relative;
+
+  > * + * {
+    margin-top: functions.spacing(4);
+  }
+}
+
+.variant {
+  margin-top: var(--spacing);
+
+  & + &,
+  &:first-child {
+    margin-top: 0;
+  }
+
+  .content {
+    padding-bottom: var(--spacing);
+  }
+}
+
+.dark {
+  @include -opaque(colors.$space);
+}
+
+.light {
+  color: colors.$space;
+
+  @include -opaque(colors.$mist, 0.95);
+}
+
+.striped {
+  background: colors.$berry;
+  background-image: linear-gradient(
+    45deg,
+    colors.$night 25%,
+    transparent 25%,
+    transparent 50%,
+    colors.$night 50%,
+    colors.$night 75%,
+    transparent 75%,
+    transparent
+  );
+  background-size: 4px 4px;
+}

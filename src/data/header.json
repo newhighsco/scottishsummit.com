@@ -6,13 +6,13 @@
       "target": ""
     },
     {
-      "href": "/",
+      "href": "/events",
       "children": "Events",
       "target": ""
     },
     {
-      "href": "/",
-      "children": "Speakers",
+      "href": "/sponsors",
+      "children": "Sponsors",
       "target": ""
     }
   ]

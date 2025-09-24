@@ -15,6 +15,13 @@ const nextConfig = {
     defaultLocale: 'en'
   },
   poweredByHeader: false,
+  redirects: () => [
+    {
+      source: '/sponsor-pack',
+      destination: '/downloads/Scottish Summit 2026 Sponsor Opportunities.pdf',
+      permanent: true
+    }
+  ],
   transpilePackages: ['@newhighsco/chipset', '@newhighsco/press-start'],
   webpack: config => {
     config.module.rules.push({

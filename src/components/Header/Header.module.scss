@@ -3,8 +3,6 @@
 @use '~styles/functions';
 @use '~styles/mixins';
 
-$logo-spacing: 3.125;
-
 .root {
   background: rgba(colors.$space, $alpha: 0.95);
   border-bottom: 3px solid currentColor;
@@ -16,10 +14,9 @@ $logo-spacing: 3.125;
       colors.$logo
     )
     100% 1;
-  color: colors.$white;
-  margin-bottom: functions.spacing($logo-spacing);
   position: sticky;
   top: 0;
+  z-index: 100;
 }
 
 .content {
@@ -32,7 +29,7 @@ $logo-spacing: 3.125;
 }
 
 .logoLockup {
-  margin-bottom: functions.spacing(($logo-spacing + 2) * -1);
+  margin-bottom: functions.spacing(-5.125);
 }
 
 .links {
@@ -74,7 +71,7 @@ $logo-spacing: 3.125;
     &:hover,
     &:active,
     &:focus {
-      background: colors.$berry;
+      background: colors.$lychee;
     }
   }
 
@@ -84,7 +81,6 @@ $logo-spacing: 3.125;
     &:hover,
     &:active,
     &:focus {
-      background: none;
       color: colors.$lychee;
     }
   }
@@ -92,9 +88,20 @@ $logo-spacing: 3.125;
   @include mixins.mq(breakpoints.$desktop) {
     margin-left: functions.spacing(4);
   }
+
+  &:hover,
+  &:active,
+  &:focus {
+    text-decoration: underline 1px dashed currentColor;
+    text-underline-offset: functions.spacing(0.5);
+  }
 }
 
 .toggle {
+  background: none;
+  border: none;
+  padding: 0;
+
   @include mixins.mq(breakpoints.$tablet) {
     display: none;
   }
@@ -102,6 +109,7 @@ $logo-spacing: 3.125;
   &:hover,
   &:active,
   &:focus {
+    background: none;
     color: colors.$logo;
   }
 }

@@ -1,4 +1,6 @@
+@use '~styles/colors.module';
 @use '~styles/fonts.module';
+@use '~styles/functions';
 
 .root {
   h1,
@@ -8,5 +10,20 @@
   h5,
   h6 {
     font-family: fonts.$heading;
+    line-height: 1em;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  a[href] {
+    color: colors.$lychee;
+    text-decoration: underline 1px dashed currentColor;
+    text-underline-offset: functions.spacing(0.5);
   }
 }
