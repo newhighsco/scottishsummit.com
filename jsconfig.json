@@ -15,7 +15,8 @@
         "src/images/*"
       ],
       "~styles/*": [
-        "src/styles/*"
+        "src/styles/_*.scss",
+        "src/styles/*.scss"
       ],
       "~theme": [
         "src/theme"
@@ -24,5 +25,9 @@
         "src/utils/*"
       ]
     }
-  }
+  },
+  "include": [
+    ".storybook/**/*",
+    "src/**/*"
+  ]
 }

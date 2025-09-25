@@ -13,7 +13,7 @@
     line-height: 1em;
 
     span {
-      color: colors.$lychee;
+      color: colors.$guava;
     }
   }
 
@@ -26,7 +26,7 @@
   }
 
   a[href] {
-    color: colors.$lychee;
+    color: var(--prose-link, colors.$guava);
     text-decoration: underline 1px dashed currentColor;
     text-underline-offset: functions.spacing(0.5);
   }

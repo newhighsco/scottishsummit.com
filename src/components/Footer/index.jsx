@@ -35,6 +35,7 @@ const Footer = () => (
         Charity Number SC052785
       </p>
       <Navigation
+        title="Social links"
         inline
         links={Object.values(iconLinks)}
         renderLink={({ icon: IconSvg, prefix = 'Follow', ...rest }, index) => {
@@ -53,7 +54,12 @@ const Footer = () => (
         }}
         theme={{ link: styles.iconLink }}
       />
-      <Navigation inline links={footer.links} theme={{ link: styles.link }} />
+      <Navigation
+        title="Footer navigation"
+        inline
+        links={footer.links}
+        theme={{ link: styles.link }}
+      />
     </ContentContainer>
   </FooterContainer>
 )

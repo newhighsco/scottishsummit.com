@@ -7,14 +7,22 @@
   background: colors.$lychee;
   border: 2px solid transparent;
   border-radius: functions.spacing(1);
+  color: colors.$white;
   font-weight: bold;
   padding: functions.spacing(1) functions.spacing(3);
 
   &:hover,
   &:active,
-  &:focus {
+  &:focus,
+  &.active {
     background: colors.$berry;
-    color: currentColor;
+  }
+
+  &[disabled],
+  &[aria-disabled] {
+    color: colors.$mist;
+    background: colors.$smog;
+    pointer-events: none;
   }
 }
 
@@ -40,7 +48,8 @@
 
   &:hover,
   &:active,
-  &:focus {
+  &:focus,
+  &.active {
     border-color: transparent;
     color: colors.$white;
     outline: 1px dashed colors.$space;

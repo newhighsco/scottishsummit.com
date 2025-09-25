@@ -61,12 +61,16 @@
 }
 
 .light {
+  --prose-link: #{colors.$plum};
+
   color: colors.$space;
 
   @include -opaque(colors.$mist, 0.95);
 }
 
 .striped {
+  --prose-link: currentColor;
+
   background: colors.$berry;
   background-image: linear-gradient(
     45deg,

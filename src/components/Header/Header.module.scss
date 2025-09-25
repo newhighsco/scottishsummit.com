@@ -10,8 +10,8 @@
       0deg,
       currentColor,
       currentColor 66.6%,
-      colors.$logo 66.6%,
-      colors.$logo
+      colors.$lychee 66.6%,
+      colors.$lychee
     )
     100% 1;
   position: sticky;
@@ -81,7 +81,7 @@
     &:hover,
     &:active,
     &:focus {
-      color: colors.$lychee;
+      color: colors.$guava;
     }
   }
 
@@ -110,7 +110,7 @@
   &:active,
   &:focus {
     background: none;
-    color: colors.$logo;
+    color: colors.$guava;
   }
 }
 
