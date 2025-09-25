@@ -5,5 +5,13 @@
   background: colors.$white;
   border-radius: functions.spacing(1);
   color: colors.$space;
-  padding: functions.spacing(4);
+  max-width: 320px;
+  padding: functions.spacing(1);
+}
+
+.content {
+  display: flex;
+  flex-flow: column wrap;
+  height: 100%;
+  place-content: center space-between;
 }

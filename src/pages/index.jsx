@@ -36,7 +36,9 @@ const HomePage = ({ meta }) => (
       backgroundImage={heroImage}
     >
       <Prose>
-        <h1>{name} 2026</h1>
+        <h1>
+          Scottish <span>Summit</span> 2026
+        </h1>
         <p>
           Scottish Summit is a leading UK Microsoft community event, offering
           expert-led sessions on Dynamics 365, Power Platform, Azure, and more.
@@ -47,7 +49,7 @@ const HomePage = ({ meta }) => (
         Find out more
       </Button>
     </Section>
-    <Section variant="striped">
+    <Section id="about" variant="striped">
       <Grid gutter valign="middle">
         <Grid.Item sizes="desktop-one-half">
           <Prose align="center">
@@ -68,7 +70,7 @@ const HomePage = ({ meta }) => (
         </Grid.Item>
       </Grid>
     </Section>
-    <Section align="center" size="tablet">
+    <Section align="center" id="become-a-sponsor" size="tablet">
       <Prose>
         <h2>Become a Sponsor</h2>
         <p>Sponsor opportunities for Scottish Summit 2026 are already open!</p>
@@ -83,12 +85,12 @@ const HomePage = ({ meta }) => (
         </Button>
       </Button.Group>
     </Section>
-    <Section align="center" size="mobile" variant="striped">
+    <Section align="center" size="desktop" variant="striped">
       <Prose>
         <h2>Timeline</h2>
       </Prose>
-      <Grid>
-        {timeline.map(({ heading, date }, index) => {
+      <Grid flex gutterless>
+        {timeline.map(({ heading, date }) => {
           date =
             date instanceof Date ? (
               <time dateTime={date.toISOString()}>{formatDate(date)}</time>
@@ -97,13 +99,8 @@ const HomePage = ({ meta }) => (
             )
 
           return (
-            <Fragment key={index}>
-              {index > 0 && (
-                <Grid.Item>
-                  <br />
-                </Grid.Item>
-              )}
-              <Grid.Item>
+            <Fragment key={heading}>
+              <Grid.Item sizes="tablet-one-quarter">
                 <Card heading={<h3>{heading}</h3>}>{date}</Card>
               </Grid.Item>
             </Fragment>

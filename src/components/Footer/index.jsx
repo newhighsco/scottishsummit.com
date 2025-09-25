@@ -30,7 +30,7 @@ const Footer = () => (
         <LogoLockup className={styles.logoLockup} />
       </SmartLink>
       <p>
-        {name} is run by {name} SCIO
+        {name} is run by {name}&nbsp;SCIO
         <br />
         Charity Number SC052785
       </p>
