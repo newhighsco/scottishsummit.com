@@ -127,6 +127,141 @@ const NotFoundPage = ({ meta }) => (
         </p>
       </Prose>
     </Section>
+    <Section as="section" variant="light">
+      <Prose>
+        <h2>Website</h2>
+        <h3>Who we are</h3>
+        <p>
+          Our website address is{' '}
+          <a href="https://scottishsummit.com/">https://scottishsummit.com</a>
+        </p>
+        <h3>What personal data we collect and why we collect it?</h3>
+        <h4>Comments</h4>
+        <p>
+          When visitors leave comments on the site we collect the data shown in
+          the comments form, and also the visitor’s IP address and browser user
+          agent string to help spam detection...
+        </p>
+        <h4>Media</h4>
+        <p>If you upload images to the website...</p>
+        <h4>Cookies</h4>
+        <p>
+          If you leave a comment on our site you may opt-in to saving your name,
+          email address and website in cookies...
+        </p>
+        <h4>Embedded content from other websites</h4>
+        <p>
+          Articles on this site may include embedded content (e.g. videos,
+          images, articles, etc.)...
+        </p>
+        <h4>Analytics</h4>
+        <h3>Who we share your data with?</h3>
+        <h4>How long we retain your data</h4>
+        <p>
+          If you leave a comment, the comment and its metadata are retained
+          indefinitely...
+        </p>
+        <h4>What rights you have over your data</h4>
+        <p>
+          If you have an account on this site or have left comments, you can
+          request to receive an exported file of the personal data we hold about
+          you...
+        </p>
+        <h4>Where we send your data</h4>
+        <p>
+          Visitor comments may be checked through an automated spam detection
+          service.
+        </p>
+      </Prose>
+    </Section>
+    <Section as="section" variant="striped">
+      <Prose>
+        <h2>Selection</h2>
+        <h3>Volunteer Selection</h3>
+        <p>
+          Scottish Summit depends on volunteers to be able to bring you our
+          events...
+        </p>
+        <h3>Speaker Selection</h3>
+        <p>
+          Scottish Summit has created a diverse pool of volunteers who will
+          review all sessions...
+        </p>
+      </Prose>
+    </Section>
+    <Section as="section" variant="light">
+      <Prose>
+        <h2>Suitcasing</h2>
+        <h3>Suitcasing and Outboarding Policy</h3>
+        <p>Scottish Summit depends on our exhibitors and sponsors...</p>
+        <h3>Statement of Intent</h3>
+        <p>In order to protect our valued exhibitors/sponsors...</p>
+        <h3>What is Suitcasing and Outboarding?</h3>
+        <p>
+          “Suitcasing” refers to those non-participating companies or persons
+          who go to conferences...
+        </p>
+        <ul>
+          <li>
+            A non-exhibitor sets up a hospitality room outside the show...
+          </li>
+          <li>A non-exhibitor sends out alerts to potential customers...</li>
+          <li>A non-exhibitor branding themselves at the event...</li>
+          <li>
+            A non-exhibitor puts together a webpage with the conference logo...
+          </li>
+          <li>
+            A non-exhibitor piggybacks on the activities of a third party...
+          </li>
+        </ul>
+        <h3>What are the Consequences of Suitcasing or Outboarding?</h3>
+        <p>
+          Please note that any attendee at a Scottish Summit conference or
+          meeting...
+        </p>
+      </Prose>
+    </Section>
+    <Section as="section" variant="striped">
+      <Prose>
+        <h2>Data Sharing Policy</h2>
+        <p>
+          Scottish Summit acknowledges and understands the importance of our
+          attendees' data...
+        </p>
+        <p>
+          By agreeing to this policy, you accept that certain attendee data may
+          be shared...
+        </p>
+        <ul>
+          <li>
+            <strong>Consent:</strong> At the point of registration...
+          </li>
+          <li>
+            <strong>Purpose:</strong> Attendee data will be shared only for
+            purposes related to the Scottish Summit...
+          </li>
+          <li>
+            <strong>Data Minimization:</strong> Only necessary data...
+          </li>
+          <li>
+            <strong>Security:</strong> All sponsors are required to maintain the
+            confidentiality...
+          </li>
+          <li>
+            <strong>Right to Opt-Out:</strong> Attendees have the right to
+            opt-out of data sharing...
+          </li>
+          <li>
+            <strong>Retention:</strong> Sponsors are required to delete or
+            anonymize...
+          </li>
+        </ul>
+        <p>
+          Scottish Summit reserves the right to revise this Data Sharing Policy
+          from time to time...
+        </p>
+      </Prose>
+    </Section>
   </PageContainer>
 )
 
