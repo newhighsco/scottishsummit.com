@@ -1,26 +1,63 @@
+@use '~styles/breakpoints.module';
 @use '~styles/colors.module';
 @use '~styles/fonts.module';
 @use '~styles/functions';
 @use '~styles/mixins';
 
 .root {
+  max-width: 320px;
+  overflow: visible;
+  position: relative;
+
+  &::after {
+    display: block;
+    content: '';
+    line-height: 0;
+    margin-bottom: functions.spacing(1);
+    margin-top: calc(functions.spacing(-0.5) - 1px);
+    position: relative;
+    z-index: 2;
+
+    @include mixins.triangle('down', functions.spacing(2));
+
+    @include mixins.mq(breakpoints.$tablet) {
+      position: absolute;
+      left: calc(100% - #{functions.spacing(0.5)} - 1px);
+      top: 50%;
+      transform: translateY(functions.spacing(-1.25));
+
+      @include mixins.triangle('right', functions.spacing(2));
+    }
+
+    @include mixins.mq(breakpoints.$desktop) {
+      transform: translateY(functions.spacing(-2.25));
+
+      @include mixins.triangle('right', functions.spacing(3));
+    }
+  }
+
+  &[data-last]::after {
+    content: none;
+  }
+}
+
+.content {
   background: colors.$white;
   border-radius: functions.spacing(1);
   color: colors.$space;
-  max-width: 320px;
+  display: flex;
+  flex-flow: column wrap;
   padding: functions.spacing(4) functions.spacing(2);
+  place-content: center space-between;
+  z-index: 1;
 
   @include mixins.stitches(colors.$lychee, 0.5);
+
+  @include mixins.mq(breakpoints.$tablet) {
+    height: 100%;
+  }
 }
 
 .heading {
   font-family: fonts.$heading;
-  line-height: 1;
-}
-
-.content {
-  display: flex;
-  flex-flow: column wrap;
-  height: 100%;
-  place-content: center space-between;
 }

@@ -89,8 +89,8 @@ const HomePage = ({ meta }) => (
       <Prose>
         <h2>Event Timeline</h2>
       </Prose>
-      <Grid flex gutterless>
-        {timeline.map(({ heading, date }) => {
+      <Grid flex>
+        {timeline.map(({ heading, date }, index) => {
           date =
             date instanceof Date ? (
               <time dateTime={date.toISOString()}>{formatDate(date)}</time>
@@ -101,7 +101,12 @@ const HomePage = ({ meta }) => (
           return (
             <Fragment key={heading}>
               <Grid.Item sizes="tablet-one-quarter">
-                <Card heading={<h3>{heading}</h3>}>{date}</Card>
+                <Card
+                  heading={<h3>{heading}</h3>}
+                  data-last={index === timeline.length - 1 ? true : undefined}
+                >
+                  {date}
+                </Card>
               </Grid.Item>
             </Fragment>
           )
