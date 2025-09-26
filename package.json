@@ -33,7 +33,7 @@
     "build:storybook": "storybook build --output-dir storybook --docs --quiet --webpack-stats-json",
     "serve": "next start",
     "test": "yarn lint",
-    "snapshot": "chromatic --storybook-build-dir build --auto-accept-changes main --exit-once-uploaded --only-changed",
+    "snapshot": "chromatic --storybook-build-dir storybook --auto-accept-changes main --exit-once-uploaded --only-changed",
     "lint": "concurrently yarn:lint:*",
     "lint:js": "eslint --cache --ignore-path .gitignore .",
     "lint:css": "stylelint --cache --ignore-path .gitignore '**/*.?(s)css'",
