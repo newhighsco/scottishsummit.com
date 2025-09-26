@@ -1,7 +1,7 @@
 {
   "links": [
     {
-      "href": "#about",
+      "href": "/#about",
       "children": "About",
       "target": ""
     },
@@ -11,7 +11,7 @@
       "target": ""
     },
     {
-      "href": "#become-a-sponsor",
+      "href": "/#become-a-sponsor",
       "children": "Sponsors",
       "target": ""
     }

@@ -1,3 +1,24 @@
+## [1.2.10](https://github.com/newhighsco/scottishsummit.com/compare/v1.2.9...v1.2.10) (2025-09-25)
+
+
+### Bug Fixes
+
+* **deps:** update newhighsco packages ([#52](https://github.com/newhighsco/scottishsummit.com/issues/52)) ([8519a7b](https://github.com/newhighsco/scottishsummit.com/commit/8519a7bab833b090be094c3a6e82072ae229080d))
+
+## [1.2.9](https://github.com/newhighsco/scottishsummit.com/compare/v1.2.8...v1.2.9) (2025-09-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v15.5.4 ([#50](https://github.com/newhighsco/scottishsummit.com/issues/50)) ([38ba365](https://github.com/newhighsco/scottishsummit.com/commit/38ba365e44e63d52c2443acd21fc09e1bce38efc))
+
+## [1.2.8](https://github.com/newhighsco/scottishsummit.com/compare/v1.2.7...v1.2.8) (2025-09-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency sass to v1.93.2 ([#51](https://github.com/newhighsco/scottishsummit.com/issues/51)) ([c23e2cb](https://github.com/newhighsco/scottishsummit.com/commit/c23e2cb8a2084645cff2db2da9945da200f47cc3))
+
 ## [1.2.7](https://github.com/newhighsco/scottishsummit.com/compare/v1.2.6...v1.2.7) (2025-09-22)
 
 

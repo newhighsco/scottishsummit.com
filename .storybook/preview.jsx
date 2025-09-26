@@ -5,7 +5,7 @@ import React from 'react'
 
 import componentTheme from '~theme'
 
-/** @type { import('@storybook/react-webpack5').Preview } */
+/** @type { import('@storybook/nextjs').Preview } */
 const preview = {
   decorators: [
     Story => (

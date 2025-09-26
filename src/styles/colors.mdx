@@ -1,0 +1,33 @@
+import {
+  ColorItem,
+  ColorPalette,
+  Meta,
+  Story
+} from '@storybook/addon-docs/blocks'
+
+import colors from '~styles/colors.module'
+
+import { Contrast } from './colors.stories'
+
+<Meta title="Styles/Colors" />
+
+# Colors
+
+`import colors from '~styles/colors.module'`
+
+<br />
+
+<ColorPalette>
+  {Object.keys(colors).map(color => (
+    <ColorItem
+      key={color}
+      title={`colors.$${color}`}
+      subtitle={color}
+      colors={[colors[color]]}
+    />
+  ))}
+</ColorPalette>
+
+## AA-compliant constrasting color combinations
+
+<Story of={Contrast} />
