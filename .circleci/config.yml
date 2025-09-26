@@ -9,24 +9,57 @@ only-main: &only-main
       only:
         - main
 
+only-version-tags: &only-version-tags
+  filters:
+    tags:
+      only: /^v.*/
+    branches:
+      ignore: /.*/
+
+build-parameters: &build-parameters
+  name: build
+  command: yarn build:storybook
+  path-to-persist: storybook
+
+setup-parameters: &setup-parameters
+  name: setup
+
 workflows:
   version: 2
   test_and_release:
     jobs:
       - newhighsco/setup:
-          name: setup
+          <<: *setup-parameters
       - newhighsco/test:
           name: test
+          rerun-only-failed: true
           requires:
             - setup
+      - newhighsco/build:
+          <<: *build-parameters
+          requires:
+            - test
+      - newhighsco/snapshot:
+          name: snapshot
+          requires:
+            - build
       - newhighsco/release:
           <<: *only-main
           name: release
           requires:
             - test
-      - newhighsco/analyze:
-          <<: *only-main
-          name: analyze
-          disabled: true
+  snapshot_version:
+    jobs:
+      - newhighsco/setup:
+          <<: *only-version-tags
+          <<: *setup-parameters
+      - newhighsco/build:
+          <<: *only-version-tags
+          <<: *build-parameters
           requires:
-            - release
+            - setup
+      - newhighsco/snapshot:
+          <<: *only-version-tags
+          name: snapshot
+          requires:
+            - build

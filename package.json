@@ -30,9 +30,10 @@
     "start:storybook": "storybook dev --port 9002 --docs",
     "build": "next build",
     "postbuild": "next-sitemap",
+    "build:storybook": "storybook build --output-dir storybook --docs --quiet --webpack-stats-json",
     "serve": "next start",
     "test": "yarn lint",
-    "analyze": "omlet analyze",
+    "snapshot": "chromatic --storybook-build-dir build --auto-accept-changes main --exit-once-uploaded --only-changed",
     "lint": "concurrently yarn:lint:*",
     "lint:js": "eslint --cache --ignore-path .gitignore .",
     "lint:css": "stylelint --cache --ignore-path .gitignore '**/*.?(s)css'",
@@ -44,7 +45,6 @@
     "@newhighsco/chipset": "6.25.1",
     "@newhighsco/next-plugin-svgr": "3.0.157",
     "@newhighsco/press-start": "2.6.8",
-    "@omlet/cli": "2.0.0",
     "next": "15.5.4",
     "next-compose-plugins": "2.2.1",
     "next-sitemap": "4.2.3",
@@ -67,6 +67,7 @@
     "@newhighsco/stylelint-config": "4.0.18",
     "@newhighsco/svgr-config": "1.0.0",
     "@storybook/nextjs": "9.1.8",
+    "chromatic": "13.2.0",
     "colorjs.io": "0.5.2",
     "concurrently": "9.2.1",
     "eslint": "8.57.1",
@@ -88,13 +89,6 @@
     "extends": [
       "@newhighsco/eslint-config"
     ]
-  },
-  "omlet": {
-    "aliases": {
-      "~*": [
-        "src/*"
-      ]
-    }
   },
   "prettier": "@newhighsco/prettier-config",
   "release": {
