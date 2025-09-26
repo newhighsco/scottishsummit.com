@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/newhighsco/scottishsummit.com/compare/v1.3.0...v1.3.1) (2025-09-26)
+
+
+### Bug Fixes
+
+* set locale ([#57](https://github.com/newhighsco/scottishsummit.com/issues/57)) ([d27b2c7](https://github.com/newhighsco/scottishsummit.com/commit/d27b2c7a39830cc798513e8ce97b45fc39a83b09))
+
 # [1.3.0](https://github.com/newhighsco/scottishsummit.com/compare/v1.2.10...v1.3.0) (2025-09-26)
 
 
