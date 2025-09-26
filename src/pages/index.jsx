@@ -87,7 +87,7 @@ const HomePage = ({ meta }) => (
     </Section>
     <Section align="center" size="desktop" variant="striped">
       <Prose>
-        <h2>Timeline</h2>
+        <h2>Event Timeline</h2>
       </Prose>
       <Grid flex gutterless>
         {timeline.map(({ heading, date }) => {

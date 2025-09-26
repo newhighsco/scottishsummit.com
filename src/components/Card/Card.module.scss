@@ -1,12 +1,21 @@
 @use '~styles/colors.module';
+@use '~styles/fonts.module';
 @use '~styles/functions';
+@use '~styles/mixins';
 
 .root {
   background: colors.$white;
   border-radius: functions.spacing(1);
   color: colors.$space;
   max-width: 320px;
-  padding: functions.spacing(1);
+  padding: functions.spacing(4) functions.spacing(2);
+
+  @include mixins.stitches(colors.$lychee, 0.5);
+}
+
+.heading {
+  font-family: fonts.$heading;
+  line-height: 1;
 }
 
 .content {

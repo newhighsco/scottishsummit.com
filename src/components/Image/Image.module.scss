@@ -1,7 +1,8 @@
 @use '~styles/colors.module';
-@use '~styles/functions';
+@use '~styles/mixins';
 
 .root {
-  outline: 1px dashed colors.$lychee;
-  outline-offset: functions.spacing(-1);
+  display: inline-block;
+
+  @include mixins.stitches(colors.$lychee);
 }

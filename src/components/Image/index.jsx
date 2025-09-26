@@ -3,7 +3,11 @@ import React from 'react'
 
 import styles from './Image.module.scss'
 
-const Image = props => <BaseImage {...props} className={styles.root} />
+const Image = props => (
+  <span className={styles.root}>
+    <BaseImage {...props} />
+  </span>
+)
 
 export default Image
 export { Image }

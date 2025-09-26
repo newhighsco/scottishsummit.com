@@ -1,6 +1,26 @@
 @use 'sass:math';
+@use './functions';
 @forward '~@newhighsco/chipset/styles/mixins';
 
 @mixin tartan($count: 4) {
   background-size: math.div(100%, $count);
+}
+
+@mixin stitches($color, $inset: 1) {
+  @if $color != none {
+    position: relative;
+
+    &::after {
+      border: 1px dashed $color;
+      border-radius: inherit;
+      content: '';
+      position: absolute;
+      inset: functions.spacing($inset);
+      z-index: 100;
+    }
+  } @else {
+    &::after {
+      content: none;
+    }
+  }
 }

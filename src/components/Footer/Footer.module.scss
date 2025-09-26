@@ -1,6 +1,6 @@
 @use '~styles/colors.module';
-@use '~styles/functions';
 @use '~styles/fonts.module';
+@use '~styles/functions';
 
 .root {
   background: colors.$space;
@@ -45,7 +45,7 @@
 .logoLockup {
   color: colors.$white;
   display: flex;
-  font-family: fonts.$sim;
+  font-family: fonts.$branding;
   font-size: 2em;
   flex-flow: column wrap;
   line-height: 1;

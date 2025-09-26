@@ -11,18 +11,25 @@
   font-weight: bold;
   padding: functions.spacing(1) functions.spacing(3);
 
+  @include mixins.stitches(colors.$space, 0);
+
   &:hover,
   &:active,
   &:focus,
   &.active {
     background: colors.$berry;
+    border-color: colors.$lychee;
+
+    @include mixins.stitches(none);
   }
 
   &[disabled],
   &[aria-disabled] {
-    color: colors.$mist;
     background: colors.$smog;
+    color: colors.$mist;
     pointer-events: none;
+
+    @include mixins.stitches(none);
   }
 }
 
@@ -46,13 +53,15 @@
   border-color: currentColor;
   color: colors.$lychee;
 
+  @include mixins.stitches(none);
+
   &:hover,
   &:active,
   &:focus,
   &.active {
     border-color: transparent;
     color: colors.$white;
-    outline: 1px dashed colors.$space;
-    outline-offset: functions.spacing(-0.5);
+
+    @include mixins.stitches(colors.$space, 0);
   }
 }

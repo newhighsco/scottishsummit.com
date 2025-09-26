@@ -11,11 +11,11 @@ $stack-system:
 
 // Font aliases
 $body: $stack-system;
+$branding: $sim, $stack-system;
 $heading: $montserrat, $stack-system;
-$logo: $sim, $stack-system;
 
 :export {
   body: $body;
+  branding: $branding;
   heading: $heading;
-  logo: $logo;
 }
