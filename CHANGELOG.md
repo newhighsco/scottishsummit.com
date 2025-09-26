@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/newhighsco/scottishsummit.com/compare/v1.2.10...v1.3.0) (2025-09-26)
+
+
+### Features
+
+* homepage ([#49](https://github.com/newhighsco/scottishsummit.com/issues/49)) ([ac5618a](https://github.com/newhighsco/scottishsummit.com/commit/ac5618ad59f5e5e3e0794d162ca23b0fcf1d2a92))
+
 ## [1.2.10](https://github.com/newhighsco/scottishsummit.com/compare/v1.2.9...v1.2.10) (2025-09-25)
 
 
