@@ -32,7 +32,6 @@ workflows:
           <<: *setup-parameters
       - newhighsco/test:
           name: test
-          rerun-only-failed: true
           requires:
             - setup
       - newhighsco/build:

@@ -36,8 +36,9 @@ const ConstractingColors = ({ hideInsufficient = true }) => {
                   textDecoration: !sufficient ? 'line-through' : undefined
                 }}
                 aria-disabled={!sufficient}
+                data-contast={contrast}
               >
-                {subtitle} on {title}: {contrast}
+                {subtitle} on {title}
               </p>
             )
           })}
@@ -47,10 +48,8 @@ const ConstractingColors = ({ hideInsufficient = true }) => {
   )
 }
 
-ConstractingColors.propTypes = {
-  hideInsufficient: bool
-}
+ConstractingColors.propTypes = { hideInsufficient: bool }
 
 export default { component: ConstractingColors, parameters: { layout: 'none' } }
 
-export const Contrast = {}
+export const Contrasting = {}
