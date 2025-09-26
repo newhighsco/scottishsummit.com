@@ -23,6 +23,9 @@
     "postcss.config.js",
     "site.config.js"
   ],
+  "storybook": {
+    "url": "https://main--68d670a9fc8dd8bf1820bfe4.chromatic.com/"
+  },
   "scripts": {
     "prepare": "husky",
     "clean": "rm -rf {.next,public/{robots.txt,sitemap*.xml}}",
@@ -30,7 +33,7 @@
     "start:storybook": "storybook dev --port 9002",
     "build": "next build",
     "postbuild": "next-sitemap",
-    "build:storybook": "storybook build --output-dir storybook --docs --quiet --webpack-stats-json",
+    "build:storybook": "storybook build --output-dir storybook --quiet --webpack-stats-json",
     "serve": "next start",
     "test": "yarn lint",
     "snapshot": "chromatic --storybook-build-dir storybook --auto-accept-changes main --exit-once-uploaded --only-changed",
