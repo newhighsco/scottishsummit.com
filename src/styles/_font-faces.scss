@@ -7,3 +7,11 @@
   font-style: normal;
   src: url('/fonts/montserrat.woff2') format('woff2');
 }
+
+@font-face {
+  font-display: swap;
+  font-family: fonts.$sim;
+  font-weight: normal;
+  font-style: normal;
+  src: url('/fonts/sim.woff2') format('woff2');
+}

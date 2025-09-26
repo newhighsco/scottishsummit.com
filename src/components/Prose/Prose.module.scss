@@ -1,4 +1,6 @@
+@use '~styles/colors.module';
 @use '~styles/fonts.module';
+@use '~styles/functions';
 
 .root {
   h1,
@@ -8,5 +10,24 @@
   h5,
   h6 {
     font-family: fonts.$heading;
+    line-height: 1em;
+
+    span {
+      color: colors.$lychee;
+    }
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  a[href] {
+    color: var(--prose-link, colors.$guava);
+    text-decoration: underline 1px dashed currentColor;
+    text-underline-offset: functions.spacing(0.5);
   }
 }

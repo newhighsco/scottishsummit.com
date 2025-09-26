@@ -1,5 +1,6 @@
 // Font families
 $montserrat: 'Montserrat';
+$sim: 'Sim';
 
 // Font stacks
 /* stylelint-disable value-keyword-case */
@@ -10,9 +11,11 @@ $stack-system:
 
 // Font aliases
 $body: $stack-system;
+$branding: $sim, $stack-system;
 $heading: $montserrat, $stack-system;
 
 :export {
   body: $body;
+  branding: $branding;
   heading: $heading;
 }

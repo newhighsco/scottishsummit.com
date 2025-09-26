@@ -5,8 +5,8 @@
 @use '~styles/font-faces';
 
 body {
-  background-color: colors.$white;
-  color: colors.$black;
+  background: colors.$space;
+  color: colors.$white;
   font-size: 18px;
   line-height: 1.5;
   font-family: fonts.$body;

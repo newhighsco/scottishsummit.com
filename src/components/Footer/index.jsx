@@ -7,7 +7,6 @@ import {
 } from '@newhighsco/chipset'
 import React from 'react'
 
-import LogoLockup from '~components/LogoLockup'
 import config from '~config'
 import footer from '~data/footer.json'
 import { ReactComponent as FacebookIcon } from '~images/icons/facebook.svg'
@@ -26,15 +25,16 @@ const iconLinks = {
 const Footer = () => (
   <FooterContainer align="center" gutter theme={{ root: styles.root }}>
     <ContentContainer size="desktopLarge" theme={{ content: styles.content }}>
-      <SmartLink href="/">
-        <LogoLockup className={styles.logoLockup} />
+      <SmartLink href="/" className={styles.logoLockup}>
+        <span>Scottish</span> <span>Summit</span>
       </SmartLink>
       <p>
-        {name} is run by {name} SCIO
+        {name} is run by {name}&nbsp;SCIO
         <br />
         Charity Number SC052785
       </p>
       <Navigation
+        title="Social links"
         inline
         links={Object.values(iconLinks)}
         renderLink={({ icon: IconSvg, prefix = 'Follow', ...rest }, index) => {
@@ -53,7 +53,12 @@ const Footer = () => (
         }}
         theme={{ link: styles.iconLink }}
       />
-      <Navigation inline links={footer.links} theme={{ link: styles.link }} />
+      <Navigation
+        title="Footer navigation"
+        inline
+        links={footer.links}
+        theme={{ link: styles.link }}
+      />
     </ContentContainer>
   </FooterContainer>
 )

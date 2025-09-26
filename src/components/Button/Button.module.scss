@@ -1,0 +1,67 @@
+@use '~styles/breakpoints.module';
+@use '~styles/colors.module';
+@use '~styles/functions';
+@use '~styles/mixins';
+
+.root {
+  background: colors.$lychee;
+  border: 2px solid transparent;
+  border-radius: functions.spacing(1);
+  color: colors.$white;
+  font-weight: bold;
+  padding: functions.spacing(1) functions.spacing(3);
+
+  @include mixins.stitches(colors.$space, 0);
+
+  &:hover,
+  &:active,
+  &:focus,
+  &.active {
+    background: colors.$berry;
+    border-color: colors.$lychee;
+
+    @include mixins.stitches(none);
+  }
+
+  &[disabled],
+  &[aria-disabled] {
+    background: colors.$smog;
+    color: colors.$mist;
+    pointer-events: none;
+
+    @include mixins.stitches(none);
+  }
+}
+
+.group {
+  display: flex;
+  flex-flow: column wrap;
+  gap: functions.spacing(2);
+  place-content: center flex-start;
+
+  @include mixins.mq(breakpoints.$tablet-landscape) {
+    flex-direction: row;
+  }
+
+  .root {
+    flex: 1 1 0;
+  }
+}
+
+.inverted {
+  background: colors.$white;
+  border-color: currentColor;
+  color: colors.$lychee;
+
+  @include mixins.stitches(none);
+
+  &:hover,
+  &:active,
+  &:focus,
+  &.active {
+    border-color: transparent;
+    color: colors.$white;
+
+    @include mixins.stitches(colors.$space, 0);
+  }
+}

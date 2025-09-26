@@ -1,18 +1,13 @@
 {
   "links": [
     {
-      "href": "/",
+      "href": "/#about",
       "children": "About",
       "target": ""
     },
     {
-      "href": "/",
-      "children": "Events",
-      "target": ""
-    },
-    {
-      "href": "/",
-      "children": "Speakers",
+      "href": "/#become-a-sponsor",
+      "children": "Sponsors",
       "target": ""
     }
   ]

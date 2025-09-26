@@ -1,16 +1,15 @@
 @use '~styles/colors.module';
+@use '~styles/fonts.module';
 @use '~styles/functions';
-
-$logo-spacing: 2.75;
 
 .root {
   background: colors.$space;
-  color: colors.$white;
-  margin-top: functions.spacing($logo-spacing);
+  color: colors.$mist;
+  margin-bottom: functions.spacing(2.75);
 }
 
 .content {
-  padding-bottom: functions.spacing(2);
+  padding-bottom: functions.spacing(4);
 
   > * + * {
     margin-top: functions.spacing(2);
@@ -18,12 +17,13 @@ $logo-spacing: 2.75;
 }
 
 .link {
-  color: colors.$lychee;
+  color: colors.$guava;
 
   &:hover,
   &:active,
   &:focus {
-    text-decoration: underline;
+    text-decoration: underline 1px dashed currentColor;
+    text-underline-offset: functions.spacing(0.5);
   }
 }
 
@@ -43,6 +43,22 @@ $logo-spacing: 2.75;
 }
 
 .logoLockup {
-  display: inline-block;
-  margin-top: functions.spacing($logo-spacing * -1);
+  color: colors.$white;
+  display: flex;
+  font-family: fonts.$branding;
+  font-size: 2em;
+  flex-flow: column wrap;
+  line-height: 1;
+  margin-top: functions.spacing(-2.5);
+  place-content: center flex-start;
+
+  > * {
+    display: inline-block;
+    flex: 1 1 0;
+  }
+
+  > :last-child {
+    color: colors.$lychee;
+    letter-spacing: 0.06em;
+  }
 }

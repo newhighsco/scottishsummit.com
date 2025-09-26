@@ -1,0 +1,8 @@
+@use '~styles/colors.module';
+@use '~styles/mixins';
+
+.root {
+  display: inline-block;
+
+  @include mixins.stitches(colors.$lychee);
+}

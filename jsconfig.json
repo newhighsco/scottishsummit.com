@@ -15,11 +15,19 @@
         "src/images/*"
       ],
       "~styles/*": [
-        "src/styles/*"
+        "src/styles/_*.scss",
+        "src/styles/*.scss"
       ],
       "~theme": [
         "src/theme"
+      ],
+      "~utils/*": [
+        "src/utils/*"
       ]
     }
-  }
+  },
+  "include": [
+    ".storybook/**/*",
+    "src/**/*"
+  ]
 }
