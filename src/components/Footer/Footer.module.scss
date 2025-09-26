@@ -1,8 +1,10 @@
 @use '~styles/colors.module';
 @use '~styles/functions';
+@use '~styles/fonts.module';
 
 .root {
   background: colors.$space;
+  color: colors.$mist;
   margin-bottom: functions.spacing(2.75);
 }
 
@@ -36,11 +38,27 @@
   &:hover,
   &:active,
   &:focus {
-    color: colors.$guava;
+    color: colors.$lychee;
   }
 }
 
 .logoLockup {
-  display: inline-block;
-  margin-top: functions.spacing(-2.75);
+  color: colors.$white;
+  display: flex;
+  font-family: fonts.$sim;
+  font-size: 2em;
+  flex-flow: column wrap;
+  line-height: 1;
+  margin-top: functions.spacing(-2.5);
+  place-content: center flex-start;
+
+  > * {
+    display: inline-block;
+    flex: 1 1 0;
+  }
+
+  > :last-child {
+    color: colors.$lychee;
+    letter-spacing: 0.06em;
+  }
 }

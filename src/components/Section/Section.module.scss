@@ -61,11 +61,11 @@
 }
 
 .light {
-  --prose-link: #{colors.$lychee};
+  --prose-link: #{colors.$plum};
 
   color: colors.$space;
 
-  @include -opaque(colors.$white, 0.95);
+  @include -opaque(colors.$mist, 0.95);
 }
 
 .striped {
