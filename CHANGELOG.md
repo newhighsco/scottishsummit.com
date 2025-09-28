@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/newhighsco/scottishsummit.com/compare/v1.3.1...v1.3.2) (2025-09-28)
+
+
+### Bug Fixes
+
+* **header:** hamburger active styles ([9e4c8e6](https://github.com/newhighsco/scottishsummit.com/commit/9e4c8e62835e82fcaac567c382696a520e5ae0c1))
+
 ## [1.3.1](https://github.com/newhighsco/scottishsummit.com/compare/v1.3.0...v1.3.1) (2025-09-26)
 
 
