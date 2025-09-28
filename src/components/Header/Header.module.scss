@@ -108,9 +108,11 @@
 
   &:hover,
   &:active,
-  &:focus {
+  &:focus,
+  &.toggleActive {
     background: none;
     color: colors.$lychee;
+    outline: none;
   }
 }
 
