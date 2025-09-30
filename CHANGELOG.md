@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/newhighsco/scottishsummit.com/compare/v1.4.0...v1.5.0) (2025-09-30)
+
+
+### Features
+
+* **meta:** replace social images ([6fcd45c](https://github.com/newhighsco/scottishsummit.com/commit/6fcd45c729886a3d1e263ac4cfd77372b473f9f5))
+
 # [1.4.0](https://github.com/newhighsco/scottishsummit.com/compare/v1.3.2...v1.4.0) (2025-09-30)
 
 
