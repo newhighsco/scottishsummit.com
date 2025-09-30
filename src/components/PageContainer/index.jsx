@@ -8,6 +8,7 @@ import React from 'react'
 
 import Footer from '~components/Footer'
 import Header from '~components/Header'
+import { getBackgroundImage } from '~components/Image/utils'
 import backdropUrl from '~images/tartan.svg'
 
 import styles from './PageContainer.module.scss'
@@ -20,7 +21,7 @@ const PageContainer = ({ meta, children }) => (
         <Footer />
         <Backdrop
           className={styles.backdrop}
-          style={{ backgroundImage: `url(${backdropUrl})` }}
+          style={{ backgroundImage: getBackgroundImage(backdropUrl) }}
         />
       </>
     }
