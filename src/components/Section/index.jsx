@@ -19,10 +19,6 @@ const Section = ({
 
   const background = getImage(imageProps)
 
-  if (priority) {
-    console.log(111, background)
-  }
-
   return (
     <ContentContainer
       theme={{ root: styles.root, content: styles.outer }}
