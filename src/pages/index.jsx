@@ -1,6 +1,6 @@
 import { Button, Card, Grid, Prose } from '@newhighsco/chipset'
 import { LogoJsonLd, SocialProfileJsonLd } from 'next-seo'
-import { object } from 'prop-types'
+import { arrayOf, object, string } from 'prop-types'
 import React, { Fragment } from 'react'
 import urlJoin from 'url-join'
 
@@ -10,23 +10,16 @@ import Section from '~components/Section'
 import config from '~config'
 import heroImage from '~images/2023.jpg'
 import keynoteImage from '~images/2024.jpg'
-import { formatDate } from '~utils/format'
 
 const { name, title, logo, socialLinks, url } = config
-const timeline = [
-  { heading: 'Call for speakers', date: 'TBC, 2025' },
-  { heading: 'Agenda Published', date: 'TBC, 2026' },
-  { heading: 'Workshops', date: new Date('2026-10-02') },
-  { heading: 'Event Day', date: new Date('2026-10-03') }
-]
 
-const HomePage = ({ meta }) => (
+const HomePage = ({ meta, timeline }) => (
   <PageContainer meta={meta}>
     <SocialProfileJsonLd
       type="Organization"
       name={name}
       url={url}
-      sameAs={[socialLinks.twitter]}
+      sameAs={[socialLinks.X]}
     />
     {logo?.bitmap && <LogoJsonLd url={url} logo={urlJoin(url, logo.bitmap)} />}
     <Section
@@ -102,34 +95,26 @@ const HomePage = ({ meta }) => (
         <h2>Event Timeline</h2>
       </Prose>
       <Grid flex>
-        {timeline.map(({ heading, date }, index) => {
-          date =
-            date instanceof Date ? (
-              <time dateTime={date.toISOString()}>{formatDate(date)}</time>
-            ) : (
-              date
-            )
-
-          return (
-            <Fragment key={heading}>
-              <Grid.Item sizes="tablet-one-quarter">
-                <Card
-                  heading={<h3>{heading}</h3>}
-                  data-last={index === timeline.length - 1 ? true : undefined}
-                >
-                  {date}
-                </Card>
-              </Grid.Item>
-            </Fragment>
-          )
-        })}
+        {timeline.map(({ heading, date }, index) => (
+          <Fragment key={heading}>
+            <Grid.Item sizes="tablet-one-quarter">
+              <Card
+                heading={<h3>{heading}</h3>}
+                data-last={index === timeline.length - 1 ? true : undefined}
+              >
+                {date}
+              </Card>
+            </Grid.Item>
+          </Fragment>
+        ))}
       </Grid>
     </Section>
   </PageContainer>
 )
 
 HomePage.propTypes = {
-  meta: object
+  meta: object,
+  timeline: arrayOf({ heading: string, date: string })
 }
 
 export async function getStaticProps() {
@@ -139,7 +124,13 @@ export async function getStaticProps() {
         canonical: urlJoin(url, '/'),
         customTitle: true,
         title
-      }
+      },
+      timeline: [
+        { heading: 'Call for speakers', date: 'TBC, 2025' },
+        { heading: 'Agenda Published', date: 'TBC, 2026' },
+        { heading: 'Workshops', date: 'October 2nd, 2026' },
+        { heading: 'Event Day', date: 'October 3rd, 2026' }
+      ]
     }
   }
 }
