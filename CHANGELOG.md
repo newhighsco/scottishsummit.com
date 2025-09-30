@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/newhighsco/scottishsummit.com/compare/v1.3.2...v1.4.0) (2025-09-30)
+
+
+### Features
+
+* optimize images ([#62](https://github.com/newhighsco/scottishsummit.com/issues/62)) ([2cf86f4](https://github.com/newhighsco/scottishsummit.com/commit/2cf86f468a7543086286856c982b43ae90f0df40))
+
 ## [1.3.2](https://github.com/newhighsco/scottishsummit.com/compare/v1.3.1...v1.3.2) (2025-09-28)
 
 
