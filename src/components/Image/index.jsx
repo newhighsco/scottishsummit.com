@@ -2,12 +2,13 @@ import { Image as BaseImage } from '@newhighsco/chipset'
 import React from 'react'
 
 import styles from './Image.module.scss'
+import ImagePreload from './ImagePreload'
 
 const Image = props => (
-  <div className={styles.root}>
+  <span className={styles.root}>
     <BaseImage {...props} />
-  </div>
+  </span>
 )
 
 export default Image
-export { Image }
+export { Image, ImagePreload }

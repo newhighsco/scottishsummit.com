@@ -3,18 +3,25 @@ import classNames from 'classnames'
 import { node, object, string } from 'prop-types'
 import React from 'react'
 
-import { getBackgroundImage } from '~utils/image'
+import { ImagePreload } from '~components/Image'
+import { getBackgroundImage, getImage } from '~components/Image/utils'
 
 import styles from './Section.module.scss'
 
 const Section = ({
-  backgroundImage,
+  background: { priority, ...imageProps } = {},
   variant,
   size = 'desktopLarge',
   children,
   ...rest
 }) => {
   if (!children) return null
+
+  const background = getImage(imageProps)
+
+  if (priority) {
+    console.log(111, background)
+  }
 
   return (
     <ContentContainer
@@ -23,10 +30,11 @@ const Section = ({
         [styles.variant]: variant,
         [styles[variant]]: variant
       })}
-      style={{ '--background-image': getBackgroundImage(backgroundImage) }}
-      {...rest}
+      style={{ '--background-image': getBackgroundImage(background) }}
       gutter
+      {...rest}
     >
+      {priority && <ImagePreload {...background} />}
       <ContentContainer
         size={size}
         theme={{ root: styles.inner, content: styles.content }}
@@ -38,7 +46,7 @@ const Section = ({
 }
 
 Section.propTypes = {
-  backgroundImage: object,
+  background: object,
   variant: string,
   size: string,
   children: node

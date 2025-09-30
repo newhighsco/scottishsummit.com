@@ -33,11 +33,11 @@ const HomePage = ({ meta }) => (
       align="center"
       size="desktop"
       variant="dark"
-      backgroundImage={{
+      background={{
         width: 1024,
         height: 399,
-        priority: true,
         fetchPriority: 'high',
+        priority: true,
         src: heroImage
       }}
     >

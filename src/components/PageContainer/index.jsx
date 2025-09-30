@@ -8,8 +8,8 @@ import React from 'react'
 
 import Footer from '~components/Footer'
 import Header from '~components/Header'
+import { getBackgroundImage } from '~components/Image/utils'
 import backdropUrl from '~images/tartan.svg'
-import { getBackgroundImage } from '~utils/image'
 
 import styles from './PageContainer.module.scss'
 
