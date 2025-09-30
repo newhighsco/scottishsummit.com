@@ -4,9 +4,9 @@ import React from 'react'
 import styles from './Image.module.scss'
 
 const Image = props => (
-  <span className={styles.root}>
+  <div className={styles.root}>
     <BaseImage {...props} />
-  </span>
+  </div>
 )
 
 export default Image

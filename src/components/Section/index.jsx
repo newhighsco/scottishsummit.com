@@ -3,10 +3,12 @@ import classNames from 'classnames'
 import { node, object, string } from 'prop-types'
 import React from 'react'
 
+import { getBackgroundImage } from '~utils/image'
+
 import styles from './Section.module.scss'
 
 const Section = ({
-  backgroundImage: { src } = {},
+  backgroundImage,
   variant,
   size = 'desktopLarge',
   children,
@@ -21,9 +23,7 @@ const Section = ({
         [styles.variant]: variant,
         [styles[variant]]: variant
       })}
-      style={{
-        '--background-image': src ? `url(${src})` : undefined
-      }}
+      style={{ '--background-image': getBackgroundImage(backgroundImage) }}
       {...rest}
       gutter
     >

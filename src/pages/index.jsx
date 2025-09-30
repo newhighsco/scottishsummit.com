@@ -33,7 +33,12 @@ const HomePage = ({ meta }) => (
       align="center"
       size="desktop"
       variant="dark"
-      backgroundImage={heroImage}
+      backgroundImage={{
+        width: 1024,
+        height: 399,
+        priority: true,
+        src: heroImage
+      }}
     >
       <Prose>
         <h1>
@@ -66,7 +71,13 @@ const HomePage = ({ meta }) => (
           <br />
         </Grid.Item>
         <Grid.Item sizes="desktop-one-half">
-          <Image src={keynoteImage} />
+          <Image
+            width={2044}
+            height={1064}
+            priority
+            sizes="100vw, (min-width: 960px) 50vw"
+            src={keynoteImage}
+          />
         </Grid.Item>
       </Grid>
     </Section>
