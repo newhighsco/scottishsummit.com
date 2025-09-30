@@ -17,6 +17,7 @@ const LogoLockup = ({ className }) => (
     width={1832}
     height={2022}
     alt={name}
+    priority
   />
 )
 
