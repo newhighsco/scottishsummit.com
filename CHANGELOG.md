@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/newhighsco/scottishsummit.com/compare/v1.5.0...v1.5.1) (2025-09-30)
+
+
+### Bug Fixes
+
+* used text-based dates ([2432169](https://github.com/newhighsco/scottishsummit.com/commit/24321697a91189a297187a83fc0982ee9db0c3e5))
+
 # [1.5.0](https://github.com/newhighsco/scottishsummit.com/compare/v1.4.0...v1.5.0) (2025-09-30)
 
 
