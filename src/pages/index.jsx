@@ -37,6 +37,7 @@ const HomePage = ({ meta }) => (
         width: 1024,
         height: 399,
         priority: true,
+        fetchPriority: 'high',
         src: heroImage
       }}
     >
@@ -74,7 +75,6 @@ const HomePage = ({ meta }) => (
           <Image
             width={2044}
             height={1064}
-            priority
             sizes="100vw, (min-width: 960px) 50vw"
             src={keynoteImage}
           />
