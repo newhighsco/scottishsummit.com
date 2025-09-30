@@ -1,3 +1,10 @@
+## [1.5.2](https://github.com/newhighsco/scottishsummit.com/compare/v1.5.1...v1.5.2) (2025-09-30)
+
+
+### Bug Fixes
+
+* **logo:** add alt text ([be1c49d](https://github.com/newhighsco/scottishsummit.com/commit/be1c49dfc03294d41c2717e6e61e7284880d8f0d))
+
 ## [1.5.1](https://github.com/newhighsco/scottishsummit.com/compare/v1.5.0...v1.5.1) (2025-09-30)
 
 
