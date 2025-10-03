@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/newhighsco/scottishsummit.com/compare/v1.6.0...v1.7.0) (2025-10-03)
+
+
+### Features
+
+* additional social links ([76e29a5](https://github.com/newhighsco/scottishsummit.com/commit/76e29a57fd54ce1021974e446a46feedfa3c6b65))
+
 # [1.6.0](https://github.com/newhighsco/scottishsummit.com/compare/v1.5.3...v1.6.0) (2025-10-03)
 
 
