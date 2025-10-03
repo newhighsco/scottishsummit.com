@@ -22,7 +22,9 @@ const config = {
   socialLinks: {
     X: 'https://x.com/scottishsummit',
     LinkedIn: 'https://linkedin.com/company/scottish-summit',
-    Facebook: 'https://facebook.com/scottishsummit'
+    Facebook: 'https://facebook.com/scottishsummit',
+    YouTube: 'https://www.youtube.com/c/scottishsummit',
+    Instagram: 'https://www.instagram.com/scottishsummit'
   }
 }
 
