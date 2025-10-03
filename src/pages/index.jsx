@@ -1,5 +1,5 @@
 import { Button, Card, Grid, Prose } from '@newhighsco/chipset'
-import { LogoJsonLd, SocialProfileJsonLd } from 'next-seo'
+import { EventJsonLd, LogoJsonLd, SocialProfileJsonLd } from 'next-seo'
 import { arrayOf, object, string } from 'prop-types'
 import React, { Fragment } from 'react'
 import urlJoin from 'url-join'
@@ -11,15 +11,32 @@ import config from '~config'
 import heroImage from '~images/2023.jpg'
 import keynoteImage from '~images/2024.jpg'
 
-const { name, title, logo, socialLinks, url } = config
+const { name, organisationName, title, logo, socialLinks, url } = config
+const organizer = {
+  type: 'Organization',
+  name,
+  url,
+  sameAs: Object.values(socialLinks)
+}
 
 const HomePage = ({ meta, timeline }) => (
   <PageContainer meta={meta}>
-    <SocialProfileJsonLd
-      type="Organization"
-      name={name}
-      url={url}
-      sameAs={[socialLinks.X]}
+    <SocialProfileJsonLd {...organizer} />
+    <EventJsonLd
+      name={`${name} 2026`}
+      startDate="2026-10-02T09:00:00.000Z"
+      endDate="2026-10-03T17:00:00.000Z"
+      location={{
+        name: 'Murrayfield',
+        address: {
+          streetAddress: 'Roseburn Street',
+          addressLocality: 'Edinburgh',
+          addressRegion: 'Scotland',
+          postalCode: 'EH12 5PJ',
+          addressCountry: 'GB'
+        }
+      }}
+      organizer={{ ...organizer, name: organisationName }}
     />
     {logo?.bitmap && <LogoJsonLd url={url} logo={urlJoin(url, logo.bitmap)} />}
     <Section

@@ -15,7 +15,7 @@ import { ReactComponent as XIcon } from '~images/icons/x.svg'
 
 import styles from './Footer.module.scss'
 
-const { name, socialLinks } = config
+const { name, organisationName, socialLinks } = config
 const iconLinks = {
   X: { icon: XIcon },
   LinkedIn: { icon: LinkedInIcon },
@@ -29,7 +29,7 @@ const Footer = () => (
         <span>Scottish</span> <span>Summit</span>
       </SmartLink>
       <p>
-        {name} is run by {name}&nbsp;SCIO
+        {name} is run by {organisationName}
         <br />
         Charity Number SC052785
       </p>
