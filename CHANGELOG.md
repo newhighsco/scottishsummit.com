@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/newhighsco/scottishsummit.com/compare/v1.5.3...v1.6.0) (2025-10-03)
+
+
+### Features
+
+* add event meta data ([dcaacfd](https://github.com/newhighsco/scottishsummit.com/commit/dcaacfd318a7abf9a7457b1d88f637a20859e068))
+
 ## [1.5.3](https://github.com/newhighsco/scottishsummit.com/compare/v1.5.2...v1.5.3) (2025-09-30)
 
 
