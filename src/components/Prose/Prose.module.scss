@@ -1,6 +1,7 @@
 @use '~styles/colors.module';
 @use '~styles/fonts.module';
 @use '~styles/functions';
+@use '~styles/mixins';
 
 .root {
   h1,
@@ -27,8 +28,8 @@
 
   a[href] {
     color: var(--prose-link, colors.$guava);
-    text-decoration: underline 1px dashed currentColor;
-    text-underline-offset: functions.spacing(0.5);
+
+    @include mixins.underline;
   }
 
   ol,

@@ -24,8 +24,7 @@
   &:hover,
   &:active,
   &:focus {
-    text-decoration: underline 1px dashed currentColor;
-    text-underline-offset: functions.spacing(0.5);
+    @include mixins.underline;
   }
 }
 

@@ -5,8 +5,6 @@
 @use '~styles/mixins';
 
 .root {
-  --background: #{colors.$white};
-
   border-radius: functions.spacing(1);
   color: colors.$space;
   max-width: breakpoints.$mobile;
@@ -20,7 +18,7 @@
   }
 
   &::after {
-    color: var(--background);
+    color: colors.$white;
     display: block;
     content: '';
     line-height: 0;
@@ -53,7 +51,7 @@
 }
 
 .content {
-  background: var(--background);
+  background: colors.$white;
   border-radius: inherit;
   display: flex;
   flex-flow: column wrap;

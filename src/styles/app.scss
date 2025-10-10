@@ -4,6 +4,7 @@
 @use '~styles/fonts.module';
 @use '~styles/font-faces';
 @use '~styles/functions';
+@use '~styles/mixins';
 
 html {
   scroll-padding-top: functions.spacing(10);
@@ -26,4 +27,12 @@ a {
   &:focus {
     outline: none;
   }
+}
+
+abbr[title] {
+  @include mixins.underline;
+}
+
+ins {
+  @include mixins.underline(solid);
 }
