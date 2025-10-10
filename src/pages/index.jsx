@@ -10,6 +10,7 @@ import Section from '~components/Section'
 import config from '~config'
 import heroImage from '~images/2023.jpg'
 import keynoteImage from '~images/2024.jpg'
+import { mailto } from '~utils/format'
 
 const { name, organisationName, title, logo, socialLinks, url } = config
 const organizer = {
@@ -68,12 +69,12 @@ const HomePage = ({ meta }) => (
           Scottish <span>Summit</span> 2026
         </h1>
         <p>
-          Scottish Summit is a leading UK Microsoft community event, offering
-          expert-led sessions on Dynamics 365, Power Platform, Azure, and more.
+          {name} is a leading UK Microsoft community event, offering expert-led
+          sessions on Dynamics 365, Power Platform, Azure, and more.
         </p>
         <p>Edinburgh, Scotland | 2nd - 3rd October 2026</p>
       </Prose>
-      <Button href="mailto:contact@scottishsummit.com" variant="inverted">
+      <Button href={mailto(socialLinks.email)} variant="inverted">
         Find out more
       </Button>
     </Section>
@@ -83,10 +84,9 @@ const HomePage = ({ meta }) => (
           <Prose align="center">
             <h2>More Than Just a Conference</h2>
             <p>
-              Scottish Summit is about community, innovation, and sharing
-              knowledge. Join fellow Microsoft professionals, MVPs, and industry
-              leaders for two days of in-depth sessions, networking, and have
-              fun along the way!
+              {name} is about community, innovation, and sharing knowledge. Join
+              fellow Microsoft professionals, MVPs, and industry leaders for two
+              days of in-depth sessions, networking, and have fun along the way!
             </p>
           </Prose>
         </Grid.Item>
@@ -107,14 +107,14 @@ const HomePage = ({ meta }) => (
     <Section align="center" id="become-a-sponsor" size="tablet">
       <Prose>
         <h2>Become a Sponsor</h2>
-        <p>Sponsor opportunities for Scottish Summit 2026 are already open!</p>
+        <p>Sponsor opportunities for {name} 2026 are already open!</p>
         <p>Early Bird rates are NOW available!</p>
       </Prose>
       <Button.Group>
         <Button href="/sponsor-pack" download>
           Download Sponsor Pack
         </Button>
-        <Button href="mailto:sponsor@scottishsummit.com">
+        <Button href={mailto('sponsor@scottishsummit.com')}>
           Become a Sponsor
         </Button>
       </Button.Group>

@@ -20,6 +20,7 @@ const config = {
   themeColor: colors.space,
   twitterHandle: 'scottishsummit',
   socialLinks: {
+    email: 'contact@scottishsummit.com',
     X: 'https://x.com/scottishsummit',
     LinkedIn: 'https://linkedin.com/company/scottish-summit',
     Facebook: 'https://facebook.com/scottishsummit',

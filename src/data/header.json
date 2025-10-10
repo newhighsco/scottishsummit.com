@@ -1,6 +1,11 @@
 {
   "links": [
     {
+      "href": "/",
+      "children": "Home",
+      "target": ""
+    },
+    {
       "href": "/#about",
       "children": "About",
       "target": ""

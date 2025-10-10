@@ -30,4 +30,18 @@
     text-decoration: underline 1px dashed currentColor;
     text-underline-offset: functions.spacing(0.5);
   }
+
+  ol,
+  ul {
+    margin-left: functions.spacing(4);
+
+    li::marker {
+      color: var(--prose-link, colors.$guava);
+    }
+  }
+
+  p + h3,
+  ol + h3 {
+    margin-top: functions.spacing(4);
+  }
 }

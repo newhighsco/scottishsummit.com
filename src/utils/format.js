@@ -13,3 +13,12 @@ export const formatDate = date => {
 
   return `${month} ${day}${ordinal}, ${year}`
 }
+
+export const mailto = email => `mailto:${email}`
+
+export const slugify = text =>
+  text
+    ?.toLowerCase()
+    .trim()
+    .replace(/&/g, '-and-')
+    .replace(/[\s\W-/_]+/g, '-')

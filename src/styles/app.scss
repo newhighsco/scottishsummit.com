@@ -3,6 +3,11 @@
 @use '~styles/colors.module';
 @use '~styles/fonts.module';
 @use '~styles/font-faces';
+@use '~styles/functions';
+
+html {
+  scroll-padding-top: functions.spacing(10);
+}
 
 body {
   background: colors.$space;

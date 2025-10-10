@@ -7,7 +7,7 @@ import Section from '~components/Section'
 
 const NotFoundPage = ({ meta }) => (
   <PageContainer meta={meta}>
-    <Section variant="light">
+    <Section size="desktop" variant="light">
       <Prose>
         <h1>{meta.title}</h1>
         <p>We’re sorry but we couldn’t find the page you were looking for.</p>
