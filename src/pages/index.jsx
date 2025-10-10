@@ -4,12 +4,11 @@ import { arrayOf, object, string } from 'prop-types'
 import React, { Fragment } from 'react'
 import urlJoin from 'url-join'
 
-import Image from '~components/Image'
 import PageContainer from '~components/PageContainer'
 import Section from '~components/Section'
+import Video from '~components/Video'
 import config from '~config'
 import heroImage from '~images/2023.jpg'
-import keynoteImage from '~images/2024.jpg'
 import { mailto } from '~utils/format'
 
 const { name, organisationName, title, logo, email, socialLinks, url } = config
@@ -94,13 +93,7 @@ const HomePage = ({ meta }) => (
           <br />
         </Grid.Item>
         <Grid.Item sizes="desktop-one-half">
-          <Image
-            width={2044}
-            height={1064}
-            priority
-            sizes="100vw, (min-width: 960px) 50vw"
-            src={keynoteImage}
-          />
+          <Video id="nxAxsFSVHHM" title="Scottish Summit 2024 Keynote" />
         </Grid.Item>
       </Grid>
     </Section>
