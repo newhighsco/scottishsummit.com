@@ -24,3 +24,8 @@
     }
   }
 }
+
+@mixin underline($style: dashed) {
+  text-decoration: underline 1px $style currentColor;
+  text-underline-offset: functions.spacing(0.5);
+}
