@@ -1,3 +1,10 @@
+## [1.9.2](https://github.com/newhighsco/scottishsummit.com/compare/v1.9.1...v1.9.2) (2025-10-10)
+
+
+### Bug Fixes
+
+* correct social link key ([e076d92](https://github.com/newhighsco/scottishsummit.com/commit/e076d92aea32e0368b38bf1b2ac23a292dca7d2c))
+
 ## [1.9.1](https://github.com/newhighsco/scottishsummit.com/compare/v1.9.0...v1.9.1) (2025-10-10)
 
 
