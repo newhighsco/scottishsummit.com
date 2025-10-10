@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/newhighsco/scottishsummit.com/compare/v1.8.0...v1.9.0) (2025-10-10)
+
+
+### Features
+
+* update Policies page ([#71](https://github.com/newhighsco/scottishsummit.com/issues/71)) ([3e2eab1](https://github.com/newhighsco/scottishsummit.com/commit/3e2eab1bfcc734f5caedc881d24c823d08379ae0))
+
 # [1.8.0](https://github.com/newhighsco/scottishsummit.com/compare/v1.7.1...v1.8.0) (2025-10-10)
 
 
