@@ -10,16 +10,16 @@
   @if $color != none {
     position: relative;
 
-    &::after {
+    &::before {
       border: 1px dashed $color;
       border-radius: inherit;
       content: '';
       position: absolute;
       inset: functions.spacing($inset);
-      z-index: 100;
+      z-index: 0;
     }
   } @else {
-    &::after {
+    &::before {
       content: none;
     }
   }

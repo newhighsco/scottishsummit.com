@@ -18,14 +18,26 @@ const organizer = {
   url,
   sameAs: Object.values(socialLinks)
 }
+const timeline = [
+  {
+    heading: 'Call for Sponsors',
+    href: '/#become-a-sponsor',
+    children: 'Open now'
+  },
+  { heading: 'Call for Speakers', children: 'March 1st, 2026' },
+  { heading: 'Agenda Published', children: 'July 1st, 2026' },
+  { heading: 'Workshops', children: 'October 2nd, 2026' },
+  { heading: 'Event Day', children: 'October 3rd, 2026' }
+]
 
-const HomePage = ({ meta, timeline }) => (
+const HomePage = ({ meta }) => (
   <PageContainer meta={meta}>
     <SocialProfileJsonLd {...organizer} />
     <EventJsonLd
       name={`${name} 2026`}
       startDate="2026-10-02T09:00:00.000Z"
       endDate="2026-10-03T17:00:00.000Z"
+      eventStatus="EventScheduled"
       location={{
         name: 'Murrayfield',
         address: {
@@ -112,15 +124,14 @@ const HomePage = ({ meta, timeline }) => (
         <h2>Event Timeline</h2>
       </Prose>
       <Grid flex>
-        {timeline.map(({ heading, date }, index) => (
+        {timeline.map(({ heading, ...rest }, index) => (
           <Fragment key={heading}>
-            <Grid.Item sizes="tablet-one-quarter">
+            <Grid.Item sizes="tablet-landscape-one-fifth">
               <Card
                 heading={<h3>{heading}</h3>}
                 data-last={index === timeline.length - 1 ? true : undefined}
-              >
-                {date}
-              </Card>
+                {...rest}
+              />
             </Grid.Item>
           </Fragment>
         ))}
@@ -138,16 +149,10 @@ export async function getStaticProps() {
   return {
     props: {
       meta: {
-        canonical: urlJoin(url, '/'),
+        canonical: urlJoin(url, '/#become-a-sponsor'),
         customTitle: true,
         title
-      },
-      timeline: [
-        { heading: 'Call for speakers', date: 'TBC, 2025' },
-        { heading: 'Agenda Published', date: 'TBC, 2026' },
-        { heading: 'Workshops', date: 'October 2nd, 2026' },
-        { heading: 'Event Day', date: 'October 3rd, 2026' }
-      ]
+      }
     }
   }
 }

@@ -5,11 +5,22 @@
 @use '~styles/mixins';
 
 .root {
-  max-width: 320px;
+  --background: #{colors.$white};
+
+  border-radius: functions.spacing(1);
+  color: colors.$space;
+  max-width: breakpoints.$mobile;
   overflow: visible;
   position: relative;
 
+  &[role='link']:hover {
+    .copy {
+      color: colors.$lychee;
+    }
+  }
+
   &::after {
+    color: var(--background);
     display: block;
     content: '';
     line-height: 0;
@@ -20,7 +31,7 @@
 
     @include mixins.triangle('down', functions.spacing(2));
 
-    @include mixins.mq(breakpoints.$tablet) {
+    @include mixins.mq(breakpoints.$tablet-landscape) {
       position: absolute;
       left: calc(100% - #{functions.spacing(0.5)} - 1px);
       top: 50%;
@@ -42,9 +53,8 @@
 }
 
 .content {
-  background: colors.$white;
-  border-radius: functions.spacing(1);
-  color: colors.$space;
+  background: var(--background);
+  border-radius: inherit;
   display: flex;
   flex-flow: column wrap;
   padding: functions.spacing(4) functions.spacing(2);
@@ -53,7 +63,7 @@
 
   @include mixins.stitches(colors.$lychee, 0.5);
 
-  @include mixins.mq(breakpoints.$tablet) {
+  @include mixins.mq(breakpoints.$tablet-landscape) {
     height: 100%;
   }
 }
