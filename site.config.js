@@ -19,8 +19,8 @@ const config = {
   openGraphImage: openGraphImage.src,
   themeColor: colors.space,
   twitterHandle: 'scottishsummit',
+  email: 'contact@scottishsummit.com',
   socialLinks: {
-    email: 'contact@scottishsummit.com',
     X: 'https://x.com/scottishsummit',
     LinkedIn: 'https://linkedin.com/company/scottish-summit',
     Facebook: 'https://facebook.com/scottishsummit',

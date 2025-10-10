@@ -8,12 +8,10 @@ import Section from '~components/Section'
 import config from '~config'
 import { mailto } from '~utils/format'
 
-const { name, socialLinks, url } = config
+const { name, email, url } = config
 const size = 'desktop'
 
-const ContactLink = () => (
-  <SmartLink href={mailto(socialLinks.email)}>{socialLinks.email}</SmartLink>
-)
+const ContactLink = () => <SmartLink href={mailto(email)}>{email}</SmartLink>
 
 const NotFoundPage = ({ meta }) => (
   <PageContainer meta={meta}>

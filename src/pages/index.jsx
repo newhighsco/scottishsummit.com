@@ -12,7 +12,7 @@ import heroImage from '~images/2023.jpg'
 import keynoteImage from '~images/2024.jpg'
 import { mailto } from '~utils/format'
 
-const { name, organisationName, title, logo, socialLinks, url } = config
+const { name, organisationName, title, logo, email, socialLinks, url } = config
 const organizer = {
   type: 'Organization',
   name,
@@ -74,7 +74,7 @@ const HomePage = ({ meta }) => (
         </p>
         <p>Edinburgh, Scotland | 2nd - 3rd October 2026</p>
       </Prose>
-      <Button href={mailto(socialLinks.email)} variant="inverted">
+      <Button href={mailto(email)} variant="inverted">
         Find out more
       </Button>
     </Section>
