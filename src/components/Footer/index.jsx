@@ -45,7 +45,7 @@ const Footer = () => (
           { icon: IconSvg, verb = 'Follow', preposition = 'on', ...rest },
           index
         ) => {
-          const key = Object.keys(socialLinks).at(index)
+          const key = Object.keys(iconLinks).at(index)
 
           return (
             <SmartLink href={socialLinks[key]} target="_blank" {...rest}>
