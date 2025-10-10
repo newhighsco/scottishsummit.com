@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "2026",
+    "date": "2nd - 3rd October 2026",
+    "startDate": "2026-10-02",
+    "endDate": "2026-10-03",
+    "location": {
+      "name": "Murrayfield Stadium"
+    }
+  },
+  {
+    "slug": "2024",
+    "date": "18th - 20th October 2024",
+    "startDate": "2024-10-18",
+    "endDate": "2024-10-19",
+    "location": {
+      "name": "P&J Live, Aberdeen"
+    }
+  },
+  {
+    "slug": "2023",
+    "date": "5th August 2023",
+    "startDate": "2023-08-05",
+    "location": {
+      "name": "UA92: University Academy 92"
+    }
+  },
+  {
+    "slug": "2022",
+    "date": "10th June 2022",
+    "startDate": "2022-06-10",
+    "location": {
+      "name": "Strathclyde University Technology & Innovation Centre"
+    }
+  },
+  {
+    "slug": "2021",
+    "date": "27th February 2021",
+    "startDate": "2021-02-27",
+    "location": {
+      "name": "Virtual"
+    }
+  },
+  {
+    "slug": "2020",
+    "date": "29th February 2020",
+    "startDate": "2020-02-29",
+    "location": {
+      "name": "Strathclyde University Technology & Innovation Centre"
+    }
+  }
+]
