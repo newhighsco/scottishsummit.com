@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/newhighsco/scottishsummit.com/compare/v1.7.1...v1.8.0) (2025-10-10)
+
+
+### Features
+
+* update timeline ([8b4edf5](https://github.com/newhighsco/scottishsummit.com/commit/8b4edf558b28c59d13b0200e7a82610ec18363fc))
+
 ## [1.7.1](https://github.com/newhighsco/scottishsummit.com/compare/v1.7.0...v1.7.1) (2025-10-04)
 
 
