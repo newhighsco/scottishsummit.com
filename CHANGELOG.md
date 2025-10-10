@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/newhighsco/scottishsummit.com/compare/v1.9.2...v1.10.0) (2025-10-10)
+
+
+### Features
+
+* homepage video ([#72](https://github.com/newhighsco/scottishsummit.com/issues/72)) ([aec0569](https://github.com/newhighsco/scottishsummit.com/commit/aec0569de0f0b5974ebdda77fbdda005581249dd))
+
 ## [1.9.2](https://github.com/newhighsco/scottishsummit.com/compare/v1.9.1...v1.9.2) (2025-10-10)
 
 
