@@ -1,3 +1,10 @@
+## [1.9.1](https://github.com/newhighsco/scottishsummit.com/compare/v1.9.0...v1.9.1) (2025-10-10)
+
+
+### Bug Fixes
+
+* correct social links ([dd490e8](https://github.com/newhighsco/scottishsummit.com/commit/dd490e8acb69d954b94c6bcdd1128240a1e1c4f9))
+
 # [1.9.0](https://github.com/newhighsco/scottishsummit.com/compare/v1.8.0...v1.9.0) (2025-10-10)
 
 
