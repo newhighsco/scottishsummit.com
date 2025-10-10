@@ -14,9 +14,10 @@
       border: 1px dashed $color;
       border-radius: inherit;
       content: '';
+      pointer-events: none;
       position: absolute;
       inset: functions.spacing($inset);
-      z-index: 0;
+      z-index: 1;
     }
   } @else {
     &::before {
