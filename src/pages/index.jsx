@@ -1,15 +1,17 @@
 import { Button, Card, Grid, Prose } from '@newhighsco/chipset'
 import { EventJsonLd, LogoJsonLd, SocialProfileJsonLd } from 'next-seo'
-import { arrayOf, object, string } from 'prop-types'
 import React, { Fragment } from 'react'
 import urlJoin from 'url-join'
 
+import EventHeading from '~components/Events/EventHeading'
 import PageContainer from '~components/PageContainer'
 import Section from '~components/Section'
 import Video from '~components/Video'
 import config from '~config'
+import events from '~data/events.json'
 import heroImage from '~images/2023.jpg'
 import { mailto } from '~utils/format'
+import { canonicalUrl } from '~utils/urls'
 
 const { name, organisationName, title, logo, email, socialLinks, url } = config
 const organizer = {
@@ -29,8 +31,13 @@ const timeline = [
   { heading: 'Workshops', children: 'October 2nd, 2026' },
   { heading: 'Event Day', children: 'October 3rd, 2026' }
 ]
+const meta = {
+  canonical: canonicalUrl(),
+  customTitle: true,
+  title
+}
 
-const HomePage = ({ meta }) => (
+const HomePage = () => (
   <PageContainer meta={meta}>
     <SocialProfileJsonLd {...organizer} />
     <EventJsonLd
@@ -51,10 +58,14 @@ const HomePage = ({ meta }) => (
       organizer={{ ...organizer, name: organisationName }}
     />
     {logo?.bitmap && <LogoJsonLd url={url} logo={urlJoin(url, logo.bitmap)} />}
-    <Section
-      align="center"
-      size="desktop"
-      variant="dark"
+    <EventHeading
+      {...events[0]}
+      description={
+        <p>
+          {name} is a leading UK Microsoft community event, offering expert-led
+          sessions on Dynamics 365, Power Platform, Azure, and more.
+        </p>
+      }
       background={{
         width: 1024,
         height: 399,
@@ -63,20 +74,10 @@ const HomePage = ({ meta }) => (
         src: heroImage
       }}
     >
-      <Prose>
-        <h1>
-          Scottish <span>Summit</span> 2026
-        </h1>
-        <p>
-          {name} is a leading UK Microsoft community event, offering expert-led
-          sessions on Dynamics 365, Power Platform, Azure, and more.
-        </p>
-        <p>Edinburgh, Scotland | 2nd - 3rd October 2026</p>
-      </Prose>
       <Button href={mailto(email)} variant="inverted">
         Find out more
       </Button>
-    </Section>
+    </EventHeading>
     <Section id="about" variant="striped">
       <Grid gutter valign="middle">
         <Grid.Item sizes="desktop-one-half">
@@ -132,22 +133,5 @@ const HomePage = ({ meta }) => (
     </Section>
   </PageContainer>
 )
-
-HomePage.propTypes = {
-  meta: object,
-  timeline: arrayOf({ heading: string, date: string })
-}
-
-export async function getStaticProps() {
-  return {
-    props: {
-      meta: {
-        canonical: urlJoin(url, '/#become-a-sponsor'),
-        customTitle: true,
-        title
-      }
-    }
-  }
-}
 
 export default HomePage
