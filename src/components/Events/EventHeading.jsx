@@ -1,6 +1,6 @@
-import { Element, Prose } from '@newhighsco/chipset'
+import { Prose } from '@newhighsco/chipset'
 import { node, object, string } from 'prop-types'
-import React, { Fragment } from 'react'
+import React from 'react'
 
 import Section from '~components/Section'
 import config from '~config'
@@ -14,25 +14,22 @@ const EventHeading = ({
   description,
   children,
   ...rest
-}) => (
-  <Section align="center" size="desktop" variant="dark" {...rest}>
-    <Prose>
-      <h1>
-        {name.split(' ').map((word, index) => (
-          <Fragment key={word}>
-            <Element as={index % 2 === 0 ? 'span' : 'strong'}>
-              {word}
-            </Element>{' '}
-          </Fragment>
-        ))}
-        {slug}
-      </h1>
-      {description}
-      <p>{[location.name, date].join(' | ')}</p>
-    </Prose>
-    {children}
-  </Section>
-)
+}) => {
+  const [scottish, summit] = name.split(' ')
+
+  return (
+    <Section align="center" size="desktop" variant="dark" {...rest}>
+      <Prose>
+        <h1>
+          {scottish} <strong>{summit}</strong> {slug}
+        </h1>
+        {description}
+        <p>{[location.name, date].join(' | ')}</p>
+      </Prose>
+      {children}
+    </Section>
+  )
+}
 
 EventHeading.propTypes = {
   slug: string,
