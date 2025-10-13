@@ -1,5 +1,5 @@
 import { Button, Card, Grid, Prose } from '@newhighsco/chipset'
-import { EventJsonLd, LogoJsonLd, SocialProfileJsonLd } from 'next-seo'
+import { LogoJsonLd, SocialProfileJsonLd } from 'next-seo'
 import React, { Fragment } from 'react'
 import urlJoin from 'url-join'
 
@@ -10,10 +10,10 @@ import Video from '~components/Video'
 import config from '~config'
 import events from '~data/events.json'
 import heroImage from '~images/2023.jpg'
-import { mailto } from '~utils/format'
+import { eventTitle, mailto } from '~utils/format'
 import { canonicalUrl } from '~utils/urls'
 
-const { name, organisationName, title, logo, email, socialLinks, url } = config
+const { name, logo, email, socialLinks, url, currentEventSlug } = config
 const organizer = {
   type: 'Organization',
   name,
@@ -31,35 +31,19 @@ const timeline = [
   { heading: 'Workshops', children: 'October 2nd, 2026' },
   { heading: 'Event Day', children: 'October 3rd, 2026' }
 ]
+const currentEvent = events.find(({ slug }) => slug === currentEventSlug)
 const meta = {
   canonical: canonicalUrl(),
   customTitle: true,
-  title
+  title: eventTitle(currentEvent)
 }
 
 const HomePage = () => (
   <PageContainer meta={meta}>
     <SocialProfileJsonLd {...organizer} />
-    <EventJsonLd
-      name={`${name} 2026`}
-      startDate="2026-10-02T09:00:00.000Z"
-      endDate="2026-10-03T17:00:00.000Z"
-      eventStatus="EventScheduled"
-      location={{
-        name: 'Murrayfield',
-        address: {
-          streetAddress: 'Roseburn Street',
-          addressLocality: 'Edinburgh',
-          addressRegion: 'Scotland',
-          postalCode: 'EH12 5PJ',
-          addressCountry: 'GB'
-        }
-      }}
-      organizer={{ ...organizer, name: organisationName }}
-    />
     {logo?.bitmap && <LogoJsonLd url={url} logo={urlJoin(url, logo.bitmap)} />}
     <EventHeading
-      {...events[0]}
+      {...currentEvent}
       description={
         <p>
           {name} is a leading UK Microsoft community event, offering expert-led
@@ -123,7 +107,7 @@ const HomePage = () => (
             <Grid.Item sizes="tablet-landscape-one-fifth">
               <Card
                 heading={<h3>{heading}</h3>}
-                data-last={index === timeline.length - 1 ? true : undefined}
+                data-arrow={index === timeline.length - 1 ? undefined : true}
                 {...rest}
               />
             </Grid.Item>

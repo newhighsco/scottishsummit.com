@@ -1,3 +1,7 @@
+import config from '~config'
+
+const { name } = config
+
 const getOrdinal = number =>
   number > 0
     ? ['th', 'st', 'nd', 'rd'][
@@ -22,3 +26,6 @@ export const slugify = text =>
     .trim()
     .replace(/&/g, '-and-')
     .replace(/[\s\W-/_]+/g, '-')
+
+export const eventTitle = ({ slug, displayDate }) =>
+  `${name} ${slug} | ${displayDate}`

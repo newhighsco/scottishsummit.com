@@ -4,12 +4,13 @@ import openGraphImage from '~images/sharing.jpg'
 import colors from '~styles/colors.module'
 
 const name = 'Scottish Summit'
+const currentEventSlug = '2026'
 
 const config = {
   url: process.env.NEXT_PUBLIC_SITE_URL,
+  currentEventSlug,
   name,
   organisationName: `${name} SCIO`,
-  title: `${name} 2026 | 2nd - 3rd October`,
   description:
     'A leading UK Microsoft community event, offering expert-led sessions on Dynamics 365, Power Platform, Azure, and more',
   logo: {

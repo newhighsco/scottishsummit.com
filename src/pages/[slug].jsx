@@ -1,33 +1,30 @@
 import { Prose } from '@newhighsco/chipset'
-import { string } from 'prop-types'
+import { array, string } from 'prop-types'
 import React from 'react'
 
 import EventHeading from '~components/Events/EventHeading'
+import EventSpeakers from '~components/Events/EventSpeakers'
 import PageContainer from '~components/PageContainer'
 import Section from '~components/Section'
 import config from '~config'
 import events from '~data/events.json'
+import { eventTitle } from '~utils/format'
 import { canonicalUrl, eventUrl } from '~utils/urls'
 
-const { name } = config
+const { currentEventSlug } = config
 
 const EventPage = props => {
-  const { slug, date } = props
-  const title = [name, slug].join(' ')
+  const { slug, speakers } = props
   const meta = {
     canonical: canonicalUrl(eventUrl(slug)),
-    title: [title, date].join(' | ')
+    customTitle: true,
+    title: eventTitle(props)
   }
 
   return (
     <PageContainer meta={meta}>
       <EventHeading {...props} />
-      <Section align="center" variant="light">
-        <Prose>
-          <h2>Speakers</h2>
-          <p>Coming soon</p>
-        </Prose>
-      </Section>
+      <EventSpeakers speakers={speakers} />
       <Section align="center" variant="striped">
         <Prose>
           <h2>Sessions</h2>
@@ -40,8 +37,9 @@ const EventPage = props => {
 
 EventPage.propTypes = {
   slug: string,
-  date: string,
-  location: string
+  displayDate: string,
+  speakers: array,
+  sessions: array
 }
 
 export const getStaticProps = async ({ params }) => {
@@ -49,6 +47,10 @@ export const getStaticProps = async ({ params }) => {
 
   if (!event) {
     return { notFound: true }
+  }
+
+  if (event.slug === currentEventSlug) {
+    return { redirect: { permanent: false, destination: '/' } }
   }
 
   return { props: event }
