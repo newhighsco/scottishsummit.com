@@ -49,15 +49,13 @@ export const getStaticProps = async ({ params }) => {
     return { notFound: true }
   }
 
-  if (event.slug === currentEventSlug) {
-    return { redirect: { permanent: false, destination: '/' } }
-  }
-
   return { props: event }
 }
 
 export const getStaticPaths = async () => ({
-  paths: events.map(({ slug }) => ({ params: { slug } })),
+  paths: events
+    .filter(({ slug }) => slug !== currentEventSlug)
+    .map(({ slug }) => ({ params: { slug } })),
   fallback: false
 })
 

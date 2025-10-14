@@ -17,6 +17,11 @@ const nextConfig = {
   poweredByHeader: false,
   redirects: () => [
     {
+      source: '/2026',
+      destination: '/',
+      permanent: false
+    },
+    {
       source: '/sponsor-pack',
       destination: '/downloads/Scottish Summit 2026 Sponsor Opportunities.pdf',
       permanent: true
