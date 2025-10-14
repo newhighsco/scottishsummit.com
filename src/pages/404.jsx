@@ -1,11 +1,17 @@
 import { Prose, SmartLink } from '@newhighsco/chipset'
-import { object } from 'prop-types'
 import React from 'react'
 
 import PageContainer from '~components/PageContainer'
 import Section from '~components/Section'
 
-const NotFoundPage = ({ meta }) => (
+const meta = {
+  title: 'Page not found',
+  description: 'Sorry, this page could not be found',
+  noindex: true,
+  nofollow: true
+}
+
+const NotFoundPage = () => (
   <PageContainer meta={meta}>
     <Section size="desktop" variant="light">
       <Prose>
@@ -19,22 +25,5 @@ const NotFoundPage = ({ meta }) => (
     </Section>
   </PageContainer>
 )
-
-NotFoundPage.propTypes = {
-  meta: object
-}
-
-export async function getStaticProps() {
-  return {
-    props: {
-      meta: {
-        title: 'Page not found',
-        description: 'Sorry, this page could not be found',
-        noindex: true,
-        nofollow: true
-      }
-    }
-  }
-}
 
 export default NotFoundPage
