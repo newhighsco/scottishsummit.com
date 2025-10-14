@@ -17,7 +17,7 @@
     }
   }
 
-  &::after {
+  &[data-arrow]::after {
     color: colors.$white;
     display: block;
     content: '';
@@ -43,10 +43,6 @@
 
       @include mixins.triangle('right', functions.spacing(3));
     }
-  }
-
-  &[data-last]::after {
-    content: none;
   }
 }
 

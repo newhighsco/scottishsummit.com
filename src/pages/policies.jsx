@@ -1,5 +1,4 @@
 import { Prose, SmartLink } from '@newhighsco/chipset'
-import { object } from 'prop-types'
 import React from 'react'
 
 import PageContainer from '~components/PageContainer'
@@ -7,13 +6,15 @@ import ProseSection from '~components/ProseSection'
 import Section from '~components/Section'
 import config from '~config'
 import { mailto } from '~utils/format'
+import { canonicalUrl } from '~utils/urls'
 
 const { name, email, url } = config
+const meta = { canonical: canonicalUrl('/policies'), title: 'Policies' }
 const size = 'desktop'
 
 const ContactLink = () => <SmartLink href={mailto(email)}>{email}</SmartLink>
 
-const NotFoundPage = ({ meta }) => (
+const PoliciesPage = () => (
   <PageContainer meta={meta}>
     <Section variant="dark" size={size}>
       <Prose>
@@ -473,12 +474,4 @@ const NotFoundPage = ({ meta }) => (
   </PageContainer>
 )
 
-NotFoundPage.propTypes = {
-  meta: object
-}
-
-export async function getStaticProps() {
-  return { props: { meta: { title: 'Policies' } } }
-}
-
-export default NotFoundPage
+export default PoliciesPage

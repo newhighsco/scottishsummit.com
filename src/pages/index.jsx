@@ -1,8 +1,6 @@
 import { Button, Card, Grid, Prose } from '@newhighsco/chipset'
 import { EventJsonLd, LogoJsonLd, SocialProfileJsonLd } from 'next-seo'
-import { arrayOf, object, string } from 'prop-types'
 import React, { Fragment } from 'react'
-import urlJoin from 'url-join'
 
 import PageContainer from '~components/PageContainer'
 import Section from '~components/Section'
@@ -10,6 +8,7 @@ import Video from '~components/Video'
 import config from '~config'
 import heroImage from '~images/2023.jpg'
 import { mailto } from '~utils/format'
+import { canonicalUrl } from '~utils/urls'
 
 const { name, organisationName, title, logo, email, socialLinks, url } = config
 const organizer = {
@@ -29,8 +28,13 @@ const timeline = [
   { heading: 'Workshops', children: 'October 2nd, 2026' },
   { heading: 'Event Day', children: 'October 3rd, 2026' }
 ]
+const meta = {
+  canonical: canonicalUrl(),
+  customTitle: true,
+  title
+}
 
-const HomePage = ({ meta }) => (
+const HomePage = () => (
   <PageContainer meta={meta}>
     <SocialProfileJsonLd {...organizer} />
     <EventJsonLd
@@ -50,7 +54,7 @@ const HomePage = ({ meta }) => (
       }}
       organizer={{ ...organizer, name: organisationName }}
     />
-    {logo?.bitmap && <LogoJsonLd url={url} logo={urlJoin(url, logo.bitmap)} />}
+    {logo?.bitmap && <LogoJsonLd url={url} logo={canonicalUrl(logo.bitmap)} />}
     <Section
       align="center"
       size="desktop"
@@ -122,7 +126,7 @@ const HomePage = ({ meta }) => (
             <Grid.Item sizes="tablet-landscape-one-fifth">
               <Card
                 heading={<h3>{heading}</h3>}
-                data-last={index === timeline.length - 1 ? true : undefined}
+                data-arrow={index === timeline.length - 1 ? undefined : true}
                 {...rest}
               />
             </Grid.Item>
@@ -132,22 +136,5 @@ const HomePage = ({ meta }) => (
     </Section>
   </PageContainer>
 )
-
-HomePage.propTypes = {
-  meta: object,
-  timeline: arrayOf({ heading: string, date: string })
-}
-
-export async function getStaticProps() {
-  return {
-    props: {
-      meta: {
-        canonical: urlJoin(url, '/#become-a-sponsor'),
-        customTitle: true,
-        title
-      }
-    }
-  }
-}
 
 export default HomePage
