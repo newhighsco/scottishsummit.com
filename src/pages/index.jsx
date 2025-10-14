@@ -1,7 +1,6 @@
 import { Button, Card, Grid, Prose } from '@newhighsco/chipset'
 import { LogoJsonLd, SocialProfileJsonLd } from 'next-seo'
 import React, { Fragment } from 'react'
-import urlJoin from 'url-join'
 
 import EventHeading from '~components/Events/EventHeading'
 import PageContainer from '~components/PageContainer'
@@ -41,7 +40,7 @@ const meta = {
 const HomePage = () => (
   <PageContainer meta={meta}>
     <SocialProfileJsonLd {...organizer} />
-    {logo?.bitmap && <LogoJsonLd url={url} logo={urlJoin(url, logo.bitmap)} />}
+    {logo?.bitmap && <LogoJsonLd url={url} logo={canonicalUrl(logo.bitmap)} />}
     <EventHeading
       {...currentEvent}
       description={
