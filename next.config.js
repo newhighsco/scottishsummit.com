@@ -7,6 +7,7 @@ const nextConfig = {
     ignoreDuringBuilds: true
   },
   images: {
+    domains: ['i.ytimg.com'],
     formats: ['image/avif', 'image/webp']
   },
   i18n: {
