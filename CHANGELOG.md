@@ -1,3 +1,10 @@
+## [1.10.6](https://github.com/newhighsco/scottishsummit.com/compare/v1.10.5...v1.10.6) (2025-10-16)
+
+
+### Bug Fixes
+
+* **video:** improve lazy loading ([#80](https://github.com/newhighsco/scottishsummit.com/issues/80)) ([d1160a0](https://github.com/newhighsco/scottishsummit.com/commit/d1160a0b046176cb0d4e2e1207ba611003f0d503))
+
 ## [1.10.5](https://github.com/newhighsco/scottishsummit.com/compare/v1.10.4...v1.10.5) (2025-10-16)
 
 
