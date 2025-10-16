@@ -1,3 +1,10 @@
+## [1.10.5](https://github.com/newhighsco/scottishsummit.com/compare/v1.10.4...v1.10.5) (2025-10-16)
+
+
+### Bug Fixes
+
+* pre-soft launch changes ([#78](https://github.com/newhighsco/scottishsummit.com/issues/78)) ([69aa6e7](https://github.com/newhighsco/scottishsummit.com/commit/69aa6e7e0ef56bb52491d3b7b217bcf147e08a26))
+
 ## [1.10.4](https://github.com/newhighsco/scottishsummit.com/compare/v1.10.3...v1.10.4) (2025-10-15)
 
 
