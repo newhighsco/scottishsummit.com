@@ -111,9 +111,7 @@ const HomePage = () => (
         <Button href="/sponsor-pack" download>
           Download Sponsor Pack
         </Button>
-        <Button href={mailto('sponsor@scottishsummit.com')}>
-          Become a Sponsor
-        </Button>
+        <Button href={mailto(email)}>Become a Sponsor</Button>
       </Button.Group>
     </Section>
     <Section align="center" size="desktop" variant="striped">

@@ -15,11 +15,11 @@ const nextConfig = {
     defaultLocale: 'en'
   },
   poweredByHeader: false,
-  redirects: () => [
+  rewrites: () => [
     {
       source: '/sponsor-pack',
-      destination: '/downloads/Scottish Summit 2026 Sponsor Opportunities.pdf',
-      permanent: true
+      destination:
+        'https://scottishsummitwebsite.blob.core.windows.net/resources/Scottish%20Summit%2026%20Sponsor%20Opportunities.pdf'
     }
   ],
   transpilePackages: ['@newhighsco/chipset', '@newhighsco/press-start'],

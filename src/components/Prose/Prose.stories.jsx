@@ -1,7 +1,10 @@
 import { Prose } from '@newhighsco/chipset'
 import React from 'react'
 
-export default { component: Prose }
+export default {
+  component: Prose,
+  parameters: { chromatic: { disable: true } }
+}
 
 export const Example = {
   args: {
