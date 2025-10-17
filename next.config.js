@@ -7,8 +7,8 @@ const nextConfig = {
     ignoreDuringBuilds: true
   },
   images: {
-    domains: ['i.ytimg.com'],
-    formats: ['image/avif', 'image/webp']
+    formats: ['image/avif', 'image/webp'],
+    remotePatterns: [new URL('https://i.ytimg.com/vi/**')]
   },
   i18n: {
     locales: ['en'],
