@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/newhighsco/scottishsummit.com/compare/v1.10.6...v1.11.0) (2025-10-17)
+
+
+### Features
+
+* **video:** optimise loading ([#81](https://github.com/newhighsco/scottishsummit.com/issues/81)) ([e97d203](https://github.com/newhighsco/scottishsummit.com/commit/e97d203947be5d3c9010682c426701d68c38af58))
+
 ## [1.10.6](https://github.com/newhighsco/scottishsummit.com/compare/v1.10.5...v1.10.6) (2025-10-16)
 
 
