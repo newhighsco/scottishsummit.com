@@ -1,3 +1,10 @@
+## [1.11.1](https://github.com/newhighsco/scottishsummit.com/compare/v1.11.0...v1.11.1) (2025-10-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v15.5.6 ([#82](https://github.com/newhighsco/scottishsummit.com/issues/82)) ([9c6c307](https://github.com/newhighsco/scottishsummit.com/commit/9c6c307cb96b11b630b527469eb7efcb48e349b1))
+
 # [1.11.0](https://github.com/newhighsco/scottishsummit.com/compare/v1.10.6...v1.11.0) (2025-10-17)
 
 
