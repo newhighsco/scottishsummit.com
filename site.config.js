@@ -11,7 +11,7 @@ const config = {
   organisationName: `${name} SCIO`,
   title: `${name} 2026 | 2nd - 3rd October`,
   description:
-    'A leading UK Microsoft community event, offering expert-led sessions on Dynamics 365, Power Platform, Azure, and more',
+    'Putting AI and Copilot at the heart of the UK’s top Microsoft community event, connecting innovators and experts across Dynamics 365, Power Platform, M365 and Azure.',
   logo: {
     bitmap: logoBitmap.src,
     vector: logoVector
