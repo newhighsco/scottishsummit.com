@@ -12,11 +12,8 @@ const config = {
   name,
   organisationName: `${name} SCIO`,
   description:
-    'A leading UK Microsoft community event, offering expert-led sessions on Dynamics 365, Power Platform, Azure, and more',
-  logo: {
-    bitmap: logoBitmap.src,
-    vector: logoVector
-  },
+    'Putting AI and Copilot at the heart of the UK’s top Microsoft community event, connecting innovators and experts across Dynamics 365, Power Platform, M365 and Azure.',
+  logo: { bitmap: logoBitmap.src, vector: logoVector },
   openGraphImage: openGraphImage.src,
   themeColor: colors.space,
   twitterHandle: 'scottishsummit',

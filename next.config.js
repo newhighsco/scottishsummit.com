@@ -3,28 +3,19 @@ const withSvgr = require('@newhighsco/next-plugin-svgr')
 const withVideos = require('next-videos')
 
 const nextConfig = {
-  eslint: {
-    ignoreDuringBuilds: true
-  },
-  generateBuildId: () => 'build',
+  eslint: { ignoreDuringBuilds: true },
   images: {
-    formats: ['image/avif', 'image/webp']
+    formats: ['image/avif', 'image/webp'],
+    remotePatterns: [new URL('https://i.ytimg.com/vi/**')]
   },
-  i18n: {
-    locales: ['en'],
-    defaultLocale: 'en'
-  },
+  i18n: { locales: ['en'], defaultLocale: 'en' },
   poweredByHeader: false,
-  redirects: () => [
-    {
-      source: '/2026',
-      destination: '/',
-      permanent: false
-    },
+  redirects: () => [{ source: '/2026', destination: '/', permanent: false }],
+  rewrites: () => [
     {
       source: '/sponsor-pack',
-      destination: '/downloads/Scottish Summit 2026 Sponsor Opportunities.pdf',
-      permanent: true
+      destination:
+        'https://scottishsummitwebsite.blob.core.windows.net/resources/Scottish%20Summit%2026%20Sponsor%20Opportunities.pdf'
     }
   ],
   transpilePackages: ['@newhighsco/chipset', '@newhighsco/press-start'],

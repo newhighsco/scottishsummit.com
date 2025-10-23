@@ -45,8 +45,9 @@ const HomePage = () => (
       {...currentEvent}
       description={
         <p>
-          {name} is a leading UK Microsoft community event, offering expert-led
-          sessions on Dynamics 365, Power Platform, Azure, and more.
+          {name} puts AI and Copilot at the heart of the UK’s top Microsoft
+          community event, connecting innovators and experts across Dynamics
+          365, Power Platform, M365 and Azure.
         </p>
       }
       background={{
@@ -67,9 +68,11 @@ const HomePage = () => (
           <Prose align="center">
             <h2>More Than Just a Conference</h2>
             <p>
-              {name} is about community, innovation, and sharing knowledge. Join
-              fellow Microsoft professionals, MVPs, and industry leaders for two
-              days of in-depth sessions, networking, and have fun along the way!
+              {name} celebrates community and innovation in the age of AI. Dive
+              into the world of Copilot and discover how Microsoft
+              professionals, MVPs, and industry leaders are shaping the future
+              with Dynamics 365, Power Platform, M365 nd Azure. Learn, connect,
+              and have fun along the way!
             </p>
           </Prose>
         </Grid.Item>
@@ -91,9 +94,7 @@ const HomePage = () => (
         <Button href="/sponsor-pack" download>
           Download Sponsor Pack
         </Button>
-        <Button href={mailto('sponsor@scottishsummit.com')}>
-          Become a Sponsor
-        </Button>
+        <Button href={mailto(email)}>Become a Sponsor</Button>
       </Button.Group>
     </Section>
     <Section align="center" size="desktop" variant="striped">

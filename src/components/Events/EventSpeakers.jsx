@@ -31,8 +31,6 @@ const EventSpeakers = ({ speakers = [] }) => (
   </Section>
 )
 
-EventSpeakers.propTypes = {
-  speakers: array
-}
+EventSpeakers.propTypes = { speakers: array }
 
 export default EventSpeakers

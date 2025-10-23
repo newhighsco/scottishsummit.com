@@ -19,10 +19,6 @@ const ProseSection = ({ heading, alt, children }) => (
   </Section>
 )
 
-ProseSection.propTypes = {
-  heading: string,
-  alt: bool,
-  children: node
-}
+ProseSection.propTypes = { heading: string, alt: bool, children: node }
 
 export default ProseSection

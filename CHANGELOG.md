@@ -1,3 +1,45 @@
+## [1.11.2](https://github.com/newhighsco/scottishsummit.com/compare/v1.11.1...v1.11.2) (2025-10-22)
+
+
+### Bug Fixes
+
+* **deps:** update newhighsco packages ([#86](https://github.com/newhighsco/scottishsummit.com/issues/86)) ([6151d30](https://github.com/newhighsco/scottishsummit.com/commit/6151d30bf3558f2b2102e630d0a56c4d9a7e8519))
+
+## [1.11.1](https://github.com/newhighsco/scottishsummit.com/compare/v1.11.0...v1.11.1) (2025-10-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v15.5.6 ([#82](https://github.com/newhighsco/scottishsummit.com/issues/82)) ([9c6c307](https://github.com/newhighsco/scottishsummit.com/commit/9c6c307cb96b11b630b527469eb7efcb48e349b1))
+
+# [1.11.0](https://github.com/newhighsco/scottishsummit.com/compare/v1.10.6...v1.11.0) (2025-10-17)
+
+
+### Features
+
+* **video:** optimise loading ([#81](https://github.com/newhighsco/scottishsummit.com/issues/81)) ([e97d203](https://github.com/newhighsco/scottishsummit.com/commit/e97d203947be5d3c9010682c426701d68c38af58))
+
+## [1.10.6](https://github.com/newhighsco/scottishsummit.com/compare/v1.10.5...v1.10.6) (2025-10-16)
+
+
+### Bug Fixes
+
+* **video:** improve lazy loading ([#80](https://github.com/newhighsco/scottishsummit.com/issues/80)) ([d1160a0](https://github.com/newhighsco/scottishsummit.com/commit/d1160a0b046176cb0d4e2e1207ba611003f0d503))
+
+## [1.10.5](https://github.com/newhighsco/scottishsummit.com/compare/v1.10.4...v1.10.5) (2025-10-16)
+
+
+### Bug Fixes
+
+* pre-soft launch changes ([#78](https://github.com/newhighsco/scottishsummit.com/issues/78)) ([69aa6e7](https://github.com/newhighsco/scottishsummit.com/commit/69aa6e7e0ef56bb52491d3b7b217bcf147e08a26))
+
+## [1.10.4](https://github.com/newhighsco/scottishsummit.com/compare/v1.10.3...v1.10.4) (2025-10-15)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v15.5.5 ([#77](https://github.com/newhighsco/scottishsummit.com/issues/77)) ([37f398f](https://github.com/newhighsco/scottishsummit.com/commit/37f398ff7c77c2d04b18b0f6a3f9bd171d445825))
+
 ## [1.10.3](https://github.com/newhighsco/scottishsummit.com/compare/v1.10.2...v1.10.3) (2025-10-14)
 
 
