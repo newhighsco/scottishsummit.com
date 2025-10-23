@@ -3,17 +3,12 @@ const withSvgr = require('@newhighsco/next-plugin-svgr')
 const withVideos = require('next-videos')
 
 const nextConfig = {
-  eslint: {
-    ignoreDuringBuilds: true
-  },
+  eslint: { ignoreDuringBuilds: true },
   images: {
     formats: ['image/avif', 'image/webp'],
     remotePatterns: [new URL('https://i.ytimg.com/vi/**')]
   },
-  i18n: {
-    locales: ['en'],
-    defaultLocale: 'en'
-  },
+  i18n: { locales: ['en'], defaultLocale: 'en' },
   poweredByHeader: false,
   rewrites: () => [
     {

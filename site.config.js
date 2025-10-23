@@ -12,10 +12,7 @@ const config = {
   title: `${name} 2026 | 2nd - 3rd October`,
   description:
     'Putting AI and Copilot at the heart of the UK’s top Microsoft community event, connecting innovators and experts across Dynamics 365, Power Platform, M365 and Azure.',
-  logo: {
-    bitmap: logoBitmap.src,
-    vector: logoVector
-  },
+  logo: { bitmap: logoBitmap.src, vector: logoVector },
   openGraphImage: openGraphImage.src,
   themeColor: colors.space,
   twitterHandle: 'scottishsummit',

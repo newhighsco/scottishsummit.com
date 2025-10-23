@@ -11,10 +11,6 @@ export const Dark = {
   args: { children: <Prose {...ProseStory.args} />, variant: 'dark' }
 }
 
-export const Light = {
-  args: { ...Dark.args, variant: 'light' }
-}
+export const Light = { args: { ...Dark.args, variant: 'light' } }
 
-export const Striped = {
-  args: { ...Dark.args, variant: 'striped' }
-}
+export const Striped = { args: { ...Dark.args, variant: 'striped' } }
