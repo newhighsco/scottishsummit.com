@@ -2050,10 +2050,10 @@
     "@newhighsco/chipset" "6.25.2"
     next-seo "6.8.0"
 
-"@newhighsco/prettier-config@2.3.1":
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.3.1.tgz#424c0c09f3611ae9bb427829ee06eaec8d737794"
-  integrity sha512-UEC5VQc/aKlWw76VbOKsuSbnPNT4cELprInacEwPLroUcwj1A4nyoUASyuMIMWY6FMvIK/488nkwtVyo1sC6vg==
+"@newhighsco/prettier-config@2.3.2":
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.3.2.tgz#9f400cca221372fc5b05dec749c59bb5da669a4d"
+  integrity sha512-p7QE7Etfr5bzMsVx0gL0kYeI8og7lGKap0CzrzRd+nnBjtanXPPITJd6eoRQYJCUSgSs59i2bhgf/+jiws8Gyw==
 
 "@newhighsco/release-config@1.4.16":
   version "1.4.16"

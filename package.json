@@ -39,7 +39,7 @@
     "snapshot": "chromatic --storybook-build-dir storybook --auto-accept-changes main --exit-once-uploaded --only-changed",
     "lint": "concurrently yarn:lint:*",
     "lint:js": "eslint --cache .",
-    "lint:css": "stylelint --cache --ignore-path .gitignore '**/*.?(s)css'",
+    "lint:css": "stylelint --cache --ignore-path .gitignore \"**/*.?(s)css\"",
     "format": "concurrently yarn:format:*",
     "format:js": "yarn lint:js --fix",
     "format:css": "yarn lint:css --fix"
@@ -64,7 +64,7 @@
     "@newhighsco/editor-config": "1.2.0",
     "@newhighsco/eslint-config": "5.1.1",
     "@newhighsco/postcss-config": "4.0.0",
-    "@newhighsco/prettier-config": "2.3.1",
+    "@newhighsco/prettier-config": "2.3.2",
     "@newhighsco/release-config": "1.4.16",
     "@newhighsco/storybook-preset": "8.2.2",
     "@newhighsco/stylelint-config": "4.0.18",
