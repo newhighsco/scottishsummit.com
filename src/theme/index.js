@@ -4,10 +4,4 @@ import ContentContainer from '~components/ContentContainer/ContentContainer.modu
 import Grid from '~components/Grid/Grid.module.scss'
 import Prose from '~components/Prose/Prose.module.scss'
 
-export default {
-  Button,
-  Card,
-  ContentContainer,
-  Grid,
-  Prose
-}
+export default { Button, Card, ContentContainer, Grid, Prose }

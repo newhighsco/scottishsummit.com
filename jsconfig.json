@@ -2,32 +2,14 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "~components/*": [
-        "src/components/*"
-      ],
-      "~config": [
-        "site.config"
-      ],
-      "~data/*": [
-        "src/data/*"
-      ],
-      "~images/*": [
-        "src/images/*"
-      ],
-      "~styles/*": [
-        "src/styles/_*.scss",
-        "src/styles/*.scss"
-      ],
-      "~theme": [
-        "src/theme"
-      ],
-      "~utils/*": [
-        "src/utils/*"
-      ]
+      "~components/*": ["src/components/*"],
+      "~config": ["site.config"],
+      "~data/*": ["src/data/*"],
+      "~images/*": ["src/images/*"],
+      "~styles/*": ["src/styles/_*.scss", "src/styles/*.scss"],
+      "~theme": ["src/theme"],
+      "~utils/*": ["src/utils/*"]
     }
   },
-  "include": [
-    ".storybook/**/*",
-    "src/**/*"
-  ]
+  "include": [".storybook/**/*", "src/**/*"]
 }

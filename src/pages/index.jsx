@@ -28,11 +28,7 @@ const timeline = [
   { heading: 'Workshops', children: 'October 2nd, 2026' },
   { heading: 'Event Day', children: 'October 3rd, 2026' }
 ]
-const meta = {
-  canonical: canonicalUrl(),
-  customTitle: true,
-  title
-}
+const meta = { canonical: canonicalUrl(), customTitle: true, title }
 
 const HomePage = () => (
   <PageContainer meta={meta}>

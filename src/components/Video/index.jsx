@@ -33,10 +33,7 @@ const Video = ({ id, title }) => {
   )
 }
 
-Video.propTypes = {
-  id: string,
-  title: string
-}
+Video.propTypes = { id: string, title: string }
 
 export default Video
 export { Video }

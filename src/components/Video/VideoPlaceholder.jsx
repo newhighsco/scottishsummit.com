@@ -45,9 +45,6 @@ const VideoPlaceholder = ({ href, image }) => {
   )
 }
 
-VideoPlaceholder.propTypes = {
-  href: string,
-  image: object
-}
+VideoPlaceholder.propTypes = { href: string, image: object }
 
 export default VideoPlaceholder
