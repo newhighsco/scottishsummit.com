@@ -5,23 +5,29 @@ import React from 'react'
 
 import Section from '~components/Section'
 import config from '~config'
+import { eventHeading } from '~utils/format'
 
 const { name, organisationName, url } = config
 
 const EventHeading = ({
+  background,
   slug,
   displayDate,
   startDate,
   endDate,
   location,
-  description,
-  children,
-  ...rest
+  subheading,
+  children
 }) => {
   const [scottish, summit] = name.split(' ')
 
   return (
-    <Section align="center" size="desktop" variant="dark" {...rest}>
+    <Section
+      align="center"
+      size="desktop"
+      variant="dark"
+      background={background}
+    >
       <EventJsonLd
         name={[name, slug].join(' ')}
         startDate={startDate}
@@ -33,8 +39,8 @@ const EventHeading = ({
         <h1>
           {scottish} <strong>{summit}</strong> {slug}
         </h1>
-        {description}
-        <p>{[location?.name, displayDate].join(' | ')}</p>
+        {subheading}
+        <p>{eventHeading({ location, displayDate })}</p>
       </Prose>
       {children}
     </Section>
@@ -42,12 +48,13 @@ const EventHeading = ({
 }
 
 EventHeading.propTypes = {
+  background: object,
   slug: string,
   displayDate: string,
   startDate: string,
   endDate: string,
   location: object,
-  description: node,
+  subheading: node,
   children: node
 }
 

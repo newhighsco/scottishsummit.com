@@ -1,20 +1,21 @@
-import { Prose } from '@newhighsco/chipset'
-import { array, string } from 'prop-types'
+import { Card, Grid, Prose } from '@newhighsco/chipset'
+import { object, string } from 'prop-types'
 import React from 'react'
 
 import EventHeading from '~components/Events/EventHeading'
-import EventSpeakers from '~components/Events/EventSpeakers'
 import PageContainer from '~components/PageContainer'
+import ProseSection from '~components/ProseSection'
 import Section from '~components/Section'
+import Video from '~components/Video'
 import config from '~config'
 import events from '~data/events.json'
 import { eventTitle } from '~utils/format'
 import { canonicalUrl, eventUrl } from '~utils/urls'
 
-const { currentEventSlug } = config
+const { name, currentEventSlug } = config
 
 const EventPage = props => {
-  const { slug, speakers } = props
+  const { slug, description, stats, keynote } = props
   const meta = {
     canonical: canonicalUrl(eventUrl(slug)),
     customTitle: true,
@@ -24,13 +25,44 @@ const EventPage = props => {
   return (
     <PageContainer meta={meta}>
       <EventHeading {...props} />
-      <EventSpeakers speakers={speakers} />
-      <Section align="center" variant="striped">
-        <Prose>
-          <h2>Sessions</h2>
-          <p>Coming soon</p>
-        </Prose>
-      </Section>
+      {description && (
+        <ProseSection align="center" as="div">
+          <p>{description}</p>
+        </ProseSection>
+      )}
+      {stats && (
+        <Section align="center" size="tablet">
+          <Grid flex>
+            {Object.entries(stats).map(([key, value]) => (
+              <Grid.Item key={key} sizes="one-half">
+                <Card heading={<h2>{key}</h2>}>{value}</Card>
+              </Grid.Item>
+            ))}
+          </Grid>
+        </Section>
+      )}
+      {keynote && (
+        <Section id="about" variant="striped">
+          <Grid gutter valign="middle">
+            <Grid.Item sizes="desktop-one-half">
+              <Prose align="center">
+                <h2>Keynote</h2>
+                <p>
+                  {keynote.name}
+                  <br />
+                  {keynote.title}
+                </p>
+              </Prose>
+            </Grid.Item>
+            <Grid.Item sizes="desktop-hidden">
+              <br />
+            </Grid.Item>
+            <Grid.Item sizes="desktop-one-half">
+              <Video id={keynote.videoId} title={`${name} ${slug} Keynote`} />
+            </Grid.Item>
+          </Grid>
+        </Section>
+      )}
     </PageContainer>
   )
 }
@@ -38,8 +70,9 @@ const EventPage = props => {
 EventPage.propTypes = {
   slug: string,
   displayDate: string,
-  speakers: array,
-  sessions: array
+  description: string,
+  stats: object,
+  keynote: object
 }
 
 export const getStaticProps = async ({ params }) => {

@@ -43,7 +43,7 @@ const HomePage = () => (
     {logo?.bitmap && <LogoJsonLd url={url} logo={canonicalUrl(logo.bitmap)} />}
     <EventHeading
       {...currentEvent}
-      description={
+      subheading={
         <p>
           {name} puts AI and Copilot at the heart of the UK’s top Microsoft
           community event, connecting innovators and experts across Dynamics
@@ -80,7 +80,7 @@ const HomePage = () => (
           <br />
         </Grid.Item>
         <Grid.Item sizes="desktop-one-half">
-          <Video id="nxAxsFSVHHM" title="Scottish Summit 2024 Keynote" />
+          <Video id="nxAxsFSVHHM" title={`${name} 2024 Keynote`} />
         </Grid.Item>
       </Grid>
     </Section>

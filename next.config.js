@@ -10,7 +10,6 @@ const nextConfig = {
   },
   i18n: { locales: ['en'], defaultLocale: 'en' },
   poweredByHeader: false,
-  redirects: () => [{ source: '/2026', destination: '/', permanent: false }],
   rewrites: () => [
     {
       source: '/sponsor-pack',
