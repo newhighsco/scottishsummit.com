@@ -5,7 +5,7 @@ import {
   Navigation,
   SmartLink
 } from '@newhighsco/chipset'
-import React from 'react'
+import React, { type FC } from 'react'
 
 import config from '~config'
 import footer from '~data/footer.json'
@@ -26,7 +26,7 @@ const iconLinks = {
   Instagram: { icon: InstagramIcon }
 }
 
-const Footer = () => (
+const Footer: FC = () => (
   <FooterContainer align="center" gutter theme={{ root: styles.root }}>
     <ContentContainer size="desktopLarge" theme={{ content: styles.content }}>
       <SmartLink href="/" className={styles.logoLockup}>

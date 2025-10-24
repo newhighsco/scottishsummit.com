@@ -1,11 +1,12 @@
 import { Prose } from '@newhighsco/chipset'
-import { bool, node, string } from 'prop-types'
-import React from 'react'
+import React, { type FC, type PropsWithChildren } from 'react'
 
 import Section from '~components/Section'
 import { slugify } from '~utils/format'
 
-const ProseSection = ({ heading, alt, children }) => (
+type Props = PropsWithChildren<{ heading?: string; alt?: boolean }>
+
+const ProseSection: FC<Props> = ({ heading, alt, children }) => (
   <Section
     as="section"
     id={slugify(heading) ?? undefined}
@@ -18,7 +19,5 @@ const ProseSection = ({ heading, alt, children }) => (
     </Prose>
   </Section>
 )
-
-ProseSection.propTypes = { heading: string, alt: bool, children: node }
 
 export default ProseSection

@@ -1,7 +1,8 @@
-import '~styles/app'
+import '~styles/app.scss'
 
 import { AppPage } from '@newhighsco/press-start'
-import React from 'react'
+import { type AppProps } from 'next/app'
+import React, { type FC } from 'react'
 
 import config from '~config'
 import theme from '~theme'
@@ -18,7 +19,7 @@ const meta = {
   }))
 }
 
-const App = props => (
+const App: FC<AppProps> = props => (
   <AppPage {...props} theme={theme} config={config} meta={meta} />
 )
 

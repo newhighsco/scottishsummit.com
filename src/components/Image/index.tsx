@@ -1,10 +1,10 @@
 import { Image as BaseImage } from '@newhighsco/chipset'
-import React from 'react'
+import React, { type FC } from 'react'
 
 import styles from './Image.module.scss'
 import ImagePreload from './ImagePreload'
 
-const Image = props => (
+const Image: FC = props => (
   <span className={styles.root}>
     <BaseImage {...props} />
   </span>

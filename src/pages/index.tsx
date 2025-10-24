@@ -1,5 +1,11 @@
 import { Button, Card, Grid, Prose } from '@newhighsco/chipset'
-import { EventJsonLd, LogoJsonLd, SocialProfileJsonLd } from 'next-seo'
+import { type NextPage } from 'next'
+import {
+  EventJsonLd,
+  LogoJsonLd,
+  SocialProfileJsonLd,
+  type SocialProfileJsonLdProps
+} from 'next-seo'
 import React, { Fragment } from 'react'
 
 import PageContainer from '~components/PageContainer'
@@ -11,7 +17,7 @@ import { mailto } from '~utils/format'
 import { canonicalUrl } from '~utils/urls'
 
 const { name, organisationName, title, logo, email, socialLinks, url } = config
-const organizer = {
+const organizer: SocialProfileJsonLdProps = {
   type: 'Organization',
   name,
   url,
@@ -30,7 +36,7 @@ const timeline = [
 ]
 const meta = { canonical: canonicalUrl(), customTitle: true, title }
 
-const HomePage = () => (
+const HomePage: NextPage = () => (
   <PageContainer meta={meta}>
     <SocialProfileJsonLd {...organizer} />
     <EventJsonLd
