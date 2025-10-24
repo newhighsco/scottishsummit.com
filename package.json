@@ -38,7 +38,7 @@
     "test": "yarn lint",
     "snapshot": "chromatic --storybook-build-dir storybook --auto-accept-changes main --exit-once-uploaded --only-changed",
     "lint": "concurrently yarn:lint:*",
-    "lint:js": "eslint --cache .",
+    "lint:js": "eslint .",
     "lint:css": "stylelint --cache --ignore-path .gitignore \"**/*.?(s)css\"",
     "format": "concurrently yarn:format:*",
     "format:js": "yarn lint:js --fix",

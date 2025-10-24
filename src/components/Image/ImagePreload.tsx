@@ -1,8 +1,8 @@
+import { type ImgProps } from 'next/dist/shared/lib/get-img-props'
 import Head from 'next/head'
-import { string } from 'prop-types'
-import React from 'react'
+import React, { type FC } from 'react'
 
-const ImagePreload = ({
+const ImagePreload: FC<ImgProps> = ({
   src,
   srcSet,
   sizes,
@@ -25,15 +25,6 @@ const ImagePreload = ({
       />
     </Head>
   )
-}
-
-ImagePreload.propTypes = {
-  src: string,
-  srcSet: string,
-  sizes: string,
-  crossOrigin: string,
-  referrerPolicy: string,
-  fetchPriority: string
 }
 
 export default ImagePreload

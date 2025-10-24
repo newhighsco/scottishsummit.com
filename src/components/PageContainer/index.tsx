@@ -3,8 +3,7 @@ import {
   PageContainer as ThemedPageContainer
 } from '@newhighsco/chipset'
 import { Meta } from '@newhighsco/press-start'
-import { node, object } from 'prop-types'
-import React from 'react'
+import React, { type FC, type PropsWithChildren } from 'react'
 
 import Footer from '~components/Footer'
 import Header from '~components/Header'
@@ -13,7 +12,9 @@ import backdropUrl from '~images/tartan.svg'
 
 import styles from './PageContainer.module.scss'
 
-const PageContainer = ({ meta, children }) => (
+type Props = PropsWithChildren<{ meta: any }>
+
+const PageContainer: FC<Props> = ({ meta, children }) => (
   <ThemedPageContainer
     header={<Header />}
     footer={
@@ -30,8 +31,6 @@ const PageContainer = ({ meta, children }) => (
     {children}
   </ThemedPageContainer>
 )
-
-PageContainer.propTypes = { meta: object, children: node }
 
 export default PageContainer
 export { PageContainer }

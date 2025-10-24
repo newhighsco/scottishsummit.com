@@ -1,10 +1,15 @@
 import { Image } from '@newhighsco/chipset'
-import { object, string } from 'prop-types'
-import React from 'react'
+import { type ImageProps } from 'next/image'
+import React, { type FC } from 'react'
 
-import colors from '~styles/_colors.module'
+import colors from '~styles/colors.module.scss'
 
-const VideoPlaceholder = ({ href, image }) => {
+interface Props {
+  href: string
+  image: ImageProps
+}
+
+const VideoPlaceholder: FC<Props> = ({ href, image }) => {
   return (
     <>
       <style>{`
@@ -44,7 +49,5 @@ const VideoPlaceholder = ({ href, image }) => {
     </>
   )
 }
-
-VideoPlaceholder.propTypes = { href: string, image: object }
 
 export default VideoPlaceholder

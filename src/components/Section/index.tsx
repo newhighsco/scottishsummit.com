@@ -1,14 +1,27 @@
 import { ContentContainer } from '@newhighsco/chipset'
 import classNames from 'classnames'
-import { node, object, string } from 'prop-types'
-import React from 'react'
+import { type ImageProps } from 'next/image'
+import React, {
+  type FC,
+  type HTMLAttributes,
+  type PropsWithChildren
+} from 'react'
 
 import { ImagePreload } from '~components/Image'
 import { getBackgroundImage, getImage } from '~components/Image/utils'
 
 import styles from './Section.module.scss'
 
-const Section = ({
+type Props = HTMLAttributes<HTMLElement> &
+  PropsWithChildren<{
+    as?: string | FC
+    align?: 'left' | 'center' | 'right'
+    background?: Partial<ImageProps>
+    variant?: string
+    size?: string
+  }>
+
+const Section: FC<Props> = ({
   background: { priority, ...imageProps } = {},
   variant,
   size = 'desktopLarge',
@@ -39,13 +52,6 @@ const Section = ({
       </ContentContainer>
     </ContentContainer>
   )
-}
-
-Section.propTypes = {
-  background: object,
-  variant: string,
-  size: string,
-  children: node
 }
 
 export default Section

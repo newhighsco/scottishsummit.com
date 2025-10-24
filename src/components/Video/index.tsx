@@ -1,13 +1,17 @@
 import { ResponsiveMedia } from '@newhighsco/chipset'
 import { getImageProps } from 'next/image'
-import { string } from 'prop-types'
-import React from 'react'
+import React, { type FC } from 'react'
 import { renderToString } from 'react-dom/server'
 
 import { thumbnailUrl, videoUrl } from './utils'
 import VideoPlaceholder from './VideoPlaceholder'
 
-const Video = ({ id, title }) => {
+interface Props {
+  id: string
+  title: string
+}
+
+const Video: FC<Props> = ({ id, title }) => {
   if (!id) return null
 
   const image = getImageProps({
@@ -32,8 +36,6 @@ const Video = ({ id, title }) => {
     </ResponsiveMedia>
   )
 }
-
-Video.propTypes = { id: string, title: string }
 
 export default Video
 export { Video }

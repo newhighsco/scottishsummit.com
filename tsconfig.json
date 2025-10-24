@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "noEmit": true,
+    "incremental": true,
+    "module": "esnext",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "~components/*": ["src/components/*"],
+      "~config": ["site.config"],
+      "~data/*": ["src/data/*"],
+      "~images/*": ["src/images/*"],
+      "~styles/*": ["src/styles/_*", "src/styles/*"],
+      "~theme": ["src/theme"],
+      "~utils/*": ["src/utils/*"]
+    }
+  },
+  "include": ["next-env.d.ts", ".storybook/**/*", "**/*"],
+  "exclude": ["node_modules"]
+}

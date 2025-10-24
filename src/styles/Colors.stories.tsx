@@ -1,22 +1,27 @@
 import Color from 'colorjs.io'
-import { bool } from 'prop-types'
-import React from 'react'
+import React, { type FC } from 'react'
 
-import colors from '~styles/colors.module'
+import colors from '~styles/colors.module.scss'
 
 const WCAG21_RATIO = 4.5
 
-const getContrast = (background, foreground) => {
-  background = new Color(background)
-  foreground = new Color(foreground)
-
+const getContrast = (
+  background: string,
+  foreground: string
+): [number, boolean] => {
   const contrast =
-    Math.floor(background.contrast(foreground, 'WCAG21') * 100) / 100
+    Math.floor(
+      new Color(background).contrast(new Color(foreground), 'WCAG21') * 100
+    ) / 100
 
   return [contrast, contrast >= WCAG21_RATIO]
 }
 
-const ConstractingColors = ({ hideInsufficient = true }) => {
+interface Props {
+  hideInsufficient?: boolean
+}
+
+const ConstractingColors: FC<Props> = ({ hideInsufficient = true }) => {
   return (
     <>
       {Object.entries(colors).map(([title, background]) => (
@@ -47,8 +52,6 @@ const ConstractingColors = ({ hideInsufficient = true }) => {
     </>
   )
 }
-
-ConstractingColors.propTypes = { hideInsufficient: bool }
 
 export default { component: ConstractingColors, parameters: { layout: 'none' } }
 

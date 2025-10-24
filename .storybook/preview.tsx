@@ -1,12 +1,12 @@
 import '~styles/app'
 
 import { ThemeProvider } from '@newhighsco/chipset'
+import { type Preview } from '@storybook/nextjs'
 import React from 'react'
 
 import componentTheme from '~theme'
 
-/** @type { import('@storybook/nextjs').Preview } */
-const preview = {
+const preview: Preview = {
   decorators: [
     Story => (
       <ThemeProvider themes={componentTheme}>

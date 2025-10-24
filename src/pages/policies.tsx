@@ -1,5 +1,6 @@
 import { Prose, SmartLink } from '@newhighsco/chipset'
-import React from 'react'
+import { type NextPage } from 'next'
+import React, { type ReactNode } from 'react'
 
 import PageContainer from '~components/PageContainer'
 import ProseSection from '~components/ProseSection'
@@ -12,9 +13,11 @@ const { name, email, url } = config
 const meta = { canonical: canonicalUrl('/policies'), title: 'Policies' }
 const size = 'desktop'
 
-const ContactLink = () => <SmartLink href={mailto(email)}>{email}</SmartLink>
+const ContactLink = (): ReactNode => (
+  <SmartLink href={mailto(email)}>{email}</SmartLink>
+)
 
-const PoliciesPage = () => (
+const PoliciesPage: NextPage = () => (
   <PageContainer meta={meta}>
     <Section variant="dark" size={size}>
       <Prose>
