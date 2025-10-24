@@ -1,7 +1,7 @@
 import logoBitmap from '~images/logo.png'
 import logoVector from '~images/logo.svg'
 import openGraphImage from '~images/sharing.jpg'
-import colors from '~styles/colors.module.scss'
+import colors from '~styles/colors.module'
 
 const name = 'Scottish Summit'
 

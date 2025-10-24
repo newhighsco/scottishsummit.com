@@ -2,7 +2,7 @@ import { Image } from '@newhighsco/chipset'
 import { type ImageProps } from 'next/image'
 import React, { type FC } from 'react'
 
-import colors from '~styles/colors.module.scss'
+import colors from '~styles/colors.module'
 
 interface Props {
   href: string

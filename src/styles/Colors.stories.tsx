@@ -1,7 +1,7 @@
 import Color from 'colorjs.io'
 import React, { type FC } from 'react'
 
-import colors from '~styles/colors.module.scss'
+import colors from '~styles/colors.module'
 
 const WCAG21_RATIO = 4.5
 
