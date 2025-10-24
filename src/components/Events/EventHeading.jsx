@@ -5,12 +5,12 @@ import React from 'react'
 
 import Section from '~components/Section'
 import config from '~config'
+import background from '~images/2023.jpg'
 import { eventHeading } from '~utils/format'
 
 const { name, organisationName, url } = config
 
 const EventHeading = ({
-  background,
   slug,
   displayDate,
   startDate,
@@ -26,7 +26,13 @@ const EventHeading = ({
       align="center"
       size="desktop"
       variant="dark"
-      background={background}
+      background={{
+        width: 1024,
+        height: 399,
+        fetchPriority: 'high',
+        priority: true,
+        src: background
+      }}
     >
       <EventJsonLd
         name={[name, slug].join(' ')}
@@ -48,7 +54,6 @@ const EventHeading = ({
 }
 
 EventHeading.propTypes = {
-  background: object,
   slug: string,
   displayDate: string,
   startDate: string,

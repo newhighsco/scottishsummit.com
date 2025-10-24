@@ -8,7 +8,6 @@ import Section from '~components/Section'
 import Video from '~components/Video'
 import config from '~config'
 import events from '~data/events.json'
-import heroImage from '~images/2023.jpg'
 import { eventTitle, mailto } from '~utils/format'
 import { canonicalUrl } from '~utils/urls'
 
@@ -50,13 +49,6 @@ const HomePage = () => (
           365, Power Platform, M365 and Azure.
         </p>
       }
-      background={{
-        width: 1024,
-        height: 399,
-        fetchPriority: 'high',
-        priority: true,
-        src: heroImage
-      }}
     >
       <Button href={mailto(email)} variant="inverted">
         Find out more
