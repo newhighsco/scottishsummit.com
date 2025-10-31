@@ -1,0 +1,81 @@
+[
+  {
+    "slug": "2026",
+    "displayDate": "2nd - 3rd October 2026",
+    "startDate": "2026-10-02",
+    "endDate": "2026-10-03",
+    "location": {
+      "name": "Murrayfield Stadium",
+      "address": {
+        "streetAddress": "Roseburn Street",
+        "addressLocality": "Edinburgh",
+        "addressRegion": "Scotland",
+        "postalCode": "EH12 5PJ",
+        "addressCountry": "GB"
+      }
+    }
+  },
+  {
+    "slug": "2024",
+    "displayDate": "18th - 19th October 2024",
+    "startDate": "2024-10-18",
+    "endDate": "2024-10-19",
+    "location": {
+      "name": "P&J Live",
+      "address": { "addressLocality": "Aberdeen" }
+    },
+    "description": "In 2024, Scottish Summit made its debut in Aberdeen, bringing the community together for another incredible weekend of learning and collaboration. Over 800 attendees joined us for two days packed with insight, innovation, and inspiration.\nWith more than 180 expert speakers sharing knowledge across the full Microsoft Cloud ecosystem, the event showcased the latest in Dynamics 365, Power Platform, Azure, and Microsoft 365. Every session highlighted the strength and diversity of the Microsoft community and its impact across industries.\nThe highlight of the weekend was an engaging keynote from Scott Hanselman, whose energy and expertise set the tone for an unforgettable event.\nScottish Summit 2024 reinforced what makes this event special — a welcoming, inclusive community driven by passion, connection, and the desire to learn. It was a weekend that proved why Scottish Summit continues to be one of the most anticipated technology events in the UK.",
+    "stats": { "Speakers": 180, "Attendees": 800 },
+    "keynote": {
+      "name": "Scott Hanselmann",
+      "title": "Vice President at Microsoft, Developer Community",
+      "videoId": "nxAxsFSVHHM"
+    }
+  },
+  {
+    "slug": "2023",
+    "displayDate": "5th August 2023",
+    "startDate": "2023-08-05",
+    "location": {
+      "name": "UA92: University Academy 92",
+      "address": { "addressLocality": "Manchester" }
+    },
+    "description": "In 2023, Scottish Summit went on tour — leaving Scotland for the first time to bring the event to UA92 in Manchester. The move marked a bold new chapter for the community, opening the doors to a fresh audience while maintaining the same welcoming spirit that defines Scottish Summit.\nOver 650 attendees joined us for the venue’s biggest ever event, featuring more than 100 expert speakers across the Microsoft Cloud ecosystem. From hands-on technical sessions to inspiring community talks, the day celebrated collaboration, learning, and connection across borders.\nScottish Summit 2023 proved that the passion and energy of this community know no boundaries, setting the stage for even bigger things to come.",
+    "stats": { "Speakers": 100, "Attendees": 600 }
+  },
+  {
+    "slug": "2022",
+    "displayDate": "10th June 2022",
+    "startDate": "2022-06-10",
+    "location": {
+      "name": "Strathclyde University Technology & Innovation Centre",
+      "address": { "addressLocality": "Glasgow" }
+    },
+    "description": "In 2022, Scottish Summit returned in full force, completely filling out the Strathclyde University Technology & Innovation Centre. The event replicated the record-breaking success of previous years and cemented its reputation as one of the largest free technology events in the UK — and even worldwide. With an impressive lineup of sessions and an atmosphere charged with energy and collaboration, Scottish Summit 2022 reaffirmed its place at the heart of the Microsoft community.",
+    "stats": { "Speakers": 200, "Attendees": 1000 },
+    "keynote": {
+      "name": "Connell McGinley",
+      "title": "Disability Awareness & Inclusivity",
+      "videoId": "QchHVsSWlGw"
+    }
+  },
+  {
+    "slug": "2021",
+    "displayDate": "27th February 2021",
+    "startDate": "2021-02-27",
+    "location": { "name": "Virtual" },
+    "description": "In 2021, Scottish Summit went fully virtual in response to the global pandemic, becoming one of the largest online community events ever held. Over 3,400 attendees joined from around the world to experience 365 unique sessions — all for free and from the comfort of their own homes. The event proved that even in challenging times, the Microsoft community could come together to share knowledge, connect, and inspire one another without boundaries.",
+    "stats": { "Speakers": 400, "Attendees": 3400 }
+  },
+  {
+    "slug": "2020",
+    "displayDate": "29th February 2020",
+    "startDate": "2020-02-29",
+    "location": {
+      "name": "Strathclyde University Technology & Innovation Centre",
+      "address": { "addressLocality": "Glasgow" }
+    },
+    "description": "2020 marked the first event officially named Scottish Summit, evolving from its origins as D365 Saturday. The rebrand reflected the event’s growing scope and ambition, uniting the entire Microsoft Cloud community. Scottish Summit 2020 became the biggest Microsoft community event of its time, welcoming over 1,000 attendees and delivering more than 150 sessions across Dynamics 365, Power Platform, Azure, and Microsoft 365. It set a new benchmark for collaboration, learning, and community-driven innovation.",
+    "stats": { "Speakers": 200, "Attendees": 1000 }
+  }
+]
