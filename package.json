@@ -73,7 +73,7 @@
     "chromatic": "13.3.3",
     "colorjs.io": "0.5.2",
     "concurrently": "9.2.1",
-    "eslint": "9.38.0",
+    "eslint": "9.39.0",
     "husky": "9.1.7",
     "prettier": "3.6.2",
     "semantic-release": "25.0.1",
