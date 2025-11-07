@@ -35,7 +35,7 @@
 }
 
 .content {
-  padding-top: var(--spacing);
+  padding-block: var(--spacing);
   position: relative;
 
   > * + * {
@@ -44,8 +44,6 @@
 }
 
 .variant {
-  margin-top: var(--spacing);
-
   & + &,
   &:first-child {
     margin-top: 0;
