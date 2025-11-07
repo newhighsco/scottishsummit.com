@@ -1,3 +1,24 @@
+## [1.11.5](https://github.com/newhighsco/scottishsummit.com/compare/v1.11.4...v1.11.5) (2025-11-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v16 ([#96](https://github.com/newhighsco/scottishsummit.com/issues/96)) ([6ed3557](https://github.com/newhighsco/scottishsummit.com/commit/6ed355765e63fc80a2f33fd3f4403b2fe0675934))
+
+## [1.11.4](https://github.com/newhighsco/scottishsummit.com/compare/v1.11.3...v1.11.4) (2025-11-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/press-start to v2.6.13 ([#110](https://github.com/newhighsco/scottishsummit.com/issues/110)) ([f16ae88](https://github.com/newhighsco/scottishsummit.com/commit/f16ae882707142925d0c884d4509c6bcae145405))
+
+## [1.11.3](https://github.com/newhighsco/scottishsummit.com/compare/v1.11.2...v1.11.3) (2025-11-01)
+
+
+### Bug Fixes
+
+* **deps:** update dependency sass to v1.93.3 ([#104](https://github.com/newhighsco/scottishsummit.com/issues/104)) ([71003a0](https://github.com/newhighsco/scottishsummit.com/commit/71003a080500deae8593efee0e07946ca844ebbb))
+
 ## [1.11.2](https://github.com/newhighsco/scottishsummit.com/compare/v1.11.1...v1.11.2) (2025-10-22)
 
 

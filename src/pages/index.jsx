@@ -80,7 +80,7 @@ const HomePage = () => (
       <Prose>
         <h2>Become a Sponsor</h2>
         <p>Sponsor opportunities for {name} 2026 are already open!</p>
-        <p>Early Bird rates are NOW available!</p>
+        <p>Some packages are already selling out!</p>
       </Prose>
       <Button.Group>
         <Button href="/sponsor-pack" download>
