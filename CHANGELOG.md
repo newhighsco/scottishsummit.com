@@ -1,3 +1,10 @@
+# [1.12.0](https://github.com/newhighsco/scottishsummit.com/compare/v1.11.5...v1.12.0) (2025-11-07)
+
+
+### Features
+
+* previous event pages ([#73](https://github.com/newhighsco/scottishsummit.com/issues/73)) ([498469d](https://github.com/newhighsco/scottishsummit.com/commit/498469da99e1c0c65caf0249a54728f53a22a8a1))
+
 ## [1.11.5](https://github.com/newhighsco/scottishsummit.com/compare/v1.11.4...v1.11.5) (2025-11-07)
 
 
