@@ -2,6 +2,6 @@
   "links": [
     { "href": "/", "children": "Home", "target": "" },
     { "href": "/#about", "children": "About", "target": "" },
-    { "href": "/#become-a-sponsor", "children": "Sponsors", "target": "" }
+    { "href": "/sponsors", "children": "Sponsors", "target": "" }
   ]
 }
