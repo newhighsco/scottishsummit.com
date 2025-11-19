@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-  newhighsco: newhighsco/orb@1.13.0
+  newhighsco: newhighsco/orb@dev:469d56ba39dfa27d03d4718c8d733737324b8358
 
 only-main: &only-main
   filters:
@@ -23,6 +23,7 @@ build-parameters: &build-parameters
 
 setup-parameters: &setup-parameters
   name: setup
+  checkout-method: full
 
 workflows:
   version: 2
