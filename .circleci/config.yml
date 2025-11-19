@@ -18,12 +18,12 @@ only-version-tags: &only-version-tags
 
 build-parameters: &build-parameters
   name: build
-  checkout-method: full
   command: yarn build:storybook
   path-to-persist: storybook
 
 setup-parameters: &setup-parameters
   name: setup
+  checkout-method: full
 
 workflows:
   version: 2
