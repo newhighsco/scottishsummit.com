@@ -45,7 +45,7 @@
     "format:css": "yarn lint:css --fix"
   },
   "dependencies": {
-    "@newhighsco/chipset": "6.25.3",
+    "@newhighsco/chipset": "6.25.4",
     "@newhighsco/next-plugin-svgr": "3.0.157",
     "@newhighsco/press-start": "2.6.16",
     "next": "16.0.2",
@@ -63,7 +63,7 @@
     "@newhighsco/commitlint-config": "1.1.46",
     "@newhighsco/editor-config": "1.2.0",
     "@newhighsco/eslint-config": "5.4.3",
-    "@newhighsco/postcss-config": "4.0.6",
+    "@newhighsco/postcss-config": "4.0.7",
     "@newhighsco/prettier-config": "2.3.2",
     "@newhighsco/release-config": "1.4.19",
     "@newhighsco/storybook-preset": "8.2.11",
