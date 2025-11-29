@@ -1,0 +1,17 @@
+@use '~styles/breakpoints.module';
+@use '~styles/functions';
+@use '~styles/mixins';
+
+.root {
+  display: grid;
+  gap: functions.spacing(2);
+  grid-template-columns: repeat(var(--columns, 4), 1fr);
+
+  @include mixins.mq(breakpoints.$desktop) {
+    gap: functions.spacing(4);
+  }
+}
+
+.card {
+  max-width: unset;
+}
