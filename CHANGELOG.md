@@ -1,3 +1,10 @@
+## [1.12.19](https://github.com/newhighsco/scottishsummit.com/compare/v1.12.18...v1.12.19) (2025-12-03)
+
+
+### Bug Fixes
+
+* **deps:** update react monorepo to v19.2.1 ([#175](https://github.com/newhighsco/scottishsummit.com/issues/175)) ([0d2e4b2](https://github.com/newhighsco/scottishsummit.com/commit/0d2e4b2f9a67f83af8dbefcbb031faaffa445a0b))
+
 ## [1.12.18](https://github.com/newhighsco/scottishsummit.com/compare/v1.12.17...v1.12.18) (2025-12-03)
 
 
