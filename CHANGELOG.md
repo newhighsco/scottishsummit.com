@@ -1,3 +1,10 @@
+# [1.13.0](https://github.com/newhighsco/scottishsummit.com/compare/v1.12.38...v1.13.0) (2026-01-16)
+
+
+### Features
+
+* **header:** add link to events ([#224](https://github.com/newhighsco/scottishsummit.com/issues/224)) ([5b0c740](https://github.com/newhighsco/scottishsummit.com/commit/5b0c740d2d2ed7f43d22b94bb73974b22043b795))
+
 ## [1.12.38](https://github.com/newhighsco/scottishsummit.com/compare/v1.12.37...v1.12.38) (2026-01-16)
 
 
