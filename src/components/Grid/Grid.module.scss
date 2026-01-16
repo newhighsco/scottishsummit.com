@@ -6,7 +6,7 @@
 @include grid.flex;
 @include grid.reverse;
 @include grid.valign(middle);
-@include grid.widths('', 2);
+@include grid.widths('', 2 4);
 @include grid.hidden;
 
 @include mixins.mq(breakpoints.$tablet-landscape) {
