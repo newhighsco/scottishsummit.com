@@ -8,9 +8,20 @@ import {
 import React from 'react'
 
 import LogoLockup from '~components/LogoLockup'
+import config from '~config'
+import events from '~data/events.json'
 import header from '~data/header.json'
 
 import styles from './Header.module.scss'
+
+const { currentEventSlug } = config
+const { links } = header
+const eventLink = links.find(({ href }) => href === '/events')
+const eventLinks = events
+  .filter(({ slug }) => slug !== currentEventSlug)
+  .map(({ slug }) => ({ href: slug, children: slug }))
+
+eventLink.links = eventLinks
 
 const Header = () => (
   <HeaderContainer gutter theme={{ root: styles.root }}>
@@ -23,8 +34,9 @@ const Header = () => (
         </Grid.Item>
         <Grid.Item className={styles.links}>
           <Navigation
-            links={header.links}
+            links={links}
             theme={{
+              root: styles.navigation,
               list: styles.list,
               item: styles.item,
               link: styles.link,

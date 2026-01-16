@@ -6,9 +6,9 @@
   background-size: math.div(100%, $count);
 }
 
-@mixin stitches($color, $inset: 1) {
+@mixin stitches($color, $inset: 1, $position: relative) {
   @if $color != none {
-    position: relative;
+    position: $position;
 
     &::before {
       border: 1px dashed $color;
