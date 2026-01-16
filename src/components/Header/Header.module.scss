@@ -78,7 +78,9 @@
         padding: functions.spacing(0.5) functions.spacing(2);
         text-decoration: none;
 
-        &:hover {
+        &:hover,
+        &:active,
+        &:focus {
           background: colors.$berry;
         }
       }
@@ -117,6 +119,7 @@
   border: unset;
   border-radius: unset;
   font-weight: unset;
+  outline: none;
 
   @include mixins.mq($max: breakpoints.$tablet - 1) {
     background: colors.$space;
