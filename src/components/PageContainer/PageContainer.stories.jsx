@@ -1,4 +1,5 @@
 import { SiteContainer } from '@newhighsco/chipset'
+import { modes } from '@newhighsco/storybook-preset'
 import React from 'react'
 
 import Section from '~components/Section'
@@ -22,5 +23,6 @@ export const Example = {
         <Story />
       </SiteContainer>
     )
-  ]
+  ],
+  parameters: { chromatic: { modes: modes('mobile', 'desktopLarge') } }
 }
