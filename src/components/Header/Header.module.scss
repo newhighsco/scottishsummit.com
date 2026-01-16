@@ -39,18 +39,51 @@
 }
 
 .list {
-  @include mixins.mq($max: breakpoints.$tablet - 1) {
-    inset-inline: 0;
-    inset-block-start: 100%;
-    margin-top: 3px;
-    position: absolute;
+  .navigation > & {
+    @include mixins.mq($max: breakpoints.$tablet - 1) {
+      inset-inline: 0;
+      inset-block-start: 100%;
+      margin-top: 3px;
+      position: absolute;
+    }
+
+    @include mixins.mq(breakpoints.$tablet) {
+      position: static;
+
+      &[hidden] {
+        display: block;
+      }
+    }
   }
 
-  @include mixins.mq(breakpoints.$tablet) {
-    position: static;
+  .list {
+    @include mixins.mq(breakpoints.$tablet) {
+      background: colors.$lychee;
+      border: 2px solid transparent;
+      border-block-start: 0;
+      border-bottom-left-radius: functions.spacing(1);
+      border-bottom-right-radius: functions.spacing(1);
+      margin-top: functions.spacing(3.6);
+      inset-inline-end: 0;
 
-    &[hidden] {
-      display: block;
+      @include mixins.stitches(colors.$space, 0, absolute);
+
+      .item {
+        display: block;
+        padding: 0;
+      }
+
+      .link {
+        color: unset;
+        padding: functions.spacing(0.5) functions.spacing(2);
+        text-decoration: none;
+
+        &:hover,
+        &:active,
+        &:focus {
+          background: colors.$berry;
+        }
+      }
     }
   }
 }
@@ -58,10 +91,36 @@
 .item {
   @include mixins.mq(breakpoints.$tablet) {
     display: inline-block;
+    padding-left: functions.spacing(2);
+
+    .toggleActive {
+      background: none;
+    }
+  }
+
+  @include mixins.mq(breakpoints.$desktop) {
+    padding-left: functions.spacing(4);
+  }
+
+  &:first-child {
+    padding-left: 0;
+  }
+
+  .toggleIcon {
+    width: 1em;
+
+    @include mixins.mq($max: breakpoints.$tablet - 1) {
+      margin-right: -1em;
+    }
   }
 }
 
 .link {
+  border: unset;
+  border-radius: unset;
+  font-weight: unset;
+  outline: none;
+
   @include mixins.mq($max: breakpoints.$tablet - 1) {
     background: colors.$space;
     display: block;
@@ -76,17 +135,19 @@
   }
 
   @include mixins.mq(breakpoints.$tablet) {
-    padding-left: functions.spacing(2);
+    background: none;
+    padding: 0;
 
     &:hover,
     &:active,
     &:focus {
+      background: none;
       color: colors.$guava;
     }
   }
 
-  @include mixins.mq(breakpoints.$desktop) {
-    padding-left: functions.spacing(4);
+  &::before {
+    content: none;
   }
 
   &:hover,

@@ -7,9 +7,21 @@ import { Dark, Light, Striped } from '~components/Section/Section.stories'
 
 import { PageContainer } from '.'
 
-export default { component: PageContainer, parameters: { layout: 'none' } }
+export default {
+  component: PageContainer,
+  parameters: {
+    layout: 'none',
+    decorators: [
+      Story => (
+        <SiteContainer>
+          <Story />
+        </SiteContainer>
+      )
+    ]
+  }
+}
 
-export const Example = {
+export const NavigationHidden = {
   args: {
     children: [Dark, Light, Striped].map(({ args }) => (
       <Section key={args.variant} {...args}>
@@ -17,12 +29,23 @@ export const Example = {
       </Section>
     ))
   },
-  decorators: [
-    Story => (
-      <SiteContainer>
-        <Story />
-      </SiteContainer>
-    )
-  ],
   parameters: { chromatic: { modes: modes('mobile', 'desktopLarge') } }
+}
+
+export const NavigationShown = {
+  ...NavigationHidden,
+  play: async ({ canvas, userEvent }) => {
+    let hidden = true
+    const toggle = canvas.queryByRole('button', { name: /Show Navigation/ })
+
+    if (toggle) {
+      await userEvent.click(toggle)
+
+      hidden = false
+    }
+
+    await userEvent.click(
+      canvas.getByRole('button', { name: /Show Sub-navigation/, hidden })
+    )
+  }
 }
