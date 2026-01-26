@@ -1,3 +1,10 @@
+## [1.13.5](https://github.com/newhighsco/scottishsummit.com/compare/v1.13.4...v1.13.5) (2026-01-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v16.1.5 ([#237](https://github.com/newhighsco/scottishsummit.com/issues/237)) ([3986875](https://github.com/newhighsco/scottishsummit.com/commit/39868754abc3c5966c4ed8c935fedfb61a63eb1e))
+
 ## [1.13.4](https://github.com/newhighsco/scottishsummit.com/compare/v1.13.3...v1.13.4) (2026-01-23)
 
 
