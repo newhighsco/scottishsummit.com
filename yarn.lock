@@ -2063,10 +2063,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@6.0.8":
-  version "6.0.8"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-6.0.8.tgz#62f9b318a8aa5b0a7aedd5f0229fa6a50ae27169"
-  integrity sha512-zcv7L46a0WDQawRVs2EPo5RnFGx6T2TP0oAiNT5j5GUCzJ0wFK7aN2EHWClXhQcHnou2Yb0sbaUpxJAi4EgsZw==
+"@newhighsco/eslint-config@6.0.9":
+  version "6.0.9"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-6.0.9.tgz#2d65ad56c03cace41a46f3917dd2b2836a554d49"
+  integrity sha512-nmz6s6NS5cajzVMLUrZfES+u6QB+mc++Rud18sdCTWzmtfcSZ4IEbFFgEFtS+AImVR7QxBTJhMEyDHscPM4ZRg==
   dependencies:
     "@eslint/compat" "2.0.1"
     "@eslint/eslintrc" "3.3.3"
@@ -2089,7 +2089,7 @@
     eslint-plugin-react "7.37.5"
     eslint-plugin-react-hooks "7.0.1"
     eslint-plugin-simple-import-sort "12.1.1"
-    eslint-plugin-storybook "10.2.0"
+    eslint-plugin-storybook "10.2.1"
     eslint-plugin-testing-library "7.15.4"
 
 "@newhighsco/next-plugin-svgr@3.0.161":
@@ -2150,10 +2150,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/storybook-addon-transpile-modules/-/storybook-addon-transpile-modules-4.0.0.tgz#8ad71a43442873ce92da15848c7392533b8450a1"
   integrity sha512-JcNSuVglf4tN0IA1pPf7k32hz6Ol+rC1GQ8/DB6QT0ilwbcGL48/YbC9fbTZadqSNYUaRoLccNJQeRk9LQIS5A==
 
-"@newhighsco/storybook-preset@10.0.3":
-  version "10.0.3"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-10.0.3.tgz#5a64fc0c967e49a27ba4cea55b7ad553c98c93d4"
-  integrity sha512-JonDdVaHZ7aRAt9VmkzlB1xGLsEqRt+78xXu/2Qzwi5cMPoyVKLM09v6ymEhuU8Mt0jL6BHcm1zgBZM2k0+byg==
+"@newhighsco/storybook-preset@10.0.4":
+  version "10.0.4"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-10.0.4.tgz#2b125457f0447c7ab9e89d7e766ba6fddac5465f"
+  integrity sha512-hoYvElnDGoCSCgEojsCWdI/jrFJVVlLnT4kgzvNYrj/ABMvUzoi8Agbp7Kejo4ZAsRHkXwFoE7rsW2rSl/80+A==
   dependencies:
     "@newhighsco/chipset" "6.27.1"
     "@newhighsco/storybook-addon-svgr" "4.0.0"
@@ -2162,7 +2162,7 @@
     "@storybook/addon-docs" "10.2.0"
     "@storybook/addon-styling-webpack" "3.0.0"
     "@storybook/addon-webpack5-compiler-swc" "4.0.2"
-    css-loader "7.1.2"
+    css-loader "7.1.3"
     postcss "8.5.6"
     postcss-loader "8.2.0"
     sass "1.97.3"
@@ -4978,19 +4978,19 @@ css-has-pseudo@^8.0.0:
     postcss-selector-parser "^7.1.1"
     postcss-value-parser "^4.2.0"
 
-css-loader@7.1.2, css-loader@^7.1.2:
-  version "7.1.2"
-  resolved "https://registry.yarnpkg.com/css-loader/-/css-loader-7.1.2.tgz#64671541c6efe06b0e22e750503106bdd86880f8"
-  integrity sha512-6WvYYn7l/XEGN8Xu2vWFt9nVzrCn39vKyTEFf/ExEyoksJjjSZV/0/35XPlMbpnr6VGhZIUg5yJrL8tGfes/FA==
+css-loader@7.1.3, css-loader@^7.1.2:
+  version "7.1.3"
+  resolved "https://registry.yarnpkg.com/css-loader/-/css-loader-7.1.3.tgz#c0de715ceabe39b8531a85fcaf6734a430c4d99a"
+  integrity sha512-frbERmjT0UC5lMheWpJmMilnt9GEhbZJN/heUb7/zaJYeIzj5St9HvDcfshzzOqbsS+rYpMk++2SD3vGETDSyA==
   dependencies:
     icss-utils "^5.1.0"
-    postcss "^8.4.33"
+    postcss "^8.4.40"
     postcss-modules-extract-imports "^3.1.0"
     postcss-modules-local-by-default "^4.0.5"
     postcss-modules-scope "^3.2.0"
     postcss-modules-values "^4.0.0"
     postcss-value-parser "^4.2.0"
-    semver "^7.5.4"
+    semver "^7.6.3"
 
 css-loader@^6.7.3:
   version "6.11.0"
@@ -5900,10 +5900,10 @@ eslint-plugin-simple-import-sort@12.1.1:
   resolved "https://registry.yarnpkg.com/eslint-plugin-simple-import-sort/-/eslint-plugin-simple-import-sort-12.1.1.tgz#e64bfdaf91c5b98a298619aa634a9f7aa43b709e"
   integrity sha512-6nuzu4xwQtE3332Uz0to+TxDQYRLTKRESSc2hefVT48Zc8JthmN23Gx9lnYhu0FtkRSL1oxny3kJ2aveVhmOVA==
 
-eslint-plugin-storybook@10.2.0:
-  version "10.2.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-storybook/-/eslint-plugin-storybook-10.2.0.tgz#9910f77112562c3828b02b5a6566d630a7ee5f88"
-  integrity sha512-OtQJ153FOusr8bIMzccjkfMFJEex/3NFx0iXZ+UaeQ0WXearQ+37EGgBay3onkFElyu8AySggq/fdTknPAEvPA==
+eslint-plugin-storybook@10.2.1:
+  version "10.2.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-storybook/-/eslint-plugin-storybook-10.2.1.tgz#0ee99f219650ee14b031291f68c8f5770fc03c18"
+  integrity sha512-5+V+dlzTuZfNKUD8hPbLvCVtggcWfI2lDGTpiq0AENrHeAgcztj17wwDva96lbg/sAG20uX71l8HQo3s/GmpHw==
   dependencies:
     "@typescript-eslint/utils" "^8.48.0"
 
@@ -9931,7 +9931,7 @@ postcss@8.4.31:
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 
-postcss@8.5.6, postcss@^8.2.14, postcss@^8.4.33, postcss@^8.4.38, postcss@^8.4.47, postcss@^8.5.6:
+postcss@8.5.6, postcss@^8.2.14, postcss@^8.4.33, postcss@^8.4.38, postcss@^8.4.40, postcss@^8.4.47, postcss@^8.5.6:
   version "8.5.6"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.5.6.tgz#2825006615a619b4f62a9e7426cc120b349a8f3c"
   integrity sha512-3Ybi1tAuwAP9s0r1UQ2J4n5Y0G05bJkpUIO0/bI9MhwmD70S5aTWbXGBwxHrelT+XM1k6dM0pk+SwNkpTRN7Pg==
