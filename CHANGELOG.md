@@ -1,3 +1,10 @@
+## [1.13.11](https://github.com/newhighsco/scottishsummit.com/compare/v1.13.10...v1.13.11) (2026-01-30)
+
+
+### Bug Fixes
+
+* **header:** improved a11y ([#249](https://github.com/newhighsco/scottishsummit.com/issues/249)) ([7c81f28](https://github.com/newhighsco/scottishsummit.com/commit/7c81f2846333a4dbfb94bdba9b646124bcd4b5d9))
+
 ## [1.13.10](https://github.com/newhighsco/scottishsummit.com/compare/v1.13.9...v1.13.10) (2026-01-28)
 
 
