@@ -50,7 +50,8 @@
     @include mixins.mq(breakpoints.$tablet) {
       position: static;
 
-      &[hidden] {
+      &[hidden],
+      [aria-expanded='false'] ~ & {
         display: block;
       }
     }
