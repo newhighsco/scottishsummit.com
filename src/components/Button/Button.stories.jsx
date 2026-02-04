@@ -1,13 +1,25 @@
 import { Button } from '@newhighsco/chipset'
+import { snapshot } from '@newhighsco/storybook-preset'
 import React, { cloneElement } from 'react'
 
-export default { component: Button }
+export default {
+  component: Button,
+  parameters: {
+    pseudo: { hover: '.hover', focus: '.focus', active: '.active' }
+  }
+}
 
 export const Default = {
   args: {
     children: [
       <Button key="default">Default</Button>,
-      <Button key="active" active>
+      <Button key="hover" className="hover">
+        Hover
+      </Button>,
+      <Button key="focus" className="focus">
+        Focus
+      </Button>,
+      <Button key="active" className="active">
         Active
       </Button>,
       <Button key="disabled" disabled>
@@ -26,3 +38,5 @@ export const Inverted = {
     )
   }
 }
+
+export const Snapshot = snapshot([Default, Inverted])

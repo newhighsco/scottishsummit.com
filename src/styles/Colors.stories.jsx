@@ -52,4 +52,6 @@ ConstractingColors.propTypes = { hideInsufficient: bool }
 
 export default { component: ConstractingColors, parameters: { layout: 'none' } }
 
-export const Contrasting = {}
+export const Contrasting = {
+  parameters: { chromatic: { disableSnapshot: false } }
+}
