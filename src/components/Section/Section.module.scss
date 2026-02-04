@@ -4,8 +4,10 @@
 @use '~styles/mixins';
 
 @mixin -opaque($color, $alpha: 0.85) {
+  $background-color: #{rgba($color, $alpha)};
+
   background:
-    linear-gradient(rgba($color, $alpha)),
+    linear-gradient(0deg, $background-color, $background-color),
     var(--background-image, none) 50% / cover;
 }
 
