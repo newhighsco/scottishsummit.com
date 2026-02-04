@@ -13,7 +13,8 @@ const preview = {
         <Story />
       </ThemeProvider>
     )
-  ]
+  ],
+  parameters: { chromatic: { disableSnapshot: true } }
 }
 
 export default preview

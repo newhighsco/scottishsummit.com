@@ -34,10 +34,10 @@
 
 .iconLink {
   display: inline-block;
-  margin-inline: functions.spacing(1);
+  padding-inline: functions.spacing(1);
 
   @include mixins.mq(breakpoints.$tablet-landscape) {
-    margin-inline: functions.spacing(1.5);
+    padding-inline: functions.spacing(1.5);
   }
 
   &:hover,

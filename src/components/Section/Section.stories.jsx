@@ -1,4 +1,5 @@
 import { Prose } from '@newhighsco/chipset'
+import { snapshot } from '@newhighsco/storybook-preset'
 import React from 'react'
 
 import { Example as ProseStory } from '~components/Prose/Prose.stories'
@@ -14,3 +15,5 @@ export const Dark = {
 export const Light = { args: { ...Dark.args, variant: 'light' } }
 
 export const Striped = { args: { ...Dark.args, variant: 'striped' } }
+
+export const Snapshot = snapshot([Dark, Light, Striped])
