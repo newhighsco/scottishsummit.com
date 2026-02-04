@@ -1,3 +1,10 @@
+## [1.13.13](https://github.com/newhighsco/scottishsummit.com/compare/v1.13.12...v1.13.13) (2026-02-04)
+
+
+### Bug Fixes
+
+* **section:** use older `linear-gradient()` syntax ([#264](https://github.com/newhighsco/scottishsummit.com/issues/264)) ([ea57bcc](https://github.com/newhighsco/scottishsummit.com/commit/ea57bcc62b2b7c14c9359956bf8ef26c7a770f15))
+
 ## [1.13.12](https://github.com/newhighsco/scottishsummit.com/compare/v1.13.11...v1.13.12) (2026-01-30)
 
 
