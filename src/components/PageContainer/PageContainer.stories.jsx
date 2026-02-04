@@ -9,16 +9,14 @@ import { PageContainer } from '.'
 
 export default {
   component: PageContainer,
-  parameters: {
-    layout: 'none',
-    decorators: [
-      Story => (
-        <SiteContainer>
-          <Story />
-        </SiteContainer>
-      )
-    ]
-  }
+  decorators: [
+    Story => (
+      <SiteContainer>
+        <Story />
+      </SiteContainer>
+    )
+  ],
+  parameters: { layout: 'none' }
 }
 
 export const NavigationHidden = {
@@ -28,24 +26,24 @@ export const NavigationHidden = {
         Content
       </Section>
     ))
-  },
-  parameters: { chromatic: { modes: modes('mobile', 'desktopLarge') } }
+  }
 }
 
 export const NavigationShown = {
   ...NavigationHidden,
-  play: async ({ canvas, userEvent }) => {
-    let hidden = true
-    const toggle = canvas.queryByRole('button', { name: /Show Navigation/ })
-
-    if (toggle) {
-      await userEvent.click(toggle)
-
-      hidden = false
+  parameters: {
+    chromatic: {
+      disableSnapshot: false,
+      modes: modes('mobile', 'desktopLarge')
     }
+  },
+  play: async ({ canvas, userEvent }) => {
+    await userEvent.click(
+      canvas.queryByRole('button', { name: /Show Navigation/ })
+    )
 
     await userEvent.click(
-      canvas.getByRole('button', { name: /Show Sub-navigation/, hidden })
+      canvas.queryByRole('button', { name: /Show Sub-navigation/ })
     )
   }
 }
