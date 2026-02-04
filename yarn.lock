@@ -2065,10 +2065,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@6.0.14":
-  version "6.0.14"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-6.0.14.tgz#452dfd9c7ef3cccae899ebe552cb827de228154f"
-  integrity sha512-9fGTjAbkgkBj1lNe1ffYCyEDiWcDZ/246RvQzrujQIeksAZq/8pStmujCqD16D2Plq/cPb3zCRm6z1zz8esz+w==
+"@newhighsco/eslint-config@6.0.15":
+  version "6.0.15"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-6.0.15.tgz#b133168fdb7b47fdf19db1e80f5046b63417f836"
+  integrity sha512-xhl+aY9RbFh5reIr+11rUC+dRGb0ojEtDzCWvORKNlxpmitF6soaD8b4i0nxaxBtldnOzEDQTyWdrwPDYFUm7Q==
   dependencies:
     "@eslint/compat" "2.0.2"
     "@eslint/eslintrc" "3.3.3"
@@ -2091,7 +2091,7 @@
     eslint-plugin-react "7.37.5"
     eslint-plugin-react-hooks "7.0.1"
     eslint-plugin-simple-import-sort "12.1.1"
-    eslint-plugin-storybook "10.2.4"
+    eslint-plugin-storybook "10.2.5"
     eslint-plugin-testing-library "7.15.4"
 
 "@newhighsco/next-plugin-svgr@3.0.162":
@@ -2152,16 +2152,16 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/storybook-addon-transpile-modules/-/storybook-addon-transpile-modules-4.0.0.tgz#8ad71a43442873ce92da15848c7392533b8450a1"
   integrity sha512-JcNSuVglf4tN0IA1pPf7k32hz6Ol+rC1GQ8/DB6QT0ilwbcGL48/YbC9fbTZadqSNYUaRoLccNJQeRk9LQIS5A==
 
-"@newhighsco/storybook-preset@10.0.8":
-  version "10.0.8"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-10.0.8.tgz#9b102e54ddf6949938d2cdc35a0f1d5b5ff22491"
-  integrity sha512-gRl6gBwlRBpvHL0JcmYCjw/qsLBmLJksz1eJUWc7GjK45PhmKOElAQXfZ4C+7GhiYUWO6m5vQRVyYR7HZxmipg==
+"@newhighsco/storybook-preset@10.1.0":
+  version "10.1.0"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-10.1.0.tgz#219cc3e81e2d7c6b26ca3e81d3cf1894d75fff4e"
+  integrity sha512-P1n5Lm46wsXfv4PpVHE10ccYUBkjMpNUVrR/El0QOT0Khv+LO8xPw5j25sCwqK64D1ESjpX+1XwtW8wzamg48g==
   dependencies:
     "@newhighsco/chipset" "6.27.2"
     "@newhighsco/storybook-addon-svgr" "4.0.0"
     "@newhighsco/storybook-addon-transpile-modules" "4.0.0"
-    "@storybook/addon-a11y" "10.2.3"
-    "@storybook/addon-docs" "10.2.3"
+    "@storybook/addon-a11y" "10.2.4"
+    "@storybook/addon-docs" "10.2.4"
     "@storybook/addon-styling-webpack" "3.0.0"
     "@storybook/addon-webpack5-compiler-swc" "4.0.2"
     css-loader "7.1.3"
@@ -2169,12 +2169,13 @@
     postcss-loader "8.2.0"
     sass "1.97.3"
     sass-loader "16.0.6"
+    storybook-addon-pseudo-states "10.2.4"
     style-loader "4.0.0"
 
-"@newhighsco/stylelint-config@4.0.23":
-  version "4.0.23"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-4.0.23.tgz#6492a663ef440e43f902e805e922dff470c9579b"
-  integrity sha512-a72KN7pvaCXh9tNpob07M5qB0aF3Wh1gOAsc2h3zn8FjKpUB5LtxCNvz7R/93+vvA/SxP/EfoDxb6kUXWrcBKg==
+"@newhighsco/stylelint-config@4.0.24":
+  version "4.0.24"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-4.0.24.tgz#ed4e4d5525adb561b05c8a4fdd464a56f90438ec"
+  integrity sha512-cMCznnLjQsDQXr6FZ1rL0CV6IsM89pd6TY/8KWqolP7OpWsVCUIIG7qwDxpJ88tlIl6kAk1YMYPvXIswtcZrXQ==
   dependencies:
     stylelint-config-css-modules "4.6.0"
     stylelint-config-prettier "9.0.5"
@@ -2893,23 +2894,23 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/merge-streams/-/merge-streams-4.0.0.tgz#abb11d99aeb6d27f1b563c38147a72d50058e339"
   integrity sha512-tlqY9xq5ukxTUZBmoOp+m61cqwQD5pHJtFY3Mn8CA8ps6yghLH/Hw8UPdqg4OLmFW3IFlcXnQNmo/dh8HzXYIQ==
 
-"@storybook/addon-a11y@10.2.3":
-  version "10.2.3"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-10.2.3.tgz#033fdbf27b8a5e1a29e1c85c6044fac8e1a50eb7"
-  integrity sha512-EZLTmu/f5uENvbTKzCXlRN9TpaiKVzMfw4JF3qkw4Efae12xTJMIWieehHhl3Clc1x2d6ZtE7vhtMI9mKYQdKw==
+"@storybook/addon-a11y@10.2.4":
+  version "10.2.4"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-10.2.4.tgz#63fcef8454a1bc42ddf09f89d9a0e2aa48fef47c"
+  integrity sha512-VGhdZ+iP2l/CSulIKV2kt3SMWVHntOigqWqGkNYf6YNYofynUYEKdsNqBvHx4ySuNEl/eXJ8LRO8FKYnU7LxZQ==
   dependencies:
     "@storybook/global" "^5.0.0"
     axe-core "^4.2.0"
 
-"@storybook/addon-docs@10.2.3":
-  version "10.2.3"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-docs/-/addon-docs-10.2.3.tgz#05ff93ea415606497c81bc7d0b7e7b917faa29fa"
-  integrity sha512-IPprt2qp4HN1uyE1Ki1sH0ZOE5B6z5sKzEMfrKMGokYKYk/AAJVfSiVIKju3q525GrBFlNhRW2+fB4pQfklv2w==
+"@storybook/addon-docs@10.2.4":
+  version "10.2.4"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-docs/-/addon-docs-10.2.4.tgz#4fb70439b14e18035c6e862234aa8a12a89d0ae9"
+  integrity sha512-FzscAmdBiOGnGrxiEM+8eTg43kjqgjLfObg+lbJVRR/a0DmZ3xfAPNB0+VKYQbN0FacNcWLM9LZ/7U0hRBPBnQ==
   dependencies:
     "@mdx-js/react" "^3.0.0"
-    "@storybook/csf-plugin" "10.2.3"
+    "@storybook/csf-plugin" "10.2.4"
     "@storybook/icons" "^2.0.1"
-    "@storybook/react-dom-shim" "10.2.3"
+    "@storybook/react-dom-shim" "10.2.4"
     react "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
     react-dom "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
     ts-dedent "^2.0.0"
@@ -2955,10 +2956,10 @@
   dependencies:
     ts-dedent "^2.0.0"
 
-"@storybook/csf-plugin@10.2.3":
-  version "10.2.3"
-  resolved "https://registry.yarnpkg.com/@storybook/csf-plugin/-/csf-plugin-10.2.3.tgz#65ee09c33e9f7e3bfbf04765dd55317257d49897"
-  integrity sha512-/b/C8C40ukzXs3Xauud2+yOJqwBdOkADfRtJ9O4TzrhftzkEdqsNI03xXZySeh7eXW8eI3Vq4t75Ljuj27Xytw==
+"@storybook/csf-plugin@10.2.4":
+  version "10.2.4"
+  resolved "https://registry.yarnpkg.com/@storybook/csf-plugin/-/csf-plugin-10.2.4.tgz#d39734349475eb158d3c384f15230f424145e696"
+  integrity sha512-kupPQEV+4N9mzsZHYaokvhO/KHBjYdWda9PNmPQwy0TR7r2mzthgaNH72TjmgN1L6DIbsuyOG1wtczcPJn4+Jg==
   dependencies:
     unplugin "^2.3.5"
 
@@ -3043,6 +3044,11 @@
   version "10.2.3"
   resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-10.2.3.tgz#c25b8b7b71976eda896be7f78dab05e48f8c97e3"
   integrity sha512-xMZXvjfQCsmzOTqFCRQ1/gxs//jDGLlnmBCikH4NSGPPogRPaNUkxgdNjOResd6pB+G3ZYAOspJkmGEEbq8dVw==
+
+"@storybook/react-dom-shim@10.2.4":
+  version "10.2.4"
+  resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-10.2.4.tgz#a6611240690a6548d576ffd87def4854a25bc52e"
+  integrity sha512-i22OtrZ7GeZPt/odLf0vqyDhRSKyaLsHkkKSBcANQfzRRnBZmiz2FchOtWm9uvoDWybQsTruZq7kTdtpEhwyGw==
 
 "@storybook/react@10.2.3":
   version "10.2.3"
@@ -5873,10 +5879,10 @@ eslint-plugin-simple-import-sort@12.1.1:
   resolved "https://registry.yarnpkg.com/eslint-plugin-simple-import-sort/-/eslint-plugin-simple-import-sort-12.1.1.tgz#e64bfdaf91c5b98a298619aa634a9f7aa43b709e"
   integrity sha512-6nuzu4xwQtE3332Uz0to+TxDQYRLTKRESSc2hefVT48Zc8JthmN23Gx9lnYhu0FtkRSL1oxny3kJ2aveVhmOVA==
 
-eslint-plugin-storybook@10.2.4:
-  version "10.2.4"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-storybook/-/eslint-plugin-storybook-10.2.4.tgz#01215136f9727610de55c19822a94e5458f694ef"
-  integrity sha512-D8a6Y+iun2MSOpgps0Vd/t8y9Y5ZZ7O2VeKqw2PCv2+b7yInqogOS2VBMSRZVfP8TTGQgDpbUK67k7KZEUC7Ng==
+eslint-plugin-storybook@10.2.5:
+  version "10.2.5"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-storybook/-/eslint-plugin-storybook-10.2.5.tgz#34bddf9814269dccdcd53f9b68b51a52c3fa914a"
+  integrity sha512-osUY7B0dNDWrdV5pCp1m7yqG6jYmkLcmuKHcE6NyhvTtgoFxW2h2fFDtNQDEEDc1EOkMAbp/K3UotslevAoNjg==
   dependencies:
     "@typescript-eslint/utils" "^8.48.0"
 
@@ -10955,6 +10961,11 @@ stop-iteration-iterator@^1.1.0:
   dependencies:
     es-errors "^1.3.0"
     internal-slot "^1.1.0"
+
+storybook-addon-pseudo-states@10.2.4:
+  version "10.2.4"
+  resolved "https://registry.yarnpkg.com/storybook-addon-pseudo-states/-/storybook-addon-pseudo-states-10.2.4.tgz#eced9dc26b9c7e6a4dbefa6045ff1bd9ba297651"
+  integrity sha512-ReBAGrFFTooGac+tB7z41Wt7sIavEl4nWjhRtzrjVCMrVtPGMc9WB6F8kyzmuYM8Li4PjXH4XlUxnK2hVWSA7w==
 
 storybook@10.2.3:
   version "10.2.3"
