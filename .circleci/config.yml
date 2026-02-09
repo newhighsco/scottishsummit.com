@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-  newhighsco: newhighsco/orb@dev:alpha
+  newhighsco: newhighsco/orb@dev:19659a4a8e8e563a1af94a270516567f7fd0ecc0
 
 only-main: &only-main
   filters:
@@ -23,7 +23,6 @@ build-parameters: &build-parameters
 
 setup-parameters: &setup-parameters
   name: setup
-  cache-version: v2
   checkout-method: full
   pkg-manager: yarn-berry
 
