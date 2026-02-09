@@ -26,7 +26,6 @@ setup-parameters: &setup-parameters
   cache-version: v2.1
   checkout-method: full
   pkg-manager: yarn-berry
-  yarn-version: 4.12.0
 
 workflows:
   version: 2
