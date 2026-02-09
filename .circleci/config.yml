@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-  newhighsco: newhighsco/orb@dev:bd5c4f1b43abdfc6ef547ecbee9bd3d5d4ed6289
+  newhighsco: newhighsco/orb@dev:c0f3a3174cfc4cfacf50bc179b48e89e16b6e2ad
 
 only-main: &only-main
   filters:
@@ -25,6 +25,7 @@ setup-parameters: &setup-parameters
   name: setup
   checkout-method: full
   pkg-manager: yarn-berry
+  yarn-version: 4.12.0
 
 workflows:
   version: 2
