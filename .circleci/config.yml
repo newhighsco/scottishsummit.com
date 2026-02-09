@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-  newhighsco: newhighsco/orb@dev:926905149e7b9ba150372d6e277e47d4d1a2d3eb
+  newhighsco: newhighsco/orb@dev:530d8ecc6598652948beb954e1886ba9101e5339
 
 only-main: &only-main
   filters:
