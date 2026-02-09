@@ -23,6 +23,7 @@ build-parameters: &build-parameters
 
 setup-parameters: &setup-parameters
   name: setup
+  cache-path: ''
   cache-version: v2.1
   checkout-method: full
   pkg-manager: yarn-berry
