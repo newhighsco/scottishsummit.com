@@ -67,7 +67,7 @@
     "@newhighsco/prettier-config": "2.3.3",
     "@newhighsco/release-config": "1.4.24",
     "@newhighsco/storybook-preset": "10.2.5",
-    "@newhighsco/stylelint-config": "4.0.24",
+    "@newhighsco/stylelint-config": "4.0.25",
     "@newhighsco/svgr-config": "1.0.0",
     "@storybook/nextjs": "10.2.8",
     "chromatic": "15.0.0",
