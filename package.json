@@ -70,7 +70,7 @@
     "@newhighsco/stylelint-config": "4.0.25",
     "@newhighsco/svgr-config": "1.0.0",
     "@storybook/nextjs": "10.2.8",
-    "chromatic": "15.0.0",
+    "chromatic": "15.1.0",
     "colorjs.io": "0.6.1",
     "concurrently": "9.2.1",
     "eslint": "10.0.0",
