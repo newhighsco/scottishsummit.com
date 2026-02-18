@@ -1,4 +1,4 @@
-import { Card, Grid } from '@newhighsco/chipset'
+import { Card, Grid, Image } from '@newhighsco/chipset'
 import { array, bool, number, string } from 'prop-types'
 import React from 'react'
 
@@ -15,8 +15,16 @@ const SponsorsSection = ({ sponsors, alt, size, columns, ...rest }) => (
   >
     <Grid gutterless className={styles.root} style={{ '--columns': columns }}>
       {sponsors.map(sponsor => (
-        <Grid.Item key={sponsor} className={styles.item}>
-          <Card className={styles.card}>{sponsor}</Card>
+        <Grid.Item key={sponsor.name} className={styles.item}>
+          <Card className={styles.card}>
+              <Image
+                src={sponsor.logo}
+                width={1832}
+                height={2022}
+                alt={sponsor.name}
+                priority
+              />
+             </Card>
         </Grid.Item>
       ))}
     </Grid>
