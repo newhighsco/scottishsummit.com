@@ -1552,13 +1552,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@csstools/css-calc@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "@csstools/css-calc@npm:3.0.0"
+"@csstools/css-calc@npm:^3.0.0, @csstools/css-calc@npm:^3.1.1":
+  version: 3.1.1
+  resolution: "@csstools/css-calc@npm:3.1.1"
   peerDependencies:
     "@csstools/css-parser-algorithms": ^4.0.0
     "@csstools/css-tokenizer": ^4.0.0
-  checksum: 10c0/2f062db206dcdcb561a802d791aaf8b410f0e4d91ded89eb4075f75f1eafe8f5392c431a8d602d6ae660fca6299e02fcc555efdb235f3403ffc56ac6f14a1c2b
+  checksum: 10c0/6efcc016d988edf66e54c7bad03e352d61752cbd1b56c7557fd013868aab23505052ded8f912cd4034e216943ea1e04c957d81012489e3eddc14a57b386510ef
   languageName: node
   linkType: hard
 
@@ -2403,7 +2403,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/core@npm:^1.0.1, @eslint/core@npm:^1.1.0":
+"@eslint/core@npm:^1.1.0":
   version: 1.1.0
   resolution: "@eslint/core@npm:1.1.0"
   dependencies:
@@ -2424,15 +2424,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/json@npm:1.0.0":
-  version: 1.0.0
-  resolution: "@eslint/json@npm:1.0.0"
+"@eslint/json@npm:1.0.1":
+  version: 1.0.1
+  resolution: "@eslint/json@npm:1.0.1"
   dependencies:
-    "@eslint/core": "npm:^1.0.1"
-    "@eslint/plugin-kit": "npm:^0.5.1"
+    "@eslint/core": "npm:^1.1.0"
+    "@eslint/plugin-kit": "npm:^0.6.0"
     "@humanwhocodes/momoa": "npm:^3.3.10"
     natural-compare: "npm:^1.4.0"
-  checksum: 10c0/3ce7d8a09171a59d23e6de819fbf4bccc9b0021ee1e3d86d8129ab8a904756a26b71968dcbbdf07b646c77ddc09e5dc140b25b5ada10a48dda8493ab657a4f7e
+  checksum: 10c0/9d1288e63557fbcea415ac069625192e91d62513a4e4c9abd67e4a2cfa2e2ff04e02572d78ca40aad468d243db8043070ae314a281b417066e87d92fcc6ac3d6
   languageName: node
   linkType: hard
 
@@ -2440,16 +2440,6 @@ __metadata:
   version: 3.0.1
   resolution: "@eslint/object-schema@npm:3.0.1"
   checksum: 10c0/96ddab8a2f5f1ae4203c8881b9c25a9177e27ca19cd609ea0c275e09d9a59ef0bbcb46e8ef59b887a9054933d96b23c70a98e652a77532273be9cce82f4e38e9
-  languageName: node
-  linkType: hard
-
-"@eslint/plugin-kit@npm:^0.5.1":
-  version: 0.5.1
-  resolution: "@eslint/plugin-kit@npm:0.5.1"
-  dependencies:
-    "@eslint/core": "npm:^1.0.1"
-    levn: "npm:^0.4.1"
-  checksum: 10c0/877ecb0ccad8eddd9f066821bdee4d6839aa1afc621a5b9442443854beab8d2d2198467481d8a9c2d0df860ca5b7fac177b83ad8b786c34ba221e59d59307e77
   languageName: node
   linkType: hard
 
@@ -2893,13 +2883,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/eslint-config@npm:7.0.4":
-  version: 7.0.4
-  resolution: "@newhighsco/eslint-config@npm:7.0.4"
+"@newhighsco/eslint-config@npm:7.0.5":
+  version: 7.0.5
+  resolution: "@newhighsco/eslint-config@npm:7.0.5"
   dependencies:
     "@eslint/compat": "npm:2.0.2"
     "@eslint/js": "npm:10.0.1"
-    "@eslint/json": "npm:1.0.0"
+    "@eslint/json": "npm:1.0.1"
     eslint-config-prettier: "npm:10.1.8"
     eslint-plugin-cypress: "npm:5.3.0"
     eslint-plugin-import: "npm:2.32.0"
@@ -2922,7 +2912,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10c0/867b7e65a9e642ef7cb2f28a0c975473298f40c994396a73c40786611d7424fd80e6cd88c34586d1e05170457b1929eb0d449412a329effb385596228d875544
+  checksum: 10c0/0b36d26dcdc39ad875936c2c1cf5dc552b7e1f4cf125318eb83d0fcd822071ac6f8f977718124909b2c59ed6dfe2971aa6b96378d8fd05dd850a933166da5b6b
   languageName: node
   linkType: hard
 
@@ -2939,18 +2929,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/postcss-config@npm:4.0.19":
-  version: 4.0.19
-  resolution: "@newhighsco/postcss-config@npm:4.0.19"
+"@newhighsco/postcss-config@npm:4.0.20":
+  version: 4.0.20
+  resolution: "@newhighsco/postcss-config@npm:4.0.20"
   dependencies:
     "@fullhuman/postcss-purgecss": "npm:8.0.0"
     autoprefixer: "npm:10.4.24"
-    caniuse-lite: "npm:1.0.30001769"
+    caniuse-lite: "npm:1.0.30001770"
     postcss-flexbugs-fixes: "npm:5.0.2"
     postcss-preset-env: "npm:11.1.3"
   peerDependencies:
     postcss: 8.5.6
-  checksum: 10c0/1a438016582819a532750130add03c64af4b6abf7d17256a8f7a4e309000b4f8c7f0b877d64b0c810dcd8d1740fdacbfeda341235425cce13f6f1ab2d39b0a0a
+  checksum: 10c0/a72398afd5e7366a89cf07827c6dabb2d67b66eef1cb0832431da7b00ca6e738d016e7fa3b1208cbab1feb85b6f970a899122451590bfb6bd5c64304de1cac6f
   languageName: node
   linkType: hard
 
@@ -2975,14 +2965,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/release-config@npm:1.4.24":
-  version: 1.4.24
-  resolution: "@newhighsco/release-config@npm:1.4.24"
+"@newhighsco/release-config@npm:1.4.25":
+  version: 1.4.25
+  resolution: "@newhighsco/release-config@npm:1.4.25"
   dependencies:
     "@semantic-release/changelog": "npm:6.0.3"
     "@semantic-release/commit-analyzer": "npm:13.0.1"
     "@semantic-release/git": "npm:10.0.1"
-    "@semantic-release/github": "npm:12.0.5"
+    "@semantic-release/github": "npm:12.0.6"
     "@semantic-release/npm": "npm:13.1.4"
     "@semantic-release/release-notes-generator": "npm:14.1.0"
   peerDependencies:
@@ -2991,7 +2981,7 @@ __metadata:
   peerDependenciesMeta:
     semantic-release-circleci-orb:
       optional: true
-  checksum: 10c0/11b37c27cf1f3f2b0f95253442772f27c4b60fdb89fc2911ffdf0786204ed0a7120d07d5618dd4879e76905c179c6635cc5acdbf29f6a8500612d064184426fc
+  checksum: 10c0/6739df67a12fa55387a8cbcf376bf482280b610d30efd8ba9c4b2e2f1f6b13740279d07881a48105fcaecd45991519571639b6b535a4ddbdfabf33a0da917e2d
   languageName: node
   linkType: hard
 
@@ -3004,14 +2994,14 @@ __metadata:
     "@newhighsco/chipset": "npm:6.27.3"
     "@newhighsco/commitlint-config": "npm:1.1.48"
     "@newhighsco/editor-config": "npm:1.2.0"
-    "@newhighsco/eslint-config": "npm:7.0.4"
+    "@newhighsco/eslint-config": "npm:7.0.5"
     "@newhighsco/next-plugin-svgr": "npm:3.0.162"
-    "@newhighsco/postcss-config": "npm:4.0.19"
+    "@newhighsco/postcss-config": "npm:4.0.20"
     "@newhighsco/press-start": "npm:2.6.33"
     "@newhighsco/prettier-config": "npm:2.3.3"
-    "@newhighsco/release-config": "npm:1.4.24"
-    "@newhighsco/storybook-preset": "npm:10.2.5"
-    "@newhighsco/stylelint-config": "npm:4.0.25"
+    "@newhighsco/release-config": "npm:1.4.25"
+    "@newhighsco/storybook-preset": "npm:10.2.6"
+    "@newhighsco/stylelint-config": "npm:4.0.27"
     "@newhighsco/svgr-config": "npm:1.0.0"
     "@storybook/nextjs": "npm:10.2.8"
     chromatic: "npm:15.1.0"
@@ -3030,7 +3020,7 @@ __metadata:
     sass: "npm:1.97.3"
     semantic-release: "npm:25.0.3"
     storybook: "npm:10.2.8"
-    stylelint: "npm:17.2.0"
+    stylelint: "npm:17.3.0"
   languageName: unknown
   linkType: soft
 
@@ -3057,9 +3047,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/storybook-preset@npm:10.2.5":
-  version: 10.2.5
-  resolution: "@newhighsco/storybook-preset@npm:10.2.5"
+"@newhighsco/storybook-preset@npm:10.2.6":
+  version: 10.2.6
+  resolution: "@newhighsco/storybook-preset@npm:10.2.6"
   dependencies:
     "@newhighsco/chipset": "npm:6.27.3"
     "@newhighsco/storybook-addon-svgr": "npm:4.0.0"
@@ -3070,7 +3060,7 @@ __metadata:
     "@storybook/addon-webpack5-compiler-swc": "npm:4.0.2"
     css-loader: "npm:7.1.3"
     postcss: "npm:8.5.6"
-    postcss-loader: "npm:8.2.0"
+    postcss-loader: "npm:8.2.1"
     sass: "npm:1.97.3"
     sass-loader: "npm:16.0.7"
     storybook-addon-pseudo-states: "npm:10.2.8"
@@ -3078,23 +3068,22 @@ __metadata:
   peerDependencies:
     "@storybook/react-webpack5": ^10
     storybook: 10.2.8
-  checksum: 10c0/e70bde088b7ef1fadba68fdb6dba68334cccd142f7ecc3cbff6b72da26764f0228b524d56a14baeb96c2d30d6fb9af548ec6b08e6ac1cf61976f270c084e9d73
+  checksum: 10c0/63cbfe62f64a30a88b108790f50e879d999b129c46590fc1ed5bce3d309430a1de316305613b03ef1fcc1428bd88714fc05468787a50fed8bcc98e57010b1a8d
   languageName: node
   linkType: hard
 
-"@newhighsco/stylelint-config@npm:4.0.25":
-  version: 4.0.25
-  resolution: "@newhighsco/stylelint-config@npm:4.0.25"
+"@newhighsco/stylelint-config@npm:4.0.27":
+  version: 4.0.27
+  resolution: "@newhighsco/stylelint-config@npm:4.0.27"
   dependencies:
     stylelint-config-css-modules: "npm:4.6.0"
-    stylelint-config-prettier: "npm:9.0.5"
     stylelint-config-standard-scss: "npm:17.0.0"
     stylelint-order: "npm:7.0.1"
     stylelint-prettier: "npm:5.0.3"
   peerDependencies:
     prettier: 3.8.1
-    stylelint: 17.2.0
-  checksum: 10c0/7e017a3683aecf1947db1a9db36077b18bc4a389e03d00e817f01aa53f29274563f009d44b9d9638c54b2c3f5308d321bb69b876a9153e3cd4d1f8bfcf4cace4
+    stylelint: 17.3.0
+  checksum: 10c0/66483237a74328a97f0833993d786ade6fc683b2e3ff5b52fe83d9c23bd2b44b6f277b1674353d0e06db34cfcce4e3e6a48d62aefdc4f1b6bb73482da486a21b
   languageName: node
   linkType: hard
 
@@ -3823,9 +3812,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/github@npm:12.0.5, @semantic-release/github@npm:^12.0.0":
-  version: 12.0.5
-  resolution: "@semantic-release/github@npm:12.0.5"
+"@semantic-release/github@npm:12.0.6, @semantic-release/github@npm:^12.0.0":
+  version: 12.0.6
+  resolution: "@semantic-release/github@npm:12.0.6"
   dependencies:
     "@octokit/core": "npm:^7.0.0"
     "@octokit/plugin-paginate-rest": "npm:^14.0.0"
@@ -3846,7 +3835,7 @@ __metadata:
     url-join: "npm:^5.0.0"
   peerDependencies:
     semantic-release: ">=24.1.0"
-  checksum: 10c0/84d71bd79e93e9945267c949cebcc4a7052eed14c32744194421e7569634dbe81d2589a0dbc6b23f9f5708bd342fc8c757c3d016afff88a49f3e23163765e801
+  checksum: 10c0/2f6b24d73790dbe14e3ac08814fc56f069ec4c96a0e471eeb5247d934b525b54cee9a6d296e90edb6566bb309cf81a04084551e8201362dfd82ca436a2813706
   languageName: node
   linkType: hard
 
@@ -5931,10 +5920,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:1.0.30001769, caniuse-lite@npm:^1.0.30001579, caniuse-lite@npm:^1.0.30001759, caniuse-lite@npm:^1.0.30001766":
-  version: 1.0.30001769
-  resolution: "caniuse-lite@npm:1.0.30001769"
-  checksum: 10c0/161b8c30ab967371807d45d361f0d5bc06e38ef2dbf811493d70cd97c21e1522f5b91fd944c419a00047ee09c931ca64627f125a9ffa7a17a9fdff8dad9765b0
+"caniuse-lite@npm:1.0.30001770, caniuse-lite@npm:^1.0.30001579, caniuse-lite@npm:^1.0.30001759, caniuse-lite@npm:^1.0.30001766":
+  version: 1.0.30001770
+  resolution: "caniuse-lite@npm:1.0.30001770"
+  checksum: 10c0/02d15a8b723af65318cb4d888a52bb090076898da7b0de99e8676d537f8d1d2ae4797e81518e1e30cbfe84c33b048c322e8bfafc5b23cfee8defb0d2bf271149
   languageName: node
   linkType: hard
 
@@ -11919,15 +11908,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-loader@npm:8.2.0, postcss-loader@npm:^8.1.1":
-  version: 8.2.0
-  resolution: "postcss-loader@npm:8.2.0"
+"postcss-loader@npm:8.2.1, postcss-loader@npm:^8.1.1":
+  version: 8.2.1
+  resolution: "postcss-loader@npm:8.2.1"
   dependencies:
     cosmiconfig: "npm:^9.0.0"
     jiti: "npm:^2.5.1"
     semver: "npm:^7.6.2"
   peerDependencies:
-    "@rspack/core": 0.x || 1.x
+    "@rspack/core": 0.x || ^1.0.0 || ^2.0.0-0
     postcss: ^7.0.0 || ^8.0.1
     webpack: ^5.0.0
   peerDependenciesMeta:
@@ -11935,7 +11924,7 @@ __metadata:
       optional: true
     webpack:
       optional: true
-  checksum: 10c0/471f9a1c313522580f3385b92ab847cf161c6972bedc73525126a3c0a08733f0f6444d04ca9e0a8b1e36b44123e103dfcd8f53378b7e5afc95fa6d9ab423c480
+  checksum: 10c0/8ef4687f05972a85b4ad8e714f692fceec16f334d99edaa09c222dc08d01afcdcf7bed2b3a45f7888900cb9fd3324b9741d98ce694e33e87bebdc038dd17e30b
   languageName: node
   linkType: hard
 
@@ -13716,7 +13705,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"string-width@npm:^8.1.0":
+"string-width@npm:^8.1.1":
   version: 8.1.1
   resolution: "string-width@npm:8.1.1"
   dependencies:
@@ -13957,18 +13946,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-config-prettier@npm:9.0.5":
-  version: 9.0.5
-  resolution: "stylelint-config-prettier@npm:9.0.5"
-  peerDependencies:
-    stylelint: ">= 11.x < 15"
-  bin:
-    stylelint-config-prettier: bin/check.js
-    stylelint-config-prettier-check: bin/check.js
-  checksum: 10c0/4fb049b3ea00a9fff009b83583d42b7c76978d1befe8e3132ab2722deb25601931b076902a2fab4d4570ece03ec0cb8ba062cc59a9440251a32eb71d1b29803c
-  languageName: node
-  linkType: hard
-
 "stylelint-config-recommended-scss@npm:^17.0.0":
   version: 17.0.0
   resolution: "stylelint-config-recommended-scss@npm:17.0.0"
@@ -14064,11 +14041,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint@npm:17.2.0":
-  version: 17.2.0
-  resolution: "stylelint@npm:17.2.0"
+"stylelint@npm:17.3.0":
+  version: 17.3.0
+  resolution: "stylelint@npm:17.3.0"
   dependencies:
-    "@csstools/css-calc": "npm:^3.0.0"
+    "@csstools/css-calc": "npm:^3.1.1"
     "@csstools/css-parser-algorithms": "npm:^4.0.0"
     "@csstools/css-syntax-patches-for-csstree": "npm:^1.0.26"
     "@csstools/css-tokenizer": "npm:^4.0.0"
@@ -14102,14 +14079,14 @@ __metadata:
     postcss-safe-parser: "npm:^7.0.1"
     postcss-selector-parser: "npm:^7.1.1"
     postcss-value-parser: "npm:^4.2.0"
-    string-width: "npm:^8.1.0"
+    string-width: "npm:^8.1.1"
     supports-hyperlinks: "npm:^4.4.0"
     svg-tags: "npm:^1.0.0"
     table: "npm:^6.9.0"
     write-file-atomic: "npm:^7.0.0"
   bin:
     stylelint: bin/stylelint.mjs
-  checksum: 10c0/97de2bd9801fc77f8c8b98add7b3d1072e68b3576e0d19a85142e3cca90ad216f1f03d3e5c23b1cde273503ec228aa88c9128a4b5a52e44a406e76b56101a81c
+  checksum: 10c0/94d136e4fe29bdf269613706fe19cfe0872de9c7d63c38c42d463be9ccec349b64a3a94539be73bc243a8e3ebdb20ca208b642725cfa7ba2e315dc2656575d51
   languageName: node
   linkType: hard
 
