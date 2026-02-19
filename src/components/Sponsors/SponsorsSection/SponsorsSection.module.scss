@@ -5,6 +5,10 @@
 .root {
   place-content: center;
   row-gap: functions.spacing(2);
+
+  @include mixins.mq(breakpoints.$desktop) {
+    row-gap: functions.spacing(4);
+  }
 }
 
 .card {
