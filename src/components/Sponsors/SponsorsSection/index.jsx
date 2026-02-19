@@ -13,7 +13,11 @@ const SponsorsSection = ({ title, sponsors, alt, size, columns, ...rest }) => (
     variant={alt ? 'light' : 'striped'}
     {...rest}
   >
-    <Prose><h1>{title}</h1></Prose>
+    {title && (
+      <Prose>
+        <h2>{title}</h2>
+      </Prose>
+    )}
     <Grid gutterless className={styles.root} style={{ '--columns': columns }}>
       {sponsors.map(sponsor => (
         <Grid.Item key={sponsor.name} className={styles.item}>
