@@ -15,3 +15,8 @@
 .card {
   max-width: unset;
 }
+
+.item {
+  margin-inline: auto;
+  max-width: breakpoints.$desktop;
+}
