@@ -45,10 +45,8 @@ const SponsorsSection = ({
             <VisuallyHidden>
               {[title, 'Sponsor', name].filter(Boolean).join(' ')}
             </VisuallyHidden>
-            <Image
-              src={logo}
-              width={1832}
-              height={2022}
+            <Image 
+              {...logo}
               priority={title === 'Platinum'}
             />
           </Card>
