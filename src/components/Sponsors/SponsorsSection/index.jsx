@@ -1,4 +1,4 @@
-import { Card, Grid, Image } from '@newhighsco/chipset'
+import { Card, Grid, Image, Prose } from '@newhighsco/chipset'
 import { array, bool, number, string } from 'prop-types'
 import React from 'react'
 
@@ -6,13 +6,14 @@ import Section from '~components/Section'
 
 import styles from './SponsorsSection.module.scss'
 
-const SponsorsSection = ({ sponsors, alt, size, columns, ...rest }) => (
+const SponsorsSection = ({ title, sponsors, alt, size, columns, ...rest }) => (
   <Section
     align="center"
     size={size}
     variant={alt ? 'light' : 'striped'}
     {...rest}
   >
+    <Prose><h1>{title}</h1></Prose>
     <Grid gutterless className={styles.root} style={{ '--columns': columns }}>
       {sponsors.map(sponsor => (
         <Grid.Item key={sponsor.name} className={styles.item}>

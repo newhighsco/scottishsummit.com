@@ -30,9 +30,9 @@ const SponsorsPage = () => (
         <h1>{meta.title}</h1>
       </Prose>
     </Section>
-    <SponsorsSection id="platinum" sponsors={platinum} columns={1} />
-    <SponsorsSection id="gold" size="desktopMedium" sponsors={gold} columns={3} alt />
-    <SponsorsSection id="silver" size="desktop" sponsors={silver} />
+    <SponsorsSection title="Platinum" id="platinum" sponsors={platinum} columns={1} />
+    <SponsorsSection title="Gold" id="gold" size="desktopMedium" sponsors={gold} columns={3} alt />
+    <SponsorsSection title="Silver" id="silver" size="desktop" sponsors={silver} />
     <SponsorshipCallToAction />
   </PageContainer>
 )
