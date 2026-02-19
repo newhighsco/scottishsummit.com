@@ -9,19 +9,20 @@ import { canonicalUrl } from '~utils/urls'
 
 const meta = { canonical: canonicalUrl('/sponsors'), title: 'Sponsors' }
 
-const platinum = [ { name: 'NetApp', logo: '/images/sponsors/2026/platinum/netapp.png' } ]
+const platinum = [
+  { name: 'NetApp', logo: '/images/sponsors/2026/platinum/netapp.png' }
+]
 const gold = [
   { name: 'mscrm-addons', logo: '/images/sponsors/2026/gold/mscrm-addons.png' },
   { name: 'dox42', logo: '/images/sponsors/2026/gold/dox42.png' },
-  { name: 'available1', logo: '/images/sponsors/2026/available.png' }
+  {}
 ]
 const silver = [
   { name: 'brone', logo: '/images/sponsors/2026/silver/brone.png' },
-  { name: 'available2', logo: '/images/sponsors/2026/available.png' },
-  { name: 'available3', logo: '/images/sponsors/2026/available.png' },
-  { name: 'available4', logo: '/images/sponsors/2026/available.png' }
+  {},
+  {},
+  {}
 ]
-
 
 const SponsorsPage = () => (
   <PageContainer meta={meta}>
@@ -30,9 +31,29 @@ const SponsorsPage = () => (
         <h1>{meta.title}</h1>
       </Prose>
     </Section>
-    <SponsorsSection title="Platinum" id="platinum" sponsors={platinum} columns={1} />
-    <SponsorsSection title="Gold" id="gold" size="desktopMedium" sponsors={gold} columns={3} alt />
-    <SponsorsSection title="Silver" id="silver" size="desktop" sponsors={silver} />
+    <SponsorsSection
+      title="Platinum"
+      id="platinum"
+      size="desktopMedium"
+      sponsors={platinum}
+    />
+    <SponsorsSection
+      title="Gold"
+      id="gold"
+      size="desktopMedium"
+      sponsors={gold}
+      columns="one-third"
+      square
+      alt
+    />
+    <SponsorsSection
+      title="Silver"
+      id="silver"
+      size="desktop"
+      sponsors={silver}
+      columns={['one-half', 'tablet-one-quarter']}
+      square
+    />
     <SponsorshipCallToAction />
   </PageContainer>
 )

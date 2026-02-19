@@ -1,5 +1,4 @@
-import { Image } from '@newhighsco/chipset'
-import classNames from 'classnames'
+import { classNames, Image } from '@newhighsco/chipset'
 import { string } from 'prop-types'
 import React from 'react'
 

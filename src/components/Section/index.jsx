@@ -1,5 +1,4 @@
-import { ContentContainer } from '@newhighsco/chipset'
-import classNames from 'classnames'
+import { classNames, ContentContainer } from '@newhighsco/chipset'
 import { node, object, string } from 'prop-types'
 import React from 'react'
 
