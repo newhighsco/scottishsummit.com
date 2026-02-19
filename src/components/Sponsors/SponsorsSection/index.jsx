@@ -23,7 +23,7 @@ const SponsorsSection = ({ title, sponsors, alt, size, columns, ...rest }) => (
                 width={1832}
                 height={2022}
                 alt={sponsor.name}
-                priority
+                priority={title && title == "Platinum"}
               />
              </Card>
         </Grid.Item>
