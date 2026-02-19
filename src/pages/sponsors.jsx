@@ -42,7 +42,7 @@ const SponsorsPage = () => (
       id="gold"
       size="desktopMedium"
       sponsors={gold}
-      columns="one-third"
+      columns={['one-half', 'tablet-one-third']}
       square
       alt
     />
