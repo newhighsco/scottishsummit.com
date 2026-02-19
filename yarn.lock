@@ -1348,12 +1348,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/cli@npm:20.4.1":
-  version: 20.4.1
-  resolution: "@commitlint/cli@npm:20.4.1"
+"@commitlint/cli@npm:20.4.2":
+  version: 20.4.2
+  resolution: "@commitlint/cli@npm:20.4.2"
   dependencies:
     "@commitlint/format": "npm:^20.4.0"
-    "@commitlint/lint": "npm:^20.4.1"
+    "@commitlint/lint": "npm:^20.4.2"
     "@commitlint/load": "npm:^20.4.0"
     "@commitlint/read": "npm:^20.4.0"
     "@commitlint/types": "npm:^20.4.0"
@@ -1361,7 +1361,7 @@ __metadata:
     yargs: "npm:^17.0.0"
   bin:
     commitlint: ./cli.js
-  checksum: 10c0/3069fbc8f7e4ce66f323854743c10b952d4cc4638d494acd2263d7e31bc12574794b8f94587ed22b44eba169bc33f268f0f8ce2d7daaf7c4812a026d2f554518
+  checksum: 10c0/ef091ed137492cc7a86ba98e4881eb251b2fd205056932dcde7f9a8e3e4aaf4ff1378cbeeee0b666b50d9533c2c20e58555ee179ba92d4225ef856515ad78eef
   languageName: node
   linkType: hard
 
@@ -1416,15 +1416,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/lint@npm:^20.4.1":
-  version: 20.4.1
-  resolution: "@commitlint/lint@npm:20.4.1"
+"@commitlint/lint@npm:^20.4.2":
+  version: 20.4.2
+  resolution: "@commitlint/lint@npm:20.4.2"
   dependencies:
     "@commitlint/is-ignored": "npm:^20.4.1"
     "@commitlint/parse": "npm:^20.4.1"
-    "@commitlint/rules": "npm:^20.4.1"
+    "@commitlint/rules": "npm:^20.4.2"
     "@commitlint/types": "npm:^20.4.0"
-  checksum: 10c0/d5724d2a547343747a4653ffa0067af4836f70e4b9dea6b2203060ff050d53c11e7ded52e8e281fd8f883576964cbd448236dd046dda35e6ee7355fb0c3b2914
+  checksum: 10c0/a244916a443be0a58f362383532f6dd9e12fcd3e4e32de20d62ccb82f5f4a210d6ece8e2a4057055168a349276675f36f459c6ebc74e7d08fdc5c2a123c1993e
   languageName: node
   linkType: hard
 
@@ -1490,15 +1490,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/rules@npm:^20.4.1":
-  version: 20.4.1
-  resolution: "@commitlint/rules@npm:20.4.1"
+"@commitlint/rules@npm:^20.4.2":
+  version: 20.4.2
+  resolution: "@commitlint/rules@npm:20.4.2"
   dependencies:
     "@commitlint/ensure": "npm:^20.4.1"
     "@commitlint/message": "npm:^20.4.0"
     "@commitlint/to-lines": "npm:^20.0.0"
     "@commitlint/types": "npm:^20.4.0"
-  checksum: 10c0/84ce24489c456d22e4c03cfbaa0c25d8e5a123ba36400531a16ce012e2bf58a4a764ff27c81815149e12bfa0da0f6f84c0cdf97c624eec32cc758a31c0eacee5
+  checksum: 10c0/7fa322257bb719504db233a11afe49e1e97847cf5a1004b9af489e7bb81381898f8fbdcaa3e826471d4933e156f99ba1de824ef2941db2f844416f588a2f6002
   languageName: node
   linkType: hard
 
@@ -3022,7 +3022,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@newhighsco/scottishsummit.com@workspace:."
   dependencies:
-    "@commitlint/cli": "npm:20.4.1"
+    "@commitlint/cli": "npm:20.4.2"
     "@newhighsco/browserslist-config": "npm:2.0.0"
     "@newhighsco/chipset": "npm:7.0.0"
     "@newhighsco/commitlint-config": "npm:1.1.48"
@@ -3037,7 +3037,7 @@ __metadata:
     "@newhighsco/stylelint-config": "npm:4.0.27"
     "@newhighsco/svgr-config": "npm:1.0.0"
     "@storybook/nextjs": "npm:10.2.8"
-    chromatic: "npm:15.1.0"
+    chromatic: "npm:15.1.1"
     colorjs.io: "npm:0.6.1"
     concurrently: "npm:9.2.1"
     eslint: "npm:10.0.0"
@@ -6038,9 +6038,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chromatic@npm:15.1.0":
-  version: 15.1.0
-  resolution: "chromatic@npm:15.1.0"
+"chromatic@npm:15.1.1":
+  version: 15.1.1
+  resolution: "chromatic@npm:15.1.1"
   peerDependencies:
     "@chromatic-com/cypress": ^0.*.* || ^1.0.0
     "@chromatic-com/playwright": ^0.*.* || ^1.0.0
@@ -6053,7 +6053,7 @@ __metadata:
     chroma: dist/bin.js
     chromatic: dist/bin.js
     chromatic-cli: dist/bin.js
-  checksum: 10c0/aea449b3c07e599e9b4c1cd866ffa57a5fc6b158b7c1ae4c462f74133869927d0932a077191011bdb841ab81a2dde54b0a35370736ef1986b6854453f01086de
+  checksum: 10c0/c7d68fe4d8979c29e7d1f10064c36aa44f2bcd76b01bd3fe7cfb5d4e81e92df22fb8968e19cf4fd6c8ad3049ce748b2dd04b38a4b7f7a5a233b2b10a1005e872
   languageName: node
   linkType: hard
 

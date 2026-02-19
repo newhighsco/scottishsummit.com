@@ -58,7 +58,7 @@
     "sass": "1.97.3"
   },
   "devDependencies": {
-    "@commitlint/cli": "20.4.1",
+    "@commitlint/cli": "20.4.2",
     "@newhighsco/browserslist-config": "2.0.0",
     "@newhighsco/commitlint-config": "1.1.48",
     "@newhighsco/editor-config": "1.2.0",
@@ -70,7 +70,7 @@
     "@newhighsco/stylelint-config": "4.0.27",
     "@newhighsco/svgr-config": "1.0.0",
     "@storybook/nextjs": "10.2.8",
-    "chromatic": "15.1.0",
+    "chromatic": "15.1.1",
     "colorjs.io": "0.6.1",
     "concurrently": "9.2.1",
     "eslint": "10.0.0",
