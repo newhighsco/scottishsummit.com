@@ -14,12 +14,9 @@ import header from '~data/header.json'
 
 import styles from './Header.module.scss'
 
-const { currentEventSlug } = config
 const { links } = header
 const eventLink = links.find(({ href }) => href === '/events')
-const eventLinks = events
-  .filter(({ slug }) => slug !== currentEventSlug)
-  .map(({ slug }) => ({ href: slug, children: slug }))
+const eventLinks = events.map(({ slug }) => ({ href: slug, children: slug }))
 
 eventLink.links = eventLinks
 
