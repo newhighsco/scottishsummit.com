@@ -69,6 +69,7 @@
     "@newhighsco/storybook-preset": "10.2.10",
     "@newhighsco/stylelint-config": "4.0.27",
     "@newhighsco/svgr-config": "1.0.0",
+    "@newhighsco/yarn-plugin-preset": "1.1.1",
     "@storybook/nextjs": "10.2.10",
     "chromatic": "15.1.1",
     "colorjs.io": "0.6.1",
