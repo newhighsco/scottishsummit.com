@@ -1,3 +1,10 @@
+# [1.14.0](https://github.com/newhighsco/scottishsummit.com/compare/v1.13.14...v1.14.0) (2026-02-20)
+
+
+### Features
+
+* **icons:** use Iconify ([#299](https://github.com/newhighsco/scottishsummit.com/issues/299)) ([a65b1c9](https://github.com/newhighsco/scottishsummit.com/commit/a65b1c921d41959108ff8fec3936618e093ec64e))
+
 ## [1.13.14](https://github.com/newhighsco/scottishsummit.com/compare/v1.13.13...v1.13.14) (2026-02-09)
 
 
