@@ -5,6 +5,7 @@ import React, { Fragment } from 'react'
 import EventHeading from '~components/Events/EventHeading'
 import PageContainer from '~components/PageContainer'
 import Section from '~components/Section'
+import SponsorshipCallToAction from '~components/Sponsors/SponsorshipCallToAction'
 import Video from '~components/Video'
 import config from '~config'
 import events from '~data/events.json'
@@ -76,19 +77,10 @@ const HomePage = () => (
         </Grid.Item>
       </Grid>
     </Section>
-    <Section align="center" id="become-a-sponsor" size="tablet">
-      <Prose>
-        <h2>Become a Sponsor</h2>
-        <p>Sponsor opportunities for {name} 2026 are already open!</p>
-        <p>Some packages are already selling out!</p>
-      </Prose>
-      <Button.Group>
-        <Button href="/sponsor-pack" download>
-          Download Sponsor Pack
-        </Button>
-        <Button href={mailto(email)}>Become a Sponsor</Button>
-      </Button.Group>
-    </Section>
+    <SponsorshipCallToAction>
+      <p>Sponsor opportunities for {name} 2026 are already open!</p>
+      <p>Some packages are already selling out!</p>
+    </SponsorshipCallToAction>
     <Section align="center" size="desktop" variant="striped">
       <Prose>
         <h2>Event Timeline</h2>
