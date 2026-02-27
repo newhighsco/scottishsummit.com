@@ -1,3 +1,10 @@
+# [1.15.0](https://github.com/newhighsco/scottishsummit.com/compare/v1.14.0...v1.15.0) (2026-02-27)
+
+
+### Features
+
+* sponsors page ([#114](https://github.com/newhighsco/scottishsummit.com/issues/114)) ([11eab88](https://github.com/newhighsco/scottishsummit.com/commit/11eab88799bca7fd3941b1b6db0b6dbaa86a9b01))
+
 # [1.14.0](https://github.com/newhighsco/scottishsummit.com/compare/v1.13.14...v1.14.0) (2026-02-20)
 
 
