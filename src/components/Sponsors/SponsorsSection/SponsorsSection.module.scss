@@ -3,15 +3,30 @@
 @use '~styles/mixins';
 
 .root {
-  display: grid;
-  gap: functions.spacing(2);
-  grid-template-columns: repeat(var(--columns, 4), 1fr);
+  place-content: center;
+  row-gap: functions.spacing(2);
 
   @include mixins.mq(breakpoints.$desktop) {
-    gap: functions.spacing(4);
+    row-gap: functions.spacing(4);
   }
 }
 
 .card {
   max-width: unset;
+}
+
+.square {
+  aspect-ratio: 1;
+}
+
+.content {
+  font-size: 0.777em;
+  height: 100%;
+  justify-content: center;
+  padding: functions.spacing(1);
+
+  @include mixins.mq(breakpoints.$mobile-landscape) {
+    font-size: 1em;
+    padding: functions.spacing(2);
+  }
 }
