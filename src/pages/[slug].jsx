@@ -42,9 +42,15 @@ const EventPage = props => {
         </Section>
       )}
       {keynote && (
-        <Section id="about" variant="striped">
+        <Section
+          id="about"
+          variant="striped"
+          size={keynote.videoId ? undefined : 'desktop'}
+        >
           <Grid gutter valign="middle">
-            <Grid.Item sizes={keynote.videoId ? "desktop-one-half" : "desktop-full"}>
+            <Grid.Item
+              sizes={keynote.videoId ? 'desktop-one-half' : 'desktop-full'}
+            >
               <Prose align="center">
                 <h2>Keynote</h2>
                 <p>
@@ -52,19 +58,10 @@ const EventPage = props => {
                   <br />
                   {keynote.title}
                 </p>
-                  {keynote.sessionTitle && (
-                    <>
-                      <br />
-                      <h3>{keynote.sessionTitle}</h3>
-                    </>
-                  )}
-                  <p>
-                  {keynote.sessionDescription && (
-                    <>
-                      {keynote.sessionDescription}
-                    </>
-                  )}
-                </p>
+                {keynote.sessionTitle && <h3>{keynote.sessionTitle}</h3>}
+                {keynote.sessionDescription && (
+                  <p>{keynote.sessionDescription}</p>
+                )}
               </Prose>
             </Grid.Item>
             {keynote.videoId && (
@@ -73,7 +70,10 @@ const EventPage = props => {
                   <br />
                 </Grid.Item>
                 <Grid.Item sizes="desktop-one-half">
-                  <Video id={keynote.videoId} title={`${name} ${slug} Keynote`} />
+                  <Video
+                    id={keynote.videoId}
+                    title={`${name} ${slug} Keynote`}
+                  />
                 </Grid.Item>
               </>
             )}
@@ -103,8 +103,7 @@ export const getStaticProps = async ({ params }) => {
 }
 
 export const getStaticPaths = async () => ({
-  paths: events
-    .map(({ slug }) => ({ params: { slug } })),
+  paths: events.map(({ slug }) => ({ params: { slug } })),
   fallback: false
 })
 
