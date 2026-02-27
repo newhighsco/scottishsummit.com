@@ -13,6 +13,13 @@
         "postalCode": "EH12 5PJ",
         "addressCountry": "GB"
       }
+    },
+    "description": "In 2026, Scottish Summit comes to Edinburgh for the first time, bringing the community together for another incredible weekend of learning and collaboration. Taking over the iconic Murrayfield Stadium, the event promises to be an unforgettable experience for all attendees. With expert speakers sharing knowledge across the full Microsoft Cloud ecosystem, the event will showcase the latest in Dynamics 365, Power Platform, Azure, and Microsoft 365. Every session will highlight the strength and diversity of the Microsoft community and its impact across industries.",
+    "keynote": {
+      "name": "Martin Woodward",
+      "title": "Vice President of Developer Relations, GitHub",
+      "sessionTitle": "Building with Heart in the Age of AI",
+      "sessionDescription": "AI makes producing probably-working software easier than ever. But the further we step from the code, the less control we have. DevOps shows us guardrails matter when delivering value at scale. So how do we move fast but avoid sleepwalking into brittle systems that only appear correct? When is \"good enough\" enough, and where do creativity and taste come in?"
     }
   },
   {

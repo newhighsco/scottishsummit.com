@@ -5,6 +5,7 @@ import React, { Fragment } from 'react'
 import EventHeading from '~components/Events/EventHeading'
 import PageContainer from '~components/PageContainer'
 import Section from '~components/Section'
+import SponsorshipCallToAction from '~components/Sponsors/SponsorshipCallToAction'
 import Video from '~components/Video'
 import config from '~config'
 import events from '~data/events.json'
@@ -24,7 +25,7 @@ const timeline = [
     href: '/#become-a-sponsor',
     children: 'Open now'
   },
-  { heading: 'Call for Speakers', children: 'March 1st, 2026' },
+  { heading: 'Call for Speakers', href:'https://sessionize.com/scottish-summit-2026/', children: 'Closes 1st July 2026' },
   { heading: 'Agenda Published', children: 'July 1st, 2026' },
   { heading: 'Workshops', children: 'October 2nd, 2026' },
   { heading: 'Event Day', children: 'October 3rd, 2026' }
@@ -50,8 +51,8 @@ const HomePage = () => (
         </p>
       }
     >
-      <Button href={mailto(email)} variant="inverted">
-        Find out more
+      <Button href="https://sessionize.com/scottish-summit-2026/" variant="inverted">
+        2026 Call For Speakers is Open
       </Button>
     </EventHeading>
     <Section id="about" variant="striped">
@@ -63,7 +64,7 @@ const HomePage = () => (
               {name} celebrates community and innovation in the age of AI. Dive
               into the world of Copilot and discover how Microsoft
               professionals, MVPs, and industry leaders are shaping the future
-              with Dynamics 365, Power Platform, M365 nd Azure. Learn, connect,
+              with Dynamics 365, Power Platform, M365 and Azure. Learn, connect,
               and have fun along the way!
             </p>
           </Prose>
@@ -76,19 +77,10 @@ const HomePage = () => (
         </Grid.Item>
       </Grid>
     </Section>
-    <Section align="center" id="become-a-sponsor" size="tablet">
-      <Prose>
-        <h2>Become a Sponsor</h2>
-        <p>Sponsor opportunities for {name} 2026 are already open!</p>
-        <p>Some packages are already selling out!</p>
-      </Prose>
-      <Button.Group>
-        <Button href="/sponsor-pack" download>
-          Download Sponsor Pack
-        </Button>
-        <Button href={mailto(email)}>Become a Sponsor</Button>
-      </Button.Group>
-    </Section>
+    <SponsorshipCallToAction>
+      <p>Sponsor opportunities for {name} 2026 are already open!</p>
+      <p>Some packages are already selling out!</p>
+    </SponsorshipCallToAction>
     <Section align="center" size="desktop" variant="striped">
       <Prose>
         <h2>Event Timeline</h2>

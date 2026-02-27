@@ -12,7 +12,7 @@ import events from '~data/events.json'
 import { eventTitle } from '~utils/format'
 import { canonicalUrl, eventUrl } from '~utils/urls'
 
-const { name, currentEventSlug } = config
+const { name } = config
 
 const EventPage = props => {
   const { slug, description, stats, keynote } = props
@@ -44,7 +44,7 @@ const EventPage = props => {
       {keynote && (
         <Section id="about" variant="striped">
           <Grid gutter valign="middle">
-            <Grid.Item sizes="desktop-one-half">
+            <Grid.Item sizes={keynote.videoId ? "desktop-one-half" : "desktop-full"}>
               <Prose align="center">
                 <h2>Keynote</h2>
                 <p>
@@ -52,14 +52,31 @@ const EventPage = props => {
                   <br />
                   {keynote.title}
                 </p>
+                  {keynote.sessionTitle && (
+                    <>
+                      <br />
+                      <h3>{keynote.sessionTitle}</h3>
+                    </>
+                  )}
+                  <p>
+                  {keynote.sessionDescription && (
+                    <>
+                      {keynote.sessionDescription}
+                    </>
+                  )}
+                </p>
               </Prose>
             </Grid.Item>
-            <Grid.Item sizes="desktop-hidden">
-              <br />
-            </Grid.Item>
-            <Grid.Item sizes="desktop-one-half">
-              <Video id={keynote.videoId} title={`${name} ${slug} Keynote`} />
-            </Grid.Item>
+            {keynote.videoId && (
+              <>
+                <Grid.Item sizes="desktop-hidden">
+                  <br />
+                </Grid.Item>
+                <Grid.Item sizes="desktop-one-half">
+                  <Video id={keynote.videoId} title={`${name} ${slug} Keynote`} />
+                </Grid.Item>
+              </>
+            )}
           </Grid>
         </Section>
       )}
@@ -87,7 +104,6 @@ export const getStaticProps = async ({ params }) => {
 
 export const getStaticPaths = async () => ({
   paths: events
-    .filter(({ slug }) => slug !== currentEventSlug)
     .map(({ slug }) => ({ params: { slug } })),
   fallback: false
 })
