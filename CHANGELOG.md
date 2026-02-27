@@ -1,3 +1,10 @@
+## [1.15.1](https://github.com/newhighsco/scottishsummit.com/compare/v1.15.0...v1.15.1) (2026-02-27)
+
+
+### Bug Fixes
+
+* **events:** restrict text width ([18ef824](https://github.com/newhighsco/scottishsummit.com/commit/18ef82486cfe7d67eaa83260bcaca4f4ece4f698))
+
 # [1.15.0](https://github.com/newhighsco/scottishsummit.com/compare/v1.14.0...v1.15.0) (2026-02-27)
 
 
