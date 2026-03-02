@@ -3,6 +3,7 @@
     { "href": "/", "children": "Home", "target": "" },
     { "href": "/#about", "children": "About", "target": "" },
     { "href": "/sponsors", "children": "Sponsors", "target": "" },
-    { "href": "/events", "children": "Events", "target": "" }
+    { "href": "/events", "children": "Events", "target": "" },
+    { "href": "/guidelines", "children": "Guidelines", "target": "" }
   ]
 }
