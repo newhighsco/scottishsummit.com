@@ -37,7 +37,7 @@ const PoliciesPage = () => (
         preceding hackathons and workshops, the conference feedback forms and
         social media discussion around the event. Please note that if you find
         this onerous or otherwise difficult to adhere to, {name} is not the
-        event for you. you.
+        event for you.
       </p>
       <p>
         The venue is fully wheelchair accessible, and service dogs are

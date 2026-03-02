@@ -25,7 +25,7 @@ const timeline = [
     href: '/#become-a-sponsor',
     children: 'Open now'
   },
-  { heading: 'Call for Speakers', href:'https://sessionize.com/scottish-summit-2026/', children: 'Closes 1st July 2026' },
+  { heading: 'Call for Speakers', href:'https://sessionize.com/scottish-summit-2026/', children: 'Closes 1st June 2026' },
   { heading: 'Agenda Published', children: 'July 1st, 2026' },
   { heading: 'Workshops', children: 'October 2nd, 2026' },
   { heading: 'Event Day', children: 'October 3rd, 2026' }
