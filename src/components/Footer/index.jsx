@@ -9,21 +9,16 @@ import React from 'react'
 
 import config from '~config'
 import footer from '~data/footer.json'
-import { ReactComponent as FacebookIcon } from '~images/icons/facebook.svg'
-import { ReactComponent as InstagramIcon } from '~images/icons/instagram.svg'
-import { ReactComponent as LinkedInIcon } from '~images/icons/linkedin.svg'
-import { ReactComponent as XIcon } from '~images/icons/x.svg'
-import { ReactComponent as YouTubeIcon } from '~images/icons/youtube.svg'
 
 import styles from './Footer.module.scss'
 
 const { name, organisationName, socialLinks } = config
 const iconLinks = {
-  X: { icon: XIcon },
-  LinkedIn: { icon: LinkedInIcon },
-  Facebook: { icon: FacebookIcon, verb: 'Like' },
-  YouTube: { icon: YouTubeIcon, verb: 'Subscribe to' },
-  Instagram: { icon: InstagramIcon }
+  X: { icon: 'simple-icons:x' },
+  LinkedIn: { icon: 'simple-icons:linkedin' },
+  Facebook: { icon: 'simple-icons:facebook', verb: 'Like' },
+  YouTube: { icon: 'simple-icons:youtube', verb: 'Subscribe to' },
+  Instagram: { icon: 'simple-icons:instagram' }
 }
 
 const Footer = () => (
@@ -42,7 +37,7 @@ const Footer = () => (
         inline
         links={Object.values(iconLinks)}
         renderLink={(
-          { icon: IconSvg, verb = 'Follow', preposition = 'on', ...rest },
+          { icon, verb = 'Follow', preposition = 'on', ...rest },
           index
         ) => {
           const key = Object.keys(iconLinks).at(index)
@@ -50,11 +45,10 @@ const Footer = () => (
           return (
             <SmartLink href={socialLinks[key]} target="_blank" {...rest}>
               <Icon
+                name={icon}
                 theme={{ root: styles.icon }}
                 alt={[verb, name, preposition, key].join(' ')}
-              >
-                <IconSvg />
-              </Icon>
+              />
             </SmartLink>
           )
         }}

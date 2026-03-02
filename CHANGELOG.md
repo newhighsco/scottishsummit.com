@@ -1,3 +1,24 @@
+## [1.15.1](https://github.com/newhighsco/scottishsummit.com/compare/v1.15.0...v1.15.1) (2026-02-27)
+
+
+### Bug Fixes
+
+* **events:** restrict text width ([18ef824](https://github.com/newhighsco/scottishsummit.com/commit/18ef82486cfe7d67eaa83260bcaca4f4ece4f698))
+
+# [1.15.0](https://github.com/newhighsco/scottishsummit.com/compare/v1.14.0...v1.15.0) (2026-02-27)
+
+
+### Features
+
+* sponsors page ([#114](https://github.com/newhighsco/scottishsummit.com/issues/114)) ([11eab88](https://github.com/newhighsco/scottishsummit.com/commit/11eab88799bca7fd3941b1b6db0b6dbaa86a9b01))
+
+# [1.14.0](https://github.com/newhighsco/scottishsummit.com/compare/v1.13.14...v1.14.0) (2026-02-20)
+
+
+### Features
+
+* **icons:** use Iconify ([#299](https://github.com/newhighsco/scottishsummit.com/issues/299)) ([a65b1c9](https://github.com/newhighsco/scottishsummit.com/commit/a65b1c921d41959108ff8fec3936618e093ec64e))
+
 ## [1.13.14](https://github.com/newhighsco/scottishsummit.com/compare/v1.13.13...v1.13.14) (2026-02-09)
 
 
