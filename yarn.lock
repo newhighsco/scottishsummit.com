@@ -2389,17 +2389,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/compat@npm:2.0.2":
-  version: 2.0.2
-  resolution: "@eslint/compat@npm:2.0.2"
+"@eslint/compat@npm:2.0.3":
+  version: 2.0.3
+  resolution: "@eslint/compat@npm:2.0.3"
   dependencies:
-    "@eslint/core": "npm:^1.1.0"
+    "@eslint/core": "npm:^1.1.1"
   peerDependencies:
     eslint: ^8.40 || 9 || 10
   peerDependenciesMeta:
     eslint:
       optional: true
-  checksum: 10c0/176df611bcb54ff7d9c3ac440df6844e552a4ed5de30eba28edbeebb68ccc7f19111fdd4c10780101ee5f871bd03ec0457f38c67834c285751c2bdb37d8ae73c
+  checksum: 10c0/e7b1a1bdf366759f9a7c3f09fe35cdd0f45208a6ca789be1357895869e546d0c3185ec92b29996141fdd1173103c3408a81ba2ecb86219bd15671ae65af6595b
   languageName: node
   linkType: hard
 
@@ -2423,12 +2423,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/core@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "@eslint/core@npm:1.1.0"
+"@eslint/core@npm:^1.1.0, @eslint/core@npm:^1.1.1":
+  version: 1.1.1
+  resolution: "@eslint/core@npm:1.1.1"
   dependencies:
     "@types/json-schema": "npm:^7.0.15"
-  checksum: 10c0/0f875d6f24fbf67cc796e01c2ca82884f755488052ed84183e56377c5b90fe10b491a26e600642db4daea1d5d8ab7906ec12f2bd5cbdb5004b0ef73c802bdb57
+  checksum: 10c0/129c654c78afc1f6d61dccb0ce841be667f09f052f7d5642614b6ba5eeebd579ca6cc336d7b750d88625e61f7aad22fdd62bf83847fbfc10cc3e58cfe6c5072e
   languageName: node
   linkType: hard
 
@@ -2906,11 +2906,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/eslint-config@npm:7.0.18":
-  version: 7.0.18
-  resolution: "@newhighsco/eslint-config@npm:7.0.18"
+"@newhighsco/eslint-config@npm:7.0.20":
+  version: 7.0.20
+  resolution: "@newhighsco/eslint-config@npm:7.0.20"
   dependencies:
-    "@eslint/compat": "npm:2.0.2"
+    "@eslint/compat": "npm:2.0.3"
     "@eslint/js": "npm:10.0.1"
     "@eslint/json": "npm:1.0.1"
     eslint-config-prettier: "npm:10.1.8"
@@ -2921,7 +2921,7 @@ __metadata:
     eslint-plugin-react: "npm:7.37.5"
     eslint-plugin-react-hooks: "npm:7.0.1"
     eslint-plugin-simple-import-sort: "npm:12.1.1"
-    eslint-plugin-storybook: "npm:10.2.15"
+    eslint-plugin-storybook: "npm:10.2.16"
     eslint-plugin-testing-library: "npm:7.16.0"
     find-up: "npm:8.0.0"
     typescript-eslint: "npm:8.56.1"
@@ -2935,7 +2935,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10c0/40573bfdcd1b95c57f4dcbc619bb9c31bb94160c970bf2336c47228d535d46f9e8579a0e18033e22c7e9d4a288d02aa5087d3e73fdb6581b58ed95ed2f27390c
+  checksum: 10c0/fe8b9e1300a3fe619da648aad115553493c997301544bd7ab8b476258057c832b6db16af75293b80c027b3516e51d85239360f5c7c07d9dc76ee125d3d01966e
   languageName: node
   linkType: hard
 
@@ -2952,18 +2952,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/postcss-config@npm:4.0.28":
-  version: 4.0.28
-  resolution: "@newhighsco/postcss-config@npm:4.0.28"
+"@newhighsco/postcss-config@npm:4.0.29":
+  version: 4.0.29
+  resolution: "@newhighsco/postcss-config@npm:4.0.29"
   dependencies:
     "@fullhuman/postcss-purgecss": "npm:8.0.0"
     autoprefixer: "npm:10.4.27"
-    caniuse-lite: "npm:1.0.30001776"
+    caniuse-lite: "npm:1.0.30001777"
     postcss-flexbugs-fixes: "npm:5.0.2"
     postcss-preset-env: "npm:11.2.0"
   peerDependencies:
     postcss: 8.5.8
-  checksum: 10c0/f5245aca514c45f205a28fba5c3fa18e18e73ceb3c1e92722a7d2417341579dbae34baa5a5c65359b33477e09eebdf8453d3a335b518dbcdcace555333e02cd4
+  checksum: 10c0/191f140ac5599c4811640c998650313f74bd88e7641b997b4bb900857c9a9d29e3ffca740369de920efd84d48329d5022b0a6498e827db02dd0cfc4cd417a555
   languageName: node
   linkType: hard
 
@@ -3017,13 +3017,13 @@ __metadata:
     "@newhighsco/chipset": "npm:7.0.0"
     "@newhighsco/commitlint-config": "npm:1.1.50"
     "@newhighsco/editor-config": "npm:1.2.0"
-    "@newhighsco/eslint-config": "npm:7.0.18"
+    "@newhighsco/eslint-config": "npm:7.0.20"
     "@newhighsco/next-plugin-svgr": "npm:3.0.162"
-    "@newhighsco/postcss-config": "npm:4.0.28"
+    "@newhighsco/postcss-config": "npm:4.0.29"
     "@newhighsco/press-start": "npm:2.6.34"
     "@newhighsco/prettier-config": "npm:2.3.3"
     "@newhighsco/release-config": "npm:1.4.26"
-    "@newhighsco/storybook-preset": "npm:10.2.16"
+    "@newhighsco/storybook-preset": "npm:10.2.17"
     "@newhighsco/stylelint-config": "npm:4.0.28"
     "@newhighsco/svgr-config": "npm:1.0.0"
     "@newhighsco/yarn-plugin-preset": "npm:1.1.1"
@@ -3071,15 +3071,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/storybook-preset@npm:10.2.16":
-  version: 10.2.16
-  resolution: "@newhighsco/storybook-preset@npm:10.2.16"
+"@newhighsco/storybook-preset@npm:10.2.17":
+  version: 10.2.17
+  resolution: "@newhighsco/storybook-preset@npm:10.2.17"
   dependencies:
     "@newhighsco/chipset": "npm:7.0.0"
     "@newhighsco/storybook-addon-svgr": "npm:4.0.0"
     "@newhighsco/storybook-addon-transpile-modules": "npm:4.0.0"
-    "@storybook/addon-a11y": "npm:10.2.15"
-    "@storybook/addon-docs": "npm:10.2.15"
+    "@storybook/addon-a11y": "npm:10.2.16"
+    "@storybook/addon-docs": "npm:10.2.16"
     "@storybook/addon-styling-webpack": "npm:3.0.0"
     "@storybook/addon-webpack5-compiler-swc": "npm:4.0.2"
     css-loader: "npm:7.1.4"
@@ -3087,12 +3087,12 @@ __metadata:
     postcss-loader: "npm:8.2.1"
     sass: "npm:1.97.3"
     sass-loader: "npm:16.0.7"
-    storybook-addon-pseudo-states: "npm:10.2.15"
+    storybook-addon-pseudo-states: "npm:10.2.16"
     style-loader: "npm:4.0.0"
   peerDependencies:
     "@storybook/react-webpack5": ^10
-    storybook: 10.2.15
-  checksum: 10c0/6c032158d6a7d04fd9b00c61f34d21674e72a8db95cd2d5fe5c72c0f93e47bc59420f1f8f4fee5d4d8f5dbc9f53ca3a6c1cdaefb12634b592673f4efb710079e
+    storybook: 10.2.16
+  checksum: 10c0/583b5ea91784b9cd42549dc0591c16098a125f0e83b09edc8f7b7beb2bf5297afe39922799c4205b96f53366e97addee215b46d930b1a0f50bf198e010a3fa4b
   languageName: node
   linkType: hard
 
@@ -3997,32 +3997,32 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-a11y@npm:10.2.15":
-  version: 10.2.15
-  resolution: "@storybook/addon-a11y@npm:10.2.15"
+"@storybook/addon-a11y@npm:10.2.16":
+  version: 10.2.16
+  resolution: "@storybook/addon-a11y@npm:10.2.16"
   dependencies:
     "@storybook/global": "npm:^5.0.0"
     axe-core: "npm:^4.2.0"
   peerDependencies:
-    storybook: ^10.2.15
-  checksum: 10c0/23c6b12f95c1e1467c1628118fe568c01003021ea575bc745cef36876a4d3caf87e1519a5745a53cfc68bf433eeaf8eabc4c9c94672501b4ea909fed2ff8fe95
+    storybook: ^10.2.16
+  checksum: 10c0/bfabfcf24c8ca1f5458a1143148ea8f6a644ab2e0d687b2145078c527b34de08c7af33cce39fb27e57f56649512b7f2a4523ddc8d9208c9b495386432299d562
   languageName: node
   linkType: hard
 
-"@storybook/addon-docs@npm:10.2.15":
-  version: 10.2.15
-  resolution: "@storybook/addon-docs@npm:10.2.15"
+"@storybook/addon-docs@npm:10.2.16":
+  version: 10.2.16
+  resolution: "@storybook/addon-docs@npm:10.2.16"
   dependencies:
     "@mdx-js/react": "npm:^3.0.0"
-    "@storybook/csf-plugin": "npm:10.2.15"
+    "@storybook/csf-plugin": "npm:10.2.16"
     "@storybook/icons": "npm:^2.0.1"
-    "@storybook/react-dom-shim": "npm:10.2.15"
+    "@storybook/react-dom-shim": "npm:10.2.16"
     react: "npm:^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
     react-dom: "npm:^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
     ts-dedent: "npm:^2.0.0"
   peerDependencies:
-    storybook: ^10.2.15
-  checksum: 10c0/924958446d85716b4df48b790453048bc88d75b803aae95fa9c8026c02293ab49eb7cecc8d2ab1041ad26e157c33e0d878619074bad64efe362e75e40ebbec1f
+    storybook: ^10.2.16
+  checksum: 10c0/9bb4098c88a54406a1f6fa5b0c377f5222344ce06bbbb442391083369ddc63b4bff88a71df038d430f09f577c73dc270221a427c13da97e665395c20ad0fc5e3
   languageName: node
   linkType: hard
 
@@ -4087,15 +4087,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/csf-plugin@npm:10.2.15":
-  version: 10.2.15
-  resolution: "@storybook/csf-plugin@npm:10.2.15"
+"@storybook/csf-plugin@npm:10.2.16":
+  version: 10.2.16
+  resolution: "@storybook/csf-plugin@npm:10.2.16"
   dependencies:
     unplugin: "npm:^2.3.5"
   peerDependencies:
     esbuild: "*"
     rollup: "*"
-    storybook: ^10.2.15
+    storybook: ^10.2.16
     vite: "*"
     webpack: "*"
   peerDependenciesMeta:
@@ -4107,7 +4107,7 @@ __metadata:
       optional: true
     webpack:
       optional: true
-  checksum: 10c0/301ebda3a0a282f8e1ed485aecd96576b7319f5e76125e31091c0fb2b984bc30bb520faf4569e2c9b13a58dbf350acff166f2afd26f145578d96e6c0bcc2274f
+  checksum: 10c0/f4171215322bc33688755ae8acbac6f7ab4939f93e939039f4b5b01fc074a2f9ec39ec0212f57e52b90473d6d8da42ef1187ec89d25305cf09870d0c2a96eb50
   languageName: node
   linkType: hard
 
@@ -4230,6 +4230,17 @@ __metadata:
     react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
     storybook: ^10.2.15
   checksum: 10c0/238653cf2e8ab47d386d1ff3b8a35ad591779362920532d33fe88224713edfcd279a69c32daae8a2e8762a8a9b32836ee3c5a3c9cbf1d75e93d00f72503f82d0
+  languageName: node
+  linkType: hard
+
+"@storybook/react-dom-shim@npm:10.2.16":
+  version: 10.2.16
+  resolution: "@storybook/react-dom-shim@npm:10.2.16"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+    storybook: ^10.2.16
+  checksum: 10c0/295a7ca42c21fe83039e8cea1f31329955bbdbf2190f3843ca4317072b261b940475aaa3758184d512b328c72f44680460c421c75f745666948c59147321869a
   languageName: node
   linkType: hard
 
@@ -6143,10 +6154,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:1.0.30001776, caniuse-lite@npm:^1.0.30001579, caniuse-lite@npm:^1.0.30001759, caniuse-lite@npm:^1.0.30001774":
-  version: 1.0.30001776
-  resolution: "caniuse-lite@npm:1.0.30001776"
-  checksum: 10c0/d5a7624ea50548c6c4381979a2900ac451caa7ecbeafec209309da25d547ba1406355cf66d6c6d537d8532ab5a56f2bbc0bf62300a4c3f66aa6fca5954264735
+"caniuse-lite@npm:1.0.30001777, caniuse-lite@npm:^1.0.30001579, caniuse-lite@npm:^1.0.30001759, caniuse-lite@npm:^1.0.30001774":
+  version: 1.0.30001777
+  resolution: "caniuse-lite@npm:1.0.30001777"
+  checksum: 10c0/e35443fa7c470edc06e315297cca706790840e96983fff12dfe502a4b123d6e4a64b9b4e8e35fb2f5bb60c31b24fbda93d76b2f700ce183df474671236fa7a4a
   languageName: node
   linkType: hard
 
@@ -7972,15 +7983,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-storybook@npm:10.2.15":
-  version: 10.2.15
-  resolution: "eslint-plugin-storybook@npm:10.2.15"
+"eslint-plugin-storybook@npm:10.2.16":
+  version: 10.2.16
+  resolution: "eslint-plugin-storybook@npm:10.2.16"
   dependencies:
     "@typescript-eslint/utils": "npm:^8.48.0"
   peerDependencies:
     eslint: ">=8"
-    storybook: ^10.2.15
-  checksum: 10c0/b334af5ec633d25c4fba2a2ded130a78df4bd7c68cfed352e966bc3a63b8982e455d434152ad96bfef72ac9d5879f43583609e92518994f1e80a40fba05f029b
+    storybook: ^10.2.16
+  checksum: 10c0/7fb50dabdf5ee0361cd25010a7a188cc88ce18233c181bb8f73320c1aa274a1003087707407a2290963f22a80f2cc39a094c3b0e45286d0775f3e6ed40e7c6c2
   languageName: node
   linkType: hard
 
@@ -14076,12 +14087,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"storybook-addon-pseudo-states@npm:10.2.15":
-  version: 10.2.15
-  resolution: "storybook-addon-pseudo-states@npm:10.2.15"
+"storybook-addon-pseudo-states@npm:10.2.16":
+  version: 10.2.16
+  resolution: "storybook-addon-pseudo-states@npm:10.2.16"
   peerDependencies:
-    storybook: ^10.2.15
-  checksum: 10c0/956c8695954b0870e38e66108f625907db38d8b560818ffe054647ec1d538bdaf4b40fa716c2cbe92ca2cc177208bb86f6f1f2a8348c1dde619c8d2aae9fd655
+    storybook: ^10.2.16
+  checksum: 10c0/f691034ce744683193e674e66d1a26c8c0bcb367b4c344ee34c4f10cb15f3f8b2f2c112fc621a40a3ea53f5af0c2c09ac00ac2478d5ca5844163a6b2203fea84
   languageName: node
   linkType: hard
 
