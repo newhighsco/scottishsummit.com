@@ -3047,7 +3047,7 @@ __metadata:
     "@newhighsco/svgr-config": "npm:1.0.0"
     "@newhighsco/yarn-plugin-preset": "npm:1.1.2"
     "@storybook/nextjs": "npm:10.2.19"
-    chromatic: "npm:15.2.0"
+    chromatic: "npm:15.3.1"
     colorjs.io: "npm:0.6.1"
     concurrently: "npm:9.2.1"
     eslint: "npm:10.0.3"
@@ -6267,9 +6267,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chromatic@npm:15.2.0":
-  version: 15.2.0
-  resolution: "chromatic@npm:15.2.0"
+"chromatic@npm:15.3.1":
+  version: 15.3.1
+  resolution: "chromatic@npm:15.3.1"
   peerDependencies:
     "@chromatic-com/cypress": ^0.*.* || ^1.0.0
     "@chromatic-com/playwright": ^0.*.* || ^1.0.0
@@ -6282,7 +6282,7 @@ __metadata:
     chroma: dist/bin.js
     chromatic: dist/bin.js
     chromatic-cli: dist/bin.js
-  checksum: 10c0/b46c9e288236c76128935373ca90eda0127eb604a0431ba25c4600e952fc2bba414dbc3268513be7cc35b9d0ffff8566ca95e838bc9d4341940a99ef33a5808b
+  checksum: 10c0/9987fd93a8b61b1f2f4ea9544ac9a2e280904c5731c49394a4b505ddcf4e50093691e5aa2b944a6182bd52745c782e275fd283d1e5778d75f8bb5e70fb66768e
   languageName: node
   linkType: hard
 
