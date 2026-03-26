@@ -1,7 +1,7 @@
 {
   "name": "@newhighsco/scottishsummit.com",
   "description": "Scottish Summit website",
-  "version": "1.15.3",
+  "version": "1.15.4",
   "author": "New High Score",
   "license": "ISC",
   "private": true,
@@ -55,7 +55,7 @@
     "postcss": "8.5.8",
     "react": "19.2.4",
     "react-dom": "19.2.4",
-    "sass": "1.97.3"
+    "sass": "1.98.0"
   },
   "devDependencies": {
     "@commitlint/cli": "20.5.0",
