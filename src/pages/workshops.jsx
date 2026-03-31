@@ -20,19 +20,12 @@ const WorkshopsPage = () => (
         </p>
       </Prose>
     </Section>
-    <Section align="center" size="desktopMedium" variant="striped">
+    <Section align="center" variant="striped">
       <Grid flex gutter>
         {workshops.map(({ title, description, presenters, price, ticketUrl }) => (
           <Fragment key={title}>
-            <Grid.Item sizes={['tablet-one-half', 'desktop-one-third']}>
-              <Card
-                heading={<h2>{title}</h2>}
-                footer={
-                  <Button href={ticketUrl} variant="primary">
-                    Get tickets{price && ` — ${price}`}
-                  </Button>
-                }
-              >
+            <Grid.Item sizes={['tablet-one-half', 'desktop-one-quarter']}>
+              <Card heading={<h2>{title}</h2>}>
                 <Prose>
                   <p>{description}</p>
                   {presenters?.length > 0 && (
@@ -47,6 +40,12 @@ const WorkshopsPage = () => (
                         ))}
                       </ul>
                     </>
+                  )}
+                  {price && <p>{price}</p>}
+                  {ticketUrl && (
+                    <Button href={ticketUrl} variant="primary">
+                      Get tickets
+                    </Button>
                   )}
                 </Prose>
               </Card>
