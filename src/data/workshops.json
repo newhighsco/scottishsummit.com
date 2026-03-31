@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Introduction to Microsoft Copilot Studio",
+    "description": "A hands-on workshop guiding you through the fundamentals of Microsoft Copilot Studio. You will learn how to build, configure and deploy intelligent chatbots and copilots that integrate with Power Platform and Microsoft 365. No prior experience required.",
+    "presenters": [
+      { "name": "TBC", "title": "Microsoft MVP" }
+    ],
+    "ticketUrl": "https://www.eventbrite.com/e/scottish-summit-2026"
+  },
+  {
+    "title": "Power Automate: From Zero to Hero",
+    "description": "Discover the power of automation with this practical, beginner-friendly workshop. Covering the essentials of Power Automate, attendees will walk away having built real-world flows that save time and reduce manual effort across everyday business processes.",
+    "presenters": [
+      { "name": "TBC", "title": "Microsoft MVP" }
+    ],
+    "ticketUrl": "https://www.eventbrite.com/e/scottish-summit-2026"
+  },
+  {
+    "title": "Azure OpenAI Service in Practice",
+    "description": "This workshop dives into the Azure OpenAI Service, showing you how to integrate large language models into your own applications. Through live demonstrations and guided exercises, you will explore prompt engineering, retrieval-augmented generation (RAG) and responsible AI principles.",
+    "presenters": [
+      { "name": "TBC", "title": "Microsoft MVP" }
+    ],
+    "ticketUrl": "https://www.eventbrite.com/e/scottish-summit-2026"
+  }
+]
