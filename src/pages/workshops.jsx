@@ -35,17 +35,10 @@ const WorkshopsPage = () => (
                 <Prose>
                   <p>{description}</p>
                   {presenters?.length > 0 && (
-                    <>
-                      <h3>Presenters</h3>
-                      <ul>
-                        {presenters.map(({ name, title: presenterTitle }) => (
-                          <li key={name}>
-                            <strong>{name}</strong>
-                            {presenterTitle && ` — ${presenterTitle}`}
-                          </li>
-                        ))}
-                      </ul>
-                    </>
+                    <p>
+                      <strong>Hosted by:</strong>{' '}
+                      {presenters.map(({ name }) => name).join(', ')}
+                    </p>
                   )}
                   {price && <p>{price}</p>}
                 </Prose>
