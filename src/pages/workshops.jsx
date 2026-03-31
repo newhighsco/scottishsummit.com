@@ -9,6 +9,7 @@ import { canonicalUrl } from '~utils/urls'
 import styles from './workshops.module.scss'
 
 const meta = { canonical: canonicalUrl('/workshops'), title: 'Workshops' }
+const ticketUrl = 'https://www.eventbrite.com/e/scottish-summit-2026'
 
 const WorkshopsPage = () => (
   <PageContainer meta={meta}>
@@ -24,7 +25,7 @@ const WorkshopsPage = () => (
     </Section>
     <Section align="center" variant="striped">
       <Grid flex gutter className={styles.grid}>
-        {workshops.map(({ title, description, presenters, price, ticketUrl }) => (
+        {workshops.map(({ title, description, presenters, price }) => (
           <Fragment key={title}>
             <Grid.Item sizes={['one-half']}>
               <Card
@@ -47,17 +48,24 @@ const WorkshopsPage = () => (
                     </>
                   )}
                   {price && <p>{price}</p>}
-                  {ticketUrl && (
-                    <Button href={ticketUrl} variant="primary">
-                      Get tickets
-                    </Button>
-                  )}
                 </Prose>
               </Card>
             </Grid.Item>
           </Fragment>
         ))}
       </Grid>
+    </Section>
+    <Section align="center" size="tablet">
+      <Prose>
+        <h2>Get Tickets</h2>
+        <p>
+          Workshop tickets are available separately from the main event.
+          Secure your place now before they sell out.
+        </p>
+      </Prose>
+      <Button href={ticketUrl} variant="primary">
+        Get Tickets
+      </Button>
     </Section>
   </PageContainer>
 )
