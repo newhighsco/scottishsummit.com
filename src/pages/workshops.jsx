@@ -22,6 +22,9 @@ const WorkshopsPage = () => (
           leave with practical skills you can apply straight away.
         </p>
       </Prose>
+      <Button href={ticketUrl} variant="inverted">
+        Get Tickets
+      </Button>
     </Section>
     <Section align="center" variant="striped">
       <Grid flex gutter className={styles.grid}>
