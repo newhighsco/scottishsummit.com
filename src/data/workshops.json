@@ -5,6 +5,7 @@
     "presenters": [
       { "name": "TBC", "title": "Microsoft MVP" }
     ],
+    "price": "£49",
     "ticketUrl": "https://www.eventbrite.com/e/scottish-summit-2026"
   },
   {
@@ -13,6 +14,7 @@
     "presenters": [
       { "name": "TBC", "title": "Microsoft MVP" }
     ],
+    "price": "£49",
     "ticketUrl": "https://www.eventbrite.com/e/scottish-summit-2026"
   },
   {
@@ -21,6 +23,7 @@
     "presenters": [
       { "name": "TBC", "title": "Microsoft MVP" }
     ],
+    "price": "£49",
     "ticketUrl": "https://www.eventbrite.com/e/scottish-summit-2026"
   }
 ]

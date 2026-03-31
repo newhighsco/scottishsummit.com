@@ -20,19 +20,17 @@ const WorkshopsPage = () => (
         </p>
       </Prose>
     </Section>
-    <Section size="desktop">
-      <Grid gutter>
-        {workshops.map(({ title, description, presenters, ticketUrl }) => (
+    <Section align="center" size="desktopMedium" variant="striped">
+      <Grid flex gutter>
+        {workshops.map(({ title, description, presenters, price, ticketUrl }) => (
           <Fragment key={title}>
-            <Grid.Item sizes="desktop-full">
+            <Grid.Item sizes={['tablet-one-half', 'desktop-one-third']}>
               <Card
                 heading={<h2>{title}</h2>}
                 footer={
-                  ticketUrl && (
-                    <Button href={ticketUrl} variant="primary">
-                      Get tickets
-                    </Button>
-                  )
+                  <Button href={ticketUrl} variant="primary">
+                    Get tickets{price && ` — ${price}`}
+                  </Button>
                 }
               >
                 <Prose>
