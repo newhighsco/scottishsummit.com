@@ -26,7 +26,7 @@ const WorkshopsPage = () => (
       <Grid flex gutter className={styles.grid}>
         {workshops.map(({ title, description, presenters, price, ticketUrl }) => (
           <Fragment key={title}>
-            <Grid.Item sizes={['tablet-one-half', 'desktop-one-quarter']}>
+            <Grid.Item sizes={['one-half']}>
               <Card
                 heading={<h2>{title}</h2>}
                 theme={{ root: styles.card, content: styles.content }}
