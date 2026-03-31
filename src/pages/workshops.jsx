@@ -6,6 +6,8 @@ import Section from '~components/Section'
 import workshops from '~data/workshops.json'
 import { canonicalUrl } from '~utils/urls'
 
+import styles from './workshops.module.scss'
+
 const meta = { canonical: canonicalUrl('/workshops'), title: 'Workshops' }
 
 const WorkshopsPage = () => (
@@ -21,11 +23,14 @@ const WorkshopsPage = () => (
       </Prose>
     </Section>
     <Section align="center" variant="striped">
-      <Grid flex gutter>
+      <Grid flex gutter className={styles.grid}>
         {workshops.map(({ title, description, presenters, price, ticketUrl }) => (
           <Fragment key={title}>
             <Grid.Item sizes={['tablet-one-half', 'desktop-one-quarter']}>
-              <Card heading={<h2>{title}</h2>}>
+              <Card
+                heading={<h2>{title}</h2>}
+                theme={{ root: styles.card, content: styles.content }}
+              >
                 <Prose>
                   <p>{description}</p>
                   {presenters?.length > 0 && (
