@@ -1,15 +1,5 @@
 [
   {
-    "title": "Scottish Summit - New Speakers Workshop",
-    "description": "Do you attend events and look at those on stage wondering how to get there, or are you interested in speaking but don't know how to get started - or whether if you even have something valuable to share?\n\nWe firmly believe that everyone has a story - everyone has a different perspective, different experiences, different learnings, and can contribute their own story in a way that will be valuable to someone out there.\n\nThis workshop is for you if you are just getting started on your speaker journey and looking to polish your skills, or not yet a speaker and looking to get into speaking at events, but don't know how to get started.\n\nWe will break down the mystery of speaking at tech events by providing clear, practical steps that make the process accessible to everyone. Our workshop is designed to demystify what often seems like a black box, offering actionable guidance and real-world advice to help you confidently begin your speaker journey.",
-    "presenters": [
-      { "name": "Sara Fennah" },
-      { "name": "Rex de Koning" },
-      { "name": "Kevin McDonnell" }
-    ],
-    "price": "£45.00"
-  },
-  {
     "title": "Workshop - Agent Academy Live!",
     "description": "In this workshop, you will learn how to build successful agents using Microsoft Copilot Studio. Loosely based on the Microsoft Agent Academy content, we will guide you through the fundamentals of agent development and progress to advanced techniques including multi-agent orchestration, content moderation, and enterprise integrations.\n\nWhether you're new to AI agents or looking to enhance your skills, this hands-on workshop will equip you with practical knowledge to design, build, and deploy intelligent agents that solve real-world business challenges. Through a combination of guided instruction, live demonstrations, and hands-on labs, you'll experience the full agent development lifecycle, from your first conversation to production-ready solutions.",
     "presenters": [
@@ -47,6 +37,16 @@
       { "name": "Marcus Burnap" }
     ],
     "price": "£95.00"
+  },
+  {
+    "title": "Scottish Summit - New Speakers Workshop",
+    "description": "Do you attend events and look at those on stage wondering how to get there, or are you interested in speaking but don't know how to get started - or whether if you even have something valuable to share?\n\nWe firmly believe that everyone has a story - everyone has a different perspective, different experiences, different learnings, and can contribute their own story in a way that will be valuable to someone out there.\n\nThis workshop is for you if you are just getting started on your speaker journey and looking to polish your skills, or not yet a speaker and looking to get into speaking at events, but don't know how to get started.\n\nWe will break down the mystery of speaking at tech events by providing clear, practical steps that make the process accessible to everyone. Our workshop is designed to demystify what often seems like a black box, offering actionable guidance and real-world advice to help you confidently begin your speaker journey.",
+    "presenters": [
+      { "name": "Sara Fennah" },
+      { "name": "Rex de Koning" },
+      { "name": "Kevin McDonnell" }
+    ],
+    "price": "£45.00"
   }
 ]
 
