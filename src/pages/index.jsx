@@ -81,6 +81,18 @@ const HomePage = () => (
       <p>Sponsor opportunities for {name} 2026 are already open!</p>
       <p>Some packages are already selling out!</p>
     </SponsorshipCallToAction>
+    <Section align="center" size="tablet">
+      <Prose>
+        <h2>Tickets Available Now</h2>
+        <p>
+          Secure your place at {name} 2026 — two days of expert sessions,
+          workshops and community at Murrayfield Stadium, Edinburgh.
+        </p>
+      </Prose>
+      <Button href="https://www.eventbrite.com/e/scottish-summit-2026" variant="primary">
+        Get Tickets
+      </Button>
+    </Section>
     <Section align="center" size="desktop" variant="striped">
       <Prose>
         <h2>Event Timeline</h2>
