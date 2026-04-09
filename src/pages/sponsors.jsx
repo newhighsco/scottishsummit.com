@@ -1,4 +1,4 @@
-import { Card, Grid, Prose } from '@newhighsco/chipset'
+import { Prose } from '@newhighsco/chipset'
 import React from 'react'
 
 import PageContainer from '~components/PageContainer'
@@ -10,15 +10,43 @@ import { canonicalUrl } from '~utils/urls'
 const meta = { canonical: canonicalUrl('/sponsors'), title: 'Sponsors' }
 
 const platinum = [
-  { name: 'NetApp', logo: { src:'/images/sponsors/2026/platinum/netapp.png', width: 600, height: 200 } }
+  {
+    name: 'NetApp',
+    logo: {
+      src: '/images/sponsors/2026/platinum/netapp.png',
+      width: 600,
+      height: 200
+    }
+  }
 ]
 const gold = [
-  { name: 'mscrm-addons', logo: { src:'/images/sponsors/2026/gold/mscrm-addons.png', width: 1250, height: 1250 } },
-  { name: 'dox42', logo: { src:'/images/sponsors/2026/gold/dox42.png', width: 1250, height: 1250 } },
+  {
+    name: 'mscrm-addons',
+    logo: {
+      src: '/images/sponsors/2026/gold/mscrm-addons.png',
+      width: 1250,
+      height: 1250
+    }
+  },
+  {
+    name: 'dox42',
+    logo: {
+      src: '/images/sponsors/2026/gold/dox42.png',
+      width: 1250,
+      height: 1250
+    }
+  },
   {}
 ]
 const silver = [
-  { name: 'brone', logo: { src:'/images/sponsors/2026/silver/brone.png', width: 1250, height: 1250 } },
+  {
+    name: 'brone',
+    logo: {
+      src: '/images/sponsors/2026/silver/brone.png',
+      width: 1250,
+      height: 1250
+    }
+  },
   {},
   {},
   {}

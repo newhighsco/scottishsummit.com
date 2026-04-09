@@ -8,7 +8,6 @@ import {
 import React from 'react'
 
 import LogoLockup from '~components/LogoLockup'
-import config from '~config'
 import events from '~data/events.json'
 import header from '~data/header.json'
 
