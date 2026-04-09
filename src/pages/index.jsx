@@ -73,7 +73,7 @@ const HomePage = () => (
           <br />
         </Grid.Item>
         <Grid.Item sizes="desktop-one-half">
-          <Video id="nxAxsFSVHHM" title={`${name} 2024 Keynote`} />
+          <Video id="4sYYhZ2xQP0" title={`${name} 2024 Keynote`} />
         </Grid.Item>
       </Grid>
     </Section>
