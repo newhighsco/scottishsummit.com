@@ -1,0 +1,24 @@
+@use '~styles/breakpoints.module';
+@use '~styles/functions';
+@use '~styles/mixins';
+
+.card {
+  max-width: unset;
+}
+
+.content {
+  height: 100%;
+  padding: functions.spacing(2);
+
+  @include mixins.mq(breakpoints.$mobile-landscape) {
+    padding: functions.spacing(3);
+  }
+}
+
+.grid {
+  row-gap: functions.spacing(3);
+
+  @include mixins.mq(breakpoints.$desktop) {
+    row-gap: functions.spacing(4);
+  }
+}

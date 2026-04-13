@@ -52,6 +52,13 @@ const silver = [
   {}
 ]
 
+const media = [
+  {
+    name: 'Riada',
+    logo: { src: '/images/sponsors/2026/media/riada.png', width: 1250, height: 1250 }
+  }
+]
+
 const SponsorsPage = () => (
   <PageContainer meta={meta}>
     <Section align="center" variant="dark">
@@ -81,6 +88,15 @@ const SponsorsPage = () => (
       sponsors={silver}
       columns={['one-half', 'tablet-one-quarter']}
       square
+    />
+    <SponsorsSection
+      title="Media"
+      id="media"
+      size="desktop"
+      sponsors={media}
+      columns={['one-half', 'tablet-one-quarter']}
+      square
+      alt
     />
     <SponsorshipCallToAction />
   </PageContainer>

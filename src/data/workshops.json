@@ -1,0 +1,51 @@
+﻿[
+  {
+    "title": "Workshop - Agent Academy Live!",
+    "description": "In this workshop, you will learn how to build successful agents using Microsoft Copilot Studio. Loosely based on the Microsoft Agent Academy content, we will guide you through the fundamentals of agent development and progress to advanced techniques including multi-agent orchestration, content moderation, and enterprise integrations.\n\nWhether you're new to AI agents or looking to enhance your skills, this hands-on workshop will equip you with practical knowledge to design, build, and deploy intelligent agents that solve real-world business challenges. Through a combination of guided instruction, live demonstrations, and hands-on labs, you'll experience the full agent development lifecycle, from your first conversation to production-ready solutions.",
+    "presenters": [
+      { "name": "Daniel Laskewitz" },
+      { "name": "April Dunnam" },
+      { "name": "Mats Necker" }
+    ],
+    "price": "£95.00"
+  },
+  {
+    "title": "Workshop - Design and Build a Gamified Onboarding Agent with M365, Copilot and Power Platform",
+    "description": "Most organisations already have some form of onboarding content, and some have tried chatbots or simple agents to help new employees. But many of these experiences are flat, hard to navigate and quickly ignored.\n\nIn this full-day workshop, a game designer, a Power Platform / CodeApps expert and a Microsoft 365 & Copilot expert guide you through the complete process of designing and prototyping a Gamified Onboarding Agent that could actually live in each company.",
+    "presenters": [
+      { "name": "Sandra Kiel" },
+      { "name": "Anouck Fierens" },
+      { "name": "Markus Franz" }
+    ],
+    "price": "£95.00"
+  },
+  {
+    "title": "Workshop: Building an AI Superhighway: Hands-On Enterprise AI Gateway with Azure API Management",
+    "description": "Your organisation has gone all-in on AI. Teams are deploying models through Microsoft Foundry, someone's using AWS Bedrock for Claude, another team's calling Google Gemini directly. Developers are exposing internal APIs as MCP servers for agents. A platform team is piloting agent-to-agent communication using the A2A protocol. The innovation is exciting - but costs are unpredictable, security postures vary by team, and when leadership asks \"how much are we spending on AI?\", you're piecing together answers from five different dashboards.\n\nIn this hands-on workshop, you'll build a working AI gateway using Azure API Management that routes every AI call - models, MCP tools, A2A agents - through a single control plane, regardless of where they're hosted. You'll deploy infrastructure, write policies, break things, and fix them.",
+    "presenters": [
+      { "name": "Chris Lloyd-Jones" },
+      { "name": "Josh McDonald" }
+    ],
+    "price": "£95.00"
+  },
+  {
+    "title": "Workshop - Zero Trust, Zero Compromise: Operationalising Microsoft Security in 2026",
+    "description": "Zero Trust isn't a slide deck anymore. It's the baseline.\n\nIn 2026, identity is the control plane. AI-driven phishing, token replay, MFA fatigue, cloud lateral movement and ransomware-as-a-service have made perimeter thinking obsolete. The question is no longer \"Should we adopt Zero Trust?\" — it's \"Is our Microsoft estate actually operating that way?\"\n\nThis workshop is built for architects, security leads, and senior engineers who want to move beyond theory and design a Zero Trust architecture that works in the real world.\n\nWe'll break down how to operationalise Zero Trust across: Identity (Entra ID, Conditional Access, identity governance), Endpoint (Intune posture, compliance signals, device risk), Threat detection (Defender XDR correlation across identity, endpoint and cloud), Data protection (Purview as an active enforcement layer — not just compliance), and Executive alignment (building a roadmap leadership will actually fund).",
+    "presenters": [
+      { "name": "Jon Jarvis" },
+      { "name": "Luke Evans" },
+      { "name": "Marcus Burnap" }
+    ],
+    "price": "£95.00"
+  },
+  {
+    "title": "Scottish Summit - New Speakers Workshop",
+    "description": "Do you attend events and look at those on stage wondering how to get there, or are you interested in speaking but don't know how to get started - or whether if you even have something valuable to share?\n\nWe firmly believe that everyone has a story - everyone has a different perspective, different experiences, different learnings, and can contribute their own story in a way that will be valuable to someone out there.\n\nThis workshop is for you if you are just getting started on your speaker journey and looking to polish your skills, or not yet a speaker and looking to get into speaking at events, but don't know how to get started.\n\nWe will break down the mystery of speaking at tech events by providing clear, practical steps that make the process accessible to everyone. Our workshop is designed to demystify what often seems like a black box, offering actionable guidance and real-world advice to help you confidently begin your speaker journey.",
+    "presenters": [
+      { "name": "Sara Fennah" },
+      { "name": "Rex de Koning" },
+      { "name": "Kevin McDonnell" }
+    ],
+    "price": "£45.00"
+  }
+]

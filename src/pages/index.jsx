@@ -31,7 +31,7 @@ const timeline = [
     children: 'Open until 30th April 2026'
   },
   { heading: 'Agenda Published', children: 'July 1st, 2026' },
-  { heading: 'Workshops', children: 'October 2nd, 2026' },
+  { heading: 'Workshops', href: '/workshops', children: 'October 2nd, 2026' },
   { heading: 'Event Day', children: 'October 3rd, 2026' }
 ]
 const currentEvent = events.find(({ slug }) => slug === currentEventSlug)
@@ -80,7 +80,7 @@ const HomePage = () => (
           <br />
         </Grid.Item>
         <Grid.Item sizes="desktop-one-half">
-          <Video id="nxAxsFSVHHM" title={`${name} 2024 Keynote`} />
+          <Video id="4sYYhZ2xQP0" title={`${name} 2024 Keynote`} />
         </Grid.Item>
       </Grid>
     </Section>
@@ -88,6 +88,18 @@ const HomePage = () => (
       <p>Sponsor opportunities for {name} 2026 are already open!</p>
       <p>Some packages are already selling out!</p>
     </SponsorshipCallToAction>
+    <Section align="center" size="tablet">
+      <Prose>
+        <h2>Tickets Available Now</h2>
+        <p>
+          Secure your place at {name} 2026 — two days of expert sessions,
+          workshops and community at Murrayfield Stadium, Edinburgh.
+        </p>
+      </Prose>
+      <Button href="https://www.eventbrite.com/e/scottish-summit-2026" variant="primary">
+        Get Tickets
+      </Button>
+    </Section>
     <Section align="center" size="desktop" variant="striped">
       <Prose>
         <h2>Event Timeline</h2>
