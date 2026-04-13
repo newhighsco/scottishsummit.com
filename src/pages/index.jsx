@@ -9,10 +9,10 @@ import SponsorshipCallToAction from '~components/Sponsors/SponsorshipCallToActio
 import Video from '~components/Video'
 import config from '~config'
 import events from '~data/events.json'
-import { eventTitle, mailto } from '~utils/format'
+import { eventTitle } from '~utils/format'
 import { canonicalUrl } from '~utils/urls'
 
-const { name, logo, email, socialLinks, url, currentEventSlug } = config
+const { name, logo, socialLinks, url, currentEventSlug } = config
 const organizer = {
   type: 'Organization',
   name,
@@ -25,7 +25,11 @@ const timeline = [
     href: '/#become-a-sponsor',
     children: 'Open now'
   },
-  { heading: 'Call for Speakers', href:'https://sessionize.com/scottish-summit-2026/', children: 'Open until 30th April 2026' },
+  {
+    heading: 'Call for Speakers',
+    href: 'https://sessionize.com/scottish-summit-2026/',
+    children: 'Open until 30th April 2026'
+  },
   { heading: 'Agenda Published', children: 'July 1st, 2026' },
   { heading: 'Workshops', href: '/workshops', children: 'October 2nd, 2026' },
   { heading: 'Event Day', children: 'October 3rd, 2026' }
@@ -51,7 +55,10 @@ const HomePage = () => (
         </p>
       }
     >
-      <Button href="https://sessionize.com/scottish-summit-2026/" variant="inverted">
+      <Button
+        href="https://sessionize.com/scottish-summit-2026/"
+        variant="inverted"
+      >
         2026 Call For Speakers is Open
       </Button>
     </EventHeading>
