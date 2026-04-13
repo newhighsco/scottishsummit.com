@@ -1,3 +1,10 @@
+# [1.16.0](https://github.com/newhighsco/scottishsummit.com/compare/v1.15.8...v1.16.0) (2026-04-13)
+
+
+### Features
+
+* add workshops page ([#346](https://github.com/newhighsco/scottishsummit.com/issues/346)) ([5f2e112](https://github.com/newhighsco/scottishsummit.com/commit/5f2e11281d7c188a5a5e608dc48d21875cc5ebe1)), closes [#345](https://github.com/newhighsco/scottishsummit.com/issues/345)
+
 ## [1.15.8](https://github.com/newhighsco/scottishsummit.com/compare/v1.15.7...v1.15.8) (2026-04-08)
 
 
