@@ -1,3 +1,10 @@
+## [1.16.1](https://github.com/newhighsco/scottishsummit.com/compare/v1.16.0...v1.16.1) (2026-04-14)
+
+
+### Bug Fixes
+
+* wrong ticket URL and Riada logo visibility ([#357](https://github.com/newhighsco/scottishsummit.com/issues/357)) ([#358](https://github.com/newhighsco/scottishsummit.com/issues/358)) ([8491164](https://github.com/newhighsco/scottishsummit.com/commit/8491164b738f7bde56941d619171e0fe25c397a5))
+
 # [1.16.0](https://github.com/newhighsco/scottishsummit.com/compare/v1.15.8...v1.16.0) (2026-04-13)
 
 
