@@ -9,7 +9,7 @@ import { canonicalUrl } from '~utils/urls'
 import styles from './workshops.module.scss'
 
 const meta = { canonical: canonicalUrl('/workshops'), title: 'Workshops' }
-const ticketUrl = 'https://www.eventbrite.com/e/scottish-summit-2026'
+const ticketUrl = 'https://fienta.com/scottish-summit-2026'
 
 const WorkshopsPage = () => (
   <PageContainer meta={meta}>
