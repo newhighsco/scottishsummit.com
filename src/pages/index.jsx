@@ -96,7 +96,7 @@ const HomePage = () => (
           workshops and community at Murrayfield Stadium, Edinburgh.
         </p>
       </Prose>
-      <Button href="https://www.eventbrite.com/e/scottish-summit-2026" variant="primary">
+      <Button href="https://fienta.com/scottish-summit-2026" variant="primary">
         Get Tickets
       </Button>
     </Section>
