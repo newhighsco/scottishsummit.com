@@ -14,10 +14,13 @@ const nextConfig = {
       source: '/sponsor-pack',
       destination:
         'https://scottishsummitwebsite.blob.core.windows.net/resources/Scottish%20Summit%2026%20Sponsor%20Opportunities.pdf'
-    },
+    }
+  ],
+  redirects: () => [
     {
       source: '/tickets',
-      destination: 'https://fienta.com/scottish-summit-2026'
+      destination: 'https://fienta.com/scottish-summit-2026',
+      permanent: false
     }
   ],
   transpilePackages: ['@newhighsco/chipset', '@newhighsco/press-start'],
