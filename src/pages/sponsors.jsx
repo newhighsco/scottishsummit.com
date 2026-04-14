@@ -96,6 +96,7 @@ const SponsorsPage = () => (
       sponsors={media}
       columns={['one-half', 'tablet-one-quarter']}
       square
+      alt
     />
     <SponsorshipCallToAction />
   </PageContainer>
