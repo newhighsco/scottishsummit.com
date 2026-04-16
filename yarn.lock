@@ -3008,15 +3008,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/press-start@npm:2.6.39":
-  version: 2.6.39
-  resolution: "@newhighsco/press-start@npm:2.6.39"
+"@newhighsco/press-start@npm:2.6.40":
+  version: 2.6.40
+  resolution: "@newhighsco/press-start@npm:2.6.40"
   dependencies:
     "@newhighsco/chipset": "npm:7.0.0"
     next-seo: "npm:6.8.0"
   peerDependencies:
-    next: 16.2.3
-  checksum: 10c0/2453d699f71b70b40948db7fa45e7470917360cf187a48ab1effd1fa2e8c503e8d8ad1965a9ba5c51a5293f11fc6c4419f65a713b2d150d9d9065f6ccce69b43
+    next: 16.2.4
+  checksum: 10c0/7b69d15aaa624dc20381ecd7f56b0b8abbbb3e26816b2126807907fd14bc1e24667c00bd1420ae626c4a28ec72cb8a09f6989e1e195447227af91b04e7cddd89
   languageName: node
   linkType: hard
 
@@ -3061,7 +3061,7 @@ __metadata:
     "@newhighsco/eslint-config": "npm:7.0.48"
     "@newhighsco/next-plugin-svgr": "npm:3.0.168"
     "@newhighsco/postcss-config": "npm:4.0.42"
-    "@newhighsco/press-start": "npm:2.6.39"
+    "@newhighsco/press-start": "npm:2.6.40"
     "@newhighsco/prettier-config": "npm:2.3.5"
     "@newhighsco/release-config": "npm:1.4.27"
     "@newhighsco/storybook-preset": "npm:10.2.34"
