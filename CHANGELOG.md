@@ -1,3 +1,10 @@
+## [1.16.6](https://github.com/newhighsco/scottishsummit.com/compare/v1.16.5...v1.16.6) (2026-04-20)
+
+
+### Bug Fixes
+
+* **yarn:** enable scripts ([#370](https://github.com/newhighsco/scottishsummit.com/issues/370)) ([9b800fe](https://github.com/newhighsco/scottishsummit.com/commit/9b800fedb6f8102d8d356318cc5bd2e4bae3c223))
+
 ## [1.16.5](https://github.com/newhighsco/scottishsummit.com/compare/v1.16.4...v1.16.5) (2026-04-16)
 
 
