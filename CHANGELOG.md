@@ -1,3 +1,45 @@
+## [1.16.6](https://github.com/newhighsco/scottishsummit.com/compare/v1.16.5...v1.16.6) (2026-04-20)
+
+
+### Bug Fixes
+
+* **yarn:** enable scripts ([#370](https://github.com/newhighsco/scottishsummit.com/issues/370)) ([9b800fe](https://github.com/newhighsco/scottishsummit.com/commit/9b800fedb6f8102d8d356318cc5bd2e4bae3c223))
+
+## [1.16.5](https://github.com/newhighsco/scottishsummit.com/compare/v1.16.4...v1.16.5) (2026-04-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/press-start to v2.6.40 ([#365](https://github.com/newhighsco/scottishsummit.com/issues/365)) ([a1cc41d](https://github.com/newhighsco/scottishsummit.com/commit/a1cc41d9d73ebbb836027594a30d7df7d1b97fc4))
+
+## [1.16.4](https://github.com/newhighsco/scottishsummit.com/compare/v1.16.3...v1.16.4) (2026-04-16)
+
+
+### Bug Fixes
+
+* **deps:** update newhighsco packages ([#364](https://github.com/newhighsco/scottishsummit.com/issues/364)) ([3a2cc05](https://github.com/newhighsco/scottishsummit.com/commit/3a2cc05881a0510b2d5257ceea550ad9ed19a495))
+
+## [1.16.3](https://github.com/newhighsco/scottishsummit.com/compare/v1.16.2...v1.16.3) (2026-04-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v16.2.4 ([#362](https://github.com/newhighsco/scottishsummit.com/issues/362)) ([e1afcfd](https://github.com/newhighsco/scottishsummit.com/commit/e1afcfd184109deece072550397ecb99abe17562))
+
+## [1.16.2](https://github.com/newhighsco/scottishsummit.com/compare/v1.16.1...v1.16.2) (2026-04-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency postcss to v8.5.10 ([#363](https://github.com/newhighsco/scottishsummit.com/issues/363)) ([f216ef5](https://github.com/newhighsco/scottishsummit.com/commit/f216ef5bf97b44ea55888e995314718b1be5cbb6))
+
+## [1.16.1](https://github.com/newhighsco/scottishsummit.com/compare/v1.16.0...v1.16.1) (2026-04-14)
+
+
+### Bug Fixes
+
+* wrong ticket URL and Riada logo visibility ([#357](https://github.com/newhighsco/scottishsummit.com/issues/357)) ([#358](https://github.com/newhighsco/scottishsummit.com/issues/358)) ([8491164](https://github.com/newhighsco/scottishsummit.com/commit/8491164b738f7bde56941d619171e0fe25c397a5))
+
 # [1.16.0](https://github.com/newhighsco/scottishsummit.com/compare/v1.15.8...v1.16.0) (2026-04-13)
 
 
