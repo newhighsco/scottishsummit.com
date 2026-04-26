@@ -36,6 +36,14 @@ const gold = [
       height: 1250
     }
   },
+  {
+    name: 'Data8',
+    logo: {
+      src: '/images/sponsors/2026/gold/data8.png',
+      width: 1000,
+      height: 1000
+    }
+  },
   {}
 ]
 const silver = [
@@ -77,7 +85,7 @@ const SponsorsPage = () => (
       id="gold"
       size="desktopMedium"
       sponsors={gold}
-      columns={['one-half', 'tablet-one-third']}
+      columns={['one-half', 'tablet-one-quarter']}
       square
       alt
     />
