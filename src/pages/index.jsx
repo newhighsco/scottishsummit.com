@@ -27,8 +27,7 @@ const timeline = [
   },
   {
     heading: 'Call for Speakers',
-    href: 'https://sessionize.com/scottish-summit-2026/',
-    children: 'Open until 30th April 2026'
+    children: 'Closed'
   },
   { heading: 'Agenda Published', children: 'July 1st, 2026' },
   { heading: 'Workshops', href: '/workshops', children: 'October 2nd, 2026' },
@@ -55,11 +54,8 @@ const HomePage = () => (
         </p>
       }
     >
-      <Button
-        href="https://sessionize.com/scottish-summit-2026/"
-        variant="inverted"
-      >
-        2026 Call For Speakers is Open
+      <Button href="https://fienta.com/scottish-summit-2026" variant="inverted">
+        Event &amp; Workshop Tickets Available Now
       </Button>
     </EventHeading>
     <Section id="about" variant="striped">
