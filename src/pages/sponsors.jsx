@@ -44,7 +44,7 @@ const gold = [
       height: 1000
     }
   },
-  {}
+  { label: 'Reserved' }
 ]
 const silver = [
   {
