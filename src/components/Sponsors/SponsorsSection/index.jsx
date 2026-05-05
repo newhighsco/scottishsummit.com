@@ -34,13 +34,13 @@ const SponsorsSection = ({
       </Prose>
     )}
     <Grid flex className={styles.root}>
-      {sponsors.map(({ name, logo }, index) => (
+      {sponsors.map(({ name, logo, label }, index) => (
         <Grid.Item key={name ?? index} sizes={columns} className={styles.item}>
           <Card
             href={!logo && '#become-a-sponsor'}
             theme={{ root: styles.card, content: styles.content }}
             className={classNames(square && styles.square)}
-            heading={!logo && <p>Sponsor slot available</p>}
+            heading={!logo && <p>{label ?? 'Sponsor slot available'}</p>}
           >
             <VisuallyHidden>
               {[title, 'Sponsor', name].filter(Boolean).join(' ')}

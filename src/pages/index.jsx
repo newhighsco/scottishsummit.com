@@ -81,8 +81,7 @@ const HomePage = () => (
       </Grid>
     </Section>
     <SponsorshipCallToAction>
-      <p>Sponsor opportunities for {name} 2026 are already open!</p>
-      <p>Some packages are already selling out!</p>
+      <p>Sponsor opportunities for {name} 2026 are selling out fast!</p>
     </SponsorshipCallToAction>
     <Section align="center" size="tablet">
       <Prose>

@@ -44,9 +44,7 @@ const gold = [
       height: 1000
     }
   },
-  {}
-]
-const silver = [
+  { label: 'Reserved' } [
   {
     name: 'brone',
     logo: {
