@@ -1,3 +1,10 @@
+## [1.16.11](https://github.com/newhighsco/scottishsummit.com/compare/v1.16.10...v1.16.11) (2026-05-06)
+
+
+### Bug Fixes
+
+* **deps:** update react monorepo to v19.2.6 ([#401](https://github.com/newhighsco/scottishsummit.com/issues/401)) ([2e718c9](https://github.com/newhighsco/scottishsummit.com/commit/2e718c9e1104a013e5b6b2a567708a06bb7d50f7))
+
 ## [1.16.10](https://github.com/newhighsco/scottishsummit.com/compare/v1.16.9...v1.16.10) (2026-05-06)
 
 
