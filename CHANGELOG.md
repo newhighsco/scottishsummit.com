@@ -1,3 +1,10 @@
+## [1.16.14](https://github.com/newhighsco/scottishsummit.com/compare/v1.16.13...v1.16.14) (2026-05-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/next-plugin-svgr to v3.0.169 ([#404](https://github.com/newhighsco/scottishsummit.com/issues/404)) ([5826eb8](https://github.com/newhighsco/scottishsummit.com/commit/5826eb87935a09ebf697004abec81010ec6b5dab))
+
 ## [1.16.13](https://github.com/newhighsco/scottishsummit.com/compare/v1.16.12...v1.16.13) (2026-05-06)
 
 
