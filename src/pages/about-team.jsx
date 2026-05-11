@@ -46,14 +46,14 @@ const AboutTeamPage = () => (
       <Prose align="center">
         <h1>{meta.title}</h1>
         <p>
-          {name} is a volunteer-run, community-led Microsoft technology
+          {name}{' '}is a volunteer-run, community-led Microsoft technology
           conference. Here&rsquo;s what we&rsquo;re about - and the
           people who make it happen.
         </p>
       </Prose>
     </Section>
 
-    {/* About — full width, no leads */}
+    {/* About - full width, no leads */}
     <Section variant="striped" size="desktop">
       <Prose align="center">
         <h2>More Than Just a Conference</h2>
@@ -65,7 +65,7 @@ const AboutTeamPage = () => (
           connect, and have fun along the way!
         </p>
         <p>
-          Entirely volunteer-run, {name} is built by practitioners, for
+          Entirely volunteer-run, {name}{' '}is built by practitioners, for
           practitioners - people who genuinely care about sharing
           knowledge and growing the Microsoft community across the UK and
           beyond.
@@ -96,7 +96,7 @@ const AboutTeamPage = () => (
       </Grid>
     </Section>
 
-    {/* Lead Organisers — own section above the rest of the team */}
+    {/* Lead Organisers - own section above the rest of the team */}
     <TeamSection
       title="Led By"
       id="leads"
