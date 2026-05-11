@@ -4,7 +4,10 @@ import React from 'react'
 import PageContainer from '~components/PageContainer'
 import Section from '~components/Section'
 import TeamSection from '~components/Team/TeamSection'
+import config from '~config'
 import { canonicalUrl } from '~utils/urls'
+
+const { name } = config
 
 const meta = { canonical: canonicalUrl('/team'), title: 'Meet The Team' }
 
@@ -35,19 +38,23 @@ const contentTeam = [
 const TeamPage = () => (
   <PageContainer meta={meta}>
     <Section align="center" variant="dark">
-      <Prose>
+      <Prose align="center">
         <h1>{meta.title}</h1>
+        <p>
+          {name}{' '}is a volunteer-run, community-led Microsoft technology
+          conference. Here&rsquo;s the incredible people who make it happen.
+        </p>
       </Prose>
     </Section>
-    <TeamSection title="Lead Organisers" id="leads" members={leads} centered />
+    <TeamSection title="Led By" id="leads" members={leads} centered />
     <TeamSection
-      title="Organisers"
+      title="The People Who Make It Happen"
       id="organisers"
       members={organisers}
       alt
     />
     <TeamSection
-      title="Content Team"
+      title="Behind The Scenes"
       id="content-team"
       members={contentTeam}
     />
