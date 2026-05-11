@@ -75,7 +75,7 @@ const charity = [
   {
     name: 'Scottish Summit Learning',
     logo: {
-      src: '/images/sponsors/2026/charity/scottish-summit-learning.jpg',
+      src: '/images/sponsors/2026/charity/scottish-summit-learning.png',
       width: 1448,
       height: 1086
     },

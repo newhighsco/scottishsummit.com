@@ -3,7 +3,6 @@ import {
   classNames,
   Grid,
   Image,
-  Prose,
   VisuallyHidden
 } from '@newhighsco/chipset'
 import { array, bool, number, string } from 'prop-types'
@@ -44,7 +43,7 @@ const SponsorsSection = ({
               !logo && (
                 <>
                   <p>{label ?? 'Sponsor slot available'}</p>
-                  {description && <p><small>{description}</small></p>}
+                  {description && <p className={styles.description}>{description}</p>}
                 </>
               )
             }
@@ -57,9 +56,7 @@ const SponsorsSection = ({
               priority={title === 'Platinum'}
             />
             {logo && description && (
-              <Prose align="center">
-                <p><small>{description}</small></p>
-              </Prose>
+              <p className={styles.description}>{description}</p>
             )}
           </Card>
         </Grid.Item>
