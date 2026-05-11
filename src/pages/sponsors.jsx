@@ -74,7 +74,11 @@ const media = [
 const charity = [
   {
     name: 'Scottish Summit Learning',
-    label: 'Scottish Summit Learning',
+    logo: {
+      src: '/images/sponsors/2026/charity/scottish-summit-learning.jpg',
+      width: 1448,
+      height: 1086
+    },
     description: 'Part of Scottish Summit SCIO (SC052785)'
   }
 ]

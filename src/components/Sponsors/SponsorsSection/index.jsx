@@ -56,6 +56,11 @@ const SponsorsSection = ({
               {...logo}
               priority={title === 'Platinum'}
             />
+            {logo && description && (
+              <Prose align="center">
+                <p><small>{description}</small></p>
+              </Prose>
+            )}
           </Card>
         </Grid.Item>
       ))}
