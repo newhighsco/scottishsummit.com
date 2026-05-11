@@ -47,7 +47,7 @@ const AboutTeamPage = () => (
         <h1>{meta.title}</h1>
         <p>
           {name} is a volunteer-run, community-led Microsoft technology
-          conference. Here&rsquo;s what we&rsquo;re about &mdash; and the
+          conference. Here&rsquo;s what we&rsquo;re about - and the
           people who make it happen.
         </p>
       </Prose>
@@ -55,7 +55,7 @@ const AboutTeamPage = () => (
 
     {/* About — full width, no leads */}
     <Section variant="striped" size="desktop">
-      <Prose>
+      <Prose align="center">
         <h2>More Than Just a Conference</h2>
         <p>
           {name} celebrates community and innovation in the age of AI. Dive
@@ -66,7 +66,7 @@ const AboutTeamPage = () => (
         </p>
         <p>
           Entirely volunteer-run, {name} is built by practitioners, for
-          practitioners &mdash; people who genuinely care about sharing
+          practitioners - people who genuinely care about sharing
           knowledge and growing the Microsoft community across the UK and
           beyond.
         </p>
@@ -83,18 +83,13 @@ const AboutTeamPage = () => (
           <br />
         </Grid.Item>
         <Grid.Item sizes="desktop-one-half">
-          <Prose>
+          <Prose align="center">
             <h2>Your 2026 Keynote Speaker</h2>
             <p>
               We are thrilled to announce Martin Woodward as our {name} 2026
               Keynote Speaker. Watch this exclusive preview interview and get a
-              taste of what&rsquo;s coming &mdash; this is one session you will
+              taste of what&rsquo;s coming - this is one session you will
               not want to miss.
-            </p>
-            <p>
-              {name} 2026 takes place on <strong>3rd October 2026</strong> at
-              Murrayfield Stadium, Edinburgh.{' '}
-              <strong>Tickets are available now &mdash; secure your spot today.</strong>
             </p>
           </Prose>
         </Grid.Item>

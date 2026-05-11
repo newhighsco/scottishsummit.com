@@ -14,7 +14,7 @@ const TeamSection = ({ title, members, alt, centered, ...rest }) => (
     {...rest}
   >
     {title && (
-      <Prose>
+      <Prose align="center">
         <h2>{title}</h2>
       </Prose>
     )}
