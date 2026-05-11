@@ -57,6 +57,10 @@ const silver = [
   },
   { label: 'Reserved' },
   { label: 'Reserved' },
+  {},
+  {},
+  {},
+  {},
   {}
 ]
 

@@ -1,10 +1,12 @@
-import { Card, Grid, Prose } from '@newhighsco/chipset'
+import { Card, classNames, Grid, Prose } from '@newhighsco/chipset'
 import { array, bool, string } from 'prop-types'
 import React from 'react'
 
 import Section from '~components/Section'
 
-const TeamSection = ({ title, members, alt, ...rest }) => (
+import styles from './TeamSection.module.scss'
+
+const TeamSection = ({ title, members, alt, centered, ...rest }) => (
   <Section
     align="center"
     size="desktop"
@@ -16,7 +18,7 @@ const TeamSection = ({ title, members, alt, ...rest }) => (
         <h2>{title}</h2>
       </Prose>
     )}
-    <Grid flex>
+    <Grid flex className={classNames(styles.root, centered && styles.centered)}>
       {members.map(({ name, role }, index) => (
         <Grid.Item key={name ?? index} sizes={['one-half', 'tablet-one-quarter']}>
           <Card heading={<h3>{name ?? 'Team Member'}</h3>}>
@@ -33,7 +35,8 @@ const TeamSection = ({ title, members, alt, ...rest }) => (
 TeamSection.propTypes = {
   title: string,
   members: array,
-  alt: bool
+  alt: bool,
+  centered: bool
 }
 
 export default TeamSection

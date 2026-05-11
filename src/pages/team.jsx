@@ -39,7 +39,7 @@ const TeamPage = () => (
         <h1>{meta.title}</h1>
       </Prose>
     </Section>
-    <TeamSection title="Lead Organisers" id="leads" members={leads} />
+    <TeamSection title="Lead Organisers" id="leads" members={leads} centered />
     <TeamSection
       title="Organisers"
       id="organisers"

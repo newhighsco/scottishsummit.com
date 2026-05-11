@@ -1,0 +1,15 @@
+@use '~styles/breakpoints.module';
+@use '~styles/functions';
+@use '~styles/mixins';
+
+.root {
+  row-gap: functions.spacing(2);
+
+  @include mixins.mq(breakpoints.$desktop) {
+    row-gap: functions.spacing(4);
+  }
+}
+
+.centered {
+  place-content: center;
+}
