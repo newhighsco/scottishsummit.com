@@ -34,18 +34,25 @@ const SponsorsSection = ({
       </Prose>
     )}
     <Grid flex className={styles.root}>
-      {sponsors.map(({ name, logo, label }, index) => (
+      {sponsors.map(({ name, logo, label, description }, index) => (
         <Grid.Item key={name ?? index} sizes={columns} className={styles.item}>
           <Card
             href={!logo && '#become-a-sponsor'}
             theme={{ root: styles.card, content: styles.content }}
             className={classNames(square && styles.square)}
-            heading={!logo && <p>{label ?? 'Sponsor slot available'}</p>}
+            heading={
+              !logo && (
+                <>
+                  <p>{label ?? 'Sponsor slot available'}</p>
+                  {description && <p><small>{description}</small></p>}
+                </>
+              )
+            }
           >
             <VisuallyHidden>
               {[title, 'Sponsor', name].filter(Boolean).join(' ')}
             </VisuallyHidden>
-            <Image 
+            <Image
               {...logo}
               priority={title === 'Platinum'}
             />
