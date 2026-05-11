@@ -2,6 +2,7 @@
   "links": [
     { "href": "/", "children": "Home", "target": "" },
     { "href": "/#about", "children": "About", "target": "" },
+    { "href": "/about-team", "children": "About & Team [preview]", "target": "" },
     { "href": "/sponsors", "children": "Sponsors", "target": "" },
     { "href": "/team", "children": "Team", "target": "" },
     { "href": "/workshops", "children": "Workshops", "target": "" },
