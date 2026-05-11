@@ -1,4 +1,4 @@
-import { Card, Grid, Prose } from '@newhighsco/chipset'
+import { Grid, Prose } from '@newhighsco/chipset'
 import React from 'react'
 
 import PageContainer from '~components/PageContainer'
@@ -53,81 +53,68 @@ const AboutTeamPage = () => (
       </Prose>
     </Section>
 
-    {/* About + Lead Organisers side by side */}
+    {/* About — full width, no leads */}
     <Section variant="striped" size="desktop">
-      <Grid gutter valign="middle">
-        <Grid.Item sizes="desktop-one-half">
-          <Prose>
-            <h2>More Than Just a Conference</h2>
-            <p>
-              {name} celebrates community and innovation in the age of AI. Dive
-              into the world of Copilot and discover how Microsoft
-              professionals, MVPs, and industry leaders are shaping the future
-              with Dynamics 365, Power Platform, M365 and Azure. Learn,
-              connect, and have fun along the way!
-            </p>
-            <p>
-              Entirely volunteer-run, {name} is built by practitioners, for
-              practitioners &mdash; people who genuinely care about sharing
-              knowledge and growing the Microsoft community across the UK and
-              beyond.
-            </p>
-          </Prose>
-        </Grid.Item>
-        <Grid.Item sizes="desktop-hidden">
-          <br />
-        </Grid.Item>
-        <Grid.Item sizes="desktop-one-half">
-          <Prose align="center">
-            <h2>Led By</h2>
-          </Prose>
-          <Grid flex>
-            {leads.map(({ name: memberName, role }) => (
-              <Grid.Item key={memberName} sizes="one-half">
-                <Card heading={<h3>{memberName}</h3>}>
-                  <Prose align="center">
-                    <p>{role}</p>
-                  </Prose>
-                </Card>
-              </Grid.Item>
-            ))}
-          </Grid>
-        </Grid.Item>
-      </Grid>
+      <Prose>
+        <h2>More Than Just a Conference</h2>
+        <p>
+          {name} celebrates community and innovation in the age of AI. Dive
+          into the world of Copilot and discover how Microsoft
+          professionals, MVPs, and industry leaders are shaping the future
+          with Dynamics 365, Power Platform, M365 and Azure. Learn,
+          connect, and have fun along the way!
+        </p>
+        <p>
+          Entirely volunteer-run, {name} is built by practitioners, for
+          practitioners &mdash; people who genuinely care about sharing
+          knowledge and growing the Microsoft community across the UK and
+          beyond.
+        </p>
+      </Prose>
     </Section>
 
     {/* Video interlude */}
     <Section variant="light" size="desktop">
       <Grid gutter valign="middle">
         <Grid.Item sizes="desktop-one-half">
-          <Video id="4sYYhZ2xQP0" title={`${name} 2024 Keynote`} />
+          <Video id="4sYYhZ2xQP0" title={`${name} 2026 Keynote Speaker Preview`} />
         </Grid.Item>
         <Grid.Item sizes="desktop-hidden">
           <br />
         </Grid.Item>
         <Grid.Item sizes="desktop-one-half">
           <Prose>
-            <h2>See It For Yourself</h2>
+            <h2>Your 2026 Keynote Speaker</h2>
             <p>
-              Watch the {name} 2024 Keynote to get a flavour of what our
-              community events look like &mdash; the energy, the speakers, and
-              the people.
+              We are thrilled to announce Martin Woodward as our {name} 2026
+              Keynote Speaker. Watch this exclusive preview interview and get a
+              taste of what&rsquo;s coming &mdash; this is one session you will
+              not want to miss.
             </p>
             <p>
-              Every year we bring together hundreds of attendees, dozens of
-              expert speakers, and a whole lot of community spirit. {name} 2026
-              will be bigger and better than ever.
+              {name} 2026 takes place on <strong>3rd October 2026</strong> at
+              Murrayfield Stadium, Edinburgh.{' '}
+              <strong>Tickets are available now &mdash; secure your spot today.</strong>
             </p>
           </Prose>
         </Grid.Item>
       </Grid>
     </Section>
 
+    {/* Lead Organisers — own section above the rest of the team */}
+    <TeamSection
+      title="Led By"
+      id="leads"
+      members={leads}
+      centered
+    />
+
     {/* Organisers */}
     <TeamSection
       title="The People Who Make It Happen"
       id="organisers"
       members={organisers}
+      alt
     />
 
     {/* Content Team */}
@@ -135,7 +122,6 @@ const AboutTeamPage = () => (
       title="Behind The Scenes"
       id="content-team"
       members={contentTeam}
-      alt
     />
   </PageContainer>
 )
