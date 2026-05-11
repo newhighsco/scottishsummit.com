@@ -3,6 +3,7 @@ import {
   classNames,
   Grid,
   Image,
+  Prose,
   VisuallyHidden
 } from '@newhighsco/chipset'
 import { array, bool, number, string } from 'prop-types'
