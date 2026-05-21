@@ -3161,7 +3161,7 @@ __metadata:
     next-compose-plugins: "npm:2.2.1"
     next-sitemap: "npm:4.2.3"
     next-videos: "npm:1.5.0"
-    postcss: "npm:8.5.14"
+    postcss: "npm:8.5.15"
     prettier: "npm:3.8.3"
     react: "npm:19.2.6"
     react-dom: "npm:19.2.6"
@@ -13246,7 +13246,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.2.14, postcss@npm:^8.4.33, postcss@npm:^8.4.38, postcss@npm:^8.4.40, postcss@npm:^8.4.47, postcss@npm:^8.5.14, postcss@npm:^8.5.8":
+"postcss@npm:8.5.15, postcss@npm:^8.2.14, postcss@npm:^8.4.33, postcss@npm:^8.4.38, postcss@npm:^8.4.40, postcss@npm:^8.4.47, postcss@npm:^8.5.14, postcss@npm:^8.5.8":
   version: 8.5.15
   resolution: "postcss@npm:8.5.15"
   dependencies:
