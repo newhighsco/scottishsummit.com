@@ -46,6 +46,8 @@ workflows:
       - newhighsco/release:
           <<: *only-main
           name: release
+          context:
+            - release
           requires:
             - test
   snapshot_version:
