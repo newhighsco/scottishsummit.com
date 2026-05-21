@@ -49,7 +49,7 @@ workflows:
           context:
             - release
           requires:
-            - test
+            - snapshot
   snapshot_version:
     jobs:
       - newhighsco/setup:
