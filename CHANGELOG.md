@@ -1,3 +1,10 @@
+## [1.16.18](https://github.com/newhighsco/scottishsummit.com/compare/v1.16.17...v1.16.18) (2026-05-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency postcss to v8.5.15 ([#432](https://github.com/newhighsco/scottishsummit.com/issues/432)) ([6cc95f8](https://github.com/newhighsco/scottishsummit.com/commit/6cc95f8bea47ee2e4e4ccc251f2ec5359d242e3e))
+
 ## [1.16.17](https://github.com/newhighsco/scottishsummit.com/compare/v1.16.16...v1.16.17) (2026-05-10)
 
 
