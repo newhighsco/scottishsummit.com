@@ -1,3 +1,10 @@
+## [1.16.21](https://github.com/newhighsco/scottishsummit.com/compare/v1.16.20...v1.16.21) (2026-05-24)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/press-start to v2.6.43 ([#444](https://github.com/newhighsco/scottishsummit.com/issues/444)) ([6c56660](https://github.com/newhighsco/scottishsummit.com/commit/6c566607eafd99df7be19daf1f134ae04b69f6aa))
+
 ## [1.16.20](https://github.com/newhighsco/scottishsummit.com/compare/v1.16.19...v1.16.20) (2026-05-24)
 
 
