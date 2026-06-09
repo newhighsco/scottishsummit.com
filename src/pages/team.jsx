@@ -12,18 +12,18 @@ const { name } = config
 const meta = { canonical: canonicalUrl('/team'), title: 'Meet The Team' }
 
 const leads = [
-  { name: 'Zoe Wilson', role: 'Lead Organiser' },
-  { name: 'Matt Beard', role: 'Lead Organiser' }
+  { name: 'Zoe Wilson', role: 'Global Digital Workplace Consulting Leader', company: 'Kyndryl' },
+  { name: 'Matt Beard', role: 'Chief AI Officer', company: 'Data8 Ltd' }
 ]
 
 const organisers = [
-  { name: 'Sarah Johnson', role: 'Organiser' },
-  { name: 'David McKenzie', role: 'Organiser' },
-  { name: 'Emma Robertson', role: 'Organiser' },
-  { name: 'James Fraser', role: 'Organiser' },
-  { name: 'Claire Campbell', role: 'Organiser' },
-  { name: 'Ross Anderson', role: 'Organiser' },
-  { name: 'Laura Thomson', role: 'Organiser' }
+  { name: 'Rex de Koning', role: 'Senior Cloud Engineer', company: 'InSpark B.V.' },
+  { name: 'Mike Hartley', role: 'Senior Solutions Architect', company: 'Capgemini' },
+  { name: 'Areti Iles', role: 'Head of Professional Services - AI Business Solutions', company: 'Telefonica Tech' },
+  { name: 'Sara Fennah', role: 'Microsoft 365 Consultant/Trainer', company: 'Znrgy Ltd' },
+  { name: 'Gemma Adair', role: 'Microsoft Partner Marketing Expert', company: 'Riada Consultancy' },
+  { name: 'Paddy Byrne', role: 'Solution Architect', company: 'Kerv Digital' },
+  { name: 'Carl Cookson', role: 'Consultant / Owner', company: 'LinkeD365 Consulting' }
 ]
 
 const contentTeam = [

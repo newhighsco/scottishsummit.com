@@ -19,11 +19,12 @@ const TeamSection = ({ title, members, alt, centered, ...rest }) => (
       </Prose>
     )}
     <Grid flex className={classNames(styles.root, centered && styles.centered)}>
-      {members.map(({ name, role }, index) => (
+      {members.map(({ name, role, company }, index) => (
         <Grid.Item key={name ?? index} sizes={['one-half', 'tablet-one-quarter']}>
           <Card heading={<h3>{name ?? 'Team Member'}</h3>}>
             <Prose align="center">
               <p>{role}</p>
+              {company && <p><small>{company}</small></p>}
             </Prose>
           </Card>
         </Grid.Item>
