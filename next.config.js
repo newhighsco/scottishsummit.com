@@ -1,6 +1,5 @@
 const withPlugins = require('next-compose-plugins')
 const withSvgr = require('@newhighsco/next-plugin-svgr')
-const withVideos = require('next-videos')
 
 const nextConfig = {
   images: {
@@ -34,7 +33,4 @@ const nextConfig = {
   }
 }
 
-module.exports = withPlugins(
-  [[withSvgr, { inlineImageLimit: -1 }], [withVideos]],
-  nextConfig
-)
+module.exports = withPlugins([[withSvgr, { inlineImageLimit: -1 }]], nextConfig)

@@ -23,7 +23,13 @@ const timeline = [
   {
     heading: 'Call for Sponsors',
     href: '/#become-a-sponsor',
-    children: 'Open now'
+    children: (
+      <>
+        Open now
+        <br />
+        <small>Limited Space Remaining</small>
+      </>
+    )
   },
   {
     heading: 'Call for Speakers',
