@@ -1,3 +1,9 @@
+## [1.16.25](https://github.com/newhighsco/scottishsummit.com/compare/v1.16.24...v1.16.25) (2026-06-10)
+
+### Bug Fixes
+
+* **deps:** update nextjs packages to v16.2.9 ([#478](https://github.com/newhighsco/scottishsummit.com/issues/478)) ([84feeac](https://github.com/newhighsco/scottishsummit.com/commit/84feeac0ea38cbe8d90fe7f8c231d25e52fdc163))
+
 ## [1.16.24](https://github.com/newhighsco/scottishsummit.com/compare/v1.16.23...v1.16.24) (2026-06-02)
 
 ### Bug Fixes
