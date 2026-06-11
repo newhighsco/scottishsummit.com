@@ -1,8 +1,8 @@
 {
   "links": [
     { "href": "/", "children": "Home", "target": "" },
-    { "href": "/#about", "children": "About", "target": "" },
     { "href": "/sponsors", "children": "Sponsors", "target": "" },
+    { "href": "/team", "children": "Team", "target": "" },
     { "href": "/workshops", "children": "Workshops", "target": "" },
     { "href": "/events", "children": "Events", "target": "" },
     { "href": "/guidelines", "children": "Guidelines", "target": "" }
