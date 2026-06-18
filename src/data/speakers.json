@@ -1,0 +1,434 @@
+[
+  {
+    "id": "2db4d3f6-13f8-4f1d-a805-82ea3513e82e",
+    "fullName": "Aasne Holtklimpen",
+    "tagLine": "Senior Architect - Microsoft AI and Compliance Lead | Microsoft Copilot MVP | Microsoft MCT",
+    "profilePicture": "https://sessionize.com/image/cc5b-400o400o1-w4Eyap2ESeuD7k8X9Uce4N.jpg"
+  },
+  {
+    "id": "ace86fbd-8629-49a0-b3a0-12f232ff7843",
+    "fullName": "AJ Zafar",
+    "tagLine": "Power Platform Solution Architect",
+    "profilePicture": "https://sessionize.com/image/4b54-400o400o1-DVxBVSM8FrBwg7KGjqGyVP.jpg"
+  },
+  {
+    "id": "46f2fb37-673f-4604-83f8-58632ed2c24b",
+    "fullName": "Al Eardley",
+    "tagLine": "Cross-Functional Technical Architect @ Microsoft, former MVP",
+    "profilePicture": "https://sessionize.com/image/56fb-400o400o1-fU1NBCAynTrJneoRsSpKwV.jpg"
+  },
+  {
+    "id": "f1d5ed3f-28c8-411c-96ed-c9f9921ff31f",
+    "fullName": "Andy Kemp",
+    "tagLine": "Zero Trust & Microsoft 365 Security Architect",
+    "profilePicture": "https://sessionize.com/image/c9d9-400o400o1-4xsFtH884wL1SVm1tadLDv.jpg"
+  },
+  {
+    "id": "ad9fccf9-4687-4194-9ad9-8f0c8378127d",
+    "fullName": "Anita Squires",
+    "tagLine": "Automated Tester at CGI",
+    "profilePicture": "https://sessionize.com/image/02dd-400o400o1-79rpS1DqGytRRfAgwGspBM.png"
+  },
+  {
+    "id": "a11cc35c-8ebc-4cad-8a41-19699948a3e3",
+    "fullName": "Anoop Tatti",
+    "tagLine": "Working on it...",
+    "profilePicture": "https://sessionize.com/image/65e1-400o400o1-fM6o5HgCxaoZTAieC3Hr7Q.jpg"
+  },
+  {
+    "id": "14a50614-f33b-4dcb-b8a8-763a1623ecf2",
+    "fullName": "Anouck Fierens",
+    "tagLine": "MVP | MCT",
+    "profilePicture": "https://sessionize.com/image/08f3-400o400o1-fZPRy1HRQNhmu77qiTTiF9.png"
+  },
+  {
+    "id": "e91dd446-b575-4a0f-8f0b-560d5cd9f588",
+    "fullName": "April Dunnam",
+    "tagLine": "Advocate, AI and Power Platform Demystifier, Global Speaker & Content Creator",
+    "profilePicture": "https://sessionize.com/image/de68-400o400o1-JDGZPVdqmS1ecQrY9zxqZi.jpg"
+  },
+  {
+    "id": "aeb980aa-db9e-4699-b10e-4089d78b2847",
+    "fullName": "Areti Iles",
+    "tagLine": "Head of Professional Services - AI Business Solutions @ Telefonica Tech | Speaker | Mentor | User Group Leader | Microsoft MVP",
+    "profilePicture": "https://sessionize.com/image/52fb-400o400o1-RB3ZuhowpzXe63Sz6JgPbt.jpg"
+  },
+  {
+    "id": "1fdb7870-e14d-490f-b863-324d9500be93",
+    "fullName": "Ben den Blanken",
+    "tagLine": "Microsoft Business Applications MVP, Copilot Studio and Power Platform Expert at Wortell",
+    "profilePicture": "https://sessionize.com/image/c84f-400o400o1-ETBcBUKojHXNnr564FB53r.jpg"
+  },
+  {
+    "id": "8a1f9d31-5905-4441-8ebd-e127ea97cbc7",
+    "fullName": "Björn Zahnow",
+    "tagLine": "Microsoft MVP & Partner & Solution Architect @CRMK Deutschland",
+    "profilePicture": "https://sessionize.com/image/948a-400o400o1-aQUDu6QDK2V6FkBPoNfihW.jpg"
+  },
+  {
+    "id": "c81e9beb-4be3-4139-b4f7-cf4985713af4",
+    "fullName": "Bobby Wessels",
+    "tagLine": "Strategic Service Designer for complex customer and operational journeys",
+    "profilePicture": "https://sessionize.com/image/e895-400o400o1-VUeecJQ2uXjevUU28vDL7a.png"
+  },
+  {
+    "id": "620c157e-37bb-4284-86e7-bbfbd6c4aadd",
+    "fullName": "Charles Sexton",
+    "tagLine": "Power Platform Solution Architect",
+    "profilePicture": "https://sessionize.com/image/e80f-400o400o1-XrUYtx8q8o75HVsMn7SoEZ.png"
+  },
+  {
+    "id": "853563e5-81e5-49d2-b2f7-fc0c399bd6da",
+    "fullName": "Charlie Gough",
+    "tagLine": "Security MVP, Head of Cloud Solutions for Brightsolid , Owner of Cloud Security Insider blog",
+    "profilePicture": "https://sessionize.com/image/fcdd-400o400o1-NcYheuYTwsWehXqJr3M7kG.jpg"
+  },
+  {
+    "id": "6766d8ed-94b6-4844-b7ca-9ef2fa43ef18",
+    "fullName": "Chris Lloyd-Jones",
+    "tagLine": "VP, AI Consulting Transformation at Kyndryl | Created Kyndryl's FDE capability - scaling to 22,000 engineers | 6x Microsoft AI MVP | Doctoral researcher in Green Software Engineering, UEL",
+    "profilePicture": "https://sessionize.com/image/f484-400o400o1-sBmY3Vd2fQzvwB691ZJSJ3.jpg"
+  },
+  {
+    "id": "eb9e661a-dbb9-426d-85a2-148cc89e272b",
+    "fullName": "Craig White",
+    "tagLine": "Microsoft MVP | AI Platform Lead | Blogger | Speaker | Mentor",
+    "profilePicture": "https://sessionize.com/image/382f-400o400o1-3Kg29fnFGppuCyimFVk3Xf.png"
+  },
+  {
+    "id": "f6f610c8-ffff-4efd-8e32-f5a8de33eff6",
+    "fullName": "Damien Bird",
+    "tagLine": "DamoBird365",
+    "profilePicture": "https://sessionize.com/image/a6b0-400o400o1-4TQmz1NDcBr5XN68wFA9CJ.png"
+  },
+  {
+    "id": "85cbafc5-4f92-4c90-8676-630fa395a16f",
+    "fullName": "Dan Barber",
+    "tagLine": "Founder & Principal Consultant @ Strathos | Microsoft BizApps MVP (x3) | Coach | Mentor | Speaker | Advisor | Strategist",
+    "profilePicture": "https://sessionize.com/image/eb2f-400o400o1-WdBiYa2hmkGnnwqDQ7KmMn.png"
+  },
+  {
+    "id": "4c125671-951b-4798-8e48-02a45be346e7",
+    "fullName": "Daniel Laskewitz",
+    "tagLine": "Principal Cloud Advocate, Microsoft",
+    "profilePicture": "https://sessionize.com/image/7c3d-400o400o1-EGpqLSWNpVrXLWsA3hVE8D.jpg"
+  },
+  {
+    "id": "e8ad406b-9b1b-4e48-a7a6-cf84b616f2d9",
+    "fullName": "Dennes Torres",
+    "tagLine": "Data Platform MVP (2020-2023)",
+    "profilePicture": "https://sessionize.com/image/7a95-400o400o1-DMUQWW5Mr6yVAKuJN9gerF.jpg"
+  },
+  {
+    "id": "4a19a90f-5acf-4966-9bb6-18fd3014c0cd",
+    "fullName": "Dennis Bottjer",
+    "tagLine": "Application Architect - Learn, Share, Grow",
+    "profilePicture": "https://sessionize.com/image/2694-400o400o1-LQ4epuU7ZJQSRdLhpgpmqa.jpg"
+  },
+  {
+    "id": "5b245335-8578-464c-a998-045889616a8a",
+    "fullName": "Edine Olijve-Watkinson",
+    "tagLine": "Microsoft 365 MVP - AI Consultant at InSpark ",
+    "profilePicture": "https://sessionize.com/image/36a2-400o400o1-aM1Wpote1UAXgYmrsjm8uA.jpg"
+  },
+  {
+    "id": "2b2b4642-2ed0-427d-8865-9994aaffa9a3",
+    "fullName": "Emma-Claire Shaw",
+    "tagLine": "Senior Power Platform Consultant, Microsoft MVP",
+    "profilePicture": "https://sessionize.com/image/7da4-400o400o1-MhE7YHjNS1qEScDhJoGWSP.jpg"
+  },
+  {
+    "id": "206ffd58-5310-4afc-924a-4fad8f4c2c22",
+    "fullName": "Franco Musso",
+    "tagLine": "Freelance Power Pages specialist with an unhealthy obsession for experimenting, learning and empowering others",
+    "profilePicture": "https://sessionize.com/image/8f64-400o400o1-58-5310-4afc-924a-4fad8f4c2c22.6be129c7-f282-49e1-a00b-84671cb40ebf.jpg"
+  },
+  {
+    "id": "e9db87c2-f8f0-4afc-b52f-27cf7c4499b5",
+    "fullName": "Gemma Adair",
+    "tagLine": "Founder & Microsoft Partner Marketing Expert",
+    "profilePicture": "https://sessionize.com/image/8820-400o400o1-nUq3HXBr9rowvxx1ZJrQvJ.jpg"
+  },
+  {
+    "id": "c3c152a7-494c-412e-9580-1ea415e4411c",
+    "fullName": "Hans Muns",
+    "tagLine": "Freelance .NET/Azure Engineer & Microsoft Certified Trainer @ Backnook",
+    "profilePicture": "https://sessionize.com/image/6804-400o400o1-E5pAsqyR6kvkSPhVZRedKq.jpg"
+  },
+  {
+    "id": "6b3e13ba-28b8-45b8-8101-3bb206745743",
+    "fullName": "Heather Perriam",
+    "tagLine": "Inclusive AI Leader | Biz Apps Practice Lead | Women in Tech Advocate",
+    "profilePicture": "https://sessionize.com/image/3ef5-400o400o1-P1Xa7RuTnzY8hRPuEFt2r1.jpg"
+  },
+  {
+    "id": "01a88416-06f6-4fca-96ed-7320a05f0b4c",
+    "fullName": "Ian Tweedie",
+    "tagLine": "Senior Technical Consultant | 16x Microsoft Certified | Blogger | Power Apps Super User | Tech Coach",
+    "profilePicture": "https://sessionize.com/image/6883-400o400o1-BGt2n3PNoatNnqm2Uprdih.jpg"
+  },
+  {
+    "id": "8ca492a2-c473-40d9-bbce-599f930766c4",
+    "fullName": "Jay Fitzhenry",
+    "tagLine": "Node4, Technology & Innovation Director",
+    "profilePicture": "https://sessionize.com/image/ad81-400o400o1-AGz9kuKj47WzXum1heiJ2.png"
+  },
+  {
+    "id": "eb5e6fb4-0e39-41fa-91f1-41f647c12579",
+    "fullName": "Joe Griffin",
+    "tagLine": "CEO at proMX UK Limited / Business Applications MVP",
+    "profilePicture": "https://sessionize.com/image/be99-400o400o1-KKv1qUnv19yahwohfjWXf2.jpg"
+  },
+  {
+    "id": "fc3a497e-0843-4c5a-9edb-73fdb916c344",
+    "fullName": "Jon Jarvis",
+    "tagLine": "Microsoft Field Technologist @ Advania UK",
+    "profilePicture": "https://sessionize.com/image/04a3-400o400o1-SdyX7PPy2cs5RpYoEEHNZM.jpg"
+  },
+  {
+    "id": "2b768029-4322-4536-b05a-d9360ac972c5",
+    "fullName": "Josh McDonald",
+    "tagLine": "Securing the Realm Podcast",
+    "profilePicture": "https://sessionize.com/image/874f-400o400o1-NwKcjQDuiJEx1R6UnvaQFt.png"
+  },
+  {
+    "id": "edc9a64f-df3d-47f7-8b19-5d038dfc85c2",
+    "fullName": "Kevin McDonnell",
+    "tagLine": "UK Copilot and Agent Lead @ Avanade, Co-host Copilot Connection, MVP",
+    "profilePicture": "https://sessionize.com/image/904a-400o400o1-EE4y718wC5XtusuaULoSnD.jpg"
+  },
+  {
+    "id": "d5ade1af-a642-43c6-9a0b-56f9c45ebae9",
+    "fullName": "Kimmo Koski",
+    "tagLine": "Business Lead & Architect, Meltlake",
+    "profilePicture": "https://sessionize.com/image/5272-400o400o1-3St6gnhP6yGpz58wAu5f8M.png"
+  },
+  {
+    "id": "6282aa05-a6cb-4410-a5e1-d7c11a52ec04",
+    "fullName": "Laura Kokkarinen",
+    "tagLine": "Software Architect, Microsoft MVP",
+    "profilePicture": "https://sessionize.com/image/c137-400o400o1-05-a6cb-4410-a5e1-d7c11a52ec04.833e9679-1a02-4a60-80ad-ef66e5f1634f.png"
+  },
+  {
+    "id": "8ec1d65d-7fd4-4abd-906b-8629b899b043",
+    "fullName": "Leon Armston",
+    "tagLine": "M365 Solutions Architect | MVP M365",
+    "profilePicture": "https://sessionize.com/image/c4bc-400o400o1-n8ZtzNPr9xW3keQ94sgzM7.jpg"
+  },
+  {
+    "id": "87c2b40e-43c9-4aef-b053-14369976ea1b",
+    "fullName": "Lindsay Shelton",
+    "tagLine": "Digital Workplace Advisor | MVP, MCT | she, her",
+    "profilePicture": "https://sessionize.com/image/1124-400o400o1-QTCipfEiGraABPzLNi5kCi.jpg"
+  },
+  {
+    "id": "da32b389-2414-4a36-bf0b-33783c408c93",
+    "fullName": "Luke Evans",
+    "tagLine": "Solutions Architect",
+    "profilePicture": "https://sessionize.com/image/90a4-400o400o1-RhA1WAW4NbWudGtZ6T3QVm.png"
+  },
+  {
+    "id": "c85af3e6-6543-488a-a5ae-775fc7365535",
+    "fullName": "Marcin Siewnicki",
+    "tagLine": "Microsoft 365 Solution Architect",
+    "profilePicture": "https://sessionize.com/image/650d-400o400o1-QzooCrmsZc73qmApaNTkaU.jpg"
+  },
+  {
+    "id": "77f098aa-4fb7-46d0-83ee-6e868dc00616",
+    "fullName": "Marcus Burnap",
+    "tagLine": " MVP | MCT | CISSP | Microsoft SME | AI | Cybersecurity | Defender XDR | Sentinel | Security Copilot",
+    "profilePicture": "https://sessionize.com/image/d50c-400o400o1-JHtBZ8p7i1TJZKAyeYSrCy.jpg"
+  },
+  {
+    "id": "88ca0c9d-751c-4d65-b837-ec2993dedecd",
+    "fullName": "Marijn Somers",
+    "tagLine": "Microsoft 365 Spirit Guide, MVP, MCT",
+    "profilePicture": "https://sessionize.com/image/b2e6-400o400o1-9d-751c-4d65-b837-ec2993dedecd.01a7ba53-714b-45dd-8081-be916eae2152.jpg"
+  },
+  {
+    "id": "eec0c806-6001-4a68-bd70-132189870c4b",
+    "fullName": "Mark Carrington",
+    "tagLine": "Chief Technologist at Data8",
+    "profilePicture": "https://sessionize.com/image/3a30-400o400o1-06-6001-4a68-bd70-132189870c4b.f43e98d8-5f5c-476d-b07d-8082a69d4cf6.jpg"
+  },
+  {
+    "id": "50502a59-18d1-4436-b27b-b0a0f9fa0353",
+    "fullName": "Markus Franz",
+    "tagLine": "Modern Workplace Solution Architect",
+    "profilePicture": "https://sessionize.com/image/7bf2-400o400o1-P81o3YBJgANCahh48wKqVP.jpg"
+  },
+  {
+    "id": "3503700b-280d-45c3-b0c5-58a519aeec52",
+    "fullName": "Mats Necker",
+    "tagLine": "Co-Founder @dhino, Microsoft MVP / Solution Architect / Developer",
+    "profilePicture": "https://sessionize.com/image/f895-400o400o1-48kxVmXurXauBCScnL8gst.jpg"
+  },
+  {
+    "id": "53fb6ded-b4e7-40df-8efc-8574bf0788a3",
+    "fullName": "Matt Beard",
+    "tagLine": "Chief AI Officer - Data8",
+    "profilePicture": "https://sessionize.com/image/bc06-400o400o1-3VZp9RPxpVAGxfevww2pQL.png"
+  },
+  {
+    "id": "82b8b63b-5328-4363-8472-0f24651d78b6",
+    "fullName": "Matt Collins-Jones",
+    "tagLine": "Capgemini, Senior Solution Architect Power Platform",
+    "profilePicture": "https://sessionize.com/image/cb7c-400o400o1-Tv43BzeWLN9rkJ6zypwJhF.jpg"
+  },
+  {
+    "id": "e5db9e81-c381-49f5-aa43-e593615fecc4",
+    "fullName": "Melissa Hale",
+    "tagLine": "Power Platform Consultant @ Kerv",
+    "profilePicture": "https://sessionize.com/image/6a3b-400o400o1-SvpnU8mrBDmBsVjfddx2ZT.png"
+  },
+  {
+    "id": "13a01903-25f4-463d-a17c-8479f1b943e9",
+    "fullName": "Michael Seidl",
+    "tagLine": "IT Process Automation Expert | define, automate, and delegate your IT Processes with Microsoft Automation and au2mator | ITSM Mastermind | Microsoft MVP",
+    "profilePicture": "https://sessionize.com/image/ce11-400o400o1-EavaZZa7XmwUd186i6Fgip.jpg"
+  },
+  {
+    "id": "fc6c18ea-4343-4a25-a7ee-b8ae06da3d03",
+    "fullName": "Michaël Maillot",
+    "tagLine": "Technical Lead at Onepoint",
+    "profilePicture": "https://sessionize.com/image/d5b9-400o400o1-ea-4343-4a25-a7ee-b8ae06da3d03.fb07525f-c1c5-4347-83e8-2d4def0c3bbc.png"
+  },
+  {
+    "id": "8927b4e6-6b26-4306-adad-16f29baf5db9",
+    "fullName": "Mike Hartley",
+    "tagLine": "Microsoft Business Applications MVP, Founder of 365 a11y, Accessibility Advocate, Mental Health Champion, Community Cheerleader",
+    "profilePicture": "https://sessionize.com/image/84b8-400o400o1-YRxtH6aYDNLMYtZteV2KvB.png"
+  },
+  {
+    "id": "9c89c995-21b0-4ec3-be50-ecf1811c26ba",
+    "fullName": "Myron Helgering",
+    "tagLine": "Microsoft MVP | Cyber and Data Security | Blogger | Speaker | Fantasy Geek",
+    "profilePicture": "https://sessionize.com/image/4248-400o400o1-aWwd6une4QXAweftb9T3SA.jpg"
+  },
+  {
+    "id": "ffa9ecc3-3d38-4359-93fa-7103a2d05a0d",
+    "fullName": "Nathan Sweeney",
+    "tagLine": "MVP - European Microsoft AI Lead - KPMG",
+    "profilePicture": "https://sessionize.com/image/04dd-400o400o1-njt3Khv5YJKT6WrkJVrHLd.jpg"
+  },
+  {
+    "id": "01a94a88-cb24-4b81-b176-27c469bf8d29",
+    "fullName": "Nick Doelman",
+    "tagLine": "Power Platform specialist, trainer, podcaster, and coach",
+    "profilePicture": "https://sessionize.com/image/0c91-400o400o1-EsoRn5FymP8wY764vYPAR2.jpg"
+  },
+  {
+    "id": "cf653446-d93f-4da2-8278-291320c1236f",
+    "fullName": "Nick Woodley",
+    "tagLine": "CISSP, CCSP, ACIIS AND ISO Auditor",
+    "profilePicture": "https://sessionize.com/image/425d-400o400o1-Gxi1ViSCUX4DMqgph2G2Qq.jpg"
+  },
+  {
+    "id": "e1e7ff93-c865-4d85-bee8-3ba357f5d768",
+    "fullName": "Onyinye Madubuko",
+    "tagLine": "Microsoft MVP | Modern Workplace | Employee Experience",
+    "profilePicture": "https://sessionize.com/image/812f-400o400o1-JuWDzbMVhtnjFMvxe3JPTm.jpg"
+  },
+  {
+    "id": "e6a8eea0-b8c5-45ff-950f-982ef8392096",
+    "fullName": "Patrick Wahlmueller",
+    "tagLine": "Turning AI, Automation & Microsoft Technologies into real-world impact",
+    "profilePicture": "https://sessionize.com/image/c5d4-400o400o1-nMENAkQz2XAKe1ySN86HtU.png"
+  },
+  {
+    "id": "3b045b3b-f92c-4dfc-9328-5f3641ce9647",
+    "fullName": "Pauline Kolde",
+    "tagLine": "MVP & Partner @ CRMK Deutschland",
+    "profilePicture": "https://sessionize.com/image/f29f-400o400o1-Gaagf3kj8FUuUwPpR2KzFJ.jpg"
+  },
+  {
+    "id": "1826202b-6cf1-48d8-a0a7-ae594b978c0e",
+    "fullName": "Per-Torben Sørensen",
+    "tagLine": "MVP Identity & Access, Senior Architect at SoftwareOne, MCT and founder of agderinthe.cloud ",
+    "profilePicture": "https://sessionize.com/image/25d4-400o400o1-QRjDQSGmpdXkVyqMAzgDav.jpg"
+  },
+  {
+    "id": "2308b3b4-c81a-44dd-a531-44002fb5ac90",
+    "fullName": "Rex de Koning",
+    "tagLine": "Azure / Powershell Consulant | MVP | MCT",
+    "profilePicture": "https://sessionize.com/image/a611-400o400o1-XiijkcJSGtzP6CpWkmVTj7.jpg"
+  },
+  {
+    "id": "2b5d7991-1509-49be-aebd-057fd70806b2",
+    "fullName": "Rishi Sapra",
+    "tagLine": "Data Platform MVP | Data & Analytics Consultant, Speaker, Trainer and Technology evangelist specialising in Data Visualisation (Power BI) and Microsoft Fabric",
+    "profilePicture": "https://sessionize.com/image/a3cd-400o400o1-WMgXrn2tuuUNZsesMRPcMY.jpg"
+  },
+  {
+    "id": "8f6ce371-38c5-40f5-b471-ea4a7a463c16",
+    "fullName": "Sandra Kiel",
+    "tagLine": "Managing Director and Microsoft MVP",
+    "profilePicture": "https://sessionize.com/image/a601-400o400o1-SBkxfPUBbbN148peWxdqGf.png"
+  },
+  {
+    "id": "bf14cd37-d3f2-4684-a367-888dd8ef0adf",
+    "fullName": "Sara Fennah",
+    "tagLine": "M365 Consultant/Trainer, MCT, MVP (M365), MCT Community Lead",
+    "profilePicture": "https://sessionize.com/image/6a1a-400o400o1-GCv38PircT2LvcrRYAYQkz.jpg"
+  },
+  {
+    "id": "9b860f7d-87fa-47c1-b434-45008a30e87f",
+    "fullName": "Sarah Jones",
+    "tagLine": "CRN Women and Diversity Awards Finalist | Principal Consultant | Microsoft",
+    "profilePicture": "https://sessionize.com/image/6dd4-400o400o1-DHHocrXNr63FUjyjgpG1zD.jpg"
+  },
+  {
+    "id": "279a7ce4-87e9-4099-b121-a39ebad80fb0",
+    "fullName": "Sari Soinoja",
+    "tagLine": "Lead consultant & Microsoft MVP",
+    "profilePicture": "https://sessionize.com/image/4a92-400o400o1-4KF725LBwdNHiQbvCC9xXp.jpg"
+  },
+  {
+    "id": "a26a7cb1-94f2-459d-82c6-c6e7e0fb1201",
+    "fullName": "Sebastian Sieber",
+    "tagLine": "2x Microsoft MVP | Global Director Technology at proMX AG | Microsoft Dynamics 365 Project Operations Specialist | Speaker, Blogger, AI Enthusiast and Power Platform Advocate",
+    "profilePicture": "https://sessionize.com/image/f43d-400o400o1-XiDkPKTHpeD6LvRp1wonpp.jpg"
+  },
+  {
+    "id": "37e3c8f0-d7fa-4351-a0c6-886bf4cbc1cc",
+    "fullName": "Selva Pradeep Sathanandam",
+    "tagLine": "Evolve iMs  - Solutions Manager",
+    "profilePicture": "https://sessionize.com/image/cb0f-400o400o1-J1rU98GEpfoeLFmDQVYqmK.jpg"
+  },
+  {
+    "id": "322ca7c2-91f3-443d-aa44-ac36a78776c3",
+    "fullName": "Stephan van Rooij",
+    "tagLine": "Software architect at Smartersoft",
+    "profilePicture": "https://sessionize.com/image/a5a3-400o400o1-ws24rJx94yqSJf2FVQwWsN.jpg"
+  },
+  {
+    "id": "f15c2bcd-a2d0-4b80-afd0-6daf884b1dd9",
+    "fullName": "Tatu Seppälä",
+    "tagLine": "Blogger & speaker | Microsoft MVP Security | MCT | Data Security, Insider Risk, Power Platform Security & Governance, IAM",
+    "profilePicture": "https://sessionize.com/image/4de7-400o400o1-TnzKoD1T3GR3HfimEGaxga.jpg"
+  },
+  {
+    "id": "e139c7aa-50a3-4fb5-bc8a-6985bbe37646",
+    "fullName": "Thomas Stensitzki",
+    "tagLine": "MVP, MCT, Author, Blogger - Granikos GmbH & Co. KG",
+    "profilePicture": "https://sessionize.com/image/2fc2-400o400o1-SW6gnCofy63tcKSrRNWbdb.png"
+  },
+  {
+    "id": "3392ea59-94ba-406f-a640-0e4497d67002",
+    "fullName": "Triparna Ray",
+    "tagLine": "BI Architect and Power BI Consultant at IBM",
+    "profilePicture": "https://sessionize.com/image/cf2c-400o400o1-fZSpZ6ttRqAk5mMSG5UTNB.jpg"
+  },
+  {
+    "id": "76f6b34d-e530-4a49-a5ae-e0ab3d03b14d",
+    "fullName": "Vivian Voss",
+    "tagLine": "Microsoft Business Applications & M365 MVP / Dynamics 365 & Power Platform Architect",
+    "profilePicture": "https://sessionize.com/image/2c07-400o400o1-pRV5P4RdRqjm6uW4QqKxw9.png"
+  },
+  {
+    "id": "fcf4f835-b8b2-46bd-a763-206116a4b143",
+    "fullName": "Zoe Wilson",
+    "tagLine": "Global Digital Workplace Services Consult Leader, Kyndryl",
+    "profilePicture": "https://sessionize.com/image/9cde-400o400o1-4kDwZFfksrp8RaXPK3omGk.jpg"
+  }
+]
