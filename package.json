@@ -45,9 +45,9 @@
     "format:css": "yarn lint:css --fix"
   },
   "dependencies": {
-    "@newhighsco/chipset": "7.2.1",
+    "@newhighsco/chipset": "7.2.2",
     "@newhighsco/next-plugin-svgr": "3.0.172",
-    "@newhighsco/press-start": "2.8.0",
+    "@newhighsco/press-start": "2.8.1",
     "next": "16.2.9",
     "next-compose-plugins": "2.2.1",
     "next-sitemap": "4.2.3",
@@ -66,7 +66,7 @@
     "@newhighsco/postcss-config": "4.0.55",
     "@newhighsco/prettier-config": "2.3.6",
     "@newhighsco/release-config": "1.5.1",
-    "@newhighsco/storybook-preset": "10.2.54",
+    "@newhighsco/storybook-preset": "10.2.55",
     "@newhighsco/stylelint-config": "4.0.45",
     "@newhighsco/svgr-config": "1.0.0",
     "@newhighsco/yarn-plugin-preset": "1.1.4",
