@@ -71,7 +71,7 @@
     "@newhighsco/svgr-config": "1.0.0",
     "@newhighsco/yarn-plugin-preset": "1.1.4",
     "@storybook/nextjs": "10.4.6",
-    "chromatic": "17.7.0",
+    "chromatic": "17.7.1",
     "colorjs.io": "0.6.1",
     "concurrently": "10.0.3",
     "eslint": "10.5.0",
