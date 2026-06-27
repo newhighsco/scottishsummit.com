@@ -55,6 +55,10 @@ const silver = [
       height: 1250
     }
   },
+  { label: 'Reserved' },
+  { label: 'Reserved' },
+  {},
+  {},
   {},
   {},
   {}
@@ -64,6 +68,18 @@ const media = [
   {
     name: 'Riada',
     logo: { src: '/images/sponsors/2026/media/riada.png', width: 1250, height: 1250 }
+  }
+]
+
+const charity = [
+  {
+    name: 'Scottish Summit Learning',
+    logo: {
+      src: '/images/sponsors/2026/charity/scottish-summit-learning.png',
+      width: 1448,
+      height: 1086
+    },
+    description: 'Part of Scottish Summit SCIO (SC052785)'
   }
 ]
 
@@ -105,6 +121,14 @@ const SponsorsPage = () => (
       columns={['one-half', 'tablet-one-quarter']}
       square
       alt
+    />
+    <SponsorsSection
+      title="Charity Partner"
+      id="charity"
+      size="desktop"
+      sponsors={charity}
+      columns={['one-half', 'tablet-one-quarter']}
+      square
     />
     <SponsorshipCallToAction />
   </PageContainer>
