@@ -8,7 +8,6 @@ import speakers from '~data/speakers.json'
 import { canonicalUrl } from '~utils/urls'
 
 const meta = { canonical: canonicalUrl('/speakers'), title: 'Speakers' }
-const sessionCount = speakers.reduce((sum, s) => sum + (s.sessions?.length ?? 0), 0)
 
 const SpeakersPage = () => (
   <PageContainer meta={meta}>
