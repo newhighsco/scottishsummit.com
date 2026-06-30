@@ -18,7 +18,6 @@ const SpeakersPage = () => (
         <p>We are proud for 2026 to have 72 speakers giving a total of 84 sessions!</p>
         <p>Spanning all things AI and Copilot as well as Dynamics 365, Power Platform, Azure, Microsoft 365 and more,
           there&apos;s something for everyone.</p>
-        </p>
       </Prose>
     </Section>
     <SpeakersSection speakers={speakers} />
