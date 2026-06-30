@@ -16,7 +16,7 @@ const SpeakersPage = () => (
       <Prose>
         <h1>{meta.title}</h1>
         <p>
-          We are proud for 2026 to have {speakers.length} speakers giving a total of {sessionCount} sessions!
+          We are proud for 2026 to have 72 speakers giving a total of 84 sessions!
           Spanning all things AI and Copilot as well as Dynamics 365, Power Platform, Azure, Microsoft 365 and more,
           there&apos;s something for everyone.
         </p>
