@@ -1,0 +1,3524 @@
+[
+  {
+    "id": "2db4d3f6-13f8-4f1d-a805-82ea3513e82e",
+    "firstName": "Aasne",
+    "lastName": "Holtklimpen",
+    "fullName": "Aasne Holtklimpen",
+    "bio": "Åsne Holtklimpen bridges the gap between technical operations and business strategy.\r\n As a Senior Architect at Crayon (soon to be Software One), she is leading the work on helping enterprises mitigate risk while deploying advanced cloud solutions.\r\n\r\nRecognized as one of the 50 Top Women in Technology in 2022, Åsne combines deep technical expertise with a strong community presence.\r\nHer expertise centers on the architectural realities of the Microsoft ecosystem, specifically Microsoft Entra, Purview, and M365 collaboration tools. Åsne moves beyond the hype of AI to address the critical governance required for Microsoft Copilot, focusing on data hygiene, lifecycle management, and access control.\r\n\r\nA recognized voice in the global community and a Microsoft MVP, Åsne ensures that organizations can leverage intelligent tools safely and effectively, transforming complex security requirements into actionable business value.",
+    "tagLine": "Senior Architect - Microsoft AI and Compliance Lead | Microsoft Copilot MVP | Microsoft MCT",
+    "profilePicture": "https://sessionize.com/image/cc5b-400o400o1-w4Eyap2ESeuD7k8X9Uce4N.jpg",
+    "sessions": [
+      { "id": 1210618, "name": "Urgent access without security compromise!" }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/aasneholtklimpen/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Instagram",
+        "url": "https://www.instagram.com/agderinthecloud/",
+        "linkType": "Instagram"
+      },
+      {
+        "title": "Blog",
+        "url": "https://agderinthe.cloud/",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/aasne-holtklimpen",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [
+          { "id": 451786, "name": "MVP" },
+          { "id": 451789, "name": "MCT" }
+        ],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "ace86fbd-8629-49a0-b3a0-12f232ff7843",
+    "firstName": "AJ",
+    "lastName": "Zafar",
+    "fullName": "AJ Zafar",
+    "bio": "I am a total Geek for Technology, especially for Microsoft Technologies 🤖! \r\n\r\nI love to share my knowledge, zest and passion for Microsoft Technologies with the wider community 🤝. I utilize Power Platform on a daily basis to develop solutions for organizations and support them by providing training and establishing Citizen Developer Frameworks.\r\n\r\nI am passionate about Fusion Teams and love to combine Low-Code Solutions with some Pro-Code enhancements and customizations. The synergy of both allows for incredibly powerful and fit-for-purpose solutions. \r\n\r\nWhen I am not designing and developing solutions 💻 you will find me at conferences and user groups as I love to meet up in person with other community members and build connections 🔗.\r\n\r\nLet's connect on LinkedIn and If you have any Power Apps questions feel free tag me @AJ_Z (in the Community Forums: https://powerusers.microsoft.com/t5/user/viewprofilepage/user-id/303195)",
+    "tagLine": "Power Platform Solution Architect",
+    "profilePicture": "https://sessionize.com/image/4b54-400o400o1-DVxBVSM8FrBwg7KGjqGyVP.jpg",
+    "sessions": [
+      {
+        "id": 1183611,
+        "name": "Agent 365: If It’s Not Built with Copilot Studio...Does It Still Work?"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/aj-zafar-07572a1b2/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/aj-zafar",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [{ "id": 451789, "name": "MCT" }],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "46f2fb37-673f-4604-83f8-58632ed2c24b",
+    "firstName": "Al",
+    "lastName": "Eardley",
+    "fullName": "Al Eardley",
+    "bio": "I am passionate about helping organisations to be productive, secure and compliant. I help them understand the potential benefits that Microsoft technologies can offer from an individual, team and organisational perspective.\r\n\r\nHaving worked on many solutions based on Microsoft's products including Microsoft 365, Viva, Power Platform, Dynamics 365, Azure and Data Platform, I love to combine diverse technologies to make them work better together.",
+    "tagLine": "Cross-Functional Technical Architect @ Microsoft, former MVP",
+    "profilePicture": "https://sessionize.com/image/56fb-400o400o1-fU1NBCAynTrJneoRsSpKwV.jpg",
+    "sessions": [
+      {
+        "id": 1220526,
+        "name": "How to save time and get better outcomes from Workshops using AI"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/alaneardley/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://blog.eardley.org.uk",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/al-eardley",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [{ "id": 451787, "name": "Microsoft FTE" }],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "f1d5ed3f-28c8-411c-96ed-c9f9921ff31f",
+    "firstName": "Andy",
+    "lastName": "Kemp",
+    "fullName": "Andy Kemp",
+    "bio": "Andy works across Microsoft 365, Azure, and modern workplace environments, helping organisations make sense of how everything fits together in the real world, not just on paper.\r\n\r\nWith over 20 years in the Microsoft ecosystem, his focus spans identity, security, and cloud architecture, particularly where design, usability, and risk collide. Much of his work centres on a simple reality: the biggest problems rarely come from missing features, but from how those features are used in practice.\r\n\r\nA Microsoft Certified Trainer, Andy is known for practical, honest sessions that focus less on product features and more on what actually works. Expect real-world scenarios, familiar challenges, and the occasional analogy that probably shouldn’t make sense, but somehow does.",
+    "tagLine": "Zero Trust & Microsoft 365 Security Architect",
+    "profilePicture": "https://sessionize.com/image/c9d9-400o400o1-4xsFtH884wL1SVm1tadLDv.jpg",
+    "sessions": [
+      {
+        "id": 1215640,
+        "name": "Privileged Access is Broken (Even When You Think It Isn’t)"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/andygkemp/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://www.andykemp.com/blog",
+        "linkType": "Blog"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [{ "id": 451789, "name": "MCT" }],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "ad9fccf9-4687-4194-9ad9-8f0c8378127d",
+    "firstName": "Anita",
+    "lastName": "Squires",
+    "fullName": "Anita Squires",
+    "bio": "Anita has always been interested in computers from an early age; very early on, her dad gifted her a ZX spectrum. However, it took until she was later in her career to actually move directly into a coding career by becoming an automated tester.  Before that, she spent many years working in a support role in various financial technology institutes, working closely with analysts, developers and testers, noticing the lack of young women in the space.\r\nOutside of her day job, she has focused on trying to encourage more young women into technology roles with the Dell Stem Apire Mentoring program.",
+    "tagLine": "Automated Tester at CGI",
+    "profilePicture": "https://sessionize.com/image/02dd-400o400o1-79rpS1DqGytRRfAgwGspBM.png",
+    "sessions": [
+      {
+        "id": 1188968,
+        "name": "Automated Testing for Fabric: What Works and What Doesn’t"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/anitajsquires/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://www.cgi.com/en",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/anita-squires",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "a11cc35c-8ebc-4cad-8a41-19699948a3e3",
+    "firstName": "Anoop",
+    "lastName": "Tatti",
+    "fullName": "Anoop Tatti",
+    "bio": "Anoop is a Microsoft MVP in the M365 Development category and works as a Microsoft 365 Developer Architect at Content + Cloud Ltd in London, UK. With 10+ years of experience in Microsoft 365 development, particularly with SharePoint Online, SharePoint 2013, and 2010, he has a solid understanding of the full project lifecycle. Anoop is a core member of the Microsoft Platform Community formerly known as Patterns and Practices (PnP) team and regularly contributes to their projects on GitHub. He also shares his knowledge and insights through his blog at https://anoopt.medium.com.",
+    "tagLine": "Working on it...",
+    "profilePicture": "https://sessionize.com/image/65e1-400o400o1-fM6o5HgCxaoZTAieC3Hr7Q.jpg",
+    "sessions": [
+      {
+        "id": 1223169,
+        "name": "Agent Inception: Using AI to Build AI for Microsoft 365"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/anooptatti",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://anoopt.medium.com",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/anoop",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [{ "id": 451786, "name": "MVP" }],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "14a50614-f33b-4dcb-b8a8-763a1623ecf2",
+    "firstName": "Anouck",
+    "lastName": "Fierens",
+    "fullName": "Anouck Fierens",
+    "bio": "Anouck is specializing in Microsoft 365 and the Power Platform. She has more than 12 years of experience working with Microsoft technology, starting as a SharePoint developer and evolving to a modern workplace engineer. She is skilled in designing and implementing solutions for SharePoint and Teams, as well as leveraging the low/no code capabilities of the Power Platform to create apps, flows, and chatbots.\r\n\r\nAs a Microsoft Certified Trainer, Anouck is highly qualified to provide all your training needs, whether you want to take an official Microsoft course or a custom-made one tailored to your organization. She is also a Microsoft Most Valuable Professional (MVP) in M365 and Business Applications.\r\n\r\nAnouck is passionate about empowering people to work smarter and faster with Microsoft 365. She loves to share her knowledge and best practices through blogs, webinars, and events. She is always eager to learn new things and explore new possibilities with Microsoft technology.",
+    "tagLine": "MVP | MCT",
+    "profilePicture": "https://sessionize.com/image/08f3-400o400o1-fZPRy1HRQNhmu77qiTTiF9.png",
+    "sessions": [
+      {
+        "id": 1252943,
+        "name": " Design and Build a Gamified Onboarding Agent with M365, Copilot and Power Platform Workshop"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/anouckfierens/",
+        "linkType": "LinkedIn"
+      },
+      { "title": "Blog", "url": "https://365-anouck.be/", "linkType": "Blog" },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/anouck-fierens",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [
+          { "id": 451786, "name": "MVP" },
+          { "id": 451789, "name": "MCT" }
+        ],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "e91dd446-b575-4a0f-8f0b-560d5cd9f588",
+    "firstName": "April",
+    "lastName": "Dunnam",
+    "fullName": "April Dunnam",
+    "bio": "April Dunnam is a Principal Cloud Advocate at Microsoft, Microsoft Certified Trainer, and MVP alumni. Known for her ability to demystify the Power Platform and AI for both developers and makers, she blends deep technical knowledge with a knack for making complex topics approachable and fun.\r\n\r\nWith a passion for community and sharing knowledge, April runs a popular YouTube channel dedicated to Power Platform, AI, and low-code development. She actively contributes to the Microsoft 365 and Power Platform community through sample contributions, community calls, and mentorship.\r\n\r\nApril’s expertise has been recognized with the Microsoft Technology Excellence Award for her innovative Power Platform solutions. She is a frequent speaker at international conferences, helping businesses and developers harness the full potential of AI and the Power Platform. When she’s not advocating for the Power Platform, you can find her performing with her rock band or fueling her caffeine and LEGO building habits.",
+    "tagLine": "Advocate, AI and Power Platform Demystifier, Global Speaker & Content Creator",
+    "profilePicture": "https://sessionize.com/image/de68-400o400o1-JDGZPVdqmS1ecQrY9zxqZi.jpg",
+    "sessions": [{ "id": 1252940, "name": "Agent Academy Live! Workshop" }],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://linkedin.com/in/aprildunnam",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://youtube.com/@aprildunnam",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://www.aprildunnam.com",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/april-dunnam",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "aeb980aa-db9e-4699-b10e-4089d78b2847",
+    "firstName": "Areti",
+    "lastName": "Iles",
+    "fullName": "Areti Iles",
+    "bio": "With over 15 years in the technology sector, Areti Iles is currently the Head of Professional Services at Telefónica Tech’s AI Business Solutions division and a Microsoft MVP in Customer Experience and Power Apps. Throughout her career as a Dynamics 365 and Power Platform solution architect and consultant, she has delivered a wide range of complex projects for FTSE 250 and FTSE 500 companies across multiple sectors. Beyond her professional role, she actively volunteers within the Microsoft community. She serves on Microsoft’s Global User Groups Committee representing Europe and is the Co‑Chair of the UK Dynamics 365 and Power Platform User Groups. She also leads both the Reading and London All Day user groups and is part of the Scottish Summit organising committee. Areti co‑hosts the Power Delivery podcast alongside two fellow Microsoft MVPs, offering guidance on project delivery and best practices. She is also a mentor for the Women in Power Platform group. In addition, she participates annually as part of the United Nations UK delegation for the Commission on the Status of Women (CSW) and speaks internationally on AI legislation, AI tools, and their adoption.",
+    "tagLine": "Head of Professional Services - AI Business Solutions @ Telefonica Tech | Speaker | Mentor | User Group Leader | Microsoft MVP",
+    "profilePicture": "https://sessionize.com/image/52fb-400o400o1-RB3ZuhowpzXe63Sz6JgPbt.jpg",
+    "sessions": [
+      { "id": 1187551, "name": "AI Legislation: What You Need to Know" },
+      { "id": 1196772, "name": "The Human Hack: Rebooting Consulting Culture" }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/aretiiles/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://www.aretiiles.com",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://telefonicatech.uk/solutions/business-applications/",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/aretiiles",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [{ "id": 451786, "name": "MVP" }],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "1fdb7870-e14d-490f-b863-324d9500be93",
+    "firstName": "Ben",
+    "lastName": "den Blanken",
+    "fullName": "Ben den Blanken",
+    "bio": "Enabling people to create meaningful connections with their customers through technology is what drives me. Over the years, I’ve learned that real impact doesn’t come from tools alone, but from aligning people around a shared goal and giving them the confidence and space to contribute.\r\n\r\nThat belief is what originally drew me to the Power Platform and it’s exactly why AI is a natural next step, not a change in direction. Where low-code empowered business teams to build apps, automate processes, and generate insights themselves, AI takes this a step further by amplifying human capability rather than replacing it.\r\n\r\nI’m motivated by working closely with end users, understanding their challenges, and turning their ideas into practical solutions, whether that’s through apps, automation, or intelligent agent. The technology evolves, but my focus stays the same: empowering people to shape their own success, together.",
+    "tagLine": "Microsoft Business Applications MVP, Copilot Studio and Power Platform Expert at Wortell",
+    "profilePicture": "https://sessionize.com/image/c84f-400o400o1-ETBcBUKojHXNnr564FB53r.jpg",
+    "sessions": [
+      {
+        "id": 1198424,
+        "name": "From Geeky Idea to Enterprise App: Comparing App Builder, Power Apps Vibe, and Code Apps"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/bendenblanken/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://www.bendenblanken.com/",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://www.wortell.nl/",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/bendenblanken",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [{ "id": 451786, "name": "MVP" }],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "8a1f9d31-5905-4441-8ebd-e127ea97cbc7",
+    "firstName": "Björn",
+    "lastName": "Zahnow",
+    "fullName": "Björn Zahnow",
+    "bio": "In 2011 I started my journey in the Microsoft world with good old Navision. In the meantime, I have been working with the Sales solution for several years and try to make my life there as easy as possible when it comes to managing and deploying solutions.",
+    "tagLine": "Microsoft MVP & Partner & Solution Architect @CRMK Deutschland",
+    "profilePicture": "https://sessionize.com/image/948a-400o400o1-aQUDu6QDK2V6FkBPoNfihW.jpg",
+    "sessions": [
+      {
+        "id": 1189712,
+        "name": "The Rise of Marketing Agents: MCP, APIs and the Future of Customer Insights"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/bj%C3%B6rn-zahnow-562065173/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/bjoern-zahnow",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [{ "id": 451786, "name": "MVP" }],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "c81e9beb-4be3-4139-b4f7-cf4985713af4",
+    "firstName": "Bobby",
+    "lastName": "Wessels",
+    "fullName": "Bobby Wessels",
+    "bio": "Bobby Wessels is a Senior Service Designer at Robiquity, where teams use service design, Power Platform, low-code applications, automation and AI to help organisations improve operations and customer experience. Bobby focuses on complex customer and operational journeys, helping teams understand the real problem before jumping into delivery and shaping better opportunities for redesign, Dynamics 365, Power Platform and AI-enabled services.",
+    "tagLine": "Strategic Service Designer for complex customer and operational journeys",
+    "profilePicture": "https://sessionize.com/image/e895-400o400o1-VUeecJQ2uXjevUU28vDL7a.png",
+    "sessions": [{ "id": 1221284, "name": "Would You Trust This Agent?" }],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451783, "name": "Yes" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "620c157e-37bb-4284-86e7-bbfbd6c4aadd",
+    "firstName": "Charles",
+    "lastName": "Sexton",
+    "fullName": "Charles Sexton",
+    "bio": "Charles helps organisations build scalable Power Platform solutions and implement governance frameworks that reduce risk, improve adoption, and ensure long-term sustainability. Originally a web developer, he now works as a Power Platform Solution Architect for Capgemini. With a passion for UX, UI and Accessibility, he strives to create greater experiences for both users and developers.\r\n\r\nOne half of the duo behind Power Squared, Charles also publishes videos on his own YouTube channel and owns a website for sharing text snippets (including Canvas App YAML and AI prompts) called Power Snips.",
+    "tagLine": "Power Platform Solution Architect",
+    "profilePicture": "https://sessionize.com/image/e80f-400o400o1-XrUYtx8q8o75HVsMn7SoEZ.png",
+    "sessions": [
+      {
+        "id": 1193827,
+        "name": "Vibe Apps and Code Apps: The Future of Power Platform Development"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/charlie-sexton",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://www.charlessexton.com/",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://www.capgemini.com",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/charlessexton",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [{ "id": 451786, "name": "MVP" }],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "853563e5-81e5-49d2-b2f7-fc0c399bd6da",
+    "firstName": "Charlie",
+    "lastName": "Gough",
+    "fullName": "Charlie Gough",
+    "bio": "Based in the South West of the UK, I have been working with cloud technologies for several years across various industries.  Having previously been a generalist I am starting to shift more to a security-focused track around the Microsoft Cloud.   I currently run the Microsoft Cloud Security User Group (@MSCSUG) and the Cloud Security Insider Blog.    ",
+    "tagLine": "Security MVP, Head of Cloud Solutions for Brightsolid , Owner of Cloud Security Insider blog",
+    "profilePicture": "https://sessionize.com/image/fcdd-400o400o1-NcYheuYTwsWehXqJr3M7kG.jpg",
+    "sessions": [
+      {
+        "id": 1217055,
+        "name": "Replacing VPN with Entra Private Access: The Bits That Worked and the Bits That Bit Back"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/charliegough/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://www.cloudsecurityinsider.com",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://cloudsecurityinsider.com",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/charliegough",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [
+          { "id": 451786, "name": "MVP" },
+          { "id": 451789, "name": "MCT" }
+        ],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "6766d8ed-94b6-4844-b7ca-9ef2fa43ef18",
+    "firstName": "Chris",
+    "lastName": "Lloyd-Jones",
+    "fullName": "Chris Lloyd-Jones",
+    "bio": "I'm VP of AI Consulting Transformation at Kyndryl, where I created the Forward Deployed Engineering capability - engineers embedded with clients to build, ship, and own outcomes, not just advise; now scaling to 22,000. I focus on agentic AI, open source, and governance that ships rather than stalls.\r\n\r\nI've been recognised six times as a Microsoft MVP in Artificial Intelligence, and I'm a contributor to ISO/IEC 21031:2024 (Software Carbon Intensity) through my work with the Green Software Foundation, where I formerly served as Steering Committee Vice-Chair. I'm currently pursuing a doctorate in Green Software Engineering at the University of East London (2022-2027) and was an OpenUK New Year's Honours 2025/26 recipient for contributions to open source.\r\n\r\nI co-host Securing the Realm, a D&D-inspired podcast on AI governance and AI-driven development (securing.quest). My background spans law, engineering, and open source leadership - I think about regulation, liability, and compliance as design constraints, not afterthoughts. I stay hands-on, building with agentic AI, open source tooling, and green software.",
+    "tagLine": "VP, AI Consulting Transformation at Kyndryl | Created Kyndryl's FDE capability - scaling to 22,000 engineers | 6x Microsoft AI MVP | Doctoral researcher in Green Software Engineering, UEL",
+    "profilePicture": "https://sessionize.com/image/f484-400o400o1-sBmY3Vd2fQzvwB691ZJSJ3.jpg",
+    "sessions": [
+      {
+        "id": 1252946,
+        "name": "Building an AI Superhighway: Hands-On Enterprise AI Gateway with Azure API Management Workshop"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/chrislloydjones/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://www.sealjay.com/",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://www.avanade.com/en/blogs/techs-and-specs/author/chris-lloyd-jones",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/chris-lloyd-jones",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [{ "id": 451786, "name": "MVP" }],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "eb9e661a-dbb9-426d-85a2-148cc89e272b",
+    "firstName": "Craig",
+    "lastName": "White",
+    "fullName": "Craig White",
+    "bio": "Craig, a Microsoft MVP for Business Applications, has been navigating the Microsoft ecosystem for over 20 years. His passion for automation has led him to work with Visual Basics (VBA), SQL Server, SharePoint On-Prem, Microsoft 365, and since 2016, the Power Platform.\r\n\r\nCraig focuses on Power Platform, Copilot Studio & M365 administration, governance and enablement. His goal is to inspire organisations to adopt the Power Platform & Copilot tools at scale, fostering safe and dynamic environments for innovation.",
+    "tagLine": "Microsoft MVP | AI Platform Lead | Blogger | Speaker | Mentor",
+    "profilePicture": "https://sessionize.com/image/382f-400o400o1-3Kg29fnFGppuCyimFVk3Xf.png",
+    "sessions": [
+      {
+        "id": 1180217,
+        "name": "From Overwhelmed to In Control: An Essentialist Approach to Running a Power Platform CoE"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/craig-white-",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://platformsofpower.net",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://www.ans.co.uk/",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/platformsofpower",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [{ "id": 451786, "name": "MVP" }],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "f6f610c8-ffff-4efd-8e32-f5a8de33eff6",
+    "firstName": "Damien",
+    "lastName": "Bird",
+    "fullName": "Damien Bird",
+    "bio": "Cloud Solution Architect with Microsoft, Business Application MVP 2022, Power Automate Super User, Blogger and YouTuber",
+    "tagLine": "DamoBird365",
+    "profilePicture": "https://sessionize.com/image/a6b0-400o400o1-4TQmz1NDcBr5XN68wFA9CJ.png",
+    "sessions": [
+      {
+        "id": 1215438,
+        "name": "Find Your AI Vibe: A Live Demo from No-Code to Pro-Code"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/DamoBird365/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://www.DamoBird365.com",
+        "linkType": "Blog"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [{ "id": 451787, "name": "Microsoft FTE" }],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "85cbafc5-4f92-4c90-8676-630fa395a16f",
+    "firstName": "Dan",
+    "lastName": "Barber",
+    "fullName": "Dan Barber",
+    "bio": "A passionate and long-standing contributor to the Dynamics and Power Platform community, I bring over 20 years of hands-on experience in technology and consulting. From leading global system integrators to building high-growth practices and now leading my own business, I’ve had the privilege of working alongside brilliant minds on transformative projects—and picked up a few hard-earned lessons along the way. I love to share this knowledge and experience through my community activities with The Dynamics 365 & Power Platform User Group communities together with mentoring and coaching through both official channels such as Women In Power the Power Platform School as well an informal channels.",
+    "tagLine": "Founder & Principal Consultant @ Strathos | Microsoft BizApps MVP (x3) | Coach | Mentor | Speaker | Advisor | Strategist",
+    "profilePicture": "https://sessionize.com/image/eb2f-400o400o1-WdBiYa2hmkGnnwqDQ7KmMn.png",
+    "sessions": [
+      {
+        "id": 1183522,
+        "name": "Career Strategy Health Check: Ask the Experts, are you doing the right things now, for your future?"
+      },
+      { "id": 1196772, "name": "The Human Hack: Rebooting Consulting Culture" }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/danielbarber/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/danbarber",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [{ "id": 451786, "name": "MVP" }],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "4c125671-951b-4798-8e48-02a45be346e7",
+    "firstName": "Daniel",
+    "lastName": "Laskewitz",
+    "fullName": "Daniel Laskewitz",
+    "bio": "Daniel Laskewitz is a Principal Cloud Advocate at Microsoft, specializing in the Power Platform. He helps (advanced) makers, IT professionals, developers, and architects accelerate solution delivery through both low-code and pro-code tools. \r\n\r\n▶️ Career progression: Former Microsoft MVP (6 years) and Fast-Track Recognized Solution Architect before joining Microsoft. \r\n▶️ Community voice: Regular speaker at leading tech conferences and co-author of Power Platform Weekly. \r\n▶️ Platform breadth: Deep knowledge across Copilot Studio, Power Apps, Power Automate, ALM, and governance. \r\n▶️ Content creator: Publishes practical guidance on Copilot Studio, solution design, and ALM. \r\n\r\nDaniel combines platform expertise with real-world application to support scalable, secure, and maintainable solutions. ",
+    "tagLine": "Principal Cloud Advocate, Microsoft",
+    "profilePicture": "https://sessionize.com/image/7c3d-400o400o1-EGpqLSWNpVrXLWsA3hVE8D.jpg",
+    "sessions": [
+      {
+        "id": 1195398,
+        "name": "🚀 Copilot Cowork in Action: What It Is, How to Get It & What You Can Do With It"
+      },
+      {
+        "id": 1177020,
+        "name": "🧠 Model Context Protocol vs. Connectors: Rethinking Integration in the Power Platform 💡"
+      },
+      { "id": 1252940, "name": "Agent Academy Live! Workshop" }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/laskewitz/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/laskewitz",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [
+          { "id": 451787, "name": "Microsoft FTE" },
+          { "id": 451789, "name": "MCT" }
+        ],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "e8ad406b-9b1b-4e48-a7a6-cf84b616f2d9",
+    "firstName": "Dennes",
+    "lastName": "Torres",
+    "fullName": "Dennes Torres",
+    "bio": "Dennes is a DBA and Data Platform MVP (2020-2023) living in Malta who loves Data Platform, including Azure Data Platform, Microsoft Fabric, SQL Server and recently got involved by Generative AI. In the past, he was married with software development, resulting in a total of more than 20 years of experience between Data Platform, cloud and software development. He moved to Malta after more than 10 years leading devSQL PASS Chapter in Rio de Janeiro and now is a member of the leadership team of MMDPUG PASS Chapter in Malta organizing meetings, events, and webcasts about Microsoft Data Platform. He is an MCT, MCSE in Data Platforms and BI, with more titles in software development. He can be found working for DTower Software and speaking in SQL Saturdays around Europe",
+    "tagLine": "Data Platform MVP (2020-2023)",
+    "profilePicture": "https://sessionize.com/image/7a95-400o400o1-DMUQWW5Mr6yVAKuJN9gerF.jpg",
+    "sessions": [
+      { "id": 1182943, "name": "Designing Intelligent Tool-Driven Agents" }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/dennestorres/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://dennestorres.com",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://dtowersoftware.com",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/dennes-torres",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [{ "id": 451789, "name": "MCT" }],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "4a19a90f-5acf-4966-9bb6-18fd3014c0cd",
+    "firstName": "Dennis",
+    "lastName": "Bottjer",
+    "fullName": "Dennis Bottjer",
+    "bio": "Dennis is an Application Architect at a major U.S. insurance company, where he focuses on building secure, scalable systems and helping teams use AI responsibly and effectively. He brings a broad technical background spanning web development, C#, .NET, and SharePoint, and was previously recognized as a Microsoft ASP.NET MVP.\r\n\r\nBefore moving into enterprise architecture, Dennis ran a successful .NET and SharePoint consulting business, designing and delivering solutions for a wide range of clients and industries. That hands-on experience continues to shape his practical, outcome-driven approach to architecture.\r\n\r\nToday, Dennis is deeply involved in application security, serving as both a Security Champion and an AI Champion at his company, where he helps bridge the gap between development, architecture, and security teams.\r\n\r\nOutside of tech, Dennis plays guitar in a band and co-runs a pizza review channel called Slice Snobs, proving that architectural opinions extend well beyond software. He lives in Tulsa, Oklahoma, and is a husband and father who enjoys good code, good security practices, and great pizza.",
+    "tagLine": "Application Architect - Learn, Share, Grow",
+    "profilePicture": "https://sessionize.com/image/2694-400o400o1-LQ4epuU7ZJQSRdLhpgpmqa.jpg",
+    "sessions": [
+      {
+        "id": 1176525,
+        "name": "The Architect’s AI Playbook: Patterns, Pitfalls, and Proven Prompts to tame technical debt"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/dennisbottjer/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/dennis-bottjer",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "5b245335-8578-464c-a998-045889616a8a",
+    "firstName": "Edine",
+    "lastName": "Olijve-Watkinson",
+    "fullName": "Edine Olijve-Watkinson",
+    "bio": " I’m Edine, a passionate advocate for Microsoft 365 technologies, with a particular focus on SharePoint Online, Copilot, Purview, and the modern workplace. I thrive on simplifying complex concepts, making them accessible to IT professionals and power users alike.\r\n\r\nWith 10 years of experience in the Microsoft ecosystem, I specialize in helping organizations unlock the full potential of their digital workplace. Whether it’s streamlining collaboration, getting the most out of Copilot, enhancing intranet experiences, or optimizing Microsoft 365 compliance, my goal is to empower teams with the right tools and knowledge to work smarter.",
+    "tagLine": "Microsoft 365 MVP - AI Consultant at InSpark ",
+    "profilePicture": "https://sessionize.com/image/36a2-400o400o1-aM1Wpote1UAXgYmrsjm8uA.jpg",
+    "sessions": [{ "id": 1173456, "name": "Sheep herding with Agent 365" }],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/edine-olijve/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://slothpointonline.net",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://www.inspark.nl/",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/edineolijve",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [{ "id": 451786, "name": "MVP" }],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "2b2b4642-2ed0-427d-8865-9994aaffa9a3",
+    "firstName": "Emma-Claire",
+    "lastName": "Shaw",
+    "fullName": "Emma-Claire Shaw",
+    "bio": "I am a creative and strategic leader with a focus on leveraging technology to drive positive change. Passionate about cloud-enabled transformation, I specialize in leading M365 adoption, governance and enablement, with a focus on the Power Platform. My goal is to unlock the immense value this technology offers, accelerating digital transformation and empowering individuals to make a meaningful impact. With 18 years of experience in technology innovation and consultancy, I excel at identifying and harnessing emerging tech to transform enterprises and deliver lasting value.",
+    "tagLine": "Senior Power Platform Consultant, Microsoft MVP",
+    "profilePicture": "https://sessionize.com/image/7da4-400o400o1-MhE7YHjNS1qEScDhJoGWSP.jpg",
+    "sessions": [
+      {
+        "id": 1180217,
+        "name": "From Overwhelmed to In Control: An Essentialist Approach to Running a Power Platform CoE"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/shawemmaclaire/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/emma-claire-shaw",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [{ "id": 451786, "name": "MVP" }],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "206ffd58-5310-4afc-924a-4fad8f4c2c22",
+    "firstName": "Franco",
+    "lastName": "Musso",
+    "fullName": "Franco Musso",
+    "bio": "I'm a freelance Power Pages developer. Having started out with Dynamics CRM v3 and now loving getting my hands dirty with all things Power Platform - with a particular passion for upskilling others and expanding my knowledge on Power Pages. Mostly I love pushing the boundaries, getting my hands dirty and getting prototypes into users' hands early and often\r\nI'm an outside the box thinker and like to bring creative ideas and don't like to take no \"It can't do that\" as an answer!\r\nI've got a client-facing background (firstly in bars and nightclubs, then...) in UAT, end-user training and floor-walking support which I reckon gives me a great understanding of what makes a great system from an end-user perspective.",
+    "tagLine": "Freelance Power Pages specialist with an unhealthy obsession for experimenting, learning and empowering others",
+    "profilePicture": "https://sessionize.com/image/8f64-400o400o1-58-5310-4afc-924a-4fad8f4c2c22.6be129c7-f282-49e1-a00b-84671cb40ebf.jpg",
+    "sessions": [
+      {
+        "id": 1183522,
+        "name": "Career Strategy Health Check: Ask the Experts, are you doing the right things now, for your future?"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/francesco-musso-dynamics365",
+        "linkType": "LinkedIn"
+      },
+      { "title": "Blog", "url": "https://francomusso.com", "linkType": "Blog" },
+      {
+        "title": "Company Website",
+        "url": "https://francomusso.com",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/franco-musso",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "e9db87c2-f8f0-4afc-b52f-27cf7c4499b5",
+    "firstName": "Gemma",
+    "lastName": "Adair",
+    "fullName": "Gemma Adair",
+    "bio": "I am a Microsoft Partner Marketing specialist with deep expertise helping AI Business Solutions partners across Business Applications and Modern Workplace design, pilot, and scale go-to-market programs that accelerate revenue and strengthen co-sell readiness.\r\n\r\nWith 15 years operating inside the Microsoft ecosystem, I have collaborated with leading ISVs, SIs and high-growth SaaS organisations to build marketing engines that accelerate pipeline, improve partner alignment, and differentiate in competitive markets.\r\n\r\nMy work spans marketing strategy, demand generation, partner co-marketing, sales enablement, and full-funnel GTM activation for organisations including Avanade, HSO, and Nintex. I specialise in simplifying complex value propositions, engaging the right buying committees, and building scalable, marketing-influenced growth programs.",
+    "tagLine": "Founder & Microsoft Partner Marketing Expert",
+    "profilePicture": "https://sessionize.com/image/8820-400o400o1-nUq3HXBr9rowvxx1ZJrQvJ.jpg",
+    "sessions": [
+      {
+        "id": 1182001,
+        "name": "The LinkedIn Blueprint: Building Your Brand and Network in the Microsoft Ecosystem"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/gemmaadair/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://riadaconsultancy.com/",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/gemma-adair",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "c3c152a7-494c-412e-9580-1ea415e4411c",
+    "firstName": "Hans",
+    "lastName": "Muns",
+    "fullName": "Hans Muns",
+    "bio": "Hans Muns is a freelance Software Engineer and Microsoft Certified Trainer (MCT) at Backnook.\r\n\r\nAs a software engineer, Hans focuses on designing, building, and implementing software solutions mainly using the Microsoft technology stack, including .NET, C#, and Azure. He enjoys working on innovative projects that help customers address real-world challenges.\r\n\r\nIn addition to his engineering work, Hans is a Microsoft Certified Trainer, where he shares his knowledge and enthusiasm for technology with colleagues, peers, and customers, contributing to a supportive and collaborative learning environment.",
+    "tagLine": "Freelance .NET/Azure Engineer & Microsoft Certified Trainer @ Backnook",
+    "profilePicture": "https://sessionize.com/image/6804-400o400o1-E5pAsqyR6kvkSPhVZRedKq.jpg",
+    "sessions": [
+      {
+        "id": 1188024,
+        "name": "Event-Driven DevOps: Automating Azure with Event Grid System Topics"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/hans-muns-78a50b197/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://codewithhans.com/",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://backnook.nl",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/hansmuns",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [{ "id": 451789, "name": "MCT" }],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "6b3e13ba-28b8-45b8-8101-3bb206745743",
+    "firstName": "Heather",
+    "lastName": "Perriam",
+    "fullName": "Heather Perriam",
+    "bio": "Heather Perriam is a Microsoft Certified Power Platform Solution Architect and Practice Lead for Business Applications. Leading a growing Power Platform and AI practice, she draws on an extensive background in solution architecture to deliver SaaS and low code solutions across healthcare, public sector, and enterprise organizations. She specializes in helping teams turn complex challenges into practical, scalable outcomes.\r\n\r\nWith a career spanning both telecommunications and over a decade in Microsoft technologies, Heather combines deep technical expertise with strategic leadership. Originally from the United States and now based in Devon, she is passionate about growing people as much as platforms. She focuses on mentoring consultants and creating opportunities for others to build confident, sustainable careers in tech.\r\n\r\nHeather is a vocal advocate for accessibility and inclusive design. She ensures that solutions work for real humans rather than just satisfying requirements documents. Open about her own experience of ADHD, she champions neurodiversity and believes better technology starts with understanding how different minds think and work.\r\n\r\nAs a supporter of Women in Tech initiatives, Heather actively works to create spaces where underrepresented groups feel seen and supported. Whether speaking at community events or leading delivery teams, her mission is to build technology that works for everyone and a tech industry where everyone has the opportunity to thrive.",
+    "tagLine": "Inclusive AI Leader | Biz Apps Practice Lead | Women in Tech Advocate",
+    "profilePicture": "https://sessionize.com/image/3ef5-400o400o1-P1Xa7RuTnzY8hRPuEFt2r1.jpg",
+    "sessions": [
+      {
+        "id": 1183522,
+        "name": "Career Strategy Health Check: Ask the Experts, are you doing the right things now, for your future?"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/heatherperriam/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://www.linkedin.com/in/heatherperriam/",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/heather-perriam",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "01a88416-06f6-4fca-96ed-7320a05f0b4c",
+    "firstName": "Ian",
+    "lastName": "Tweedie",
+    "fullName": "Ian Tweedie",
+    "bio": "Ian Tweedie is a senior technical consultant at Capgemini, specialising in the Microsoft Power Platform and cloud-native development. With a background as an IT manager turned low-code developer, Ian has charted a distinctive path from citizen development to professional-grade solutions, fusing automation with deep enterprise architecture expertise.\r\n\r\nHolding 16 Microsoft certifications, including Power Platform Solution Architect Expert and Azure Developer Associate, Ian combines technical depth with real-world delivery. He is the creator of multiple open-source tools and certified Power Automate connectors, and is the force behind TechTweedie, a popular blog that demystifies Power Platform DevOps and secure design practices.\r\n\r\nIan regularly speaks at community events and user groups across the UK and co-hosts the Power Platform Clinic YouTube series, where he shares live troubleshooting insights with fellow experts. His recent work includes building Azure-based reporting solutions for low-code developers and developing automated backup pipelines to safeguard Power Platform development environments.\r\n\r\nOutside of his consulting role, Ian serves as a digital transformation trustee for Prosper Learning Trust and is an advocate for making automation accessible and auditable at scale.\r\n\r\nWhether empowering developers to push boundaries or simplifying complex architectures, Ian brings a pragmatic, community-first mindset to everything he builds.",
+    "tagLine": "Senior Technical Consultant | 16x Microsoft Certified | Blogger | Power Apps Super User | Tech Coach",
+    "profilePicture": "https://sessionize.com/image/6883-400o400o1-BGt2n3PNoatNnqm2Uprdih.jpg",
+    "sessions": [
+      { "id": 1196772, "name": "The Human Hack: Rebooting Consulting Culture" }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/iantweedie/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://techtweedie.github.io",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://techtweedie.github.io",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/ian-tweedie",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "8ca492a2-c473-40d9-bbce-599f930766c4",
+    "firstName": "Jay",
+    "lastName": "Fitzhenry",
+    "fullName": "Jay Fitzhenry",
+    "bio": "Technology enthusiast, coach, leader, strategist, hiker and a bit of Dungeons and Dragons sprinkled in! Living and breathing AI platforms from low-code development, to complex multi-agent systems.",
+    "tagLine": "Node4, Technology & Innovation Director",
+    "profilePicture": "https://sessionize.com/image/ad81-400o400o1-AGz9kuKj47WzXum1heiJ2.png",
+    "sessions": [
+      {
+        "id": 1173856,
+        "name": "Building a Responsible AI Centre of Excellence That Actually Delivers"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/jfitzhenry/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/JayFitzhenry",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "eb5e6fb4-0e39-41fa-91f1-41f647c12579",
+    "firstName": "Joe",
+    "lastName": "Griffin",
+    "fullName": "Joe Griffin",
+    "bio": "Joe Griffin is CEO of proMX UK Limited, a Microsoft Inner Circle partner within the proMX group of companies. As a holder of over 40+ Microsoft technical certifications covering the entire Microsoft cloud stack, including Dynamics 365, Power Platform, Microsoft Azure, Artificial Intelligence and more, Joe is a seasoned professional, technical architect and trainer, with a passion for implementing effective technology solutions. Joe's experience covers a variety of industries, including energy, managed services, retail, print & direct mail and the UK utility sector. Joe has been a Microsoft Most Valuable Professional (MVP) since 2020, and contributes regularly at conferences and user groups across the globe. When Joe is not working, he enjoys reading, learning about history, walking, video games and catching up with the latest film and TV shows.",
+    "tagLine": "CEO at proMX UK Limited / Business Applications MVP",
+    "profilePicture": "https://sessionize.com/image/be99-400o400o1-KKv1qUnv19yahwohfjWXf2.jpg",
+    "sessions": [
+      {
+        "id": 1183611,
+        "name": "Agent 365: If It’s Not Built with Copilot Studio...Does It Still Work?"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/joejgriffin/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Instagram",
+        "url": "https://www.instagram.com/joejgriffin/",
+        "linkType": "Instagram"
+      },
+      { "title": "Blog", "url": "https://crmchap.co.uk", "linkType": "Blog" },
+      {
+        "title": "Company Website",
+        "url": "https://promx.net/en",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/joejgriffin",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [
+          { "id": 451786, "name": "MVP" },
+          { "id": 451789, "name": "MCT" }
+        ],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "fc3a497e-0843-4c5a-9edb-73fdb916c344",
+    "firstName": "Jon",
+    "lastName": "Jarvis",
+    "fullName": "Jon Jarvis",
+    "bio": "Microsoft MVP | Sessionize Top 3% speaker 2022 & 2023\r\n\r\nJon specialises in Microsoft 365 with over 10 years of experience in consultancy and pre-sales; Jon is passionate about Microsoft products and especially enjoys the Microsoft Defender and Intune suites.\r\n\r\nJon particularly likes discussing Microsoft Security and Windows 365 and holds a Microsoft MVP in Intune and Windows 365.",
+    "tagLine": "Microsoft Field Technologist @ Advania UK",
+    "profilePicture": "https://sessionize.com/image/04a3-400o400o1-SdyX7PPy2cs5RpYoEEHNZM.jpg",
+    "sessions": [
+      {
+        "id": 1199936,
+        "name": "Windows 365 for Agents: Building, Securing, and Operating AI‑Driven Cloud PCs"
+      },
+      {
+        "id": 1252947,
+        "name": "Zero Trust, Zero Compromise: Operationalising Microsoft Security in 2026 Workshop"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/jonjarvisuk/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://www.cloudendpoint.ai",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Company Website",
+        "url": "HTTPS://www.advania.co.uk",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/jon-jarvis",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [{ "id": 451786, "name": "MVP" }],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "2b768029-4322-4536-b05a-d9360ac972c5",
+    "firstName": "Josh",
+    "lastName": "McDonald",
+    "fullName": "Josh McDonald",
+    "bio": "With Securing the Realm, embark on a journey where technology meets adventure. Through epic storytelling and engaging demos, we transform complex cybersecurity and AI topics into adventurous quests. Securing the Realm is the blogging, speaking and podcasting series by Josh McDonald and Chris Lloyd-Jones, two former legal professionals turned Microsoft AI MVP's.",
+    "tagLine": "Securing the Realm Podcast",
+    "profilePicture": "https://sessionize.com/image/874f-400o400o1-NwKcjQDuiJEx1R6UnvaQFt.png",
+    "sessions": [
+      {
+        "id": 1252946,
+        "name": "Building an AI Superhighway: Hands-On Enterprise AI Gateway with Azure API Management Workshop"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/joshmcdonaldmvp/",
+        "linkType": "LinkedIn"
+      },
+      { "title": "Blog", "url": "https://securing.quest/", "linkType": "Blog" }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [{ "id": 451786, "name": "MVP" }],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "edc9a64f-df3d-47f7-8b19-5d038dfc85c2",
+    "firstName": "Kevin",
+    "lastName": "McDonnell",
+    "fullName": "Kevin McDonnell",
+    "bio": "Inspired by those in the community that have gone before me, I try to share what I learn by looking at what the services from Microsoft can offer, understanding challenges people have and bringing those two things together. Having learned from 13 years in Financial Services, I moved into the world of consulting, currently acting as Director, owning Copilot and Agents within the UK at Avanade. \r\n\r\nI am lucky enough to have been awarded as a Microsoft MVP in Microsoft 365 for Copilot and Copilot Extensibility and co-host the award winning Copilot Connection podcast as well as blogging and sharing videos.",
+    "tagLine": "UK Copilot and Agent Lead @ Avanade, Co-host Copilot Connection, MVP",
+    "profilePicture": "https://sessionize.com/image/904a-400o400o1-EE4y718wC5XtusuaULoSnD.jpg",
+    "sessions": [
+      { "id": 1209086, "name": "Bouncing back from failure" },
+      { "id": 1252939, "name": "New Speakers Workshop" },
+      { "id": 1173456, "name": "Sheep herding with Agent 365" }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/kevmcdonnell",
+        "linkType": "LinkedIn"
+      },
+      { "title": "Blog", "url": "https://www.mcd79.com/", "linkType": "Blog" },
+      {
+        "title": "Company Website",
+        "url": "https://www.mcd79.com",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/kevin-mcdonnell",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [{ "id": 451786, "name": "MVP" }],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "d5ade1af-a642-43c6-9a0b-56f9c45ebae9",
+    "firstName": "Kimmo",
+    "lastName": "Koski",
+    "fullName": "Kimmo Koski",
+    "bio": "Kimmo is an accomplished Technical Architect with a wealth of experience exceeding a decade in successfully implementing Dynamics 365 and Power Platform solutions across diverse industries. With an unwavering passion for technology, Kimmo remains at the forefront of the ever-evolving landscape, consistently seeking to expand his Power Platform knowledge and share valuable insights with others.\r\n\r\nKimmo has extensive experience with projects related to Dynamics 365 Sales and Customer Service processes and custom solutions using the Power Platform toolset from the good old XRM days to the present. With this experience, he has gained valuable insights on how to extend solutions with pro-code capabilities that the Power Platform offers.\r\n\r\nMicrosoft MVP - Business Applications - Power Pages",
+    "tagLine": "Business Lead & Architect, Meltlake",
+    "profilePicture": "https://sessionize.com/image/5272-400o400o1-3St6gnhP6yGpz58wAu5f8M.png",
+    "sessions": [
+      {
+        "id": 1198712,
+        "name": "Power Pages with BYOC: Lessons learned from customer implementation"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/kimmokoski/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://www.kimmokoski.dev/",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://www.meltlake.com/",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/kimmokoski",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [{ "id": 451786, "name": "MVP" }],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "6282aa05-a6cb-4410-a5e1-d7c11a52ec04",
+    "firstName": "Laura",
+    "lastName": "Kokkarinen",
+    "fullName": "Laura Kokkarinen",
+    "bio": "Laura is a software architect and developer passionate about application security and software development best practices on the Microsoft Cloud platform. She has been doing full-stack software development with Microsoft technologies professionally since 2011 and has focused entirely on Microsoft cloud services since 2017. She has a Bachelor's and a Master's in Computer Science (grad 2012).\r\n\r\nIn addition to designing software architectures, writing code, and performing tasks related to application security, Laura blogs about technologies related to her work at https://laurakokkarinen.com and regularly speaks at international conferences. Sharing her knowledge comes naturally to her, and Laura has received the Microsoft Most Valuable Professional (MVP) award annually since 2019.",
+    "tagLine": "Software Architect, Microsoft MVP",
+    "profilePicture": "https://sessionize.com/image/c137-400o400o1-05-a6cb-4410-a5e1-d7c11a52ec04.833e9679-1a02-4a60-80ad-ef66e5f1634f.png",
+    "sessions": [
+      {
+        "id": 1181352,
+        "name": "Closing the Loop: How a Small Security Team Refined an Enterprise-grade DLP solution"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/laurakokkarinen",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Instagram",
+        "url": "https://instagram.com/laurakokkarinencom",
+        "linkType": "Instagram"
+      },
+      {
+        "title": "Blog",
+        "url": "https://laurakokkarinen.com",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://sulava.com",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/laura-kokkarinen",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [{ "id": 451786, "name": "MVP" }],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "8ec1d65d-7fd4-4abd-906b-8629b899b043",
+    "firstName": "Leon",
+    "lastName": "Armston",
+    "fullName": "Leon Armston",
+    "bio": "Leon Armston is a Microsoft 365 consultant and Microsoft MVP based in the UK, with nearly 20 years’ experience working with SharePoint - still very much his first love. His work focuses on Content AI across Microsoft 365 and Azure, with a particular emphasis on AI in SharePoint and turning organisational content into valuable, usable knowledge.\r\n\r\nLeon is especially interested in how AI can be embedded into the flow of work to drive real improvement and efficiency, rather than being treated as a standalone tool.\r\n\r\nHe is passionate about learning and sharing knowledge, and regularly speaks and writes about practical, real‑world uses of AI in SharePoint. Leon blogs at leonarmston.com.",
+    "tagLine": "M365 Solutions Architect | MVP M365",
+    "profilePicture": "https://sessionize.com/image/c4bc-400o400o1-n8ZtzNPr9xW3keQ94sgzM7.jpg",
+    "sessions": [
+      {
+        "id": 1221392,
+        "name": "Intelligent Structured Document Generation in SharePoint"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/LeonArmston",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://www.LeonArmston.com",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://intelogy.co.uk",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/LeonArmston",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [{ "id": 451786, "name": "MVP" }],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "87c2b40e-43c9-4aef-b053-14369976ea1b",
+    "firstName": "Lindsay",
+    "lastName": "Shelton",
+    "fullName": "Lindsay Shelton",
+    "bio": "Lindsay is an MVP (Business Applications, M365), MCT alumni, Digital Workplace Advisor, and international speaker who is committed to keeping business productive by embracing technology as a tool to problem-solve. Having worked in education for over half of her career, she understands that technology can be a challenge for many users, and she knows how to be a change agent, encouraging the reluctant to give it a try and the inexperienced to dive on in.  Her roles as a Digital Workplace Advisor, Application Programmer, and technology consultant showcase her ability to excel in complex projects, while her active participation in the tech community highlights her commitment to knowledge sharing in formats such as speaking at events and blogging. Her aim is to empower makers to create and thrive while doing so in a secure, governed way.\r\n\r\nLindsay spent the last decade teaching English Language Arts and was selected to receive training to become a technology and pre-engineering teacher based on her aptitude for learning and adapting new technologies with her own students and colleagues.\r\n\r\nShe holds a BS in Secondary English Education from the University of Kansas and an MS in Curriculum and Instruction from Emporia State University.\r\n\r\nIn her spare time, Lindsay enjoys spending time with her two cats Charlie and Trixie, and marathoning a wide variety of television shows.",
+    "tagLine": "Digital Workplace Advisor | MVP, MCT | she, her",
+    "profilePicture": "https://sessionize.com/image/1124-400o400o1-QTCipfEiGraABPzLNi5kCi.jpg",
+    "sessions": [
+      {
+        "id": 1222252,
+        "name": "Seeking Your Approval: Mastering Approvals in Microsoft 365"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/lindsaytshelton/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://www.lindsaytshelton.com/",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://www.epiqglobal.com/en-us",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/lindsay-shelton",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [{ "id": 451786, "name": "MVP" }],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "da32b389-2414-4a36-bf0b-33783c408c93",
+    "firstName": "Luke",
+    "lastName": "Evans",
+    "fullName": "Luke Evans",
+    "bio": "Luke Evans is a solutions architect currently working at codelooks. Luke is an experienced senior solutiions architect with over 16 years of experience within private and public sectors. Luke has extensive experience in architecture and full end-to-end delivery of cloud digital transformation programmes.\r\n\r\nIn the past 7 years, Luke has immersed himself Microsoft 365 and Azure and the technologies that underpin and support them with a strong focus on security and identity.\r\n\r\nLuke is a Microsoft MVP in M365 Apps and Services.",
+    "tagLine": "Solutions Architect",
+    "profilePicture": "https://sessionize.com/image/90a4-400o400o1-RhA1WAW4NbWudGtZ6T3QVm.png",
+    "sessions": [
+      {
+        "id": 1252947,
+        "name": "Zero Trust, Zero Compromise: Operationalising Microsoft Security in 2026 Workshop"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/LukeEvansTech",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/LukeEvansTech",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "c85af3e6-6543-488a-a5ae-775fc7365535",
+    "firstName": "Marcin",
+    "lastName": "Siewnicki",
+    "fullName": "Marcin Siewnicki",
+    "bio": "I am Microsoft 365 solution architect. I create applications and solutions that improve and facilitate work using Power Platform, SharePoint, and Teams.\r\n\r\nMy adventure in IT began in 2005. Since then I have been creating and implementing business applications based on SharePoint and Microsoft 365 platforms. I am a big fan of task and process automation (Power Automate) and Modern Workplace platforms (Microsoft Teams).\r\n\r\nPrivately a husband, father of 2 sons. Fan of science fiction and cyberpunk, futurist. I co-organize the SharePoint Saturday Warsaw conference and speak at Microsoft's community events.",
+    "tagLine": "Microsoft 365 Solution Architect",
+    "profilePicture": "https://sessionize.com/image/650d-400o400o1-QzooCrmsZc73qmApaNTkaU.jpg",
+    "sessions": [
+      { "id": 1205888, "name": "Teams Meetings: Keep it secret, keep it safe" }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/marcinsiewnicki/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://modernworkplace.site/",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://www.iscg.pl/en",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/marcin-siewnicki",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [{ "id": 451786, "name": "MVP" }],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "77f098aa-4fb7-46d0-83ee-6e868dc00616",
+    "firstName": "Marcus",
+    "lastName": "Burnap",
+    "fullName": "Marcus Burnap",
+    "bio": "MVP | MCT | CISSP | Microsoft SME | AI | Cybersecurity | Defender XDR | Sentinel | Security Copilot\r\n\r\nMarcus leads the strategy, design, and delivery of Microsoft-focused cyber defense services for large and complex organisations. He shapes modern SOC and cyber defense capabilities, making sure technology, process, and people are aligned to business risk and board-level priorities. \r\n\r\nBuilding on a strong foundation in infrastructure and security operations, Marcus now concentrates on large-scale security transformation, helping clients standardise on the Microsoft security ecosystem across Azure, Microsoft 365, Entra, Sentinel, and Defender XDR. He is recognised for industrialising Microsoft Sentinel and XDR, embedding SecDevOps practices, and integrating Microsoft Security Copilot into day-to-day operations. His leadership focuses on turning complex platforms into repeatable, measurable, value-driven services that materially uplift an organisation’s security maturity.",
+    "tagLine": " MVP | MCT | CISSP | Microsoft SME | AI | Cybersecurity | Defender XDR | Sentinel | Security Copilot",
+    "profilePicture": "https://sessionize.com/image/d50c-400o400o1-JHtBZ8p7i1TJZKAyeYSrCy.jpg",
+    "sessions": [
+      {
+        "id": 1252947,
+        "name": "Zero Trust, Zero Compromise: Operationalising Microsoft Security in 2026 Workshop"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/marcusburnap/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://mbcloudteck.substack.com/",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://mbcloudteck.com/",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/MarcusBurnap",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [
+          { "id": 451786, "name": "MVP" },
+          { "id": 451789, "name": "MCT" }
+        ],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "88ca0c9d-751c-4d65-b837-ec2993dedecd",
+    "firstName": "Marijn",
+    "lastName": "Somers",
+    "fullName": "Marijn Somers",
+    "bio": "Marijn Somers is a distinguished Microsoft 365 consultant with a rich experience spanning over 19 years, dedicated to enhancing organizational efficiency and effectiveness through the strategic implementation and optimization of Microsoft 365 tools and workflows. As a revered Productivity Coach at Mijn 365 Coach, Marijn offers bespoke video training and coaching tailored to the unique needs of self-employed individuals and small businesses, empowering them to harness the capabilities of Microsoft 365 fully.\r\n\r\nAs a Microsoft MVP for Office Apps and Services for over 5 years, Marijn's accolade is a testament to his profound passion and expertise in the Microsoft 365 realm. A sought-after speaker at international forums, Marijn imparts valuable insights and best practices on governance, training, coaching, and user adoption. \r\n\r\nAs the co-host of the \"Office 365 Distilled\" podcast, Marijn engages a global audience with the latest Microsoft 365 trends and tips. \r\nMarijn's unwavering commitment lies in steering organizations toward their business aspirations by maximizing their Microsoft 365 potential.",
+    "tagLine": "Microsoft 365 Spirit Guide, MVP, MCT",
+    "profilePicture": "https://sessionize.com/image/b2e6-400o400o1-9d-751c-4d65-b837-ec2993dedecd.01a7ba53-714b-45dd-8081-be916eae2152.jpg",
+    "sessions": [
+      {
+        "id": 1174142,
+        "name": "Spark joy in Microsoft 365: Marie Kondo your data"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/marijnsomers",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/marijn",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [
+          { "id": 451786, "name": "MVP" },
+          { "id": 451789, "name": "MCT" }
+        ],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "eec0c806-6001-4a68-bd70-132189870c4b",
+    "firstName": "Mark",
+    "lastName": "Carrington",
+    "fullName": "Mark Carrington",
+    "bio": "Mark is the Chief Technologist at Data8 and Microsoft MVP who focuses on developing scalable, secure, fast and easy-to-use solutions to improve data quality worldwide.\r\n\r\nAs a keen user and developer on the Microsoft Dynamics platform starting with CRM 4 and keeping up with the massive technology advances over the subsequent years, PowerApps and Dynamics 365 is one of the core technology focus areas for Mark and for Data8 generally.\r\n\r\nMark's work is available today in AppSource as part of the various Data8 solutions listed there. He is also the author of the SQL 4 CDS tool for XrmToolBox, making CDS data easily accessible for anyone with an understanding of SQL, and a regular contributor to the FetchXML Builder tool.\r\n\r\nMark can be regularly found at community events such as D365UG London and Summit, presenting on developer and data quality topics.",
+    "tagLine": "Chief Technologist at Data8",
+    "profilePicture": "https://sessionize.com/image/3a30-400o400o1-06-6001-4a68-bd70-132189870c4b.f43e98d8-5f5c-476d-b07d-8082a69d4cf6.jpg",
+    "sessions": [
+      {
+        "id": 1213565,
+        "name": "Keeping Dataverse pro-dev relevant in an AI world"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/mark-carrington-1499a010/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://markcarrington.dev/",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://www.data-8.co.uk/",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/mark-carrington",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [{ "id": 451786, "name": "MVP" }],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "50502a59-18d1-4436-b27b-b0a0f9fa0353",
+    "firstName": "Markus",
+    "lastName": "Franz",
+    "fullName": "Markus Franz",
+    "bio": "I started my journey into the Power Platform world with zero technical knowledge no coding background, no prior experience, and no idea where to begin. What I did have was curiosity, persistence, and a strong desire to solve problems. Step by step, I taught myself everything I know today. I began by exploring Power Apps on my own, building simple apps for internal use, and quickly discovered the potential of low-code to create real business value.\r\n\r\nOver time, I progressed from a complete beginner to a confident maker, sharing my learnings and supporting others in the community. Today, I’m proud to be a Microsoft Power Apps Community Super User—the highest level of recognition within the community. In this role, I actively help others solve their Power Platform challenges, contribute to discussions, and give back to the same community that helped me grow. In September 2025 i was awarded MVP for Business Applications in the category of Power Apps.\r\n\r\nMy journey is proof that with the right mindset and support, anyone can become a maker. Whether you're just getting started or looking to grow your skills, I’m passionate about helping others take their next step because I’ve been there too.",
+    "tagLine": "Modern Workplace Solution Architect",
+    "profilePicture": "https://sessionize.com/image/7bf2-400o400o1-P81o3YBJgANCahh48wKqVP.jpg",
+    "sessions": [
+      {
+        "id": 1252943,
+        "name": " Design and Build a Gamified Onboarding Agent with M365, Copilot and Power Platform Workshop"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/markus-franz-435759278/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://www.linkedin.com/in/markus-franz-435759278/",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://www.linkedin.com/company/austrian-power-platform-enthusiasts",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/markus-franz",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "3503700b-280d-45c3-b0c5-58a519aeec52",
+    "firstName": "Mats",
+    "lastName": "Necker",
+    "fullName": "Mats Necker",
+    "bio": "I like lots of stuff 👉 Power Platform 💘 Dynamics 365 🚀 Azure 🧙‍♂️\r\n\r\nMicrosoft MVP ✍ blogs at https://nckr.de 🚀 Founded https://dhino.io\r\n\r\nI worked for over 15 years with Microsoft Biz Apps as a solution architect / developer, starting with Business Central, nowadays loving the Power Platform & Azure \r\n\r\nBuilding repeatable software has always been my passion and I'm continuing to talk about the best ways to do that 🙂",
+    "tagLine": "Co-Founder @dhino, Microsoft MVP / Solution Architect / Developer",
+    "profilePicture": "https://sessionize.com/image/f895-400o400o1-48kxVmXurXauBCScnL8gst.jpg",
+    "sessions": [
+      {
+        "id": 1177020,
+        "name": "🧠 Model Context Protocol vs. Connectors: Rethinking Integration in the Power Platform 💡"
+      },
+      { "id": 1252940, "name": "Agent Academy Live! Workshop" }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/matsnecker",
+        "linkType": "LinkedIn"
+      },
+      { "title": "Blog", "url": "https://dhino.io", "linkType": "Blog" },
+      {
+        "title": "Company Website",
+        "url": "https://dhino.io",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/mats",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [{ "id": 451786, "name": "MVP" }],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "53fb6ded-b4e7-40df-8efc-8574bf0788a3",
+    "firstName": "Matt",
+    "lastName": "Beard",
+    "fullName": "Matt Beard",
+    "bio": "Matt is a full time, full stack developer with the Microsoft stack but has found a love in particular with the Microsoft Business Applications Stack.\r\n\r\nMatt attending events for years and finally plucked up the courage to talk a few years ago and has never looked back and enjoys sharing his findings and provoking discussion within a room in order to bring the best out of everyone.\r\n\r\nMatt has a published Power Automate connector and is always trying to be at the cutting edge of the technology and was also one of the first to have a PCF control validated by Microsoft and authorised for sale in AppSource.\r\n\r\nMatt is a Microsoft Business Applications MVP.",
+    "tagLine": "Chief AI Officer - Data8",
+    "profilePicture": "https://sessionize.com/image/bc06-400o400o1-3VZp9RPxpVAGxfevww2pQL.png",
+    "sessions": [
+      { "id": 1223846, "name": "More To Life Than Work" },
+      { "id": 1253880, "name": "Scottish Summit 2026 Keynote" }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "http://linkedin.com/in/matt-beard-669940a5",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://www.mbeard.co.uk",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/mbeard",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "82b8b63b-5328-4363-8472-0f24651d78b6",
+    "firstName": "Matt",
+    "lastName": "Collins-Jones",
+    "fullName": "Matt Collins-Jones",
+    "bio": "A Power Platform enthusiast, Microsoft Biz Apps MVP, FastTrack Recognised Solution Architect in Power Automate and avid computer gamer. Matt has over 10 years experience working with D365 and the Power Platform. Constantly learning and training people, Matt started a YouTube channel and blog to help share his knowledge with the community. ",
+    "tagLine": "Capgemini, Senior Solution Architect Power Platform",
+    "profilePicture": "https://sessionize.com/image/cb7c-400o400o1-Tv43BzeWLN9rkJ6zypwJhF.jpg",
+    "sessions": [
+      {
+        "id": 1221436,
+        "name": "I Vibe coded an XrmToolBox tool and all I got was this lousy t-shirt"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/matt-collins-7a364b3/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://www.mattcollinsjones.co.uk",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/matt-collins-jones",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [
+          { "id": 451786, "name": "MVP" },
+          { "id": 451789, "name": "MCT" }
+        ],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "e5db9e81-c381-49f5-aa43-e593615fecc4",
+    "firstName": "Melissa",
+    "lastName": "Hale",
+    "fullName": "Melissa Hale",
+    "bio": "Melissa Hale is a Power Platform Developer who transitioned from pursuing a PhD in venom and parasite research to finding a more fulfilling career and work-life balance in tech. With a strong background in SharePoint, Power Automate and Canvas Apps, Melissa has transformed business practices in both start ups and large firms. Beyond her professional role, she dedicates her expertise to the charity \"Collaboration for Kids,\" enhancing their operations through the Power Platform. Based in Liverpool, United Kingdom, Melissa is enthusiastic about learning and growing within the Power Platform community. Melissa is dedicated to leveraging ethical AI and responsible technology to create meaningful and efficient solutions for organisations.",
+    "tagLine": "Power Platform Consultant @ Kerv",
+    "profilePicture": "https://sessionize.com/image/6a3b-400o400o1-SvpnU8mrBDmBsVjfddx2ZT.png",
+    "sessions": [
+      {
+        "id": 1195398,
+        "name": "🚀 Copilot Cowork in Action: What It Is, How to Get It & What You Can Do With It"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/melissa-stephanie-hale/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/melissahale",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [{ "id": 451786, "name": "MVP" }],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "13a01903-25f4-463d-a17c-8479f1b943e9",
+    "firstName": "Michael",
+    "lastName": "Seidl",
+    "fullName": "Michael Seidl",
+    "bio": "Michael is an IT Process automation Expert with Customers all around the Globe, a Cloud and Datacenter MVP since 2015, and an au2mation enthusiast.",
+    "tagLine": "IT Process Automation Expert | define, automate, and delegate your IT Processes with Microsoft Automation and au2mator | ITSM Mastermind | Microsoft MVP",
+    "profilePicture": "https://sessionize.com/image/ce11-400o400o1-EavaZZa7XmwUd186i6Fgip.jpg",
+    "sessions": [
+      {
+        "id": 1218279,
+        "name": "Azure Automation Done Right: Build It Like You Mean It"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/seidlm/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/michael-seidl",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "fc6c18ea-4343-4a25-a7ee-b8ae06da3d03",
+    "firstName": "Michaël",
+    "lastName": "Maillot",
+    "fullName": "Michaël Maillot",
+    "bio": "Working on SharePoint plaform for more than 10 years now (from On-Prem to Online), I enjoy solving challenges about business problems, bringing the latest enhancements and exploring every part of the Microsoft 365 / Azure world! I also take part to the PnP Initiative and love working with the community! I'm also recognized as a Microsoft MVP in the M365 category",
+    "tagLine": "Technical Lead at Onepoint",
+    "profilePicture": "https://sessionize.com/image/d5b9-400o400o1-ea-4343-4a25-a7ee-b8ae06da3d03.fb07525f-c1c5-4347-83e8-2d4def0c3bbc.png",
+    "sessions": [
+      {
+        "id": 1220619,
+        "name": "Deep dive into debugging & monitoring SPFx production solutions"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/michael-maillot/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://michaelmaillot.github.io/",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://groupeonepoint.com",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/michaelmaillot",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [{ "id": 451786, "name": "MVP" }],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "8927b4e6-6b26-4306-adad-16f29baf5db9",
+    "firstName": "Mike",
+    "lastName": "Hartley",
+    "fullName": "Mike Hartley",
+    "bio": "Microsoft Business Applications MVP, Founder of 365 a11y - the Accessibility Community and more.\r\n\r\nTechnology veteran who has been there, done that, had the therapy to recover! A vocal Accessibility and Mental Health advocate, very open and honest about his own Mental Health and Disabilities, in an frank, humorous, and entertaining manner.\r\n\r\nWith a lifetime of Microsoft, starting with MS-DOS 3.0 and pretty much all the technologies throughout the years, he is now focussed on Business Applications, Microsoft 365, and not forgetting the omnipresent Copilot and AI - all with a focus on Accessibility, Inclusion, and Community.\r\n\r\nOutside of tech you will find a proud Nerd & Geek who loves Sci-Fi, Fantasy, Technology and more. A family man and a massive petrol head and sports fan (F1, MotoGP, WEC, Rugby, Cricket... to name just a few) - oh, and a massive collector of Funko Pops and Lego!",
+    "tagLine": "Microsoft Business Applications MVP, Founder of 365 a11y, Accessibility Advocate, Mental Health Champion, Community Cheerleader",
+    "profilePicture": "https://sessionize.com/image/84b8-400o400o1-YRxtH6aYDNLMYtZteV2KvB.png",
+    "sessions": [
+      { "id": 1217798, "name": "Multiversal Mental Health & Accessibility" }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/mikebhartley",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://HartOfTheMidlands.co.uk",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://HartOfTheMidlands.co.uk",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/mike-hartley",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [{ "id": 451786, "name": "MVP" }],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "9c89c995-21b0-4ec3-be50-ecf1811c26ba",
+    "firstName": "Myron",
+    "lastName": "Helgering",
+    "fullName": "Myron Helgering",
+    "bio": "Myron works for one of the leading IT-service providers in the Netherlands called Pink Elephant. His primary focus is developing security products and services based on Microsoft technology. The unique selling point of these offerings is to make work environments safe and, more importantly, keep them safe.\r\n\r\nAs a Microsoft Security MVP, he enjoys sharing his knowledge and experience with others by writing blog posts, speaking at events and conferences, and co-organizing the monthly Dutch Microsoft Security Meetup with 2000+ members.\r\n\r\nBesides Microsoft Security, he lives happily in the Netherlands with his wife. In his free time, he enjoys snowboarding and geeky activities like reading fantasy/sci-fi books or playing board games or video games.",
+    "tagLine": "Microsoft MVP | Cyber and Data Security | Blogger | Speaker | Fantasy Geek",
+    "profilePicture": "https://sessionize.com/image/4248-400o400o1-aWwd6une4QXAweftb9T3SA.jpg",
+    "sessions": [
+      {
+        "id": 1222658,
+        "name": "Creating Classifiers from Scratch to Identify Sensitive Data with Microsoft Purview"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/myronhelgering/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://myronhelgering.com/",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://cloudlife.nl",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/myronhelgering",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [{ "id": 451786, "name": "MVP" }],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "ffa9ecc3-3d38-4359-93fa-7103a2d05a0d",
+    "firstName": "Nathan",
+    "lastName": "Sweeney",
+    "fullName": "Nathan Sweeney",
+    "bio": "Nathan has 15 years of IT experience and has been using Microsoft Azure for the last 9 of those years.  Whilst helping build cloud centre of excellences for many MSP's around the world Nathan loves to help business and customers alike accelerate cloud adoption bringing the untold advantages to businesses, especially around the use of AI.\r\n\r\nNathan works for KPMG as the European Microsoft AI Lead advising some of the worlds biggest customers and users of how AI can be leveraged to improve their businesses ranging from financial services organisations to government departments.\r\n\r\nOutside of work Nathan has a passion for helping the community and is known for co-founding the South Coast Summit, the South Coast User Group in the UK, speaking at events and being a Microsoft MVP.",
+    "tagLine": "MVP - European Microsoft AI Lead - KPMG",
+    "profilePicture": "https://sessionize.com/image/04dd-400o400o1-njt3Khv5YJKT6WrkJVrHLd.jpg",
+    "sessions": [
+      { "id": 1210543, "name": "Azure Foundry - Lets build some agents" }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/nathandsweeney/",
+        "linkType": "LinkedIn"
+      },
+      { "title": "Blog", "url": "Https://ndsweeney.co.uk", "linkType": "Blog" },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/ndsweeney",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [{ "id": 451786, "name": "MVP" }],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "01a94a88-cb24-4b81-b176-27c469bf8d29",
+    "firstName": "Nick",
+    "lastName": "Doelman",
+    "fullName": "Nick Doelman",
+    "bio": "Nick Doelman is an independent Power Platform specialist, trainer and coach. Nick delivers presentations, workshops and collaborates on Power Platform and Dynamics 365 projects worldwide. From 2021 to 2023, Nick worked as a Senior Content Developer at Microsoft where he worked on skilling content for Power Pages, Power Automate, and other parts of the Power Platform.\r\nNick is a Microsoft Most Valuable Professional (MVP) and is also a Microsoft Certified Trainer (MCT). \r\nNick is a cohost on the Power Platform BOOST podcast and creates Power Platform blog and video content. Nick is also a competitive Powerlifter and is a member of Team Canada competing at various international events.",
+    "tagLine": "Power Platform specialist, trainer, podcaster, and coach",
+    "profilePicture": "https://sessionize.com/image/0c91-400o400o1-EsoRn5FymP8wY764vYPAR2.jpg",
+    "sessions": [
+      {
+        "id": 1185280,
+        "name": "Productivity Hack Battle: Top 10 productivity tips for busy tech professionals"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/nickdoelman/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Instagram",
+        "url": "https://www.instagram.com/readyxrm",
+        "linkType": "Instagram"
+      },
+      { "title": "Blog", "url": "https://readyxrm.blog", "linkType": "Blog" },
+      {
+        "title": "Company Website",
+        "url": "https://www.nickdoelman.com",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/nick-doelman",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [
+          { "id": 451786, "name": "MVP" },
+          { "id": 451789, "name": "MCT" }
+        ],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "cf653446-d93f-4da2-8278-291320c1236f",
+    "firstName": "Nick",
+    "lastName": "Woodley",
+    "fullName": "Nick Woodley",
+    "bio": "Nick Woodley is an ISO 42001 Lead Auditor with over 25 years of enterprise technology experience, uniquely positioned to bridge the gap between AI innovation and governance requirements. As a Microsoft Certified Trainer and Cybersecurity Architect Expert, Nick combines deep Microsoft platform knowledge with practical AI governance implementation experience.\r\nRelevant Credentials:\r\n\r\nISO 42001 Lead Auditor (AI Management Systems)\r\nMicrosoft Cybersecurity Architect Expert\r\nAzure Solutions Architect Expert\r\nCISSP & CCSP (ISC2)\r\nChartered Institute of Information Security (CIISec) Associate Member\r\n\r\nCurrent AI Governance Experience:\r\nAs Cyber Security and Power Platform Principal at Ascent, Nick has developed AI compliance offerings incorporating DORA and NIST frameworks for European financial institutions. His recent work includes conducting AI risk assessments for global engineering companies and implementing AI governance frameworks that strike a balance between innovation and regulatory compliance.\r\nPractical Audit Insight:\r\nNick's experience as an active ISO 42001 Lead Auditor provides unique insights into what actually works during audits, as opposed to theoretical compliance. His background spanning regulated industries (banking, government, insurance) gives him a practical understanding of how AI governance requirements vary across different regulatory environments and organisational contexts.\r\nAs an ISC2 East Midlands Chapter Officer, Nick actively contributes to the cybersecurity community's understanding of emerging AI security and governance challenges, making him well-positioned to share practical, implementable strategies with conference attendees.",
+    "tagLine": "CISSP, CCSP, ACIIS AND ISO Auditor",
+    "profilePicture": "https://sessionize.com/image/425d-400o400o1-Gxi1ViSCUX4DMqgph2G2Qq.jpg",
+    "sessions": [
+      {
+        "id": 1221204,
+        "name": "From Chaos to Control: Rebuilding Identity Governance Across 342 Applications at a European Bank"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "Https://linkedin.com/in/nick-woodley",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://acuityanalytics.com",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/nick-woodley6665",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451785, "name": "Unsure" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [{ "id": 451789, "name": "MCT" }],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "e1e7ff93-c865-4d85-bee8-3ba357f5d768",
+    "firstName": "Onyinye",
+    "lastName": "Madubuko",
+    "fullName": "Onyinye Madubuko",
+    "bio": "Onyinye is an IT professional with substantial work experience in the Information Technology industry. Her expertise lies in digitally transforming organizations via modernized communications, advising intelligent strategies to adopt hybrid workplaces, and promoting creative solutions to collaborate effectively. She has successfully led multiple projects across the Modern Workplace technology across various sectors.\r\nShe is passionate about innovations in Information Technology, technical research, and investigative studies which has led to her collaboration in publishing journal and conference papers on IEEE. ",
+    "tagLine": "Microsoft MVP | Modern Workplace | Employee Experience",
+    "profilePicture": "https://sessionize.com/image/812f-400o400o1-JuWDzbMVhtnjFMvxe3JPTm.jpg",
+    "sessions": [
+      {
+        "id": 1188453,
+        "name": "Teaching Copilot to Speak Your Language: The Future of Smarter Meetings"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/monyinye",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://www.techiejournals.com/blog",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/onyinye",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [
+          { "id": 451786, "name": "MVP" },
+          { "id": 451789, "name": "MCT" }
+        ],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "e6a8eea0-b8c5-45ff-950f-982ef8392096",
+    "firstName": "Patrick",
+    "lastName": "Wahlmueller",
+    "fullName": "Patrick Wahlmueller",
+    "bio": "Patrick Wahlmueller is an IT professional, Microsoft MVP, and Community Organizer of Experts Live Austria, with a strong focus on AI-driven automation and Microsoft cloud technologies. His background spans classic IT operations and service management as well as modern, cloud-native and low-code solutions.\r\n\r\nToday, Patrick works primarily with Copilot Studio, GitHub Copilot, Microsoft Foundry, and intelligent automation, helping organizations move beyond AI hype toward practical, secure, and responsible implementations. He is especially interested in how large language models can be integrated into existing IT landscapes to simplify processes, improve decision-making, and create measurable value.\r\n\r\nKnown for his clear, pragmatic approach, Patrick enjoys breaking down complex technical topics and making them accessible to both technical and non-technical audiences. As a long-time community contributor and conference organizer, he strongly believes in knowledge sharing, open discussion, and continuous learning.\r\n\r\nBased in Austria, Patrick regularly speaks at events and conferences across Europe, sharing hands-on insights on AI, automation, security, and the future of IT.",
+    "tagLine": "Turning AI, Automation & Microsoft Technologies into real-world impact",
+    "profilePicture": "https://sessionize.com/image/c5d4-400o400o1-nMENAkQz2XAKe1ySN86HtU.png",
+    "sessions": [
+      {
+        "id": 1217247,
+        "name": "From Zero to Fully Local AI: Building a Working LLM App with Foundry Local"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/patrick-wahlmüller-0a985357/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://blog.wahlmueller.it/en/speaking",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://www.baseit.at",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/patrick-wahlmuller",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [{ "id": 451786, "name": "MVP" }],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "3b045b3b-f92c-4dfc-9328-5f3641ce9647",
+    "firstName": "Pauline",
+    "lastName": "Kolde",
+    "fullName": "Pauline Kolde",
+    "bio": "Always on the road in search of inspiration and ideas. I have been a consultant for Dynamics 365 and Customer Experience for more than 8 years. My focus is on customer insights and there is so much to discover that it never gets boring. My curiosity drives me to try and test things - be it new technologies or innovative methods to solve complex challenges. #staycurious\r\nAnd in my spare time, things never get boring. When I’m not working on client projects or writing my blog, you’ll likely find me exploring the world, enjoying great food with friends, or knitting away – always with yarn in hand.\r\n\r\n\r\n",
+    "tagLine": "MVP & Partner @ CRMK Deutschland",
+    "profilePicture": "https://sessionize.com/image/f29f-400o400o1-Gaagf3kj8FUuUwPpR2KzFJ.jpg",
+    "sessions": [
+      {
+        "id": 1185280,
+        "name": "Productivity Hack Battle: Top 10 productivity tips for busy tech professionals"
+      },
+      {
+        "id": 1189712,
+        "name": "The Rise of Marketing Agents: MCP, APIs and the Future of Customer Insights"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/paulinekolde",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://paulinekolde.info",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/pauline-kolde",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [{ "id": 451786, "name": "MVP" }],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "1826202b-6cf1-48d8-a0a7-ae594b978c0e",
+    "firstName": "Per-Torben",
+    "lastName": "Sørensen",
+    "fullName": "Per-Torben Sørensen",
+    "bio": "With 27 years in IT and a Microsoft MVP title in Identity & Access, Per‑Torben Sørensen brings deep technical expertise and a gift for making complex topics accessible. As a seasoned architect specializing in Microsoft infrastructure and M365, he helps clients and partners succeed by bridging the gap between deep tech and real‑world adoption. \r\n\r\nKnown for turning intricate identity and access concepts into clear, actionable insights, Per‑Torben is a trusted educator and speaker who empowers both technical and non‑technical audiences to learn, adapt, and thrive.",
+    "tagLine": "MVP Identity & Access, Senior Architect at SoftwareOne, MCT and founder of agderinthe.cloud ",
+    "profilePicture": "https://sessionize.com/image/25d4-400o400o1-QRjDQSGmpdXkVyqMAzgDav.jpg",
+    "sessions": [
+      { "id": 1210618, "name": "Urgent access without security compromise!" }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/pertorbensorensen/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://agderinthe.cloud/",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/per-torben-sorensen",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [
+          { "id": 451786, "name": "MVP" },
+          { "id": 451789, "name": "MCT" }
+        ],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "2308b3b4-c81a-44dd-a531-44002fb5ac90",
+    "firstName": "Rex",
+    "lastName": "de Koning",
+    "fullName": "Rex de Koning",
+    "bio": "In IT for over 25 years now, started as developer, switched to system/network admin and now automation consultant and MCT. Primarily working on Azure and Powershell, to help our customers automate their processes and focus on their core-business",
+    "tagLine": "Azure / Powershell Consulant | MVP | MCT",
+    "profilePicture": "https://sessionize.com/image/a611-400o400o1-XiijkcJSGtzP6CpWkmVTj7.jpg",
+    "sessions": [
+      {
+        "id": 1212343,
+        "name": "Azure Virtual Network Manager: Herding Networks the Easy Way"
+      },
+      { "id": 1252939, "name": "New Speakers Workshop" }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/rexdekoning/",
+        "linkType": "LinkedIn"
+      },
+      { "title": "Blog", "url": "https://azureking.nl", "linkType": "Blog" },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/rex-de-koning",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [
+          { "id": 451786, "name": "MVP" },
+          { "id": 451789, "name": "MCT" }
+        ],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "2b5d7991-1509-49be-aebd-057fd70806b2",
+    "firstName": "Rishi",
+    "lastName": "Sapra",
+    "fullName": "Rishi Sapra",
+    "bio": "Rishi is a Chartered Accountant and Microsoft MVP (technology influencer/speaker) with an Executive MBA (Hons) and a first class degree from the London School of Economics.\r\n\r\nHe currently leads Data & AI strategic projects at Avanade (Accenture-Microsoft JV), focusing on Microsoft Fabric solutions, governance frameworks, and enterprise migrations.\r\n\r\nWith 20+ years experience at Big 4 firms, Technology consulting and leading financial institutions (Deloitte, KPMG, HSBC, Barclays, Accenture), he combines deep financial expertise with cutting-edge data and AI capabilities to drive business transformation.\r\n\r\nHe runs an accelerator program - Power Platform Finance (www.powerplatformfinance.com) for finance professionals to learn Power BI through a combination of interactive e-learning and instructor-led training, in a combination that allows learners to be able to apply it effectively to their own data and processes.",
+    "tagLine": "Data Platform MVP | Data & Analytics Consultant, Speaker, Trainer and Technology evangelist specialising in Data Visualisation (Power BI) and Microsoft Fabric",
+    "profilePicture": "https://sessionize.com/image/a3cd-400o400o1-WMgXrn2tuuUNZsesMRPcMY.jpg",
+    "sessions": [
+      {
+        "id": 1221417,
+        "name": "From Actuals to Intent: Designing AI Agents That Understand Business Goals"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/rsaprano/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Instagram",
+        "url": "https://www.instagram.com/rsaprano",
+        "linkType": "Instagram"
+      },
+      {
+        "title": "Blog",
+        "url": "https://www.rishisapra.com",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://www.learndatainsights.com",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/rishi-sapra",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [{ "id": 451786, "name": "MVP" }],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "8f6ce371-38c5-40f5-b471-ea4a7a463c16",
+    "firstName": "Sandra",
+    "lastName": "Kiel",
+    "fullName": "Sandra Kiel",
+    "bio": "Sandra is a Microsoft MVP, speaker, and entrepreneur driven by one question: how can digital work feel more intuitive, motivating, and human? As founder of a company rooted in gaming and interactive experiences, she brings game thinking into the Microsoft ecosystem—from Microsoft 365 and Copilot experiences to Business applications and Collaboration workflows. Sandra translates proven game UX patterns  into adoption-friendly solutions that help people navigate complexity with confidence.\r\n\r\nBeyond technology, Sandra is a passionate community builder. She actively creates spaces where people connect, learn, and grow and she is especially committed to helping new speakers find their voice. Because her own speaker journey started late, she knows how intimidating the stage can feel. As a woman in tech, she also understands what it takes to be seen and taken seriously, and she mentors others to step forward, build confidence, and shape their own path in the community.",
+    "tagLine": "Managing Director and Microsoft MVP",
+    "profilePicture": "https://sessionize.com/image/a601-400o400o1-SBkxfPUBbbN148peWxdqGf.png",
+    "sessions": [
+      {
+        "id": 1252943,
+        "name": " Design and Build a Gamified Onboarding Agent with M365, Copilot and Power Platform Workshop"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/sandra-kiel/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://www.event-punks.com",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://event-punks.com",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/sandra-kiel",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [{ "id": 451786, "name": "MVP" }],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "bf14cd37-d3f2-4684-a367-888dd8ef0adf",
+    "firstName": "Sara",
+    "lastName": "Fennah",
+    "fullName": "Sara Fennah",
+    "bio": "Sara has over 25 years’ experience, has been a Microsoft Certified Trainer (MCT) for over 15 years and is also a MCT Community Lead and Microsoft MVP (Most Valuable Professional) for Microsoft 365.\r\n\r\nSara has been working with Microsoft 365 since the preview in April 2011 and holds over 50 Microsoft Certifications. Sara’s company still use the same Microsoft 365 Tenant opened back in 2011.\r\n\r\nAs a trainer Sara’s professional aim is to help make technology more accessible by increasing knowledge and decreasing fear.  In her own words “I love helping others advance their own skills and use of technology, whilst challenging myself to advance my own skills and expertise.”\r\n\r\nSara delivers training across Microsoft 365 from beginner to admin level, specialising in productivity, data security, and compliance. She is a recognised expert in Microsoft 365 Copilot, having authored multiple courses and supported organisations with adoption strategies and governance planning.",
+    "tagLine": "M365 Consultant/Trainer, MCT, MVP (M365), MCT Community Lead",
+    "profilePicture": "https://sessionize.com/image/6a1a-400o400o1-GCv38PircT2LvcrRYAYQkz.jpg",
+    "sessions": [{ "id": 1252939, "name": "New Speakers Workshop" }],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/sarafennah/",
+        "linkType": "LinkedIn"
+      },
+      { "title": "Blog", "url": "http://teamsqueen.com", "linkType": "Blog" },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/sara-fennah",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "9b860f7d-87fa-47c1-b434-45008a30e87f",
+    "firstName": "Sarah",
+    "lastName": "Jones",
+    "fullName": "Sarah Jones",
+    "bio": "My experience as a specialist recruiter has given me the knowledge and skills to coach people on their career strategy. I specialise in the Microsoft BizApps and AI space, helping professionals to futureproof their careers, position themselves for new opportunities, and navigate change with confidence. \r\nI host a female-focused podcast that amplifies the voices of women in tech, explores career growth and I am on the committee for UK AI User Groups, Experts Live UK and Power Platform Community High Five.",
+    "tagLine": "CRN Women and Diversity Awards Finalist | Principal Consultant | Microsoft",
+    "profilePicture": "https://sessionize.com/image/6dd4-400o400o1-DHHocrXNr63FUjyjgpG1zD.jpg",
+    "sessions": [
+      {
+        "id": 1183522,
+        "name": "Career Strategy Health Check: Ask the Experts, are you doing the right things now, for your future?"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/sarahjonespermanentrecruiter",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/sarah-jones",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "279a7ce4-87e9-4099-b121-a39ebad80fb0",
+    "firstName": "Sari",
+    "lastName": "Soinoja",
+    "fullName": "Sari Soinoja",
+    "bio": "Sari is a passionate and trusted Lead Consultant at Meltlake, bringing deep expertise from a wide variety of customer projects—from modern ways of working to change management and large-scale digital transformation. Her strong background in product development gives her a unique perspective on how Microsoft 365 tools can be applied effectively to solve real-world organizational challenges.\r\n\r\nAs a Microsoft MVP for SharePoint, Sari specializes in SharePoint, document management, metadata, M365 Copilot, and the strategic use of Microsoft 365. She has a rare talent for helping others truly understand how to leverage these tools to support modern, efficient, and sustainable work practices.\r\n\r\nOver the past decade, Sari has been an active contributor to the Microsoft 365 community, sharing her knowledge through public speaking engagements, trainings, and webinars. Whether explaining the role of AI in M365 or guiding organizations through complex information management topics, she is known for making challenging concepts both accessible and engaging.",
+    "tagLine": "Lead consultant & Microsoft MVP",
+    "profilePicture": "https://sessionize.com/image/4a92-400o400o1-4KF725LBwdNHiQbvCC9xXp.jpg",
+    "sessions": [
+      {
+        "id": 1221930,
+        "name": "From experience to insight: capturing tacit knowledge with AI in M365"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/sarisoinoja/",
+        "linkType": "LinkedIn"
+      },
+      { "title": "Blog", "url": "https://sarisoinoja.com", "linkType": "Blog" },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/sarisoinoja",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [{ "id": 451786, "name": "MVP" }],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "a26a7cb1-94f2-459d-82c6-c6e7e0fb1201",
+    "firstName": "Sebastian",
+    "lastName": "Sieber",
+    "fullName": "Sebastian Sieber",
+    "bio": "For the past decade, Sebastian has been a member of the ISV Solutions team at proMX AG. During this time, proMX’s project and resource management tool, proRM Fast Start, has won numerous awards. Sebastian was one of proMX’s liaisons to Microsoft’s Dynamics 365 Project Operations development team, thus gaining exceptionally thorough knowledge of the product almost since its first release. He has proven his Power Platform expertise in several successful implementation projects for proMX's international customers.\r\n\r\nIn addition to his technical leadership, Sebastian now also orchestrates proMX’s AI and Innovation investments, identifying emerging technologies and turning them into real-world solutions for business impact. His unique blend of hands-on product experience and strategic foresight makes him a sought-after speaker at industry events.",
+    "tagLine": "2x Microsoft MVP | Global Director Technology at proMX AG | Microsoft Dynamics 365 Project Operations Specialist | Speaker, Blogger, AI Enthusiast and Power Platform Advocate",
+    "profilePicture": "https://sessionize.com/image/f43d-400o400o1-XiDkPKTHpeD6LvRp1wonpp.jpg",
+    "sessions": [
+      {
+        "id": 1222843,
+        "name": "Agent Builder vs Copilot Studio: Choosing the Right Tool for AI Agents"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/siebersebastian/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://www.sebastians365journey.com/",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://promx.net/",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/sebastian-sieber",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [{ "id": 451786, "name": "MVP" }],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "37e3c8f0-d7fa-4351-a0c6-886bf4cbc1cc",
+    "firstName": "Selva Pradeep",
+    "lastName": "Sathanandam",
+    "fullName": "Selva Pradeep Sathanandam",
+    "bio": "Selva Pradeep is a Solutions Manager and Data & Analytics specialist with over 14 years of experience in designing and delivering end-to-end data solutions using Microsoft technologies. His expertise includes Microsoft Fabric, Azure Synapse Analytics, Power BI, and modern data platforms, along with Python and RPA for building custom automation solutions.\r\n\r\nHe has led multiple data transformation initiatives, helping organisations modernize their data architecture and improve how they deliver insights. His work focuses on building scalable, practical solutions that bridge the gap between technical implementation and business value.\r\n\r\nSelva holds Microsoft certifications including Azure Data Engineer Associate and Azure Data Analyst Associate, and is passionate about simplifying complex data challenges and sharing real-world experiences with the wider community.",
+    "tagLine": "Evolve iMs  - Solutions Manager",
+    "profilePicture": "https://sessionize.com/image/cb0f-400o400o1-J1rU98GEpfoeLFmDQVYqmK.jpg",
+    "sessions": [
+      {
+        "id": 1215976,
+        "name": "Fantastic Fabric: From Data Chaos to Real-World Insights"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/selva-pradeep-sathanandam/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/selva-pradeep-sathanandam",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451783, "name": "Yes" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "322ca7c2-91f3-443d-aa44-ac36a78776c3",
+    "firstName": "Stephan",
+    "lastName": "van Rooij",
+    "fullName": "Stephan van Rooij",
+    "bio": "A blogger, a speaker but mainly a software architect with a strong focus on security, identity and automation. My day job is all .NET core and single-sign-on. If I have some spare time, I'm mostly working on one off my home automation projects (with over half a million combined downloads)\r\n\r\nI'm also an occasional contributor to @azure/msal, azure/microsoft docs and Azure pipeline tasks\r\n\r\nCheck my blog or github profile for more details",
+    "tagLine": "Software architect at Smartersoft",
+    "profilePicture": "https://sessionize.com/image/a5a3-400o400o1-ws24rJx94yqSJf2FVQwWsN.jpg",
+    "sessions": [
+      { "id": 1196885, "name": "Think like a hacker in five steps" }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/stephanvanrooij",
+        "linkType": "LinkedIn"
+      },
+      { "title": "Blog", "url": "https://svrooij.io/", "linkType": "Blog" },
+      {
+        "title": "Company Website",
+        "url": "https://smartersoft.nl",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/svrooij",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [{ "id": 451786, "name": "MVP" }],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "f15c2bcd-a2d0-4b80-afd0-6daf884b1dd9",
+    "firstName": "Tatu",
+    "lastName": "Seppälä",
+    "fullName": "Tatu Seppälä",
+    "bio": "Tech explorer & lifetime learner. Deep experience in consultancy, advisory and architectural roles in the Microsoft cloud tech space. Special focus areas include (but are not limited to) insider risk, compliance and data security.",
+    "tagLine": "Blogger & speaker | Microsoft MVP Security | MCT | Data Security, Insider Risk, Power Platform Security & Governance, IAM",
+    "profilePicture": "https://sessionize.com/image/4de7-400o400o1-TnzKoD1T3GR3HfimEGaxga.jpg",
+    "sessions": [
+      {
+        "id": 1181352,
+        "name": "Closing the Loop: How a Small Security Team Refined an Enterprise-grade DLP solution"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/tatuseppala/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://seppala365.cloud",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://sulava.com",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/tatuseppala",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [{ "id": 451786, "name": "MVP" }],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "e139c7aa-50a3-4fb5-bc8a-6985bbe37646",
+    "firstName": "Thomas",
+    "lastName": "Stensitzki",
+    "fullName": "Thomas Stensitzki",
+    "bio": "Thomas Stensitzki owns Granikos GmbH & Co. KG in Germany and serves as a principal consultant specializing in Exchange Server, Microsoft 365, and Messaging Security. He is an MVP for M365.\r\nHe holds various Microsoft certifications, including Microsoft Certified Master for Exchange Server 2010 and Microsoft Certified Solutions Master Messaging. When not working as a consultant, he teaches Microsoft technology courses as an MCT. ",
+    "tagLine": "MVP, MCT, Author, Blogger - Granikos GmbH & Co. KG",
+    "profilePicture": "https://sessionize.com/image/2fc2-400o400o1-SW6gnCofy63tcKSrRNWbdb.png",
+    "sessions": [
+      {
+        "id": 1173694,
+        "name": "Hidden Disabilities – Courage, Awareness & the Challenge of Speaking Up in IT"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://de.linkedin.com/in/thomasstensitzki",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://blog.granikos.eu",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://granikos.eu/",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/thomas-stensitzki",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [
+          { "id": 451786, "name": "MVP" },
+          { "id": 451789, "name": "MCT" }
+        ],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "3392ea59-94ba-406f-a640-0e4497d67002",
+    "firstName": "Triparna",
+    "lastName": "Ray",
+    "fullName": "Triparna Ray",
+    "bio": "Triparna Ray is a BI Architect and MS Power BI consultant at IBM offering vast experience leveraging Microsoft Analytics and agile methodologies to deliver highly effective and creative solutions to business and technology challenges. Successfully delivered end to end BI solutions for clients across domains and geographies with special focus on Financial Reporting.",
+    "tagLine": "BI Architect and Power BI Consultant at IBM",
+    "profilePicture": "https://sessionize.com/image/cf2c-400o400o1-fZSpZ6ttRqAk5mMSG5UTNB.jpg",
+    "sessions": [
+      {
+        "id": 1221417,
+        "name": "From Actuals to Intent: Designing AI Agents That Understand Business Goals"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/triparnaray/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://triparnaray.com/",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://triparnaray.com/",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/triparnaray",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "76f6b34d-e530-4a49-a5ae-e0ab3d03b14d",
+    "firstName": "Vivian",
+    "lastName": "Voss",
+    "fullName": "Vivian Voss",
+    "bio": "Vivian Voss is a Microsoft Business Applications and M365 MVP who loves to help organizations transform their processes with Dynamics 365 and Power Platform. Vivian has around 10 years of experience in creating solutions within the Dynamics 365 suite and extending it with the tools from the Power Platform. She is also a co-organizer of various user groups and a frequent speaker at community events.",
+    "tagLine": "Microsoft Business Applications & M365 MVP / Dynamics 365 & Power Platform Architect",
+    "profilePicture": "https://sessionize.com/image/2c07-400o400o1-pRV5P4RdRqjm6uW4QqKxw9.png",
+    "sessions": [
+      {
+        "id": 1173804,
+        "name": "Stop Sending Journeys. Start Conversations. Building AI-Driven Customer Dialogues in Dynamics 365"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/viviantiiman/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://vivian.tiiman.com/",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/vivian-voss",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [{ "id": 451784, "name": "No" }],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [{ "id": 451786, "name": "MVP" }],
+        "sort": 18
+      }
+    ]
+  },
+  {
+    "id": "fcf4f835-b8b2-46bd-a763-206116a4b143",
+    "firstName": "Zoe",
+    "lastName": "Wilson",
+    "fullName": "Zoe Wilson",
+    "bio": "Zoe leads the Digital Workplace Services Consult practice globally for Kyndryl, covering all Microsoft AI Business Solutions technology, ServiceNow, and other ecosystem partners, driving technology-based innovation and owning the future of work vision for clients.\r\n\r\nIn this role, Zoe works with colleagues from across the Kyndryl organisation to drive innovation, centered around business problems, leveraging the full range of modern work technologies including agentic capabilities, to help organisations reinvent work. Driving individual productivity gains, deploying solutions that allow people to self-serve their employee needs, and then transforming work with process reinvention, to deliver value across all facets of the connected employee experience.\r\n\r\nInnovation and technology evangelism are both core to the success of this role, as well as a passion for delighting and exciting customers with the art of the possible. In this role, Zoe works closely with partners like Microsoft and ServiceNow on technology innovations, and alongside this contributes to many events across the Microsoft tech community through speaking, volunteering as part of various event teams, and is the co-organiser of the Scottish Summit conference.\r\n\r\nZoe brings together a customer-focused solution background with several years of technology leadership experience and almost 20 years experience working with collaborative tools such as SharePoint and other Microsoft technologies. She is passionate about solving business problems in an innovative and exciting way, and although her primary tech focus has been SharePoint, Teams and Microsoft 365, she now has the pleasure of working across a much broader range of technologies.\r\n\r\nZoe is the co-host of the popular Copilot Connection podcast and the monthly Copilot Fireside Chat series, and one of the founding members of the New Speaker Workshop, an initiative that focuses on developing the next generation of community leaders. ",
+    "tagLine": "Global Digital Workplace Services Consult Leader, Kyndryl",
+    "profilePicture": "https://sessionize.com/image/9cde-400o400o1-4kDwZFfksrp8RaXPK3omGk.jpg",
+    "sessions": [
+      { "id": 1223846, "name": "More To Life Than Work" },
+      { "id": 1253880, "name": "Scottish Summit 2026 Keynote" }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/zoe-wilson-uk/",
+        "linkType": "LinkedIn"
+      },
+      { "title": "Blog", "url": "https://zoe-365.com/", "linkType": "Blog" },
+      {
+        "title": "Company Website",
+        "url": "https://zoe-365.com",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/zoe-wilson",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": [
+      {
+        "id": 125161,
+        "name": "Are you a new speaker?",
+        "categoryItems": [],
+        "sort": 17
+      },
+      {
+        "id": 125162,
+        "name": "Do any of these apply?",
+        "categoryItems": [],
+        "sort": 18
+      }
+    ]
+  }
+]

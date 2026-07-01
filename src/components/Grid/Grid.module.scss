@@ -19,6 +19,6 @@
 
 @include mixins.mq(breakpoints.$desktop) {
   @include grid.gutter('', functions.spacing(4));
-  @include grid.widths('desktop', 2);
+  @include grid.widths('desktop', 2 4);
   @include grid.hidden('desktop');
 }

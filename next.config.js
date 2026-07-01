@@ -4,7 +4,10 @@ const withSvgr = require('@newhighsco/next-plugin-svgr')
 const nextConfig = {
   images: {
     formats: ['image/avif', 'image/webp'],
-    remotePatterns: [new URL('https://i.ytimg.com/vi/**')]
+    remotePatterns: [
+      new URL('https://i.ytimg.com/vi/**'),
+      new URL('https://sessionize.com/image/**')
+    ]
   },
   i18n: { locales: ['en'], defaultLocale: 'en' },
   poweredByHeader: false,

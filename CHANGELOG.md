@@ -1,3 +1,45 @@
+## [1.17.0](https://github.com/newhighsco/scottishsummit.com/compare/v1.16.30...v1.17.0) (2026-07-01)
+
+### Features
+
+* add speakers page with photo grid ([#487](https://github.com/newhighsco/scottishsummit.com/issues/487)) ([12362b6](https://github.com/newhighsco/scottishsummit.com/commit/12362b67919f06ddb22df1c2dd761af91f9cced9)), closes [#486](https://github.com/newhighsco/scottishsummit.com/issues/486)
+
+## [1.16.30](https://github.com/newhighsco/scottishsummit.com/compare/v1.16.29...v1.16.30) (2026-06-28)
+
+### Bug Fixes
+
+* **deps:** update dependency postcss to v8.5.16 ([#515](https://github.com/newhighsco/scottishsummit.com/issues/515)) ([0995d44](https://github.com/newhighsco/scottishsummit.com/commit/0995d44795adc19d949ce44ea9a320937c1e806e))
+
+## [1.16.29](https://github.com/newhighsco/scottishsummit.com/compare/v1.16.28...v1.16.29) (2026-06-20)
+
+### Bug Fixes
+
+* **deps:** update newhighsco packages ([#492](https://github.com/newhighsco/scottishsummit.com/issues/492)) ([c78ab1c](https://github.com/newhighsco/scottishsummit.com/commit/c78ab1cb5f9ff162825f0b2c6e7d738263355577))
+
+## [1.16.28](https://github.com/newhighsco/scottishsummit.com/compare/v1.16.27...v1.16.28) (2026-06-19)
+
+### Bug Fixes
+
+* **deps:** update newhighsco packages ([#484](https://github.com/newhighsco/scottishsummit.com/issues/484)) ([309e1ad](https://github.com/newhighsco/scottishsummit.com/commit/309e1ad3c4482c86b64897d0b58509be66af79e6))
+
+## [1.16.27](https://github.com/newhighsco/scottishsummit.com/compare/v1.16.26...v1.16.27) (2026-06-19)
+
+### Bug Fixes
+
+* **deps:** update dependency sass to v1.101.0 ([#483](https://github.com/newhighsco/scottishsummit.com/issues/483)) ([0daa3ac](https://github.com/newhighsco/scottishsummit.com/commit/0daa3ac100acb4693f25253b1d0aa1626d9c891e))
+
+## [1.16.26](https://github.com/newhighsco/scottishsummit.com/compare/v1.16.25...v1.16.26) (2026-06-11)
+
+### Bug Fixes
+
+* **deps:** update newhighsco packages ([#480](https://github.com/newhighsco/scottishsummit.com/issues/480)) ([20991cb](https://github.com/newhighsco/scottishsummit.com/commit/20991cb54abaa87b7d18deb960e810af6007c368))
+
+## [1.16.25](https://github.com/newhighsco/scottishsummit.com/compare/v1.16.24...v1.16.25) (2026-06-10)
+
+### Bug Fixes
+
+* **deps:** update nextjs packages to v16.2.9 ([#478](https://github.com/newhighsco/scottishsummit.com/issues/478)) ([84feeac](https://github.com/newhighsco/scottishsummit.com/commit/84feeac0ea38cbe8d90fe7f8c231d25e52fdc163))
+
 ## [1.16.24](https://github.com/newhighsco/scottishsummit.com/compare/v1.16.23...v1.16.24) (2026-06-02)
 
 ### Bug Fixes
