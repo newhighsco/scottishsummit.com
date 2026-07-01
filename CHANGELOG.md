@@ -1,3 +1,9 @@
+## [1.17.0](https://github.com/newhighsco/scottishsummit.com/compare/v1.16.30...v1.17.0) (2026-07-01)
+
+### Features
+
+* add speakers page with photo grid ([#487](https://github.com/newhighsco/scottishsummit.com/issues/487)) ([12362b6](https://github.com/newhighsco/scottishsummit.com/commit/12362b67919f06ddb22df1c2dd761af91f9cced9)), closes [#486](https://github.com/newhighsco/scottishsummit.com/issues/486)
+
 ## [1.16.30](https://github.com/newhighsco/scottishsummit.com/compare/v1.16.29...v1.16.30) (2026-06-28)
 
 ### Bug Fixes
