@@ -81,7 +81,7 @@
     "semantic-release": "25.0.5",
     "storybook": "10.4.6",
     "stylelint": "17.14.0",
-    "typescript": "6.0.3"
+    "typescript": "7.0.2"
   },
   "browserslist": [
     "extends @newhighsco/browserslist-config"
