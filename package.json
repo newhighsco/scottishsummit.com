@@ -70,7 +70,7 @@
     "@newhighsco/stylelint-config": "4.0.52",
     "@newhighsco/svgr-config": "1.0.0",
     "@newhighsco/yarn-plugin-preset": "1.1.4",
-    "@storybook/nextjs": "10.5.1",
+    "@storybook/nextjs": "10.5.2",
     "chromatic": "18.0.1",
     "colorjs.io": "0.7.0",
     "concurrently": "10.0.3",
@@ -79,7 +79,7 @@
     "lint-staged": "17.0.8",
     "prettier": "3.9.5",
     "semantic-release": "25.0.7",
-    "storybook": "10.5.1",
+    "storybook": "10.5.2",
     "stylelint": "17.14.0",
     "typescript": "6.0.3"
   },
