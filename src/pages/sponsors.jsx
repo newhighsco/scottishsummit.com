@@ -44,7 +44,14 @@ const gold = [
       height: 1000
     }
   },
-  { label: 'Reserved' }
+  {
+    name: 'Capgemini',
+    logo: {
+      src: '/images/sponsors/2026/gold/capgemini.png',
+      width: 1572,
+      height: 400
+    }
+  }
 ]
 const silver = [
   {
@@ -55,6 +62,31 @@ const silver = [
       height: 1250
     }
   },
+  {
+    name: 'Turbo360',
+    logo: {
+      src: '/images/sponsors/2026/silver/turbo360.png',
+      width: 1250,
+      height: 400
+    }
+  },
+  {
+    name: 'TrustMarque',
+    logo: {
+      src: '/images/sponsors/2026/silver/trustmarque.png',
+      width: 1250,
+      height: 250
+    }
+  },
+  {
+    name: 'Telefonica Tech',
+    logo: {
+      src: '/images/sponsors/2026/silver/telefonica-tech.png',
+      width: 1250,
+      height: 400
+    }
+  },
+  { label: 'Reserved' },
   {},
   {},
   {}
@@ -64,6 +96,18 @@ const media = [
   {
     name: 'Riada',
     logo: { src: '/images/sponsors/2026/media/riada.png', width: 1250, height: 1250 }
+  }
+]
+
+const charity = [
+  {
+    name: 'Scottish Summit Learning',
+    logo: {
+      src: '/images/sponsors/2026/charity/scottish-summit-learning.png',
+      width: 1448,
+      height: 1086
+    },
+    description: 'Part of Scottish Summit SCIO (SC052785)'
   }
 ]
 
@@ -105,6 +149,14 @@ const SponsorsPage = () => (
       columns={['one-half', 'tablet-one-quarter']}
       square
       alt
+    />
+    <SponsorsSection
+      title="Charity Partner"
+      id="charity"
+      size="desktop"
+      sponsors={charity}
+      columns={['one-half', 'tablet-one-quarter']}
+      square
     />
     <SponsorshipCallToAction />
   </PageContainer>
