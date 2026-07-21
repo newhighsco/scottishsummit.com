@@ -44,7 +44,14 @@ const gold = [
       height: 1000
     }
   },
-  { label: 'Reserved' }
+  {
+    name: 'Capgemini',
+    logo: {
+      src: '/images/sponsors/2026/gold/capgemini.png',
+      width: 1572,
+      height: 400
+    }
+  }
 ]
 const silver = [
   {
@@ -55,10 +62,31 @@ const silver = [
       height: 1250
     }
   },
+  {
+    name: 'Turbo360',
+    logo: {
+      src: '/images/sponsors/2026/silver/turbo360.png',
+      width: 1250,
+      height: 400
+    }
+  },
+  {
+    name: 'TrustMarque',
+    logo: {
+      src: '/images/sponsors/2026/silver/trustmarque.png',
+      width: 1250,
+      height: 250
+    }
+  },
+  {
+    name: 'Telefonica Tech',
+    logo: {
+      src: '/images/sponsors/2026/silver/telefonica-tech.png',
+      width: 1250,
+      height: 400
+    }
+  },
   { label: 'Reserved' },
-  { label: 'Reserved' },
-  {},
-  {},
   {},
   {},
   {}
