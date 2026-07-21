@@ -101,6 +101,9 @@ const HomePage = () => (
       <Button href="https://fienta.com/scottish-summit-2026" variant="primary">
         Get Tickets
       </Button>
+      <Button variant="secondary" disabled>
+        App Coming Soon
+      </Button>
     </Section>
     <Section align="center" size="desktop" variant="striped">
       <Prose>
