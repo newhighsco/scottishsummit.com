@@ -98,9 +98,14 @@ const HomePage = () => (
           workshops and community at Murrayfield Stadium, Edinburgh.
         </p>
       </Prose>
-      <Button href="https://fienta.com/scottish-summit-2026" variant="primary">
-        Get Tickets
-      </Button>
+      <Button.Group>
+        <Button href="https://fienta.com/scottish-summit-2026" variant="primary">
+          Get Tickets
+        </Button>
+        <Button style={{ pointerEvents: 'none', cursor: 'default' }}>
+          App Coming Soon
+        </Button>
+      </Button.Group>
     </Section>
     <Section align="center" size="desktop" variant="striped">
       <Prose>

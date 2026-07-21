@@ -1,3 +1,27 @@
+## [1.18.7](https://github.com/newhighsco/scottishsummit.com/compare/v1.18.6...v1.18.7) (2026-07-21)
+
+## [1.18.6](https://github.com/newhighsco/scottishsummit.com/compare/v1.18.5...v1.18.6) (2026-07-21)
+
+## [1.18.5](https://github.com/newhighsco/scottishsummit.com/compare/v1.18.4...v1.18.5) (2026-07-19)
+
+## [1.18.4](https://github.com/newhighsco/scottishsummit.com/compare/v1.18.3...v1.18.4) (2026-07-13)
+
+## [1.18.3](https://github.com/newhighsco/scottishsummit.com/compare/v1.18.2...v1.18.3) (2026-07-13)
+
+## [1.18.2](https://github.com/newhighsco/scottishsummit.com/compare/v1.18.1...v1.18.2) (2026-07-11)
+
+## [1.18.1](https://github.com/newhighsco/scottishsummit.com/compare/v1.18.0...v1.18.1) (2026-07-10)
+
+## [1.18.0](https://github.com/newhighsco/scottishsummit.com/compare/v1.17.4...v1.18.0) (2026-07-10)
+
+## [1.17.4](https://github.com/newhighsco/scottishsummit.com/compare/v1.17.3...v1.17.4) (2026-07-09)
+
+## [1.17.3](https://github.com/newhighsco/scottishsummit.com/compare/v1.17.2...v1.17.3) (2026-07-09)
+
+## [1.17.2](https://github.com/newhighsco/scottishsummit.com/compare/v1.17.1...v1.17.2) (2026-07-09)
+
+## [1.17.1](https://github.com/newhighsco/scottishsummit.com/compare/v1.17.0...v1.17.1) (2026-07-03)
+
 ## [1.17.0](https://github.com/newhighsco/scottishsummit.com/compare/v1.16.30...v1.17.0) (2026-07-01)
 
 ### Features
