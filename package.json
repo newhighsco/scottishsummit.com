@@ -1,7 +1,7 @@
 {
   "name": "@newhighsco/scottishsummit.com",
   "description": "Scottish Summit website",
-  "version": "1.17.0",
+  "version": "1.18.7",
   "author": "New High Score",
   "license": "ISC",
   "private": true,
@@ -45,42 +45,42 @@
     "format:css": "yarn lint:css --fix"
   },
   "dependencies": {
-    "@newhighsco/chipset": "7.2.2",
-    "@newhighsco/next-plugin-svgr": "3.0.172",
-    "@newhighsco/press-start": "2.8.1",
-    "next": "16.2.9",
+    "@newhighsco/chipset": "7.4.0",
+    "@newhighsco/next-plugin-svgr": "3.0.173",
+    "@newhighsco/press-start": "2.9.0",
+    "next": "16.2.10",
     "next-compose-plugins": "2.2.1",
     "next-sitemap": "4.2.3",
-    "postcss": "8.5.16",
+    "postcss": "8.5.21",
     "react": "19.2.7",
     "react-dom": "19.2.7",
-    "sass": "1.101.0"
+    "sass": "1.101.3"
   },
   "devDependencies": {
-    "@commitlint/cli": "21.0.2",
-    "@newhighsco/browserslist-config": "3.0.0",
-    "@newhighsco/commitlint-config": "1.3.3",
+    "@commitlint/cli": "21.2.1",
+    "@newhighsco/browserslist-config": "3.0.1",
+    "@newhighsco/commitlint-config": "1.3.4",
     "@newhighsco/editor-config": "1.2.0",
-    "@newhighsco/eslint-config": "7.1.16",
+    "@newhighsco/eslint-config": "7.1.20",
     "@newhighsco/lint-staged-config": "1.1.0",
-    "@newhighsco/postcss-config": "4.0.59",
-    "@newhighsco/prettier-config": "2.3.11",
-    "@newhighsco/release-config": "1.5.1",
-    "@newhighsco/storybook-preset": "10.2.56",
-    "@newhighsco/stylelint-config": "4.0.51",
+    "@newhighsco/postcss-config": "4.0.60",
+    "@newhighsco/prettier-config": "2.3.12",
+    "@newhighsco/release-config": "1.5.3",
+    "@newhighsco/storybook-preset": "10.2.60",
+    "@newhighsco/stylelint-config": "4.0.52",
     "@newhighsco/svgr-config": "1.0.0",
     "@newhighsco/yarn-plugin-preset": "1.1.4",
-    "@storybook/nextjs": "10.4.6",
-    "chromatic": "17.8.0",
-    "colorjs.io": "0.6.1",
+    "@storybook/nextjs": "10.5.3",
+    "chromatic": "18.0.1",
+    "colorjs.io": "0.7.0",
     "concurrently": "10.0.3",
-    "eslint": "10.6.0",
+    "eslint": "10.7.0",
     "husky": "9.1.7",
-    "lint-staged": "17.0.8",
-    "prettier": "3.9.4",
-    "semantic-release": "25.0.5",
-    "storybook": "10.4.6",
-    "stylelint": "17.14.0",
+    "lint-staged": "17.1.0",
+    "prettier": "3.9.6",
+    "semantic-release": "25.0.8",
+    "storybook": "10.5.3",
+    "stylelint": "17.14.1",
     "typescript": "6.0.3"
   },
   "browserslist": [
@@ -100,5 +100,5 @@
       "@newhighsco/stylelint-config"
     ]
   },
-  "packageManager": "yarn@4.17.0"
+  "packageManager": "yarn@4.17.1"
 }
