@@ -3199,7 +3199,7 @@ __metadata:
     "@newhighsco/press-start": "npm:2.9.1"
     "@newhighsco/prettier-config": "npm:2.3.13"
     "@newhighsco/release-config": "npm:1.5.8"
-    "@newhighsco/storybook-preset": "npm:10.2.72"
+    "@newhighsco/storybook-preset": "npm:10.2.73"
     "@newhighsco/stylelint-config": "npm:4.0.54"
     "@newhighsco/svgr-config": "npm:1.0.0"
     "@newhighsco/yarn-plugin-preset": "npm:1.1.4"
@@ -3248,9 +3248,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/storybook-preset@npm:10.2.72":
-  version: 10.2.72
-  resolution: "@newhighsco/storybook-preset@npm:10.2.72"
+"@newhighsco/storybook-preset@npm:10.2.73":
+  version: 10.2.73
+  resolution: "@newhighsco/storybook-preset@npm:10.2.73"
   dependencies:
     "@newhighsco/chipset": "npm:7.4.0"
     "@newhighsco/storybook-addon-svgr": "npm:4.0.0"
@@ -3262,14 +3262,14 @@ __metadata:
     css-loader: "npm:7.1.4"
     postcss: "npm:8.5.22"
     postcss-loader: "npm:8.2.1"
-    sass: "npm:1.101.6"
+    sass: "npm:1.101.7"
     sass-loader: "npm:17.0.0"
     storybook-addon-pseudo-states: "npm:10.5.3"
     style-loader: "npm:4.0.0"
   peerDependencies:
     "@storybook/react-webpack5": ^10
     storybook: 10.5.3
-  checksum: 10c0/4b40e92f4d7f87b43d4b34b5e275d68d4913200c6ff0ffc412c04ce955275b2d486abed5780d45e646f366c6fdda03f3ae2578431c9bce2b681f91db32e75451
+  checksum: 10c0/745d48166fb50d15c4a3886204e3c2a73c2de97f71db356b7921d635142ee6381c7e97f80df02253637e27aff274a196f329d8a8ce6f4b6d6cf869517afb16e5
   languageName: node
   linkType: hard
 
@@ -14200,23 +14200,6 @@ __metadata:
     webpack:
       optional: true
   checksum: 10c0/c05886e6f1373eec23b05ea4d2dfc4317385dc3431ec665b611703ea60b4f9337f6547889c7b7f1c8e36d156caf1294e3d28292f104d6499076cf237f3c723bc
-  languageName: node
-  linkType: hard
-
-"sass@npm:1.101.6":
-  version: 1.101.6
-  resolution: "sass@npm:1.101.6"
-  dependencies:
-    "@parcel/watcher": "npm:^2.4.1"
-    chokidar: "npm:^5.0.0"
-    immutable: "npm:^5.1.5"
-    source-map-js: "npm:>=0.6.2 <2.0.0"
-  dependenciesMeta:
-    "@parcel/watcher":
-      optional: true
-  bin:
-    sass: sass.js
-  checksum: 10c0/975e5b2622549ca29a0051f4cffe68863467571735ae995139d7545539932292eeeb9ca41fdf11ed2d8598e133d8d926f60671ecf45e4f3961025fb53700f25f
   languageName: node
   linkType: hard
 
