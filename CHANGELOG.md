@@ -1,3 +1,5 @@
+## [1.18.16](https://github.com/newhighsco/scottishsummit.com/compare/v1.18.15...v1.18.16) (2026-07-27)
+
 ## [1.18.15](https://github.com/newhighsco/scottishsummit.com/compare/v1.18.14...v1.18.15) (2026-07-25)
 
 ## [1.18.14](https://github.com/newhighsco/scottishsummit.com/compare/v1.18.13...v1.18.14) (2026-07-25)
