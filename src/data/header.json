@@ -4,6 +4,7 @@
     { "href": "/sponsors", "children": "Sponsors", "target": "" },
     { "href": "/team", "children": "Team", "target": "" },
     { "href": "/speakers", "children": "Speakers", "target": "" },
+    { "href": "/agenda", "children": "Agenda", "target": "" },
     { "href": "/workshops", "children": "Workshops", "target": "" },
     { "href": "/events", "children": "Events", "target": "" },
     { "href": "/guidelines", "children": "Guidelines", "target": "" }

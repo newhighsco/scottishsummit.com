@@ -1,0 +1,204 @@
+@use '~styles/breakpoints.module';
+@use '~styles/functions';
+@use '~styles/mixins';
+
+.timeSlot {
+  margin-bottom: functions.spacing(5);
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.timeSlotHeading {
+  font-size: 1.4rem;
+  font-weight: 700;
+  padding: functions.spacing(1) functions.spacing(2);
+  border-left: 4px solid var(--color-primary, #0078d4);
+  margin-bottom: functions.spacing(3);
+}
+
+.grid {
+  row-gap: functions.spacing(3);
+
+  @include mixins.mq(breakpoints.$desktop) {
+    row-gap: functions.spacing(4);
+  }
+}
+
+.gridItem {
+  display: flex;
+}
+
+// Card
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 12%);
+  background: var(--color-card-bg, #fff);
+  transition: box-shadow 0.15s ease;
+
+  &:hover {
+    box-shadow: 0 4px 14px rgb(0 0 0 / 18%);
+  }
+
+  &.cardExpanded {
+    box-shadow: 0 4px 14px rgb(0 0 0 / 18%);
+  }
+}
+
+.cardTrigger {
+  all: unset;
+  display: flex;
+  flex-direction: column;
+  gap: functions.spacing(1.5);
+  cursor: pointer;
+  padding: functions.spacing(2.5);
+  text-align: left;
+  width: 100%;
+  box-sizing: border-box;
+
+  &:focus-visible {
+    outline: 2px solid var(--color-primary, #0078d4);
+    outline-offset: -2px;
+  }
+}
+
+// Meta row
+
+.cardMeta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: functions.spacing(1);
+}
+
+.time {
+  font-size: 0.8rem;
+  font-weight: 600;
+  opacity: 0.7;
+  white-space: nowrap;
+}
+
+// Title
+
+.title {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.35;
+  margin: 0;
+}
+
+// Speakers
+
+.speakers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: functions.spacing(1);
+  margin-top: functions.spacing(0.5);
+}
+
+.speakerChip {
+  display: flex;
+  align-items: center;
+  gap: functions.spacing(0.75);
+  font-size: 0.82rem;
+}
+
+.speakerAvatar {
+  border-radius: 50%;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+.speakerName {
+  font-weight: 500;
+}
+
+// Expand hint
+
+.expandHint {
+  font-size: 0.75rem;
+  opacity: 0.6;
+  margin-top: functions.spacing(0.5);
+}
+
+// Expanded body
+
+.cardBody {
+  padding: functions.spacing(2.5);
+  padding-top: 0;
+  border-top: 1px solid rgb(0 0 0 / 8%);
+}
+
+.description {
+  font-size: 0.9rem;
+  line-height: 1.6;
+
+  p {
+    margin: 0 0 functions.spacing(1.5);
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.categoryTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: functions.spacing(0.75);
+  margin-top: functions.spacing(2);
+}
+
+// Tags / pills
+
+.tag {
+  display: inline-block;
+  padding: 0.2em 0.65em;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  background: rgb(0 0 0 / 8%);
+  color: inherit;
+}
+
+.tagCopilot {
+  background: #e3f2fd;
+  color: #0d47a1;
+}
+
+.tagSecurity {
+  background: #fce4ec;
+  color: #880e4f;
+}
+
+.tagAzure {
+  background: #e8eaf6;
+  color: #283593;
+}
+
+.tagM365 {
+  background: #e8f5e9;
+  color: #1b5e20;
+}
+
+.tagDynamics {
+  background: #fff3e0;
+  color: #e65100;
+}
+
+.tagInclusion {
+  background: #f3e5f5;
+  color: #4a148c;
+}
+
+.tagLevel {
+  background: rgb(0 0 0 / 6%);
+  color: inherit;
+}
