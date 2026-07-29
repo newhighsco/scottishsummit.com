@@ -6,7 +6,8 @@ const nextConfig = {
     formats: ['image/avif', 'image/webp'],
     remotePatterns: [
       new URL('https://i.ytimg.com/vi/**'),
-      new URL('https://sessionize.com/image/**')
+      new URL('https://sessionize.com/image/**'),
+      new URL('https://cdn.sessionize.com/image/**')
     ]
   },
   i18n: { locales: ['en'], defaultLocale: 'en' },
