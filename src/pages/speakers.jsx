@@ -4,10 +4,15 @@ import React from 'react'
 import PageContainer from '~components/PageContainer'
 import Section from '~components/Section'
 import SpeakersSection from '~components/Speakers/SpeakersSection'
+import sessionize from '~data/sessionize.json'
 import speakers from '~data/speakers.json'
 import { canonicalUrl } from '~utils/urls'
 
 const meta = { canonical: canonicalUrl('/speakers'), title: 'Speakers' }
+
+const sessionMap = Object.fromEntries(
+  sessionize.sessions.map(s => [s.id, s])
+)
 
 const SpeakersPage = () => (
   <PageContainer meta={meta}>
@@ -19,7 +24,7 @@ const SpeakersPage = () => (
           there&apos;s something for everyone.</p>
       </Prose>
     </Section>
-    <SpeakersSection speakers={speakers} />
+    <SpeakersSection speakers={speakers} sessionMap={sessionMap} />
   </PageContainer>
 )
 

@@ -15,12 +15,29 @@
 }
 
 .card {
+  all: unset;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   gap: functions.spacing(2);
   width: 100%;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: functions.spacing(1.5);
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px rgb(41 35 92 / 18%);
+  }
+
+  &:focus-visible {
+    outline: 2px solid #881c68;
+    outline-offset: 2px;
+  }
 }
 
 .imageWrapper {
@@ -67,5 +84,162 @@
   font-size: 0.8rem;
   margin: 0;
   opacity: 0.75;
+  line-height: 1.4;
+}
+
+// Modal
+
+.modalBackdrop {
+  position: fixed;
+  inset: 0;
+  background: rgb(41 35 92 / 60%);
+  backdrop-filter: blur(3px);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: functions.spacing(2);
+}
+
+.modal {
+  position: relative;
+  background: #fff;
+  color: #29235c;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 560px;
+  max-height: 90vh;
+  overflow-y: auto;
+  padding: functions.spacing(4);
+  box-shadow: 0 16px 48px rgb(41 35 92 / 35%);
+
+  @include mixins.mq(breakpoints.$tablet) {
+    padding: functions.spacing(5);
+  }
+}
+
+.modalClose {
+  all: unset;
+  position: absolute;
+  top: functions.spacing(2);
+  right: functions.spacing(2);
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgb(41 35 92 / 8%);
+  color: #29235c;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  line-height: 1;
+  transition: background 0.15s ease;
+
+  &:hover {
+    background: rgb(41 35 92 / 16%);
+  }
+
+  &:focus-visible {
+    outline: 2px solid #881c68;
+    outline-offset: 2px;
+  }
+}
+
+.modalHeader {
+  display: flex;
+  align-items: flex-start;
+  gap: functions.spacing(3);
+  padding-right: functions.spacing(4);
+  margin-bottom: functions.spacing(3);
+}
+
+.modalAvatar {
+  border-radius: 50%;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+.modalName {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 0 0 functions.spacing(0.5);
+  color: #29235c;
+}
+
+.modalTagLine {
+  font-size: 0.85rem;
+  margin: 0 0 functions.spacing(1.5);
+  color: #391c53;
+  opacity: 0.85;
+  line-height: 1.4;
+}
+
+.modalLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: functions.spacing(1);
+}
+
+.modalLink {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #881c68;
+  text-decoration: none;
+  border: 1.5px solid #881c68;
+  border-radius: 999px;
+  padding: 0.2em 0.75em;
+  transition:
+    background 0.15s ease,
+    color 0.15s ease;
+
+  &:hover {
+    background: #881c68;
+    color: #fff;
+  }
+}
+
+.modalSessions {
+  border-top: 1px solid rgb(41 35 92 / 12%);
+  padding-top: functions.spacing(3);
+}
+
+.modalSessionsHeading {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0 0 functions.spacing(2);
+  color: #29235c;
+}
+
+.modalSession {
+  display: flex;
+  flex-direction: column;
+  gap: functions.spacing(0.5);
+  padding: functions.spacing(1.5) 0;
+  border-bottom: 1px solid rgb(41 35 92 / 8%);
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.modalSessionTime {
+  font-size: 0.75rem;
+  font-weight: 700;
+  background: #29235c;
+  color: #fff;
+  display: inline-block;
+  padding: 0.15em 0.6em;
+  border-radius: 999px;
+  align-self: flex-start;
+  margin: 0;
+}
+
+.modalSessionTitle {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: 0;
+  color: #29235c;
   line-height: 1.4;
 }
