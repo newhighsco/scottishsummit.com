@@ -14,7 +14,8 @@
   font-size: 1.4rem;
   font-weight: 700;
   padding: functions.spacing(1) functions.spacing(2);
-  border-left: 4px solid var(--color-primary, #0078d4);
+  border-left: 4px solid #881c68;
+  color: #29235c;
   margin-bottom: functions.spacing(3);
 }
 
@@ -38,16 +39,17 @@
   width: 100%;
   border-radius: 6px;
   overflow: hidden;
-  box-shadow: 0 2px 6px rgb(0 0 0 / 12%);
-  background: var(--color-card-bg, #fff);
+  box-shadow: 0 2px 6px rgb(41 35 92 / 15%);
+  background: #fff;
+  color: #29235c;
   transition: box-shadow 0.15s ease;
 
   &:hover {
-    box-shadow: 0 4px 14px rgb(0 0 0 / 18%);
+    box-shadow: 0 4px 14px rgb(41 35 92 / 22%);
   }
 
   &.cardExpanded {
-    box-shadow: 0 4px 14px rgb(0 0 0 / 18%);
+    box-shadow: 0 4px 14px rgb(41 35 92 / 22%);
   }
 }
 
@@ -63,7 +65,7 @@
   box-sizing: border-box;
 
   &:focus-visible {
-    outline: 2px solid var(--color-primary, #0078d4);
+    outline: 2px solid #881c68;
     outline-offset: -2px;
   }
 }
@@ -79,8 +81,8 @@
 
 .time {
   font-size: 0.8rem;
-  font-weight: 600;
-  opacity: 0.7;
+  font-weight: 700;
+  color: #391c53;
   white-space: nowrap;
 }
 
@@ -107,6 +109,7 @@
   align-items: center;
   gap: functions.spacing(0.75);
   font-size: 0.82rem;
+  color: #391c53;
 }
 
 .speakerAvatar {
@@ -116,14 +119,15 @@
 }
 
 .speakerName {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 // Expand hint
 
 .expandHint {
   font-size: 0.75rem;
-  opacity: 0.6;
+  color: #881c68;
+  font-weight: 600;
   margin-top: functions.spacing(0.5);
 }
 
@@ -132,12 +136,13 @@
 .cardBody {
   padding: functions.spacing(2.5);
   padding-top: 0;
-  border-top: 1px solid rgb(0 0 0 / 8%);
+  border-top: 1px solid rgb(41 35 92 / 12%);
 }
 
 .description {
   font-size: 0.9rem;
   line-height: 1.6;
+  color: #29235c;
 
   p {
     margin: 0 0 functions.spacing(1.5);
@@ -162,10 +167,10 @@
   padding: 0.2em 0.65em;
   border-radius: 999px;
   font-size: 0.72rem;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 0.02em;
-  background: rgb(0 0 0 / 8%);
-  color: inherit;
+  background: rgb(41 35 92 / 10%);
+  color: #29235c;
 }
 
 .tagCopilot {
@@ -199,6 +204,6 @@
 }
 
 .tagLevel {
-  background: rgb(0 0 0 / 6%);
-  color: inherit;
+  background: rgb(41 35 92 / 8%);
+  color: #29235c;
 }

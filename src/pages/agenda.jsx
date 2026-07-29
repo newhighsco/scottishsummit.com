@@ -1,4 +1,4 @@
-import { Prose } from '@newhighsco/chipset'
+import { Button, Prose } from '@newhighsco/chipset'
 import React from 'react'
 
 import { AgendaSection } from '~components/Agenda'
@@ -35,10 +35,13 @@ const AgendaPage = () => (
       <Prose>
         <h1>{meta.title}</h1>
         <p>
-          Full day of sessions on Saturday 3 October 2026. Click any session to
-          read its full description and track information.
+          This is your full day agenda — event app coming soon to schedule your
+          day.
         </p>
       </Prose>
+      <Button href="https://fienta.com/scottish-summit-2026" variant="inverted">
+        Get Event Tickets
+      </Button>
     </Section>
     <AgendaSection
       sessions={oct3Sessions}
