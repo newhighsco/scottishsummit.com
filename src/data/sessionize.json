@@ -459,6 +459,30 @@
       "isConfirmed": true
     },
     {
+      "id": "1176525",
+      "title": "The Architect’s AI Playbook: Patterns, Pitfalls, and Proven Prompts to tame technical debt",
+      "description": "AI is rapidly changing how software is designed, built, and governed—but for architects, the real value of Copilot is not simply writing code faster. The bigger opportunity lies in accelerating troubleshooting, strengthening quality gates, producing living documentation, tightening security, and systematically reducing technical debt across teams.\r\nIn this session, we’ll walk through a practical Architect’s Playbook for using GitHub Copilot and Microsoft 365 Copilot in real-world architecture and delivery workflows. Starting from common architectural pain points, we’ll explore proven patterns for applying Copilot in the IDE and pull request lifecycle, as well as across Teams, Word, and PowerPoint using organizational context. Live examples will demonstrate how architects can use Copilot to reason about unfamiliar codebases, review changes more effectively, document decisions as they evolve, and support governance without slowing teams down.\r\nWe’ll also take an honest look at where AI assistants fall short. You’ll see concrete examples of hallucinations, insecure or misleading suggestions, and compliance blind spots—and learn how to recognize and mitigate these risks through guardrails, prompt structure, and workflow design. The goal is not blind trust in AI, but safe and intentional operationalization at scale.\r\nBy the end of this session, attendees will leave with reusable prompt structures tailored for architectural work, reference workflows they can apply immediately with their teams, and a clearer mental model for when Copilot accelerates outcomes—and when it requires human judgment.",
+      "startsAt": "2026-10-03T12:15:00",
+      "endsAt": "2026-10-03T13:00:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "4a19a90f-5acf-4966-9bb6-18fd3014c0cd"
+      ],
+      "categoryItems": [
+        450222,
+        450340,
+        452078
+      ],
+      "questionAnswers": [],
+      "roomId": 77531,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
       "id": "1221392",
       "title": "Intelligent Structured Document Generation in SharePoint",
       "description": "The Problem\r\nMany organisations rely on standard documents such as contracts, letters, reports, and statements of work, yet the way these documents are created is often manual, inconsistent, and difficult to govern. Small variations, copy‑and‑paste edits, and formatting drift can quickly lead to rework, errors, and a lack of uniformity.\r\n\r\nWhat you’ll cover\r\nIntelligent structured document generation in SharePoint brings together document templates, Forms, and AI to create repeatable, well‑governed documents based on existing Word files. Instead of manually editing documents or relying on fragile automations, content is generated consistently from approved templates, with AI helping to identify and manage fields and placeholders.\r\nThe session explores how the new SharePoint structured document generation capability works in practice and where it fits within broader SharePoint and Copilot scenarios. It covers how existing Word documents can be converted into reusable templates, how Forms act as the entry point for document creation, and how different roles are involved in designing, governing, and consuming generated documents.\r\nReal‑world scenarios are used throughout to show where this approach delivers clear value, as well as common mistakes to avoid.\r\n\r\nKey takeaways\r\nAttendees will leave with a clear understanding of when structured document generation is the right approach, how it differs from traditional document automation, and how to apply it sensibly in their own SharePoint environment.\r\n\r\nTech & tooling\r\nSharePoint, Microsoft Word, Microsoft Forms, Copilot",
@@ -556,18 +580,19 @@
       "isConfirmed": true
     },
     {
-      "id": "1176525",
-      "title": "The Architect’s AI Playbook: Patterns, Pitfalls, and Proven Prompts to tame technical debt",
-      "description": "AI is rapidly changing how software is designed, built, and governed—but for architects, the real value of Copilot is not simply writing code faster. The bigger opportunity lies in accelerating troubleshooting, strengthening quality gates, producing living documentation, tightening security, and systematically reducing technical debt across teams.\r\nIn this session, we’ll walk through a practical Architect’s Playbook for using GitHub Copilot and Microsoft 365 Copilot in real-world architecture and delivery workflows. Starting from common architectural pain points, we’ll explore proven patterns for applying Copilot in the IDE and pull request lifecycle, as well as across Teams, Word, and PowerPoint using organizational context. Live examples will demonstrate how architects can use Copilot to reason about unfamiliar codebases, review changes more effectively, document decisions as they evolve, and support governance without slowing teams down.\r\nWe’ll also take an honest look at where AI assistants fall short. You’ll see concrete examples of hallucinations, insecure or misleading suggestions, and compliance blind spots—and learn how to recognize and mitigate these risks through guardrails, prompt structure, and workflow design. The goal is not blind trust in AI, but safe and intentional operationalization at scale.\r\nBy the end of this session, attendees will leave with reusable prompt structures tailored for architectural work, reference workflows they can apply immediately with their teams, and a clearer mental model for when Copilot accelerates outcomes—and when it requires human judgment.",
+      "id": "1301878",
+      "title": "AI Innovation. Data Foundation.",
+      "description": "In this session, we'll explore how Azure NetApp Files provides the high-performance storage foundation for both SQL Server and AI workloads in Azure. Learn how organisations can unlock the value of their existing SQL data to power analytics, intelligent applications, and generative AI solutions. We'll cover real-world architectures, performance optimisation techniques, and practical approaches to building AI-ready data platforms that accelerate innovation while maintaining enterprise-grade performance and reliability.",
       "startsAt": "2026-10-03T12:15:00",
       "endsAt": "2026-10-03T13:00:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "4a19a90f-5acf-4966-9bb6-18fd3014c0cd"
+        "34072a46-c0d6-4e5d-a35c-f3332c448a71",
+        "750a90ab-149c-4234-b50d-7da36a2c9765"
       ],
       "categoryItems": [
-        450222,
+        450225,
         450340,
         452078
       ],
@@ -577,7 +602,7 @@
       "recordingUrl": null,
       "status": "Accepted",
       "isInformed": true,
-      "isConfirmed": true
+      "isConfirmed": false
     },
     {
       "id": "1173856",
@@ -868,6 +893,31 @@
       "status": "Accepted",
       "isInformed": true,
       "isConfirmed": true
+    },
+    {
+      "id": "1272136",
+      "title": "Trusted Data for Trusted AI",
+      "description": "Join us to explore why data quality is the foundation of successful AI. Learn how accurate, validated and enriched data helps organisations improve AI outcomes, reduce risk, and make more confident decisions. We'll show how Data8's data quality, verification and enrichment solutions help create trusted, AI-ready data that delivers real business value.",
+      "startsAt": "2026-10-03T14:00:00",
+      "endsAt": "2026-10-03T14:45:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "eec0c806-6001-4a68-bd70-132189870c4b",
+        "53fb6ded-b4e7-40df-8efc-8574bf0788a3"
+      ],
+      "categoryItems": [
+        450222,
+        450340,
+        452078
+      ],
+      "questionAnswers": [],
+      "roomId": 80334,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": false
     },
     {
       "id": "1196772",
@@ -1674,6 +1724,41 @@
         451784,
         451786,
         451789
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "34072a46-c0d6-4e5d-a35c-f3332c448a71",
+      "firstName": "Anthony",
+      "lastName": "Mashford",
+      "bio": "With more than two decades working in large Enterprises, Corporations and within the Microsoft Partner network, Anthony has gained a wealth experience & knowledge in varying architectures.\r\n\r\nNow specialising in Azure, specifically Azure NetApp Files and NetApp Cloud Volumes ONTAP, Anthony works to help clients envision and plan their journey to the cloud.",
+      "tagLine": "Microsoft MVP | Cloud Solutions Architect at NetApp working in the EMEA Azure Business Group",
+      "profilePicture": "https://cdn.sessionize.com/image/658b-400o400o1-7NcESJHw82e4UdEHs7bJpb.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/anthony-mashford/",
+          "linkType": "LinkedIn"
+        },
+        {
+          "title": "Blog",
+          "url": "https://azuretechlab.com",
+          "linkType": "Blog"
+        },
+        {
+          "title": "Sessionize",
+          "url": "https://sessionize.com/anthony-mashford",
+          "linkType": "Sessionize"
+        }
+      ],
+      "sessions": [
+        1301878
+      ],
+      "fullName": "Anthony Mashford",
+      "categoryItems": [
+        451784,
+        451786
       ],
       "questionAnswers": []
     },
@@ -2981,6 +3066,7 @@
         }
       ],
       "sessions": [
+        1272136,
         1213565
       ],
       "fullName": "Mark Carrington",
@@ -3111,6 +3197,7 @@
       ],
       "sessions": [
         1253880,
+        1272136,
         1223846
       ],
       "fullName": "Matt Beard",
@@ -3673,6 +3760,30 @@
       "categoryItems": [
         451784,
         451786
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "750a90ab-149c-4234-b50d-7da36a2c9765",
+      "firstName": "Rutger",
+      "lastName": "Kosters",
+      "bio": "Rutger Kosters is a Cloud Solution Architect for Azure Alliance at NetApp, focused on Azure cloud solutions and Azure NetApp Files. He helps enterprises design, migrate, and optimize business-critical workloads in Azure, combining deep technical expertise with practical experience in cloud architecture, performance optimization, and data management.",
+      "tagLine": "Solution Engineer - NetApp",
+      "profilePicture": "https://cdn.sessionize.com/image/07df-400o400o1-3xMc6Q6v8SJYYwxN7Bq7xz.png",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/rutgerkosters/",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        1301878
+      ],
+      "fullName": "Rutger Kosters",
+      "categoryItems": [
+        451784
       ],
       "questionAnswers": []
     },
