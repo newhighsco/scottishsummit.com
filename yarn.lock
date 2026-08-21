@@ -3235,7 +3235,7 @@ __metadata:
     prettier: "npm:3.9.6"
     react: "npm:19.2.8"
     react-dom: "npm:19.2.8"
-    sass: "npm:1.103.0"
+    sass: "npm:1.103.1"
     semantic-release: "npm:25.0.9"
     storybook: "npm:10.5.10"
     stylelint: "npm:17.14.1"
