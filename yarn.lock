@@ -3217,7 +3217,7 @@ __metadata:
     "@newhighsco/press-start": "npm:2.9.4"
     "@newhighsco/prettier-config": "npm:2.3.14"
     "@newhighsco/release-config": "npm:1.5.10"
-    "@newhighsco/storybook-preset": "npm:10.2.88"
+    "@newhighsco/storybook-preset": "npm:10.2.89"
     "@newhighsco/stylelint-config": "npm:4.0.55"
     "@newhighsco/svgr-config": "npm:1.0.0"
     "@newhighsco/yarn-plugin-preset": "npm:1.1.4"
@@ -3266,9 +3266,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/storybook-preset@npm:10.2.88":
-  version: 10.2.88
-  resolution: "@newhighsco/storybook-preset@npm:10.2.88"
+"@newhighsco/storybook-preset@npm:10.2.89":
+  version: 10.2.89
+  resolution: "@newhighsco/storybook-preset@npm:10.2.89"
   dependencies:
     "@newhighsco/chipset": "npm:7.4.2"
     "@newhighsco/storybook-addon-svgr": "npm:4.0.0"
@@ -3280,14 +3280,14 @@ __metadata:
     css-loader: "npm:7.1.4"
     postcss: "npm:8.5.26"
     postcss-loader: "npm:8.2.1"
-    sass: "npm:1.103.0"
+    sass: "npm:1.103.1"
     sass-loader: "npm:17.0.0"
     storybook-addon-pseudo-states: "npm:10.5.10"
     style-loader: "npm:4.0.0"
   peerDependencies:
     "@storybook/react-webpack5": ^10
     storybook: ^10
-  checksum: 10c0/91f5c9219ccd4e6f8f224aa79799dc26000bfc778ee11202b883822af1f1481b896d99773ccfe44d2051040dbfc46ac211255714cb263ad2dacef1b16bf7b9f5
+  checksum: 10c0/00844f4b5f6e7349466aad4435567504e2de01cf2dd18879c2f746cb8bb2abf5c834c3ecf0f3951259dc36d1d924b0908c24a5988653ebc8eea569362827edbe
   languageName: node
   linkType: hard
 
