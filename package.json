@@ -74,7 +74,7 @@
     "chromatic": "18.5.0",
     "colorjs.io": "0.7.1",
     "concurrently": "10.0.5",
-    "eslint": "10.9.0",
+    "eslint": "10.9.1",
     "husky": "9.1.7",
     "lint-staged": "17.3.0",
     "prettier": "3.9.6",
