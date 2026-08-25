@@ -5,7 +5,6 @@ import PageContainer from '~components/PageContainer'
 import Section from '~components/Section'
 import SpeakersSection from '~components/Speakers/SpeakersSection'
 import sessionize from '~data/sessionize.json'
-import speakers from '~data/speakers.json'
 import { canonicalUrl } from '~utils/urls'
 
 const meta = { canonical: canonicalUrl('/speakers'), title: 'Speakers' }
@@ -13,6 +12,7 @@ const meta = { canonical: canonicalUrl('/speakers'), title: 'Speakers' }
 const sessionMap = Object.fromEntries(
   sessionize.sessions.map(s => [s.id, s])
 )
+const speakers = sessionize.speakers
 
 const SpeakersPage = () => (
   <PageContainer meta={meta}>
