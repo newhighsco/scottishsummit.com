@@ -168,6 +168,32 @@
       "isConfirmed": false
     },
     {
+      "id": "1301878",
+      "title": "AI Innovation. Data Foundation.",
+      "description": "In this session, we'll explore how Azure NetApp Files provides the high-performance storage foundation for both SQL Server and AI workloads in Azure. Learn how organisations can unlock the value of their existing SQL data to power analytics, intelligent applications, and generative AI solutions. We'll cover real-world architectures, performance optimisation techniques, and practical approaches to building AI-ready data platforms that accelerate innovation while maintaining enterprise-grade performance and reliability.",
+      "startsAt": "2026-10-03T10:15:00",
+      "endsAt": "2026-10-03T11:00:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "34072a46-c0d6-4e5d-a35c-f3332c448a71",
+        "750a90ab-149c-4234-b50d-7da36a2c9765",
+        "33124233-fed9-454b-a6c8-ffaf487f9f83"
+      ],
+      "categoryItems": [
+        450225,
+        450340,
+        452078
+      ],
+      "questionAnswers": [],
+      "roomId": 77532,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": false
+    },
+    {
       "id": "1182943",
       "title": "Designing Intelligent Tool-Driven Agents",
       "description": "Modern Copilot Studio agents can do far more than answer questions—they can reason, act, collaborate with humans, and make controlled decisions.\r\nIn this session, we will build an agent step-by-step to demonstrate how Copilot Studio’s expanding toolset enables powerful, safe, and flexible automation scenarios.\r\n\r\nWe’ll walk through how to use each tool individually and then combine them into a coordinated workflow:\r\n\r\nAI Prompt to generate dynamic content and chain reasoning\r\n\r\nAI Approval to introduce governed decision points\r\n\r\nHuman-in-the-Loop to collect user input or expert confirmation\r\n\r\nAdaptive output tools to shape responses\r\n\r\nOther Copilot Studio tools that enable integrations, data actions, and workflow branching\r\n\r\nBy the end of the session, you’ll understand how to orchestrate these capabilities inside a single agent, enabling it to make automated decisions, request human oversight where needed, and produce high-quality, context-aware outputs.\r\n\r\nAttendees will leave with a clear blueprint for constructing robust Copilot Studio agents that blend AI automation with responsible controls—ideal for enterprise use cases such as approvals, content generation, customer support, data processing, and more.",
@@ -258,30 +284,6 @@
       ],
       "questionAnswers": [],
       "roomId": 80337,
-      "liveUrl": null,
-      "recordingUrl": null,
-      "status": "Accepted",
-      "isInformed": true,
-      "isConfirmed": true
-    },
-    {
-      "id": "1198424",
-      "title": "From Geeky Idea to Enterprise App: Comparing App Builder, Power Apps Vibe, and Code Apps",
-      "description": "I have a geeky hobby: dynasty fantasy football. It’s a long‑running game where you build virtual teams made up of real NFL players, track performance over multiple seasons, and constantly make decisions based on partial data, rankings, and gut feeling.\r\n\r\nOver time, this evolved into a very familiar problem, one that shows up in many business scenarios as well:\r\nI needed one place to capture decisions, compare them against external benchmarks, and learn from historical outcomes across years.\r\n\r\nThis session takes that exact app concept and builds it three different ways, using three Microsoft app‑building approaches—each optimized for a different set of tradeoffs:\r\n\r\nApproach 1 — App Builder in Microsoft 365 Copilot\r\nA fast, conversational way to build lightweight apps backed by Microsoft Lists. Ideal for quick insights, personal productivity, and simple sharing, but with clear boundaries once structure and scale increase.\r\n\r\nApproach 2 — Power Apps Vibe\r\nAn AI‑native Power Apps experience that generates the solution holistically: requirements, Dataverse data model, and a working app with generated code. Designed for more structured scenarios where scalability, relationships, and extensibility matter.\r\n\r\nApproach 3 — Code Apps\r\nThe pro‑developer route, offering full control over UI, architecture, ALM, and extensibility on a governed platform. This approach won’t be demoed live, but will be explained architecturally to highlight where and why it becomes the right choice.\r\n\r\nThe session is demo‑heavy for App Builder and Power Apps Vibe, and architecture‑ and decision‑framework‑focused for Code Apps. Along the way, we’ll explore:\r\n- How AI‑generated apps differ depending on the underlying platform\r\n- The technical and governance implications of Lists vs. Dataverse\r\n- How to explain these tradeoffs to stakeholders who “just want an app by tomorrow”\r\n\r\nYou’ll leave with a practical mental model for why these tools exist, when to use each one, and how to choose the right approach, before rebuilding the same app three times for the wrong reasons.",
-      "startsAt": "2026-10-03T11:15:00",
-      "endsAt": "2026-10-03T12:00:00",
-      "isServiceSession": false,
-      "isPlenumSession": false,
-      "speakers": [
-        "1fdb7870-e14d-490f-b863-324d9500be93"
-      ],
-      "categoryItems": [
-        450221,
-        450340,
-        452078
-      ],
-      "questionAnswers": [],
-      "roomId": 77530,
       "liveUrl": null,
       "recordingUrl": null,
       "status": "Accepted",
@@ -580,20 +582,20 @@
       "isConfirmed": true
     },
     {
-      "id": "1301878",
-      "title": "AI Innovation. Data Foundation.",
-      "description": "In this session, we'll explore how Azure NetApp Files provides the high-performance storage foundation for both SQL Server and AI workloads in Azure. Learn how organisations can unlock the value of their existing SQL data to power analytics, intelligent applications, and generative AI solutions. We'll cover real-world architectures, performance optimisation techniques, and practical approaches to building AI-ready data platforms that accelerate innovation while maintaining enterprise-grade performance and reliability.",
+      "id": "1308273",
+      "title": "Agents for Everyone: The Reality of Rolling Out Copilot Studio at Public Sector Scale",
+      "description": "What happens when you open up AI agent creation to 30,000 employees in a UK government agency?\r\n \r\nIn this session, Keith (Power Platform & AI Architect, Capgemini) and Cliodhna (Power Platform Service Manager, Defra) share the real story of rolling out Copilot Studio and Microsoft 365 Agent Builder across a large public sector organisation.\r\n \r\nThe goal was simple: empower people across the organisation to build their own AI agents to support their daily work. The reality was more complex.\r\n \r\nWe’ll talk openly about the journey so far, including the decisions, challenges, governance questions, adoption hurdles, technical considerations, and cultural shifts involved in enabling AI agent creation at scale. We’ll also share what has worked well, where expectations needed to be managed, and the achievements that have made the effort worthwhile.\r\n \r\nThis is not a polished \"everything went perfectly\" case study. It is an honest conversation between supplier and customer about what it really takes to introduce AI agents safely, responsibly, and practically in a large government organisation.",
       "startsAt": "2026-10-03T12:15:00",
       "endsAt": "2026-10-03T13:00:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "34072a46-c0d6-4e5d-a35c-f3332c448a71",
-        "750a90ab-149c-4234-b50d-7da36a2c9765"
+        "ef0edfec-5000-4385-b237-967eea1cec33",
+        "f479e0cd-f61c-4e58-8a40-08bb261664a6"
       ],
       "categoryItems": [
-        450225,
-        450340,
+        450222,
+        450339,
         452078
       ],
       "questionAnswers": [],
@@ -602,7 +604,7 @@
       "recordingUrl": null,
       "status": "Accepted",
       "isInformed": true,
-      "isConfirmed": false
+      "isConfirmed": true
     },
     {
       "id": "1173856",
@@ -654,15 +656,15 @@
     },
     {
       "id": "1185280",
-      "title": "Productivity Hack Battle: Top 10 productivity tips for busy tech professionals",
-      "description": "Are you drowning in tasks, messages, and meetings? It’s time to take back control of your workday.\r\n\r\nEasy? Just point your task list and calendar and your favorite Copilot/AI agent and it will take care of it, right? Right?! \r\n\r\nHmm, maybe not...\r\n\r\nInstead of just another boring set of slides or wild vendor promises (ahem Microsoft), our two presenters will instead face off in... (big announcer voice): \r\n\r\nTHE PRODUCTIVITY HACK BATTLE! \r\n\r\nEach sharing 5 killer productivity hacks, tools, and even agents that help them work smarter, not harder. Not just the \"what\", but the \"how\" too!\r\n\r\nFrom clever time management tricks to automation secrets and focus techniques, you’ll get a rapid-fire tour of 10 proven tips to supercharge your productivity, both using tested traditional methods and some practical tips on harnessing the power of AI and agents effectively.\r\n\r\nBut this isn’t just another talk: YOU get to be the judge!\r\n\r\nAfter the hacks are revealed, the audience will vote live on which ones are the most game-changing.\r\n\r\nYou’ll walk away with new tools and habits to boost your efficiency without burning out.\r\n\r\nDon’t miss this chance to level up your productivity and find out which hack wins the ultimate showdown! ",
+      "title": "Productivity Hack Battle: Top 10 tips for busy (and easily distracted) tech professionals",
+      "description": "Are you drowning in tasks, messages, and meetings? It's time to take back control of your workday.\r\n\r\nEasy? Just point your task list and calendar at your favorite Copilot/AI agent and it'll take care of it, right? Right?!\r\n\r\nHmm, maybe not.\r\n\r\nInstead of another boring set of slides or wild vendor promises (ahem, Microsoft), our two presenters face off in... (big announcer voice):\r\n\r\nTHE PRODUCTIVITY HACK BATTLE!\r\n\r\nEach presenter shares 5 killer productivity hacks, tools, and agents that help them work smarter, not harder. Not just the \"what,\" but the \"how.\"\r\n\r\nFrom time management tricks to automation secrets to focus techniques that actually work when your brain won't cooperate, you'll get a rapid-fire tour of 10 proven tips. Some are tested traditional methods. Some are AI and agents done right. All of them are built for how real brains actually work, not how productivity gurus wish they did.\r\n\r\nBut this isn't just another talk: YOU get to be the judge.\r\n\r\nAfter the hacks are revealed, the audience votes live on which ones are the most game-changing.\r\n\r\nYou'll walk away with new tools and habits to boost your efficiency without burning out, and without needing to force yourself into a system that was never built for you.\r\n\r\nDon't miss this chance to level up your productivity and find out which hack wins the ultimate showdown.",
       "startsAt": "2026-10-03T13:05:00",
       "endsAt": "2026-10-03T13:25:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
         "01a94a88-cb24-4b81-b176-27c469bf8d29",
-        "3b045b3b-f92c-4dfc-9328-5f3641ce9647"
+        "e5db9e81-c381-49f5-aa43-e593615fecc4"
       ],
       "categoryItems": [
         450220,
@@ -904,7 +906,8 @@
       "isPlenumSession": false,
       "speakers": [
         "eec0c806-6001-4a68-bd70-132189870c4b",
-        "53fb6ded-b4e7-40df-8efc-8574bf0788a3"
+        "53fb6ded-b4e7-40df-8efc-8574bf0788a3",
+        "1adcec72-11df-44c0-b75f-53a25bca63ff"
       ],
       "categoryItems": [
         450222,
@@ -1224,7 +1227,7 @@
       "isPlenumSession": false,
       "speakers": [
         "8a1f9d31-5905-4441-8ebd-e127ea97cbc7",
-        "3b045b3b-f92c-4dfc-9328-5f3641ce9647"
+        "76f6b34d-e530-4a49-a5ae-e0ab3d03b14d"
       ],
       "categoryItems": [
         450222,
@@ -1841,46 +1844,6 @@
       "questionAnswers": []
     },
     {
-      "id": "1fdb7870-e14d-490f-b863-324d9500be93",
-      "firstName": "Ben",
-      "lastName": "den Blanken",
-      "bio": "Enabling people to create meaningful connections with their customers through technology is what drives me. Over the years, I’ve learned that real impact doesn’t come from tools alone, but from aligning people around a shared goal and giving them the confidence and space to contribute.\r\n\r\nThat belief is what originally drew me to the Power Platform and it’s exactly why AI is a natural next step, not a change in direction. Where low-code empowered business teams to build apps, automate processes, and generate insights themselves, AI takes this a step further by amplifying human capability rather than replacing it.\r\n\r\nI’m motivated by working closely with end users, understanding their challenges, and turning their ideas into practical solutions, whether that’s through apps, automation, or intelligent agent. The technology evolves, but my focus stays the same: empowering people to shape their own success, together.",
-      "tagLine": "Microsoft Business Applications MVP, Copilot Studio and Power Platform Expert at Wortell",
-      "profilePicture": "https://cdn.sessionize.com/image/c84f-400o400o1-ETBcBUKojHXNnr564FB53r.jpg",
-      "isTopSpeaker": false,
-      "links": [
-        {
-          "title": "LinkedIn",
-          "url": "https://www.linkedin.com/in/bendenblanken/",
-          "linkType": "LinkedIn"
-        },
-        {
-          "title": "Blog",
-          "url": "https://www.bendenblanken.com/",
-          "linkType": "Blog"
-        },
-        {
-          "title": "Company Website",
-          "url": "https://www.wortell.nl/",
-          "linkType": "Company_Website"
-        },
-        {
-          "title": "Sessionize",
-          "url": "https://sessionize.com/bendenblanken",
-          "linkType": "Sessionize"
-        }
-      ],
-      "sessions": [
-        1198424
-      ],
-      "fullName": "Ben den Blanken",
-      "categoryItems": [
-        451784,
-        451786
-      ],
-      "questionAnswers": []
-    },
-    {
       "id": "8a1f9d31-5905-4441-8ebd-e127ea97cbc7",
       "firstName": "Björn",
       "lastName": "Zahnow",
@@ -2083,6 +2046,24 @@
       "categoryItems": [
         451784,
         451786
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "f479e0cd-f61c-4e58-8a40-08bb261664a6",
+      "firstName": "Cliodhna",
+      "lastName": "Betts",
+      "bio": "Former business maker, now service owner for Power Platform. Working with teams to enable innovation and improve service delivery using Microsoft and AI technologies. ",
+      "tagLine": "Power Platform Service Owner, Defra",
+      "profilePicture": "https://cdn.sessionize.com/image/e373-400o400o1-wkxStGzvHJsW8wfwzxcdu6.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1308273
+      ],
+      "fullName": "Cliodhna Betts",
+      "categoryItems": [
+        451783
       ],
       "questionAnswers": []
     },
@@ -2690,6 +2671,71 @@
       "questionAnswers": []
     },
     {
+      "id": "33124233-fed9-454b-a6c8-ffaf487f9f83",
+      "firstName": "Joss",
+      "lastName": "Mureddu",
+      "bio": "Joss is a Principal Customer Success Engineer at NetApp, aligned to Microsoft Azure. He helps customers navigate storage, cloud architecture and data-platform decisions across Azure NetApp Files, Cloud Volumes ONTAP and hybrid cloud environments.\r\n\r\nHis current interests sit at the intersection of storage, AI, resilience and trust: how organisations prepare their data platforms for more intelligent, automated and business-critical workloads.",
+      "tagLine": "Principal Customer Success Engineer, Azure | NetApp ",
+      "profilePicture": "https://cdn.sessionize.com/image/9c0a-400o400o1-PAwpqktFhneTW7Pa9xTMiW.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/jossmureddu/",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        1301878
+      ],
+      "fullName": "Joss Mureddu",
+      "categoryItems": [
+        451784
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "ef0edfec-5000-4385-b237-967eea1cec33",
+      "firstName": "Keith",
+      "lastName": "Atherton",
+      "bio": "Power Platform Solution Architect, Microsoft MVP for Business Applications, Microsoft Certified Trainer (MCT), 11x Microsoft certified, published LinkedIn Learning instructor, public speaker, Power Platform Community High Five user group founder, On Air in the Cloud podcast host, blogger, and mentor.\r\n\r\nVersatile solution architect with over 25 years' international experience of leading and developing software solutions in permanent and contract roles for sectors including finance, legal, manufacturing, construction, game development, retail, healthcare, travel, and charity.\r\n\r\nFind me online: https://linktr.ee/keithatherton",
+      "tagLine": "Power Platform Solution Architect | Microsoft MVP | MCT | 11x Microsoft Certified | User Group Leader | LinkedIn Learning Instructor | Speaker | Podcaster",
+      "profilePicture": "https://cdn.sessionize.com/image/ab15-400o400o1-ngtatcAF3X9oVy3hZJDb1s.png",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/keith-atherton",
+          "linkType": "LinkedIn"
+        },
+        {
+          "title": "Blog",
+          "url": "https://www.keithatherton.com/",
+          "linkType": "Blog"
+        },
+        {
+          "title": "Company Website",
+          "url": "https://www.keithatherton.com/",
+          "linkType": "Company_Website"
+        },
+        {
+          "title": "Sessionize",
+          "url": "https://sessionize.com/keith-atherton",
+          "linkType": "Sessionize"
+        }
+      ],
+      "sessions": [
+        1308273
+      ],
+      "fullName": "Keith Atherton",
+      "categoryItems": [
+        451784,
+        451786,
+        451789
+      ],
+      "questionAnswers": []
+    },
+    {
       "id": "edc9a64f-df3d-47f7-8b19-5d038dfc85c2",
       "firstName": "Kevin",
       "lastName": "McDonnell",
@@ -3261,7 +3307,8 @@
         }
       ],
       "sessions": [
-        1195398
+        1195398,
+        1185280
       ],
       "fullName": "Melissa Hale",
       "categoryItems": [
@@ -3603,42 +3650,6 @@
         1217247
       ],
       "fullName": "Patrick Wahlmueller",
-      "categoryItems": [
-        451784,
-        451786
-      ],
-      "questionAnswers": []
-    },
-    {
-      "id": "3b045b3b-f92c-4dfc-9328-5f3641ce9647",
-      "firstName": "Pauline",
-      "lastName": "Kolde",
-      "bio": "Always on the road in search of inspiration and ideas. I have been a consultant for Dynamics 365 and Customer Experience for more than 8 years. My focus is on customer insights and there is so much to discover that it never gets boring. My curiosity drives me to try and test things - be it new technologies or innovative methods to solve complex challenges. #staycurious\r\nAnd in my spare time, things never get boring. When I’m not working on client projects or writing my blog, you’ll likely find me exploring the world, enjoying great food with friends, or knitting away – always with yarn in hand.\r\n\r\n\r\n",
-      "tagLine": "MVP & Partner @ CRMK Deutschland",
-      "profilePicture": "https://cdn.sessionize.com/image/f29f-400o400o1-Gaagf3kj8FUuUwPpR2KzFJ.jpg",
-      "isTopSpeaker": false,
-      "links": [
-        {
-          "title": "LinkedIn",
-          "url": "https://www.linkedin.com/in/paulinekolde",
-          "linkType": "LinkedIn"
-        },
-        {
-          "title": "Blog",
-          "url": "https://paulinekolde.info",
-          "linkType": "Blog"
-        },
-        {
-          "title": "Sessionize",
-          "url": "https://sessionize.com/pauline-kolde",
-          "linkType": "Sessionize"
-        }
-      ],
-      "sessions": [
-        1185280,
-        1189712
-      ],
-      "fullName": "Pauline Kolde",
       "categoryItems": [
         451784,
         451786
@@ -3993,6 +4004,30 @@
       "questionAnswers": []
     },
     {
+      "id": "1adcec72-11df-44c0-b75f-53a25bca63ff",
+      "firstName": "Simon",
+      "lastName": "Wise",
+      "bio": "Simon is the Client Solution and Product Enablement Manager at Data8. He and his team focus on aiding their clients with onboarding the data quality solutions for the Power Platform that can be found on AppSource and ensuring they get to most from those solutions.",
+      "tagLine": "Data8 Limited, Client Solution and Product Enablement Manager",
+      "profilePicture": "https://cdn.sessionize.com/image/3017-400o400o1-V9N8FZGSSFkFhLydBBreAp.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/simon-wise-7947b6a/",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        1272136
+      ],
+      "fullName": "Simon Wise",
+      "categoryItems": [
+        451784
+      ],
+      "questionAnswers": []
+    },
+    {
       "id": "322ca7c2-91f3-443d-aa44-ac36a78776c3",
       "firstName": "Stephan",
       "lastName": "van Rooij",
@@ -4178,7 +4213,8 @@
         }
       ],
       "sessions": [
-        1173804
+        1173804,
+        1189712
       ],
       "fullName": "Vivian Voss",
       "categoryItems": [
