@@ -55,9 +55,9 @@ const gold = [
 ]
 const silver = [
   {
-    name: 'BrightSolid',
+    name: 'brone',
     logo: {
-      src: '/images/sponsors/2026/silver/brightsolid.jpeg',
+      src: '/images/sponsors/2026/silver/brone.png',
       width: 1250,
       height: 1250
     }
@@ -86,7 +86,14 @@ const silver = [
       height: 400
     }
   },
-  { label: 'Reserved' },
+  {
+   name: 'BrightSolid',
+   logo: {
+     src: '/images/sponsors/2026/silver/brightsolid.jpeg',
+     width: 1250,
+     height: 1250
+   }
+  },
   {},
   {},
   {}
