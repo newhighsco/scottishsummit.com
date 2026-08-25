@@ -55,9 +55,9 @@ const gold = [
 ]
 const silver = [
   {
-    name: 'brone',
+    name: 'BrightSolid',
     logo: {
-      src: '/images/sponsors/2026/silver/brone.png',
+      src: '/images/sponsors/2026/silver/brightsolid.jpeg',
       width: 1250,
       height: 1250
     }
@@ -96,6 +96,14 @@ const media = [
   {
     name: 'Riada',
     logo: { src: '/images/sponsors/2026/media/riada.png', width: 1250, height: 1250 }
+  },
+  {
+    name: 'DynamicsMinds',
+    logo: {
+      src: '/images/sponsors/2026/media/dynamicsminds-powered-by-docentric.png',
+      width: 1024,
+      height: 1024
+    }
   }
 ]
 
@@ -142,7 +150,7 @@ const SponsorsPage = () => (
       square
     />
     <SponsorsSection
-      title="Media"
+      title="Media & Community"
       id="media"
       size="desktop"
       sponsors={media}
