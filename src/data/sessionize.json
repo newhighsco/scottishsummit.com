@@ -13,10 +13,7 @@
         "50502a59-18d1-4436-b27b-b0a0f9fa0353",
         "14a50614-f33b-4dcb-b8a8-763a1623ecf2"
       ],
-      "categoryItems": [
-        450221,
-        450339
-      ],
+      "categoryItems": [450221, 450339],
       "questionAnswers": [],
       "roomId": 77530,
       "liveUrl": null,
@@ -38,10 +35,7 @@
         "3503700b-280d-45c3-b0c5-58a519aeec52",
         "4c125671-951b-4798-8e48-02a45be346e7"
       ],
-      "categoryItems": [
-        450222,
-        450340
-      ],
+      "categoryItems": [450222, 450340],
       "questionAnswers": [],
       "roomId": 77531,
       "liveUrl": null,
@@ -62,9 +56,7 @@
         "6766d8ed-94b6-4844-b7ca-9ef2fa43ef18",
         "2b768029-4322-4536-b05a-d9360ac972c5"
       ],
-      "categoryItems": [
-        450225
-      ],
+      "categoryItems": [450225],
       "questionAnswers": [],
       "roomId": 77532,
       "liveUrl": null,
@@ -86,9 +78,7 @@
         "da32b389-2414-4a36-bf0b-33783c408c93",
         "77f098aa-4fb7-46d0-83ee-6e868dc00616"
       ],
-      "categoryItems": [
-        450224
-      ],
+      "categoryItems": [450224],
       "questionAnswers": [],
       "roomId": 80334,
       "liveUrl": null,
@@ -110,9 +100,7 @@
         "edc9a64f-df3d-47f7-8b19-5d038dfc85c2",
         "bf14cd37-d3f2-4684-a367-888dd8ef0adf"
       ],
-      "categoryItems": [
-        450220
-      ],
+      "categoryItems": [450220],
       "questionAnswers": [],
       "roomId": 80335,
       "liveUrl": null,
@@ -133,9 +121,7 @@
         "53fb6ded-b4e7-40df-8efc-8574bf0788a3",
         "fcf4f835-b8b2-46bd-a763-206116a4b143"
       ],
-      "categoryItems": [
-        450220
-      ],
+      "categoryItems": [450220],
       "questionAnswers": [],
       "roomId": 77530,
       "liveUrl": null,
@@ -155,10 +141,7 @@
       "speakers": [
         "acbf2793-0aaa-4b5d-a0e6-9947363684ad"
       ],
-      "categoryItems": [
-        450222,
-        450339
-      ],
+      "categoryItems": [450222, 450339],
       "questionAnswers": [],
       "roomId": 77530,
       "liveUrl": null,
@@ -180,11 +163,7 @@
         "750a90ab-149c-4234-b50d-7da36a2c9765",
         "33124233-fed9-454b-a6c8-ffaf487f9f83"
       ],
-      "categoryItems": [
-        450225,
-        450340,
-        452078
-      ],
+      "categoryItems": [450225, 450340, 452078],
       "questionAnswers": [],
       "roomId": 77532,
       "liveUrl": null,
@@ -204,11 +183,7 @@
       "speakers": [
         "e8ad406b-9b1b-4e48-a7a6-cf84b616f2d9"
       ],
-      "categoryItems": [
-        450222,
-        450341,
-        452078
-      ],
+      "categoryItems": [450222, 450341, 452078],
       "questionAnswers": [],
       "roomId": 80334,
       "liveUrl": null,
@@ -228,11 +203,7 @@
       "speakers": [
         "87c2b40e-43c9-4aef-b053-14369976ea1b"
       ],
-      "categoryItems": [
-        450224,
-        450339,
-        452078
-      ],
+      "categoryItems": [450224, 450339, 452078],
       "questionAnswers": [],
       "roomId": 80335,
       "liveUrl": null,
@@ -253,11 +224,7 @@
         "f15c2bcd-a2d0-4b80-afd0-6daf884b1dd9",
         "6282aa05-a6cb-4410-a5e1-d7c11a52ec04"
       ],
-      "categoryItems": [
-        450223,
-        450341,
-        452078
-      ],
+      "categoryItems": [450223, 450341, 452078],
       "questionAnswers": [],
       "roomId": 80336,
       "liveUrl": null,
@@ -277,13 +244,30 @@
       "speakers": [
         "ffa9ecc3-3d38-4359-93fa-7103a2d05a0d"
       ],
-      "categoryItems": [
-        450222,
-        450340,
-        452078
-      ],
+      "categoryItems": [450222, 450340, 452078],
       "questionAnswers": [],
       "roomId": 80337,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1195398",
+      "title": "🚀 Copilot Cowork in Action: What It Is, How to Get It & What You Can Do With It",
+      "description": "A lot of people have heard of Cowork, but there is still a gap between hearing about it and actually knowing how to use it. How do you get access? What does it look like in practice? And what can it realistically help you with day to day?\r\n\r\nThis session is here to close that gap. Join us for a practical, demo-driven showcase where we walk through Cowork from the ground up. You will see it in action across real scenarios: managing your inbox, staying on top of meetings, collaborating with your team, and getting things done faster inside Microsoft 365. We will not just tell you what is possible, we will show you the reality.\r\n\r\nWhat makes this session a little different is that you will hear from both the Microsoft side and the partner side. That means you get a balanced view: the vision and direction behind Cowork, alongside real-world experience of adopting and using it in practice. Two perspectives, one session.\r\n\r\nBy the end, you will know exactly how to get access, what to expect when you first open it, and which use cases are worth exploring straight away. We will highlight the features that make the biggest difference in everyday work, demonstrate what those look like live, and give you a clear starting point to take back with you.\r\n\r\nThis session is for anyone who works in Microsoft 365 regularly, whether you are in IT, a power user, or just someone looking to get more out of the tools you already have. No deep technical background required. If you are curious about Cowork and want to leave with something concrete, this is the session for you.",
+      "startsAt": "2026-10-03T11:15:00",
+      "endsAt": "2026-10-03T12:00:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "e5db9e81-c381-49f5-aa43-e593615fecc4",
+        "4c125671-951b-4798-8e48-02a45be346e7"
+      ],
+      "categoryItems": [450222, 450339, 452078],
+      "questionAnswers": [],
+      "roomId": 77530,
       "liveUrl": null,
       "recordingUrl": null,
       "status": "Accepted",
@@ -302,11 +286,7 @@
         "2b2b4642-2ed0-427d-8865-9994aaffa9a3",
         "eb9e661a-dbb9-426d-85a2-148cc89e272b"
       ],
-      "categoryItems": [
-        450221,
-        450339,
-        452078
-      ],
+      "categoryItems": [450221, 450339, 452078],
       "questionAnswers": [],
       "roomId": 77531,
       "liveUrl": null,
@@ -326,38 +306,9 @@
       "speakers": [
         "fc6c18ea-4343-4a25-a7ee-b8ae06da3d03"
       ],
-      "categoryItems": [
-        450224,
-        450340,
-        452078
-      ],
+      "categoryItems": [450224, 450340, 452078],
       "questionAnswers": [],
       "roomId": 77532,
-      "liveUrl": null,
-      "recordingUrl": null,
-      "status": "Accepted",
-      "isInformed": true,
-      "isConfirmed": true
-    },
-    {
-      "id": "1195398",
-      "title": "🚀 Copilot Cowork in Action: What It Is, How to Get It & What You Can Do With It",
-      "description": "A lot of people have heard of Cowork, but there is still a gap between hearing about it and actually knowing how to use it. How do you get access? What does it look like in practice? And what can it realistically help you with day to day?\r\n\r\nThis session is here to close that gap. Join us for a practical, demo-driven showcase where we walk through Cowork from the ground up. You will see it in action across real scenarios: managing your inbox, staying on top of meetings, collaborating with your team, and getting things done faster inside Microsoft 365. We will not just tell you what is possible, we will show you the reality.\r\n\r\nWhat makes this session a little different is that you will hear from both the Microsoft side and the partner side. That means you get a balanced view: the vision and direction behind Cowork, alongside real-world experience of adopting and using it in practice. Two perspectives, one session.\r\n\r\nBy the end, you will know exactly how to get access, what to expect when you first open it, and which use cases are worth exploring straight away. We will highlight the features that make the biggest difference in everyday work, demonstrate what those look like live, and give you a clear starting point to take back with you.\r\n\r\nThis session is for anyone who works in Microsoft 365 regularly, whether you are in IT, a power user, or just someone looking to get more out of the tools you already have. No deep technical background required. If you are curious about Cowork and want to leave with something concrete, this is the session for you.",
-      "startsAt": "2026-10-03T11:15:00",
-      "endsAt": "2026-10-03T12:00:00",
-      "isServiceSession": false,
-      "isPlenumSession": false,
-      "speakers": [
-        "e5db9e81-c381-49f5-aa43-e593615fecc4",
-        "4c125671-951b-4798-8e48-02a45be346e7"
-      ],
-      "categoryItems": [
-        450222,
-        450339,
-        452078
-      ],
-      "questionAnswers": [],
-      "roomId": 80334,
       "liveUrl": null,
       "recordingUrl": null,
       "status": "Accepted",
@@ -375,11 +326,7 @@
       "speakers": [
         "ad9fccf9-4687-4194-9ad9-8f0c8378127d"
       ],
-      "categoryItems": [
-        450225,
-        450340,
-        452078
-      ],
+      "categoryItems": [450225, 450340, 452078],
       "questionAnswers": [],
       "roomId": 80335,
       "liveUrl": null,
@@ -399,11 +346,7 @@
       "speakers": [
         "9c89c995-21b0-4ec3-be50-ecf1811c26ba"
       ],
-      "categoryItems": [
-        450223,
-        450340,
-        452078
-      ],
+      "categoryItems": [450223, 450340, 452078],
       "questionAnswers": [],
       "roomId": 80336,
       "liveUrl": null,
@@ -423,11 +366,7 @@
       "speakers": [
         "2308b3b4-c81a-44dd-a531-44002fb5ac90"
       ],
-      "categoryItems": [
-        450225,
-        450341,
-        452078
-      ],
+      "categoryItems": [450225, 450341, 452078],
       "questionAnswers": [],
       "roomId": 80337,
       "liveUrl": null,
@@ -447,11 +386,7 @@
       "speakers": [
         "8927b4e6-6b26-4306-adad-16f29baf5db9"
       ],
-      "categoryItems": [
-        450220,
-        450339,
-        452078
-      ],
+      "categoryItems": [450220, 450339, 452078],
       "questionAnswers": [],
       "roomId": 77530,
       "liveUrl": null,
@@ -471,11 +406,7 @@
       "speakers": [
         "4a19a90f-5acf-4966-9bb6-18fd3014c0cd"
       ],
-      "categoryItems": [
-        450222,
-        450340,
-        452078
-      ],
+      "categoryItems": [450222, 450340, 452078],
       "questionAnswers": [],
       "roomId": 77531,
       "liveUrl": null,
@@ -495,11 +426,7 @@
       "speakers": [
         "8ec1d65d-7fd4-4abd-906b-8629b899b043"
       ],
-      "categoryItems": [
-        450224,
-        450340,
-        452078
-      ],
+      "categoryItems": [450224, 450340, 452078],
       "questionAnswers": [],
       "roomId": 77532,
       "liveUrl": null,
@@ -519,11 +446,7 @@
       "speakers": [
         "f1d5ed3f-28c8-411c-96ed-c9f9921ff31f"
       ],
-      "categoryItems": [
-        450223,
-        450340,
-        452078
-      ],
+      "categoryItems": [450223, 450340, 452078],
       "questionAnswers": [],
       "roomId": 80334,
       "liveUrl": null,
@@ -543,11 +466,7 @@
       "speakers": [
         "c3c152a7-494c-412e-9580-1ea415e4411c"
       ],
-      "categoryItems": [
-        450225,
-        450340,
-        452078
-      ],
+      "categoryItems": [450225, 450340, 452078],
       "questionAnswers": [],
       "roomId": 80335,
       "liveUrl": null,
@@ -568,11 +487,7 @@
         "eb5e6fb4-0e39-41fa-91f1-41f647c12579",
         "ace86fbd-8629-49a0-b3a0-12f232ff7843"
       ],
-      "categoryItems": [
-        450222,
-        450340,
-        452078
-      ],
+      "categoryItems": [450222, 450340, 452078],
       "questionAnswers": [],
       "roomId": 80336,
       "liveUrl": null,
@@ -593,11 +508,7 @@
         "ef0edfec-5000-4385-b237-967eea1cec33",
         "f479e0cd-f61c-4e58-8a40-08bb261664a6"
       ],
-      "categoryItems": [
-        450222,
-        450339,
-        452078
-      ],
+      "categoryItems": [450222, 450339, 452078],
       "questionAnswers": [],
       "roomId": 80337,
       "liveUrl": null,
@@ -617,11 +528,7 @@
       "speakers": [
         "8ca492a2-c473-40d9-bbce-599f930766c4"
       ],
-      "categoryItems": [
-        450222,
-        450339,
-        452079
-      ],
+      "categoryItems": [450222, 450339, 452079],
       "questionAnswers": [],
       "roomId": 77530,
       "liveUrl": null,
@@ -641,11 +548,7 @@
       "speakers": [
         "322ca7c2-91f3-443d-aa44-ac36a78776c3"
       ],
-      "categoryItems": [
-        450223,
-        450339,
-        452079
-      ],
+      "categoryItems": [450223, 450339, 452079],
       "questionAnswers": [],
       "roomId": 77531,
       "liveUrl": null,
@@ -666,11 +569,7 @@
         "01a94a88-cb24-4b81-b176-27c469bf8d29",
         "e5db9e81-c381-49f5-aa43-e593615fecc4"
       ],
-      "categoryItems": [
-        450220,
-        450340,
-        452079
-      ],
+      "categoryItems": [450220, 450340, 452079],
       "questionAnswers": [],
       "roomId": 77532,
       "liveUrl": null,
@@ -690,11 +589,7 @@
       "speakers": [
         "c81e9beb-4be3-4139-b4f7-cf4985713af4"
       ],
-      "categoryItems": [
-        450222,
-        450340,
-        452079
-      ],
+      "categoryItems": [450222, 450340, 452079],
       "questionAnswers": [],
       "roomId": 80336,
       "liveUrl": null,
@@ -714,11 +609,7 @@
       "speakers": [
         "e6a8eea0-b8c5-45ff-950f-982ef8392096"
       ],
-      "categoryItems": [
-        450222,
-        450340,
-        452079
-      ],
+      "categoryItems": [450222, 450340, 452079],
       "questionAnswers": [],
       "roomId": 80337,
       "liveUrl": null,
@@ -738,11 +629,7 @@
       "speakers": [
         "e139c7aa-50a3-4fb5-bc8a-6985bbe37646"
       ],
-      "categoryItems": [
-        450220,
-        450339,
-        452079
-      ],
+      "categoryItems": [450220, 450339, 452079],
       "questionAnswers": [],
       "roomId": 77530,
       "liveUrl": null,
@@ -762,11 +649,7 @@
       "speakers": [
         "e1e7ff93-c865-4d85-bee8-3ba357f5d768"
       ],
-      "categoryItems": [
-        450224,
-        450340,
-        452079
-      ],
+      "categoryItems": [450224, 450340, 452079],
       "questionAnswers": [],
       "roomId": 77531,
       "liveUrl": null,
@@ -786,11 +669,7 @@
       "speakers": [
         "edc9a64f-df3d-47f7-8b19-5d038dfc85c2"
       ],
-      "categoryItems": [
-        450220,
-        450339,
-        452079
-      ],
+      "categoryItems": [450220, 450339, 452079],
       "questionAnswers": [],
       "roomId": 80336,
       "liveUrl": null,
@@ -810,11 +689,7 @@
       "speakers": [
         "a11cc35c-8ebc-4cad-8a41-19699948a3e3"
       ],
-      "categoryItems": [
-        450222,
-        450340,
-        452079
-      ],
+      "categoryItems": [450222, 450340, 452079],
       "questionAnswers": [],
       "roomId": 80337,
       "liveUrl": null,
@@ -834,11 +709,7 @@
       "speakers": [
         "a26a7cb1-94f2-459d-82c6-c6e7e0fb1201"
       ],
-      "categoryItems": [
-        450222,
-        450340,
-        452078
-      ],
+      "categoryItems": [450222, 450340, 452078],
       "questionAnswers": [],
       "roomId": 77530,
       "liveUrl": null,
@@ -859,11 +730,7 @@
         "4c125671-951b-4798-8e48-02a45be346e7",
         "3503700b-280d-45c3-b0c5-58a519aeec52"
       ],
-      "categoryItems": [
-        450222,
-        450341,
-        452078
-      ],
+      "categoryItems": [450222, 450341, 452078],
       "questionAnswers": [],
       "roomId": 77531,
       "liveUrl": null,
@@ -883,11 +750,7 @@
       "speakers": [
         "d5ade1af-a642-43c6-9a0b-56f9c45ebae9"
       ],
-      "categoryItems": [
-        450221,
-        450341,
-        452078
-      ],
+      "categoryItems": [450221, 450341, 452078],
       "questionAnswers": [],
       "roomId": 77532,
       "liveUrl": null,
@@ -909,11 +772,7 @@
         "53fb6ded-b4e7-40df-8efc-8574bf0788a3",
         "1adcec72-11df-44c0-b75f-53a25bca63ff"
       ],
-      "categoryItems": [
-        450222,
-        450340,
-        452078
-      ],
+      "categoryItems": [450222, 450340, 452078],
       "questionAnswers": [],
       "roomId": 80334,
       "liveUrl": null,
@@ -935,11 +794,7 @@
         "85cbafc5-4f92-4c90-8676-630fa395a16f",
         "01a88416-06f6-4fca-96ed-7320a05f0b4c"
       ],
-      "categoryItems": [
-        450220,
-        450339,
-        452078
-      ],
+      "categoryItems": [450220, 450339, 452078],
       "questionAnswers": [],
       "roomId": 80335,
       "liveUrl": null,
@@ -959,11 +814,7 @@
       "speakers": [
         "853563e5-81e5-49d2-b2f7-fc0c399bd6da"
       ],
-      "categoryItems": [
-        450223,
-        450341,
-        452078
-      ],
+      "categoryItems": [450223, 450341, 452078],
       "questionAnswers": [],
       "roomId": 80336,
       "liveUrl": null,
@@ -983,11 +834,7 @@
       "speakers": [
         "13a01903-25f4-463d-a17c-8479f1b943e9"
       ],
-      "categoryItems": [
-        450225,
-        450340,
-        452078
-      ],
+      "categoryItems": [450225, 450340, 452078],
       "questionAnswers": [],
       "roomId": 80337,
       "liveUrl": null,
@@ -1007,11 +854,7 @@
       "speakers": [
         "aeb980aa-db9e-4699-b10e-4089d78b2847"
       ],
-      "categoryItems": [
-        450221,
-        450339,
-        452078
-      ],
+      "categoryItems": [450221, 450339, 452078],
       "questionAnswers": [],
       "roomId": 77530,
       "liveUrl": null,
@@ -1031,11 +874,7 @@
       "speakers": [
         "76f6b34d-e530-4a49-a5ae-e0ab3d03b14d"
       ],
-      "categoryItems": [
-        450221,
-        450340,
-        452078
-      ],
+      "categoryItems": [450221, 450340, 452078],
       "questionAnswers": [],
       "roomId": 77531,
       "liveUrl": null,
@@ -1055,11 +894,7 @@
       "speakers": [
         "88ca0c9d-751c-4d65-b837-ec2993dedecd"
       ],
-      "categoryItems": [
-        450224,
-        450340,
-        452078
-      ],
+      "categoryItems": [450224, 450340, 452078],
       "questionAnswers": [],
       "roomId": 77532,
       "liveUrl": null,
@@ -1079,11 +914,7 @@
       "speakers": [
         "e9db87c2-f8f0-4afc-b52f-27cf7c4499b5"
       ],
-      "categoryItems": [
-        450220,
-        450339,
-        452078
-      ],
+      "categoryItems": [450220, 450339, 452078],
       "questionAnswers": [],
       "roomId": 80334,
       "liveUrl": null,
@@ -1104,11 +935,7 @@
         "2db4d3f6-13f8-4f1d-a805-82ea3513e82e",
         "1826202b-6cf1-48d8-a0a7-ae594b978c0e"
       ],
-      "categoryItems": [
-        450223,
-        450341,
-        452078
-      ],
+      "categoryItems": [450223, 450341, 452078],
       "questionAnswers": [],
       "roomId": 80335,
       "liveUrl": null,
@@ -1129,11 +956,7 @@
         "fcf4f835-b8b2-46bd-a763-206116a4b143",
         "53fb6ded-b4e7-40df-8efc-8574bf0788a3"
       ],
-      "categoryItems": [
-        450220,
-        450339,
-        452078
-      ],
+      "categoryItems": [450220, 450339, 452078],
       "questionAnswers": [],
       "roomId": 80336,
       "liveUrl": null,
@@ -1153,12 +976,7 @@
       "speakers": [
         "37e3c8f0-d7fa-4351-a0c6-886bf4cbc1cc"
       ],
-      "categoryItems": [
-        450225,
-        450339,
-        452078,
-        452079
-      ],
+      "categoryItems": [450225, 450339, 452078, 452079],
       "questionAnswers": [],
       "roomId": 80337,
       "liveUrl": null,
@@ -1179,12 +997,7 @@
         "5b245335-8578-464c-a998-045889616a8a",
         "edc9a64f-df3d-47f7-8b19-5d038dfc85c2"
       ],
-      "categoryItems": [
-        450222,
-        450340,
-        452078,
-        452079
-      ],
+      "categoryItems": [450222, 450340, 452078, 452079],
       "questionAnswers": [],
       "roomId": 77530,
       "liveUrl": null,
@@ -1204,11 +1017,7 @@
       "speakers": [
         "eec0c806-6001-4a68-bd70-132189870c4b"
       ],
-      "categoryItems": [
-        450221,
-        450341,
-        452078
-      ],
+      "categoryItems": [450221, 450341, 452078],
       "questionAnswers": [],
       "roomId": 77531,
       "liveUrl": null,
@@ -1229,11 +1038,7 @@
         "8a1f9d31-5905-4441-8ebd-e127ea97cbc7",
         "76f6b34d-e530-4a49-a5ae-e0ab3d03b14d"
       ],
-      "categoryItems": [
-        450222,
-        450340,
-        452078
-      ],
+      "categoryItems": [450222, 450340, 452078],
       "questionAnswers": [],
       "roomId": 77532,
       "liveUrl": null,
@@ -1254,11 +1059,7 @@
         "2b5d7991-1509-49be-aebd-057fd70806b2",
         "3392ea59-94ba-406f-a640-0e4497d67002"
       ],
-      "categoryItems": [
-        450222,
-        450340,
-        452078
-      ],
+      "categoryItems": [450222, 450340, 452078],
       "questionAnswers": [],
       "roomId": 80334,
       "liveUrl": null,
@@ -1278,11 +1079,7 @@
       "speakers": [
         "fc3a497e-0843-4c5a-9edb-73fdb916c344"
       ],
-      "categoryItems": [
-        450222,
-        450340,
-        452078
-      ],
+      "categoryItems": [450222, 450340, 452078],
       "questionAnswers": [],
       "roomId": 80335,
       "liveUrl": null,
@@ -1302,11 +1099,7 @@
       "speakers": [
         "279a7ce4-87e9-4099-b121-a39ebad80fb0"
       ],
-      "categoryItems": [
-        450224,
-        450340,
-        452078
-      ],
+      "categoryItems": [450224, 450340, 452078],
       "questionAnswers": [],
       "roomId": 80336,
       "liveUrl": null,
@@ -1326,11 +1119,7 @@
       "speakers": [
         "f6f610c8-ffff-4efd-8e32-f5a8de33eff6"
       ],
-      "categoryItems": [
-        450222,
-        450340,
-        452078
-      ],
+      "categoryItems": [450222, 450340, 452078],
       "questionAnswers": [],
       "roomId": 80337,
       "liveUrl": null,
@@ -1354,11 +1143,7 @@
         "6b3e13ba-28b8-45b8-8101-3bb206745743",
         "b2aa67b1-d97b-4687-8613-c24a3f209801"
       ],
-      "categoryItems": [
-        450220,
-        450340,
-        452078
-      ],
+      "categoryItems": [450220, 450340, 452078],
       "questionAnswers": [],
       "roomId": 77530,
       "liveUrl": null,
@@ -1378,11 +1163,7 @@
       "speakers": [
         "620c157e-37bb-4284-86e7-bbfbd6c4aadd"
       ],
-      "categoryItems": [
-        450221,
-        450339,
-        452078
-      ],
+      "categoryItems": [450221, 450339, 452078],
       "questionAnswers": [],
       "roomId": 77531,
       "liveUrl": null,
@@ -1402,11 +1183,7 @@
       "speakers": [
         "46f2fb37-673f-4604-83f8-58632ed2c24b"
       ],
-      "categoryItems": [
-        450222,
-        450340,
-        452078
-      ],
+      "categoryItems": [450222, 450340, 452078],
       "questionAnswers": [],
       "roomId": 77532,
       "liveUrl": null,
@@ -1426,11 +1203,7 @@
       "speakers": [
         "cf653446-d93f-4da2-8278-291320c1236f"
       ],
-      "categoryItems": [
-        450223,
-        450340,
-        452078
-      ],
+      "categoryItems": [450223, 450340, 452078],
       "questionAnswers": [],
       "roomId": 80335,
       "liveUrl": null,
@@ -1450,11 +1223,7 @@
       "speakers": [
         "c85af3e6-6543-488a-a5ae-775fc7365535"
       ],
-      "categoryItems": [
-        450224,
-        450341,
-        452078
-      ],
+      "categoryItems": [450224, 450341, 452078],
       "questionAnswers": [],
       "roomId": 80336,
       "liveUrl": null,
@@ -1474,11 +1243,7 @@
       "speakers": [
         "82b8b63b-5328-4363-8472-0f24651d78b6"
       ],
-      "categoryItems": [
-        450222,
-        450341,
-        452078
-      ],
+      "categoryItems": [450222, 450341, 452078],
       "questionAnswers": [],
       "roomId": 80337,
       "liveUrl": null,
@@ -1519,15 +1284,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1210618
-      ],
+      "sessions": [1210618],
       "fullName": "Aasne Holtklimpen",
-      "categoryItems": [
-        451784,
-        451786,
-        451789
-      ],
+      "categoryItems": [451784, 451786, 451789],
       "questionAnswers": []
     },
     {
@@ -1550,14 +1309,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1183611
-      ],
+      "sessions": [1183611],
       "fullName": "AJ Zafar",
-      "categoryItems": [
-        451784,
-        451789
-      ],
+      "categoryItems": [451784, 451789],
       "questionAnswers": []
     },
     {
@@ -1585,14 +1339,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1220526
-      ],
+      "sessions": [1220526],
       "fullName": "Al Eardley",
-      "categoryItems": [
-        451784,
-        451787
-      ],
+      "categoryItems": [451784, 451787],
       "questionAnswers": []
     },
     {
@@ -1615,14 +1364,9 @@
           "linkType": "Blog"
         }
       ],
-      "sessions": [
-        1215640
-      ],
+      "sessions": [1215640],
       "fullName": "Andy Kemp",
-      "categoryItems": [
-        451784,
-        451789
-      ],
+      "categoryItems": [451784, 451789],
       "questionAnswers": []
     },
     {
@@ -1650,13 +1394,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1188968
-      ],
+      "sessions": [1188968],
       "fullName": "Anita Squires",
-      "categoryItems": [
-        451784
-      ],
+      "categoryItems": [451784],
       "questionAnswers": []
     },
     {
@@ -1684,14 +1424,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1223169
-      ],
+      "sessions": [1223169],
       "fullName": "Anoop Tatti",
-      "categoryItems": [
-        451784,
-        451786
-      ],
+      "categoryItems": [451784, 451786],
       "questionAnswers": []
     },
     {
@@ -1719,15 +1454,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1252943
-      ],
+      "sessions": [1252943],
       "fullName": "Anouck Fierens",
-      "categoryItems": [
-        451784,
-        451786,
-        451789
-      ],
+      "categoryItems": [451784, 451786, 451789],
       "questionAnswers": []
     },
     {
@@ -1755,14 +1484,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1301878
-      ],
+      "sessions": [1301878],
       "fullName": "Anthony Mashford",
-      "categoryItems": [
-        451784,
-        451786
-      ],
+      "categoryItems": [451784, 451786],
       "questionAnswers": []
     },
     {
@@ -1795,9 +1519,7 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1252940
-      ],
+      "sessions": [1252940],
       "fullName": "April Dunnam",
       "categoryItems": [],
       "questionAnswers": []
@@ -1832,15 +1554,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1196772,
-        1187551
-      ],
+      "sessions": [1196772, 1187551],
       "fullName": "Areti Iles",
-      "categoryItems": [
-        451784,
-        451786
-      ],
+      "categoryItems": [451784, 451786],
       "questionAnswers": []
     },
     {
@@ -1863,14 +1579,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1189712
-      ],
+      "sessions": [1189712],
       "fullName": "Björn Zahnow",
-      "categoryItems": [
-        451784,
-        451786
-      ],
+      "categoryItems": [451784, 451786],
       "questionAnswers": []
     },
     {
@@ -1882,13 +1593,9 @@
       "profilePicture": "https://cdn.sessionize.com/image/e895-400o400o1-VUeecJQ2uXjevUU28vDL7a.png",
       "isTopSpeaker": false,
       "links": [],
-      "sessions": [
-        1221284
-      ],
+      "sessions": [1221284],
       "fullName": "Bobby Wessels",
-      "categoryItems": [
-        451783
-      ],
+      "categoryItems": [451783],
       "questionAnswers": []
     },
     {
@@ -1921,9 +1628,7 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1183522
-      ],
+      "sessions": [1183522],
       "fullName": "Carl Cookson",
       "categoryItems": [],
       "questionAnswers": []
@@ -1958,14 +1663,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1193827
-      ],
+      "sessions": [1193827],
       "fullName": "Charles Sexton",
-      "categoryItems": [
-        451784,
-        451786
-      ],
+      "categoryItems": [451784, 451786],
       "questionAnswers": []
     },
     {
@@ -1998,15 +1698,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1217055
-      ],
+      "sessions": [1217055],
       "fullName": "Charlie Gough",
-      "categoryItems": [
-        451784,
-        451786,
-        451789
-      ],
+      "categoryItems": [451784, 451786, 451789],
       "questionAnswers": []
     },
     {
@@ -2039,14 +1733,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1252946
-      ],
+      "sessions": [1252946],
       "fullName": "Chris Lloyd-Jones",
-      "categoryItems": [
-        451784,
-        451786
-      ],
+      "categoryItems": [451784, 451786],
       "questionAnswers": []
     },
     {
@@ -2058,13 +1747,9 @@
       "profilePicture": "https://cdn.sessionize.com/image/e373-400o400o1-wkxStGzvHJsW8wfwzxcdu6.jpg",
       "isTopSpeaker": false,
       "links": [],
-      "sessions": [
-        1308273
-      ],
+      "sessions": [1308273],
       "fullName": "Cliodhna Betts",
-      "categoryItems": [
-        451783
-      ],
+      "categoryItems": [451783],
       "questionAnswers": []
     },
     {
@@ -2097,14 +1782,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1180217
-      ],
+      "sessions": [1180217],
       "fullName": "Craig White",
-      "categoryItems": [
-        451784,
-        451786
-      ],
+      "categoryItems": [451784, 451786],
       "questionAnswers": []
     },
     {
@@ -2127,14 +1807,9 @@
           "linkType": "Blog"
         }
       ],
-      "sessions": [
-        1215438
-      ],
+      "sessions": [1215438],
       "fullName": "Damien Bird",
-      "categoryItems": [
-        451784,
-        451787
-      ],
+      "categoryItems": [451784, 451787],
       "questionAnswers": []
     },
     {
@@ -2157,15 +1832,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1196772,
-        1183522
-      ],
+      "sessions": [1196772, 1183522],
       "fullName": "Dan Barber",
-      "categoryItems": [
-        451784,
-        451786
-      ],
+      "categoryItems": [451784, 451786],
       "questionAnswers": []
     },
     {
@@ -2188,17 +1857,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1252940,
-        1195398,
-        1177020
-      ],
+      "sessions": [1252940, 1195398, 1177020],
       "fullName": "Daniel Laskewitz",
-      "categoryItems": [
-        451784,
-        451787,
-        451789
-      ],
+      "categoryItems": [451784, 451787, 451789],
       "questionAnswers": []
     },
     {
@@ -2231,14 +1892,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1182943
-      ],
+      "sessions": [1182943],
       "fullName": "Dennes Torres",
-      "categoryItems": [
-        451784,
-        451789
-      ],
+      "categoryItems": [451784, 451789],
       "questionAnswers": []
     },
     {
@@ -2261,13 +1917,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1176525
-      ],
+      "sessions": [1176525],
       "fullName": "Dennis Bottjer",
-      "categoryItems": [
-        451784
-      ],
+      "categoryItems": [451784],
       "questionAnswers": []
     },
     {
@@ -2300,14 +1952,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1173456
-      ],
+      "sessions": [1173456],
       "fullName": "Edine Olijve-Watkinson",
-      "categoryItems": [
-        451784,
-        451786
-      ],
+      "categoryItems": [451784, 451786],
       "questionAnswers": []
     },
     {
@@ -2330,14 +1977,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1180217
-      ],
+      "sessions": [1180217],
       "fullName": "Emma-Claire Shaw",
-      "categoryItems": [
-        451784,
-        451786
-      ],
+      "categoryItems": [451784, 451786],
       "questionAnswers": []
     },
     {
@@ -2370,13 +2012,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1183522
-      ],
+      "sessions": [1183522],
       "fullName": "Franco Musso",
-      "categoryItems": [
-        451784
-      ],
+      "categoryItems": [451784],
       "questionAnswers": []
     },
     {
@@ -2404,13 +2042,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1182001
-      ],
+      "sessions": [1182001],
       "fullName": "Gemma Adair",
-      "categoryItems": [
-        451784
-      ],
+      "categoryItems": [451784],
       "questionAnswers": []
     },
     {
@@ -2443,14 +2077,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1188024
-      ],
+      "sessions": [1188024],
       "fullName": "Hans Muns",
-      "categoryItems": [
-        451784,
-        451789
-      ],
+      "categoryItems": [451784, 451789],
       "questionAnswers": []
     },
     {
@@ -2478,13 +2107,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1183522
-      ],
+      "sessions": [1183522],
       "fullName": "Heather Perriam",
-      "categoryItems": [
-        451784
-      ],
+      "categoryItems": [451784],
       "questionAnswers": []
     },
     {
@@ -2517,13 +2142,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1196772
-      ],
+      "sessions": [1196772],
       "fullName": "Ian Tweedie",
-      "categoryItems": [
-        451784
-      ],
+      "categoryItems": [451784],
       "questionAnswers": []
     },
     {
@@ -2546,9 +2167,7 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1173856
-      ],
+      "sessions": [1173856],
       "fullName": "Jay Fitzhenry",
       "categoryItems": [],
       "questionAnswers": []
@@ -2588,15 +2207,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1183611
-      ],
+      "sessions": [1183611],
       "fullName": "Joe Griffin",
-      "categoryItems": [
-        451784,
-        451786,
-        451789
-      ],
+      "categoryItems": [451784, 451786, 451789],
       "questionAnswers": []
     },
     {
@@ -2629,15 +2242,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1252947,
-        1199936
-      ],
+      "sessions": [1252947, 1199936],
       "fullName": "Jon Jarvis",
-      "categoryItems": [
-        451784,
-        451786
-      ],
+      "categoryItems": [451784, 451786],
       "questionAnswers": []
     },
     {
@@ -2660,14 +2267,9 @@
           "linkType": "Blog"
         }
       ],
-      "sessions": [
-        1252946
-      ],
+      "sessions": [1252946],
       "fullName": "Josh McDonald",
-      "categoryItems": [
-        451784,
-        451786
-      ],
+      "categoryItems": [451784, 451786],
       "questionAnswers": []
     },
     {
@@ -2685,13 +2287,9 @@
           "linkType": "LinkedIn"
         }
       ],
-      "sessions": [
-        1301878
-      ],
+      "sessions": [1301878],
       "fullName": "Joss Mureddu",
-      "categoryItems": [
-        451784
-      ],
+      "categoryItems": [451784],
       "questionAnswers": []
     },
     {
@@ -2724,15 +2322,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1308273
-      ],
+      "sessions": [1308273],
       "fullName": "Keith Atherton",
-      "categoryItems": [
-        451784,
-        451786,
-        451789
-      ],
+      "categoryItems": [451784, 451786, 451789],
       "questionAnswers": []
     },
     {
@@ -2765,16 +2357,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1252939,
-        1209086,
-        1173456
-      ],
+      "sessions": [1252939, 1209086, 1173456],
       "fullName": "Kevin McDonnell",
-      "categoryItems": [
-        451784,
-        451786
-      ],
+      "categoryItems": [451784, 451786],
       "questionAnswers": []
     },
     {
@@ -2807,14 +2392,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1198712
-      ],
+      "sessions": [1198712],
       "fullName": "Kimmo Koski",
-      "categoryItems": [
-        451784,
-        451786
-      ],
+      "categoryItems": [451784, 451786],
       "questionAnswers": []
     },
     {
@@ -2852,14 +2432,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1181352
-      ],
+      "sessions": [1181352],
       "fullName": "Laura Kokkarinen",
-      "categoryItems": [
-        451784,
-        451786
-      ],
+      "categoryItems": [451784, 451786],
       "questionAnswers": []
     },
     {
@@ -2892,14 +2467,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1221392
-      ],
+      "sessions": [1221392],
       "fullName": "Leon Armston",
-      "categoryItems": [
-        451784,
-        451786
-      ],
+      "categoryItems": [451784, 451786],
       "questionAnswers": []
     },
     {
@@ -2932,14 +2502,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1222252
-      ],
+      "sessions": [1222252],
       "fullName": "Lindsay Shelton",
-      "categoryItems": [
-        451784,
-        451786
-      ],
+      "categoryItems": [451784, 451786],
       "questionAnswers": []
     },
     {
@@ -2962,9 +2527,7 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1252947
-      ],
+      "sessions": [1252947],
       "fullName": "Luke Evans",
       "categoryItems": [],
       "questionAnswers": []
@@ -2999,14 +2562,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1205888
-      ],
+      "sessions": [1205888],
       "fullName": "Marcin Siewnicki",
-      "categoryItems": [
-        451784,
-        451786
-      ],
+      "categoryItems": [451784, 451786],
       "questionAnswers": []
     },
     {
@@ -3039,15 +2597,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1252947
-      ],
+      "sessions": [1252947],
       "fullName": "Marcus Burnap",
-      "categoryItems": [
-        451784,
-        451786,
-        451789
-      ],
+      "categoryItems": [451784, 451786, 451789],
       "questionAnswers": []
     },
     {
@@ -3070,15 +2622,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1174142
-      ],
+      "sessions": [1174142],
       "fullName": "Marijn Somers",
-      "categoryItems": [
-        451784,
-        451786,
-        451789
-      ],
+      "categoryItems": [451784, 451786, 451789],
       "questionAnswers": []
     },
     {
@@ -3111,15 +2657,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1272136,
-        1213565
-      ],
+      "sessions": [1272136, 1213565],
       "fullName": "Mark Carrington",
-      "categoryItems": [
-        451784,
-        451786
-      ],
+      "categoryItems": [451784, 451786],
       "questionAnswers": []
     },
     {
@@ -3152,9 +2692,7 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1252943
-      ],
+      "sessions": [1252943],
       "fullName": "Markus Franz",
       "categoryItems": [],
       "questionAnswers": []
@@ -3168,9 +2706,7 @@
       "profilePicture": "https://cdn.sessionize.com/image/4b05-400o400o1-fBk8G42KsUExuHXf38FHhi.jpg",
       "isTopSpeaker": false,
       "links": [],
-      "sessions": [
-        1302541
-      ],
+      "sessions": [1302541],
       "fullName": "Martin Woodward",
       "categoryItems": [],
       "questionAnswers": []
@@ -3205,15 +2741,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1252940,
-        1177020
-      ],
+      "sessions": [1252940, 1177020],
       "fullName": "Mats Necker",
-      "categoryItems": [
-        451784,
-        451786
-      ],
+      "categoryItems": [451784, 451786],
       "questionAnswers": []
     },
     {
@@ -3241,11 +2771,7 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1253880,
-        1272136,
-        1223846
-      ],
+      "sessions": [1253880, 1272136, 1223846],
       "fullName": "Matt Beard",
       "categoryItems": [],
       "questionAnswers": []
@@ -3275,15 +2801,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1221436
-      ],
+      "sessions": [1221436],
       "fullName": "Matt Collins-Jones",
-      "categoryItems": [
-        451784,
-        451786,
-        451789
-      ],
+      "categoryItems": [451784, 451786, 451789],
       "questionAnswers": []
     },
     {
@@ -3306,15 +2826,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1195398,
-        1185280
-      ],
+      "sessions": [1195398, 1185280],
       "fullName": "Melissa Hale",
-      "categoryItems": [
-        451784,
-        451786
-      ],
+      "categoryItems": [451784, 451786],
       "questionAnswers": []
     },
     {
@@ -3337,9 +2851,7 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1218279
-      ],
+      "sessions": [1218279],
       "fullName": "Michael Seidl",
       "categoryItems": [],
       "questionAnswers": []
@@ -3374,14 +2886,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1220619
-      ],
+      "sessions": [1220619],
       "fullName": "Michaël Maillot",
-      "categoryItems": [
-        451784,
-        451786
-      ],
+      "categoryItems": [451784, 451786],
       "questionAnswers": []
     },
     {
@@ -3414,14 +2921,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1217798
-      ],
+      "sessions": [1217798],
       "fullName": "Mike Hartley",
-      "categoryItems": [
-        451784,
-        451786
-      ],
+      "categoryItems": [451784, 451786],
       "questionAnswers": []
     },
     {
@@ -3454,14 +2956,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1222658
-      ],
+      "sessions": [1222658],
       "fullName": "Myron Helgering",
-      "categoryItems": [
-        451784,
-        451786
-      ],
+      "categoryItems": [451784, 451786],
       "questionAnswers": []
     },
     {
@@ -3489,14 +2986,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1210543
-      ],
+      "sessions": [1210543],
       "fullName": "Nathan Sweeney",
-      "categoryItems": [
-        451784,
-        451786
-      ],
+      "categoryItems": [451784, 451786],
       "questionAnswers": []
     },
     {
@@ -3534,15 +3026,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1185280
-      ],
+      "sessions": [1185280],
       "fullName": "Nick Doelman",
-      "categoryItems": [
-        451784,
-        451786,
-        451789
-      ],
+      "categoryItems": [451784, 451786, 451789],
       "questionAnswers": []
     },
     {
@@ -3570,14 +3056,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1221204
-      ],
+      "sessions": [1221204],
       "fullName": "Nick Woodley",
-      "categoryItems": [
-        451785,
-        451789
-      ],
+      "categoryItems": [451785, 451789],
       "questionAnswers": []
     },
     {
@@ -3605,15 +3086,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1188453
-      ],
+      "sessions": [1188453],
       "fullName": "Onyinye Madubuko",
-      "categoryItems": [
-        451784,
-        451786,
-        451789
-      ],
+      "categoryItems": [451784, 451786, 451789],
       "questionAnswers": []
     },
     {
@@ -3646,14 +3121,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1217247
-      ],
+      "sessions": [1217247],
       "fullName": "Patrick Wahlmueller",
-      "categoryItems": [
-        451784,
-        451786
-      ],
+      "categoryItems": [451784, 451786],
       "questionAnswers": []
     },
     {
@@ -3681,15 +3151,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1210618
-      ],
+      "sessions": [1210618],
       "fullName": "Per-Torben Sørensen",
-      "categoryItems": [
-        451784,
-        451786,
-        451789
-      ],
+      "categoryItems": [451784, 451786, 451789],
       "questionAnswers": []
     },
     {
@@ -3717,16 +3181,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1252939,
-        1212343
-      ],
+      "sessions": [1252939, 1212343],
       "fullName": "Rex de Koning",
-      "categoryItems": [
-        451784,
-        451786,
-        451789
-      ],
+      "categoryItems": [451784, 451786, 451789],
       "questionAnswers": []
     },
     {
@@ -3764,14 +3221,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1221417
-      ],
+      "sessions": [1221417],
       "fullName": "Rishi Sapra",
-      "categoryItems": [
-        451784,
-        451786
-      ],
+      "categoryItems": [451784, 451786],
       "questionAnswers": []
     },
     {
@@ -3789,13 +3241,9 @@
           "linkType": "LinkedIn"
         }
       ],
-      "sessions": [
-        1301878
-      ],
+      "sessions": [1301878],
       "fullName": "Rutger Kosters",
-      "categoryItems": [
-        451784
-      ],
+      "categoryItems": [451784],
       "questionAnswers": []
     },
     {
@@ -3828,14 +3276,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1252943
-      ],
+      "sessions": [1252943],
       "fullName": "Sandra Kiel",
-      "categoryItems": [
-        451784,
-        451786
-      ],
+      "categoryItems": [451784, 451786],
       "questionAnswers": []
     },
     {
@@ -3863,9 +3306,7 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1252939
-      ],
+      "sessions": [1252939],
       "fullName": "Sara Fennah",
       "categoryItems": [],
       "questionAnswers": []
@@ -3890,13 +3331,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1183522
-      ],
+      "sessions": [1183522],
       "fullName": "Sarah Jones",
-      "categoryItems": [
-        451784
-      ],
+      "categoryItems": [451784],
       "questionAnswers": []
     },
     {
@@ -3924,14 +3361,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1221930
-      ],
+      "sessions": [1221930],
       "fullName": "Sari Soinoja",
-      "categoryItems": [
-        451784,
-        451786
-      ],
+      "categoryItems": [451784, 451786],
       "questionAnswers": []
     },
     {
@@ -3964,14 +3396,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1222843
-      ],
+      "sessions": [1222843],
       "fullName": "Sebastian Sieber",
-      "categoryItems": [
-        451784,
-        451786
-      ],
+      "categoryItems": [451784, 451786],
       "questionAnswers": []
     },
     {
@@ -3994,13 +3421,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1215976
-      ],
+      "sessions": [1215976],
       "fullName": "Selva Pradeep Sathanandam",
-      "categoryItems": [
-        451783
-      ],
+      "categoryItems": [451783],
       "questionAnswers": []
     },
     {
@@ -4018,13 +3441,9 @@
           "linkType": "LinkedIn"
         }
       ],
-      "sessions": [
-        1272136
-      ],
+      "sessions": [1272136],
       "fullName": "Simon Wise",
-      "categoryItems": [
-        451784
-      ],
+      "categoryItems": [451784],
       "questionAnswers": []
     },
     {
@@ -4057,14 +3476,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1196885
-      ],
+      "sessions": [1196885],
       "fullName": "Stephan van Rooij",
-      "categoryItems": [
-        451784,
-        451786
-      ],
+      "categoryItems": [451784, 451786],
       "questionAnswers": []
     },
     {
@@ -4097,14 +3511,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1181352
-      ],
+      "sessions": [1181352],
       "fullName": "Tatu Seppälä",
-      "categoryItems": [
-        451784,
-        451786
-      ],
+      "categoryItems": [451784, 451786],
       "questionAnswers": []
     },
     {
@@ -4137,15 +3546,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1173694
-      ],
+      "sessions": [1173694],
       "fullName": "Thomas Stensitzki",
-      "categoryItems": [
-        451784,
-        451786,
-        451789
-      ],
+      "categoryItems": [451784, 451786, 451789],
       "questionAnswers": []
     },
     {
@@ -4178,13 +3581,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1221417
-      ],
+      "sessions": [1221417],
       "fullName": "Triparna Ray",
-      "categoryItems": [
-        451784
-      ],
+      "categoryItems": [451784],
       "questionAnswers": []
     },
     {
@@ -4212,15 +3611,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1173804,
-        1189712
-      ],
+      "sessions": [1173804, 1189712],
       "fullName": "Vivian Voss",
-      "categoryItems": [
-        451784,
-        451786
-      ],
+      "categoryItems": [451784, 451786],
       "questionAnswers": []
     },
     {
@@ -4253,10 +3646,7 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [
-        1253880,
-        1223846
-      ],
+      "sessions": [1253880, 1223846],
       "fullName": "Zoe Wilson",
       "categoryItems": [],
       "questionAnswers": []
