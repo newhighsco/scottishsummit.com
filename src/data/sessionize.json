@@ -13,7 +13,10 @@
         "50502a59-18d1-4436-b27b-b0a0f9fa0353",
         "14a50614-f33b-4dcb-b8a8-763a1623ecf2"
       ],
-      "categoryItems": [450221, 450339],
+      "categoryItems": [
+        450221,
+        450339
+      ],
       "questionAnswers": [],
       "roomId": 77530,
       "liveUrl": null,
@@ -35,7 +38,10 @@
         "3503700b-280d-45c3-b0c5-58a519aeec52",
         "4c125671-951b-4798-8e48-02a45be346e7"
       ],
-      "categoryItems": [450222, 450340],
+      "categoryItems": [
+        450222,
+        450340
+      ],
       "questionAnswers": [],
       "roomId": 77531,
       "liveUrl": null,
@@ -56,7 +62,9 @@
         "6766d8ed-94b6-4844-b7ca-9ef2fa43ef18",
         "2b768029-4322-4536-b05a-d9360ac972c5"
       ],
-      "categoryItems": [450225],
+      "categoryItems": [
+        450225
+      ],
       "questionAnswers": [],
       "roomId": 77532,
       "liveUrl": null,
@@ -78,7 +86,9 @@
         "da32b389-2414-4a36-bf0b-33783c408c93",
         "77f098aa-4fb7-46d0-83ee-6e868dc00616"
       ],
-      "categoryItems": [450224],
+      "categoryItems": [
+        450224
+      ],
       "questionAnswers": [],
       "roomId": 80334,
       "liveUrl": null,
@@ -100,7 +110,9 @@
         "edc9a64f-df3d-47f7-8b19-5d038dfc85c2",
         "bf14cd37-d3f2-4684-a367-888dd8ef0adf"
       ],
-      "categoryItems": [450220],
+      "categoryItems": [
+        450220
+      ],
       "questionAnswers": [],
       "roomId": 80335,
       "liveUrl": null,
@@ -121,7 +133,9 @@
         "53fb6ded-b4e7-40df-8efc-8574bf0788a3",
         "fcf4f835-b8b2-46bd-a763-206116a4b143"
       ],
-      "categoryItems": [450220],
+      "categoryItems": [
+        450220
+      ],
       "questionAnswers": [],
       "roomId": 77530,
       "liveUrl": null,
@@ -141,7 +155,10 @@
       "speakers": [
         "acbf2793-0aaa-4b5d-a0e6-9947363684ad"
       ],
-      "categoryItems": [450222, 450339],
+      "categoryItems": [
+        450222,
+        450339
+      ],
       "questionAnswers": [],
       "roomId": 77530,
       "liveUrl": null,
@@ -163,7 +180,11 @@
         "750a90ab-149c-4234-b50d-7da36a2c9765",
         "33124233-fed9-454b-a6c8-ffaf487f9f83"
       ],
-      "categoryItems": [450225, 450340, 452078],
+      "categoryItems": [
+        450225,
+        450340,
+        452078
+      ],
       "questionAnswers": [],
       "roomId": 77532,
       "liveUrl": null,
@@ -183,7 +204,11 @@
       "speakers": [
         "e8ad406b-9b1b-4e48-a7a6-cf84b616f2d9"
       ],
-      "categoryItems": [450222, 450341, 452078],
+      "categoryItems": [
+        450222,
+        450341,
+        452078
+      ],
       "questionAnswers": [],
       "roomId": 80334,
       "liveUrl": null,
@@ -203,7 +228,11 @@
       "speakers": [
         "87c2b40e-43c9-4aef-b053-14369976ea1b"
       ],
-      "categoryItems": [450224, 450339, 452078],
+      "categoryItems": [
+        450224,
+        450339,
+        452078
+      ],
       "questionAnswers": [],
       "roomId": 80335,
       "liveUrl": null,
@@ -224,7 +253,11 @@
         "f15c2bcd-a2d0-4b80-afd0-6daf884b1dd9",
         "6282aa05-a6cb-4410-a5e1-d7c11a52ec04"
       ],
-      "categoryItems": [450223, 450341, 452078],
+      "categoryItems": [
+        450223,
+        450341,
+        452078
+      ],
       "questionAnswers": [],
       "roomId": 80336,
       "liveUrl": null,
@@ -244,7 +277,11 @@
       "speakers": [
         "ffa9ecc3-3d38-4359-93fa-7103a2d05a0d"
       ],
-      "categoryItems": [450222, 450340, 452078],
+      "categoryItems": [
+        450222,
+        450340,
+        452078
+      ],
       "questionAnswers": [],
       "roomId": 80337,
       "liveUrl": null,
@@ -265,7 +302,11 @@
         "e5db9e81-c381-49f5-aa43-e593615fecc4",
         "4c125671-951b-4798-8e48-02a45be346e7"
       ],
-      "categoryItems": [450222, 450339, 452078],
+      "categoryItems": [
+        450222,
+        450339,
+        452078
+      ],
       "questionAnswers": [],
       "roomId": 77530,
       "liveUrl": null,
@@ -286,7 +327,11 @@
         "2b2b4642-2ed0-427d-8865-9994aaffa9a3",
         "eb9e661a-dbb9-426d-85a2-148cc89e272b"
       ],
-      "categoryItems": [450221, 450339, 452078],
+      "categoryItems": [
+        450221,
+        450339,
+        452078
+      ],
       "questionAnswers": [],
       "roomId": 77531,
       "liveUrl": null,
@@ -306,7 +351,11 @@
       "speakers": [
         "fc6c18ea-4343-4a25-a7ee-b8ae06da3d03"
       ],
-      "categoryItems": [450224, 450340, 452078],
+      "categoryItems": [
+        450224,
+        450340,
+        452078
+      ],
       "questionAnswers": [],
       "roomId": 77532,
       "liveUrl": null,
@@ -314,6 +363,31 @@
       "status": "Accepted",
       "isInformed": true,
       "isConfirmed": true
+    },
+    {
+      "id": "1316329",
+      "title": "Create Documents Smarter, Not Harder – with dox42",
+      "description": "AI is changing how we build business applications. But when it comes to generating business-critical documents – quotes, contracts, reports, invoices, and presentations – organizations need structured and reliable document automation. That's where dox42 comes in.\r\n\r\nJoin us for a live demo and discover how to seamlessly integrate enterprise-grade document generation into Power Automate, Power Apps, Dynamics 365, Microsoft 365, and beyond.\r\nYou'll see how to:\r\n•\tintegrate document generation directly into your Microsoft workflows\r\n•\tdesign dynamic documents in Word, Excel, and PowerPoint – without hardcoding templates\r\n•\tcombine data from Dynamics 365 (FSCM, BC & Sales/Dataverse), Microsoft 365, Teams, SharePoint, SAP, SQL, and many more sources\r\nAlong the way, discover real customer stories, practical implementation tips, and live demos – so the next time someone asks for \"just one more document\", you'll know exactly where to start.",
+      "startsAt": "2026-10-03T11:15:00",
+      "endsAt": "2026-10-03T12:00:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "329a30d1-db15-4e70-82e9-4ea278aac2e7",
+        "25ef282e-2aff-4b55-98f2-618137778d4b"
+      ],
+      "categoryItems": [
+        450221,
+        450340,
+        452078
+      ],
+      "questionAnswers": [],
+      "roomId": 80334,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": false
     },
     {
       "id": "1188968",
@@ -326,7 +400,11 @@
       "speakers": [
         "ad9fccf9-4687-4194-9ad9-8f0c8378127d"
       ],
-      "categoryItems": [450225, 450340, 452078],
+      "categoryItems": [
+        450225,
+        450340,
+        452078
+      ],
       "questionAnswers": [],
       "roomId": 80335,
       "liveUrl": null,
@@ -336,17 +414,22 @@
       "isConfirmed": true
     },
     {
-      "id": "1222658",
-      "title": "Creating Classifiers from Scratch to Identify Sensitive Data with Microsoft Purview",
-      "description": "Microsoft Purview offers a wide range of data security solutions, including Information Protection to protect data, Data Loss Prevention to prevent data leaks, Data Lifecycle Management to control the data lifecycle, and Insider Risk Management to detect and respond to insider risks.\r\n\r\nThe first step for many organizations is to classify their sensitive data. One approach is letting users take charge and classify the data themselves. But if we want to make the most of the platform, we need Microsoft Purview to understand what sensitive data looks like in our environment.\r\n\r\nIn this session, we are going to create classifiers that enable Microsoft Purview to identify, classify, and protect sensitive data. Join me as we explore Sensitive Information Types, Custom SITs, Fingerprint SITs, Exact Data Match SITs, Trainable Classifiers, and more.\r\n\r\nBy the end of this session, you will have the skills to create classifiers in Microsoft Purview from scratch and the knowledge to know when to use which one. This will help you make the most of the platform for your organization.",
+      "id": "1183611",
+      "title": "Agent 365: If It’s Not Built with Copilot Studio...Does It Still Work?",
+      "description": "Microsoft is slowly but surely positioning itself as the vendor of choice for managing the ever-growing AI agent ecosystem. When governance, security and oversight are critical, the capabilities in tools such as Microsoft Agent 365 provide the toolsets to understand an organisation's entire agentic ecosystem. But how well does this actually play ball if we decide not to use Copilot Studio or Microsoft Foundry as our agent development platform? Is it really as easy as they say to bring in any agent to Agent 365 and to reap the same touted benefits?\r\n\r\nIn this session, we're going to go \"off-script\" and work through how we can bring a totally awesome, but completely non-Microsoft, agent into the Agent 365 control plane. Attendees will gain an understanding of how Agent 365 can support this objective, the limitations involved and see a live demo on how to onboard a non-Microsoft-hosted agent into the tool. The end result? A full appreciation of the Microsoft Agent 365 capabilities and the importance of having good governance and oversight tools to drive your journey into the world of agentic AI.\r\n\r\nAnd if we can't get this ultra-new-and-shiny platform feature working? Then it's simple. We'll cheat 😛",
       "startsAt": "2026-10-03T11:15:00",
       "endsAt": "2026-10-03T12:00:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "9c89c995-21b0-4ec3-be50-ecf1811c26ba"
+        "eb5e6fb4-0e39-41fa-91f1-41f647c12579",
+        "ace86fbd-8629-49a0-b3a0-12f232ff7843"
       ],
-      "categoryItems": [450223, 450340, 452078],
+      "categoryItems": [
+        450222,
+        450340,
+        452078
+      ],
       "questionAnswers": [],
       "roomId": 80336,
       "liveUrl": null,
@@ -366,7 +449,11 @@
       "speakers": [
         "2308b3b4-c81a-44dd-a531-44002fb5ac90"
       ],
-      "categoryItems": [450225, 450341, 452078],
+      "categoryItems": [
+        450225,
+        450341,
+        452078
+      ],
       "questionAnswers": [],
       "roomId": 80337,
       "liveUrl": null,
@@ -386,7 +473,11 @@
       "speakers": [
         "8927b4e6-6b26-4306-adad-16f29baf5db9"
       ],
-      "categoryItems": [450220, 450339, 452078],
+      "categoryItems": [
+        450220,
+        450339,
+        452078
+      ],
       "questionAnswers": [],
       "roomId": 77530,
       "liveUrl": null,
@@ -406,7 +497,11 @@
       "speakers": [
         "4a19a90f-5acf-4966-9bb6-18fd3014c0cd"
       ],
-      "categoryItems": [450222, 450340, 452078],
+      "categoryItems": [
+        450222,
+        450340,
+        452078
+      ],
       "questionAnswers": [],
       "roomId": 77531,
       "liveUrl": null,
@@ -426,7 +521,11 @@
       "speakers": [
         "8ec1d65d-7fd4-4abd-906b-8629b899b043"
       ],
-      "categoryItems": [450224, 450340, 452078],
+      "categoryItems": [
+        450224,
+        450340,
+        452078
+      ],
       "questionAnswers": [],
       "roomId": 77532,
       "liveUrl": null,
@@ -446,7 +545,11 @@
       "speakers": [
         "f1d5ed3f-28c8-411c-96ed-c9f9921ff31f"
       ],
-      "categoryItems": [450223, 450340, 452078],
+      "categoryItems": [
+        450223,
+        450340,
+        452078
+      ],
       "questionAnswers": [],
       "roomId": 80334,
       "liveUrl": null,
@@ -456,17 +559,23 @@
       "isConfirmed": true
     },
     {
-      "id": "1188024",
-      "title": "Event-Driven DevOps: Automating Azure with Event Grid System Topics",
-      "description": "Modern DevOps on Azure isn’t just about pipelines, it’s about making your platform reactive. With Event Grid system topics, you can automatically respond to changes in your Azure environment, triggering workflows the moment resources are created, updated, or deleted.\r\n\r\nIn this session, we’ll cover:\r\n- How system topics work and how they fit into DevOps workflows\r\n- Connecting Event Grid to various automation and orchestration tools\r\n- Different practical use cases for event-driven automation\r\n- A live demo where a resource change triggers a deployment-related automation\r\n\r\nAfter this session, you’ll walk away with practical techniques to make your Azure platform more event-driven, reducing manual steps, closing feedback loops, and bringing DevOps automation to the next level.",
+      "id": "1196772",
+      "title": "The Human Hack: Rebooting Consulting Culture",
+      "description": "This isn’t about tools, templates, frameworks, or even just the latest AI technologies it’s about people and mindset. In this honest and practical session, we explore how as consultants and delivery leads, we can rediscover and develop better consulting cultures in a world obsessed with tools and delivery speed.  \r\n\r\nExpect a candid conversation as two seasoned leaders in the Microsoft consulting community are interviewed by a fellow highly experienced leader. The session will be filled with, stories, audience Q&A, and actionable advice you can put straight into action back on your projects and in your teams.  Bring your questions and get involved. \r\n\r\nYou’ll leave with new ways to:  \r\n\r\n- Sharpen your critical thinking skills and learn how to ask the right questions to get to the true root of a problem. \r\n\r\n- Build strong, trusting relationships with clients by encouraging open communication, curiosity, and teamwork. \r\n\r\n- Make sure your work delivers clear, measurable business value by considering its impact on people, processes, and technology. \r\n\r\nIf you’ve ever felt like your work was technically perfect but somehow missed the mark, this session will show you why and how to fix it. Take away new ways to think, lead, and consult that make your engagements more rewarding, your impact more visible, and your career genuinely fulfilling.   \r\n\r\nAI is driving a significant shift in the consulting landscape, encouraging a heightened focus on tools, templates, and frameworks risking the loss of the human experience and mindset. Don’t let yourself drift into transactional delivery. Join us to reclaim the mission, rebuild the mindset, and become the kind of consultant the industry desperately needs. \r\n",
       "startsAt": "2026-10-03T12:15:00",
       "endsAt": "2026-10-03T13:00:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "c3c152a7-494c-412e-9580-1ea415e4411c"
+        "aeb980aa-db9e-4699-b10e-4089d78b2847",
+        "85cbafc5-4f92-4c90-8676-630fa395a16f",
+        "01a88416-06f6-4fca-96ed-7320a05f0b4c"
       ],
-      "categoryItems": [450225, 450340, 452078],
+      "categoryItems": [
+        450220,
+        450339,
+        452078
+      ],
       "questionAnswers": [],
       "roomId": 80335,
       "liveUrl": null,
@@ -476,18 +585,21 @@
       "isConfirmed": true
     },
     {
-      "id": "1183611",
-      "title": "Agent 365: If It’s Not Built with Copilot Studio...Does It Still Work?",
-      "description": "Microsoft is slowly but surely positioning itself as the vendor of choice for managing the ever-growing AI agent ecosystem. When governance, security and oversight are critical, the capabilities in tools such as Microsoft Agent 365 provide the toolsets to understand an organisation's entire agentic ecosystem. But how well does this actually play ball if we decide not to use Copilot Studio or Microsoft Foundry as our agent development platform? Is it really as easy as they say to bring in any agent to Agent 365 and to reap the same touted benefits?\r\n\r\nIn this session, we're going to go \"off-script\" and work through how we can bring a totally awesome, but completely non-Microsoft, agent into the Agent 365 control plane. Attendees will gain an understanding of how Agent 365 can support this objective, the limitations involved and see a live demo on how to onboard a non-Microsoft-hosted agent into the tool. The end result? A full appreciation of the Microsoft Agent 365 capabilities and the importance of having good governance and oversight tools to drive your journey into the world of agentic AI.\r\n\r\nAnd if we can't get this ultra-new-and-shiny platform feature working? Then it's simple. We'll cheat 😛",
+      "id": "1222658",
+      "title": "Creating Classifiers from Scratch to Identify Sensitive Data with Microsoft Purview",
+      "description": "Microsoft Purview offers a wide range of data security solutions, including Information Protection to protect data, Data Loss Prevention to prevent data leaks, Data Lifecycle Management to control the data lifecycle, and Insider Risk Management to detect and respond to insider risks.\r\n\r\nThe first step for many organizations is to classify their sensitive data. One approach is letting users take charge and classify the data themselves. But if we want to make the most of the platform, we need Microsoft Purview to understand what sensitive data looks like in our environment.\r\n\r\nIn this session, we are going to create classifiers that enable Microsoft Purview to identify, classify, and protect sensitive data. Join me as we explore Sensitive Information Types, Custom SITs, Fingerprint SITs, Exact Data Match SITs, Trainable Classifiers, and more.\r\n\r\nBy the end of this session, you will have the skills to create classifiers in Microsoft Purview from scratch and the knowledge to know when to use which one. This will help you make the most of the platform for your organization.",
       "startsAt": "2026-10-03T12:15:00",
       "endsAt": "2026-10-03T13:00:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "eb5e6fb4-0e39-41fa-91f1-41f647c12579",
-        "ace86fbd-8629-49a0-b3a0-12f232ff7843"
+        "9c89c995-21b0-4ec3-be50-ecf1811c26ba"
       ],
-      "categoryItems": [450222, 450340, 452078],
+      "categoryItems": [
+        450223,
+        450340,
+        452078
+      ],
       "questionAnswers": [],
       "roomId": 80336,
       "liveUrl": null,
@@ -508,7 +620,11 @@
         "ef0edfec-5000-4385-b237-967eea1cec33",
         "f479e0cd-f61c-4e58-8a40-08bb261664a6"
       ],
-      "categoryItems": [450222, 450339, 452078],
+      "categoryItems": [
+        450222,
+        450339,
+        452078
+      ],
       "questionAnswers": [],
       "roomId": 80337,
       "liveUrl": null,
@@ -528,7 +644,11 @@
       "speakers": [
         "8ca492a2-c473-40d9-bbce-599f930766c4"
       ],
-      "categoryItems": [450222, 450339, 452079],
+      "categoryItems": [
+        450222,
+        450339,
+        452079
+      ],
       "questionAnswers": [],
       "roomId": 77530,
       "liveUrl": null,
@@ -548,7 +668,11 @@
       "speakers": [
         "322ca7c2-91f3-443d-aa44-ac36a78776c3"
       ],
-      "categoryItems": [450223, 450339, 452079],
+      "categoryItems": [
+        450223,
+        450339,
+        452079
+      ],
       "questionAnswers": [],
       "roomId": 77531,
       "liveUrl": null,
@@ -569,7 +693,11 @@
         "01a94a88-cb24-4b81-b176-27c469bf8d29",
         "e5db9e81-c381-49f5-aa43-e593615fecc4"
       ],
-      "categoryItems": [450220, 450340, 452079],
+      "categoryItems": [
+        450220,
+        450340,
+        452079
+      ],
       "questionAnswers": [],
       "roomId": 77532,
       "liveUrl": null,
@@ -589,7 +717,11 @@
       "speakers": [
         "c81e9beb-4be3-4139-b4f7-cf4985713af4"
       ],
-      "categoryItems": [450222, 450340, 452079],
+      "categoryItems": [
+        450222,
+        450340,
+        452079
+      ],
       "questionAnswers": [],
       "roomId": 80336,
       "liveUrl": null,
@@ -609,7 +741,11 @@
       "speakers": [
         "e6a8eea0-b8c5-45ff-950f-982ef8392096"
       ],
-      "categoryItems": [450222, 450340, 452079],
+      "categoryItems": [
+        450222,
+        450340,
+        452079
+      ],
       "questionAnswers": [],
       "roomId": 80337,
       "liveUrl": null,
@@ -629,7 +765,11 @@
       "speakers": [
         "e139c7aa-50a3-4fb5-bc8a-6985bbe37646"
       ],
-      "categoryItems": [450220, 450339, 452079],
+      "categoryItems": [
+        450220,
+        450339,
+        452079
+      ],
       "questionAnswers": [],
       "roomId": 77530,
       "liveUrl": null,
@@ -649,7 +789,11 @@
       "speakers": [
         "e1e7ff93-c865-4d85-bee8-3ba357f5d768"
       ],
-      "categoryItems": [450224, 450340, 452079],
+      "categoryItems": [
+        450224,
+        450340,
+        452079
+      ],
       "questionAnswers": [],
       "roomId": 77531,
       "liveUrl": null,
@@ -657,6 +801,54 @@
       "status": "Accepted",
       "isInformed": true,
       "isConfirmed": true
+    },
+    {
+      "id": "1316750",
+      "title": "Live but Not Landing: Why adoption stalls and how to sort it",
+      "description": "Projects go live. Far fewer actually land. Working in after go-live, we see the same handful of things separate the rollouts people love from the ones they quietly work around. This session is those patterns, the ones worth doing, and the ones worth avoiding, so more of your projects become the success stories worth talking about.",
+      "startsAt": "2026-10-03T13:35:00",
+      "endsAt": "2026-10-03T13:55:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "2b1a0f4e-e0b7-44e0-97d6-a27ef40bd755"
+      ],
+      "categoryItems": [
+        450221,
+        450339,
+        452079
+      ],
+      "questionAnswers": [],
+      "roomId": 77532,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": false
+    },
+    {
+      "id": "1316851",
+      "title": "Oops I just blew the month's budget on Azure AI last night",
+      "description": "It started as a normal Tuesday night. By morning, my Azure bill had a comma in it that shouldn't have been there.\r\n\r\nWorking as a FinOps person at Turbo360 I've spoken to many customers who have had this problem and frankly we have had this ourselves in our own company.\r\n\r\nWith technology paradigm shifts you never really know how things run in the real world until things go wrong.\r\n\r\nIn this session I will share some the things I've learned at Turbo360 on our journey and how we have helped customers mitigate their risks and increase their confidence in the solutions they build.",
+      "startsAt": "2026-10-03T13:35:00",
+      "endsAt": "2026-10-03T13:55:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "c602e8db-0695-4e02-8848-2a70f6055ed6"
+      ],
+      "categoryItems": [
+        450225,
+        450340,
+        452079
+      ],
+      "questionAnswers": [],
+      "roomId": 80334,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": false
     },
     {
       "id": "1209086",
@@ -669,7 +861,11 @@
       "speakers": [
         "edc9a64f-df3d-47f7-8b19-5d038dfc85c2"
       ],
-      "categoryItems": [450220, 450339, 452079],
+      "categoryItems": [
+        450220,
+        450339,
+        452079
+      ],
       "questionAnswers": [],
       "roomId": 80336,
       "liveUrl": null,
@@ -689,7 +885,11 @@
       "speakers": [
         "a11cc35c-8ebc-4cad-8a41-19699948a3e3"
       ],
-      "categoryItems": [450222, 450340, 452079],
+      "categoryItems": [
+        450222,
+        450340,
+        452079
+      ],
       "questionAnswers": [],
       "roomId": 80337,
       "liveUrl": null,
@@ -709,7 +909,11 @@
       "speakers": [
         "a26a7cb1-94f2-459d-82c6-c6e7e0fb1201"
       ],
-      "categoryItems": [450222, 450340, 452078],
+      "categoryItems": [
+        450222,
+        450340,
+        452078
+      ],
       "questionAnswers": [],
       "roomId": 77530,
       "liveUrl": null,
@@ -730,7 +934,11 @@
         "4c125671-951b-4798-8e48-02a45be346e7",
         "3503700b-280d-45c3-b0c5-58a519aeec52"
       ],
-      "categoryItems": [450222, 450341, 452078],
+      "categoryItems": [
+        450222,
+        450341,
+        452078
+      ],
       "questionAnswers": [],
       "roomId": 77531,
       "liveUrl": null,
@@ -750,7 +958,11 @@
       "speakers": [
         "d5ade1af-a642-43c6-9a0b-56f9c45ebae9"
       ],
-      "categoryItems": [450221, 450341, 452078],
+      "categoryItems": [
+        450221,
+        450341,
+        452078
+      ],
       "questionAnswers": [],
       "roomId": 77532,
       "liveUrl": null,
@@ -760,48 +972,51 @@
       "isConfirmed": true
     },
     {
-      "id": "1272136",
-      "title": "Trusted Data for Trusted AI",
-      "description": "Join us to explore why data quality is the foundation of successful AI. Learn how accurate, validated and enriched data helps organisations improve AI outcomes, reduce risk, and make more confident decisions. We'll show how Data8's data quality, verification and enrichment solutions help create trusted, AI-ready data that delivers real business value.",
+      "id": "1182001",
+      "title": "The LinkedIn Blueprint: Building Your Brand and Network in the Microsoft Ecosystem",
+      "description": "Building a career in the Microsoft space can feel like doing great work in a crowded room where no one can hear you. Technical expertise grows, projects succeed, and knowledge deepens - yet recognition and MVP nominations don’t always follow. Many highly skilled professionals remain “Invisible Experts,” missing opportunities not because they lack ability, but because their professional presence is hidden.\r\n\r\nIn this session, you’ll discover how to use LinkedIn as a professional identity layer to showcase your expertise and build authentic connections without turning it into a second job. Through practical examples and a live profile walkthrough, we’ll bridge the gap between deep technical competence and community visibility.\r\n\r\nKey Takeaways:\r\n\r\n- Practical steps to make your technical skills, achievements, and project wins stand out to the Microsoft community.\r\n\r\n- A simple framework for sharing technical insights and lessons learned without the “social media cringe.”\r\n\r\n- Techniques for building meaningful relationships with internal teams, MVPs, and the wider community.\r\n\r\n- Habits for maintaining a strong professional presence in just minutes each week.\r\n\r\nJoin this session and ensure you are never the “best-kept secret” in the Microsoft space again.",
       "startsAt": "2026-10-03T14:00:00",
       "endsAt": "2026-10-03T14:45:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "eec0c806-6001-4a68-bd70-132189870c4b",
-        "53fb6ded-b4e7-40df-8efc-8574bf0788a3",
-        "1adcec72-11df-44c0-b75f-53a25bca63ff"
+        "e9db87c2-f8f0-4afc-b52f-27cf7c4499b5"
       ],
-      "categoryItems": [450222, 450340, 452078],
+      "categoryItems": [
+        450220,
+        450339,
+        452078
+      ],
       "questionAnswers": [],
       "roomId": 80334,
       "liveUrl": null,
       "recordingUrl": null,
       "status": "Accepted",
       "isInformed": true,
-      "isConfirmed": false
+      "isConfirmed": true
     },
     {
-      "id": "1196772",
-      "title": "The Human Hack: Rebooting Consulting Culture",
-      "description": "This isn’t about tools, templates, frameworks, or even just the latest AI technologies it’s about people and mindset. In this honest and practical session, we explore how as consultants and delivery leads, we can rediscover and develop better consulting cultures in a world obsessed with tools and delivery speed.  \r\n\r\nExpect a candid conversation as two seasoned leaders in the Microsoft consulting community are interviewed by a fellow highly experienced leader. The session will be filled with, stories, audience Q&A, and actionable advice you can put straight into action back on your projects and in your teams.  Bring your questions and get involved. \r\n\r\nYou’ll leave with new ways to:  \r\n\r\n- Sharpen your critical thinking skills and learn how to ask the right questions to get to the true root of a problem. \r\n\r\n- Build strong, trusting relationships with clients by encouraging open communication, curiosity, and teamwork. \r\n\r\n- Make sure your work delivers clear, measurable business value by considering its impact on people, processes, and technology. \r\n\r\nIf you’ve ever felt like your work was technically perfect but somehow missed the mark, this session will show you why and how to fix it. Take away new ways to think, lead, and consult that make your engagements more rewarding, your impact more visible, and your career genuinely fulfilling.   \r\n\r\nAI is driving a significant shift in the consulting landscape, encouraging a heightened focus on tools, templates, and frameworks risking the loss of the human experience and mindset. Don’t let yourself drift into transactional delivery. Join us to reclaim the mission, rebuild the mindset, and become the kind of consultant the industry desperately needs. \r\n",
+      "id": "1272133",
+      "title": "Professional Document Generation Across The Power Platform",
+      "description": "Every business runs on documents such as quotes, confirmations, reports, certificates, receipts. But in most Power Platform projects, document generation is still an afterthought. In this session, we show you a better way. Join us for a story-driven session where we follow one scenario from end to end and generate the right document at every step, on every Power Platform surface. With DocumentsCorePack, you build the template, then generate and deliver the document from a model-driven app, a Power Automate Flow or a Copilot Studio agent handling requests on its own. The same logic extends to Canvas Apps and Power Pages. Whether you're building on Dynamics 365 CE or on pure Dataverse with custom apps, this session will show you what professional, scalable document generation looks like across the full Power Platform stack. We'll also take a quick look at Attachment Extractor for Dataverse to show how it optimizes your storage. You'll leave knowing where to trigger document generation depending on the surface, how an agent can handle a document request and how to keep storage under control once volume hits production.",
       "startsAt": "2026-10-03T14:00:00",
       "endsAt": "2026-10-03T14:45:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "aeb980aa-db9e-4699-b10e-4089d78b2847",
-        "85cbafc5-4f92-4c90-8676-630fa395a16f",
-        "01a88416-06f6-4fca-96ed-7320a05f0b4c"
+        "66177a34-216d-4903-bbe6-878165541f09",
+        "231202d1-9330-4999-9b3d-418cad9f82a2"
       ],
-      "categoryItems": [450220, 450339, 452078],
+      "categoryItems": [
+        450221
+      ],
       "questionAnswers": [],
       "roomId": 80335,
       "liveUrl": null,
       "recordingUrl": null,
       "status": "Accepted",
       "isInformed": true,
-      "isConfirmed": true
+      "isConfirmed": false
     },
     {
       "id": "1217055",
@@ -814,7 +1029,11 @@
       "speakers": [
         "853563e5-81e5-49d2-b2f7-fc0c399bd6da"
       ],
-      "categoryItems": [450223, 450341, 452078],
+      "categoryItems": [
+        450223,
+        450341,
+        452078
+      ],
       "questionAnswers": [],
       "roomId": 80336,
       "liveUrl": null,
@@ -834,7 +1053,11 @@
       "speakers": [
         "13a01903-25f4-463d-a17c-8479f1b943e9"
       ],
-      "categoryItems": [450225, 450340, 452078],
+      "categoryItems": [
+        450225,
+        450340,
+        452078
+      ],
       "questionAnswers": [],
       "roomId": 80337,
       "liveUrl": null,
@@ -854,7 +1077,11 @@
       "speakers": [
         "aeb980aa-db9e-4699-b10e-4089d78b2847"
       ],
-      "categoryItems": [450221, 450339, 452078],
+      "categoryItems": [
+        450221,
+        450339,
+        452078
+      ],
       "questionAnswers": [],
       "roomId": 77530,
       "liveUrl": null,
@@ -874,7 +1101,11 @@
       "speakers": [
         "76f6b34d-e530-4a49-a5ae-e0ab3d03b14d"
       ],
-      "categoryItems": [450221, 450340, 452078],
+      "categoryItems": [
+        450221,
+        450340,
+        452078
+      ],
       "questionAnswers": [],
       "roomId": 77531,
       "liveUrl": null,
@@ -894,7 +1125,11 @@
       "speakers": [
         "88ca0c9d-751c-4d65-b837-ec2993dedecd"
       ],
-      "categoryItems": [450224, 450340, 452078],
+      "categoryItems": [
+        450224,
+        450340,
+        452078
+      ],
       "questionAnswers": [],
       "roomId": 77532,
       "liveUrl": null,
@@ -904,24 +1139,30 @@
       "isConfirmed": true
     },
     {
-      "id": "1182001",
-      "title": "The LinkedIn Blueprint: Building Your Brand and Network in the Microsoft Ecosystem",
-      "description": "Building a career in the Microsoft space can feel like doing great work in a crowded room where no one can hear you. Technical expertise grows, projects succeed, and knowledge deepens - yet recognition and MVP nominations don’t always follow. Many highly skilled professionals remain “Invisible Experts,” missing opportunities not because they lack ability, but because their professional presence is hidden.\r\n\r\nIn this session, you’ll discover how to use LinkedIn as a professional identity layer to showcase your expertise and build authentic connections without turning it into a second job. Through practical examples and a live profile walkthrough, we’ll bridge the gap between deep technical competence and community visibility.\r\n\r\nKey Takeaways:\r\n\r\n- Practical steps to make your technical skills, achievements, and project wins stand out to the Microsoft community.\r\n\r\n- A simple framework for sharing technical insights and lessons learned without the “social media cringe.”\r\n\r\n- Techniques for building meaningful relationships with internal teams, MVPs, and the wider community.\r\n\r\n- Habits for maintaining a strong professional presence in just minutes each week.\r\n\r\nJoin this session and ensure you are never the “best-kept secret” in the Microsoft space again.",
+      "id": "1272136",
+      "title": "Trusted Data for Trusted AI",
+      "description": "Join us to explore why data quality is the foundation of successful AI. Learn how accurate, validated and enriched data helps organisations improve AI outcomes, reduce risk, and make more confident decisions. We'll show how Data8's data quality, verification and enrichment solutions help create trusted, AI-ready data that delivers real business value.",
       "startsAt": "2026-10-03T15:00:00",
       "endsAt": "2026-10-03T15:45:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "e9db87c2-f8f0-4afc-b52f-27cf7c4499b5"
+        "eec0c806-6001-4a68-bd70-132189870c4b",
+        "53fb6ded-b4e7-40df-8efc-8574bf0788a3",
+        "1adcec72-11df-44c0-b75f-53a25bca63ff"
       ],
-      "categoryItems": [450220, 450339, 452078],
+      "categoryItems": [
+        450222,
+        450340,
+        452078
+      ],
       "questionAnswers": [],
       "roomId": 80334,
       "liveUrl": null,
       "recordingUrl": null,
       "status": "Accepted",
       "isInformed": true,
-      "isConfirmed": true
+      "isConfirmed": false
     },
     {
       "id": "1210618",
@@ -935,7 +1176,11 @@
         "2db4d3f6-13f8-4f1d-a805-82ea3513e82e",
         "1826202b-6cf1-48d8-a0a7-ae594b978c0e"
       ],
-      "categoryItems": [450223, 450341, 452078],
+      "categoryItems": [
+        450223,
+        450341,
+        452078
+      ],
       "questionAnswers": [],
       "roomId": 80335,
       "liveUrl": null,
@@ -956,7 +1201,11 @@
         "fcf4f835-b8b2-46bd-a763-206116a4b143",
         "53fb6ded-b4e7-40df-8efc-8574bf0788a3"
       ],
-      "categoryItems": [450220, 450339, 452078],
+      "categoryItems": [
+        450220,
+        450339,
+        452078
+      ],
       "questionAnswers": [],
       "roomId": 80336,
       "liveUrl": null,
@@ -976,7 +1225,12 @@
       "speakers": [
         "37e3c8f0-d7fa-4351-a0c6-886bf4cbc1cc"
       ],
-      "categoryItems": [450225, 450339, 452078, 452079],
+      "categoryItems": [
+        450225,
+        450339,
+        452078,
+        452079
+      ],
       "questionAnswers": [],
       "roomId": 80337,
       "liveUrl": null,
@@ -997,7 +1251,12 @@
         "5b245335-8578-464c-a998-045889616a8a",
         "edc9a64f-df3d-47f7-8b19-5d038dfc85c2"
       ],
-      "categoryItems": [450222, 450340, 452078, 452079],
+      "categoryItems": [
+        450222,
+        450340,
+        452078,
+        452079
+      ],
       "questionAnswers": [],
       "roomId": 77530,
       "liveUrl": null,
@@ -1017,7 +1276,11 @@
       "speakers": [
         "eec0c806-6001-4a68-bd70-132189870c4b"
       ],
-      "categoryItems": [450221, 450341, 452078],
+      "categoryItems": [
+        450221,
+        450341,
+        452078
+      ],
       "questionAnswers": [],
       "roomId": 77531,
       "liveUrl": null,
@@ -1038,7 +1301,11 @@
         "8a1f9d31-5905-4441-8ebd-e127ea97cbc7",
         "76f6b34d-e530-4a49-a5ae-e0ab3d03b14d"
       ],
-      "categoryItems": [450222, 450340, 452078],
+      "categoryItems": [
+        450222,
+        450340,
+        452078
+      ],
       "questionAnswers": [],
       "roomId": 77532,
       "liveUrl": null,
@@ -1059,7 +1326,11 @@
         "2b5d7991-1509-49be-aebd-057fd70806b2",
         "3392ea59-94ba-406f-a640-0e4497d67002"
       ],
-      "categoryItems": [450222, 450340, 452078],
+      "categoryItems": [
+        450222,
+        450340,
+        452078
+      ],
       "questionAnswers": [],
       "roomId": 80334,
       "liveUrl": null,
@@ -1079,7 +1350,11 @@
       "speakers": [
         "fc3a497e-0843-4c5a-9edb-73fdb916c344"
       ],
-      "categoryItems": [450222, 450340, 452078],
+      "categoryItems": [
+        450222,
+        450340,
+        452078
+      ],
       "questionAnswers": [],
       "roomId": 80335,
       "liveUrl": null,
@@ -1099,7 +1374,11 @@
       "speakers": [
         "279a7ce4-87e9-4099-b121-a39ebad80fb0"
       ],
-      "categoryItems": [450224, 450340, 452078],
+      "categoryItems": [
+        450224,
+        450340,
+        452078
+      ],
       "questionAnswers": [],
       "roomId": 80336,
       "liveUrl": null,
@@ -1119,7 +1398,11 @@
       "speakers": [
         "f6f610c8-ffff-4efd-8e32-f5a8de33eff6"
       ],
-      "categoryItems": [450222, 450340, 452078],
+      "categoryItems": [
+        450222,
+        450340,
+        452078
+      ],
       "questionAnswers": [],
       "roomId": 80337,
       "liveUrl": null,
@@ -1143,7 +1426,11 @@
         "6b3e13ba-28b8-45b8-8101-3bb206745743",
         "b2aa67b1-d97b-4687-8613-c24a3f209801"
       ],
-      "categoryItems": [450220, 450340, 452078],
+      "categoryItems": [
+        450220,
+        450340,
+        452078
+      ],
       "questionAnswers": [],
       "roomId": 77530,
       "liveUrl": null,
@@ -1163,7 +1450,11 @@
       "speakers": [
         "620c157e-37bb-4284-86e7-bbfbd6c4aadd"
       ],
-      "categoryItems": [450221, 450339, 452078],
+      "categoryItems": [
+        450221,
+        450339,
+        452078
+      ],
       "questionAnswers": [],
       "roomId": 77531,
       "liveUrl": null,
@@ -1183,9 +1474,37 @@
       "speakers": [
         "46f2fb37-673f-4604-83f8-58632ed2c24b"
       ],
-      "categoryItems": [450222, 450340, 452078],
+      "categoryItems": [
+        450222,
+        450340,
+        452078
+      ],
       "questionAnswers": [],
       "roomId": 77532,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1188024",
+      "title": "Event-Driven DevOps: Automating Azure with Event Grid System Topics",
+      "description": "Modern DevOps on Azure isn’t just about pipelines, it’s about making your platform reactive. With Event Grid system topics, you can automatically respond to changes in your Azure environment, triggering workflows the moment resources are created, updated, or deleted.\r\n\r\nIn this session, we’ll cover:\r\n- How system topics work and how they fit into DevOps workflows\r\n- Connecting Event Grid to various automation and orchestration tools\r\n- Different practical use cases for event-driven automation\r\n- A live demo where a resource change triggers a deployment-related automation\r\n\r\nAfter this session, you’ll walk away with practical techniques to make your Azure platform more event-driven, reducing manual steps, closing feedback loops, and bringing DevOps automation to the next level.",
+      "startsAt": "2026-10-03T17:00:00",
+      "endsAt": "2026-10-03T17:45:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "c3c152a7-494c-412e-9580-1ea415e4411c"
+      ],
+      "categoryItems": [
+        450225,
+        450340,
+        452078
+      ],
+      "questionAnswers": [],
+      "roomId": 80334,
       "liveUrl": null,
       "recordingUrl": null,
       "status": "Accepted",
@@ -1203,7 +1522,11 @@
       "speakers": [
         "cf653446-d93f-4da2-8278-291320c1236f"
       ],
-      "categoryItems": [450223, 450340, 452078],
+      "categoryItems": [
+        450223,
+        450340,
+        452078
+      ],
       "questionAnswers": [],
       "roomId": 80335,
       "liveUrl": null,
@@ -1223,7 +1546,11 @@
       "speakers": [
         "c85af3e6-6543-488a-a5ae-775fc7365535"
       ],
-      "categoryItems": [450224, 450341, 452078],
+      "categoryItems": [
+        450224,
+        450341,
+        452078
+      ],
       "questionAnswers": [],
       "roomId": 80336,
       "liveUrl": null,
@@ -1243,7 +1570,11 @@
       "speakers": [
         "82b8b63b-5328-4363-8472-0f24651d78b6"
       ],
-      "categoryItems": [450222, 450341, 452078],
+      "categoryItems": [
+        450222,
+        450341,
+        452078
+      ],
       "questionAnswers": [],
       "roomId": 80337,
       "liveUrl": null,
@@ -1284,9 +1615,15 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1210618],
+      "sessions": [
+        1210618
+      ],
       "fullName": "Aasne Holtklimpen",
-      "categoryItems": [451784, 451786, 451789],
+      "categoryItems": [
+        451784,
+        451786,
+        451789
+      ],
       "questionAnswers": []
     },
     {
@@ -1309,9 +1646,14 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1183611],
+      "sessions": [
+        1183611
+      ],
       "fullName": "AJ Zafar",
-      "categoryItems": [451784, 451789],
+      "categoryItems": [
+        451784,
+        451789
+      ],
       "questionAnswers": []
     },
     {
@@ -1339,9 +1681,48 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1220526],
+      "sessions": [
+        1220526
+      ],
       "fullName": "Al Eardley",
-      "categoryItems": [451784, 451787],
+      "categoryItems": [
+        451784,
+        451787
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "231202d1-9330-4999-9b3d-418cad9f82a2",
+      "firstName": "Alexis",
+      "lastName": "Boulgaropoulos",
+      "bio": "Enabling Partners & Clients to Scale Document Generation and Reduce Storage Costs\r\nFrom Demo to Decision: Making mscrm-addons.com Commercially Clear\r\n\r\nMost teams don’t struggle with features.\r\nThey struggle with clarity.\r\n\r\nWhat fits their architecture?\r\nWhat scales with user growth?\r\nWhat does it really cost long term?\r\n\r\nFor more than 10 years, I’ve been supporting partners and customers across EMEA, Asia, Australia and New Zealand with exactly that.\r\n\r\nThe focus is simple:\r\n\r\n• Translating product capabilities into real business impact\r\n• Delivering demos that speak to decision makers, not just users\r\n• Structuring licensing and pricing so it supports growth, not blocks it\r\n• Building trusted relationships that go beyond a single project\r\n\r\nWhether it is document automation with DocumentsCorePack or storage optimization with AttachmentExtractor, the goal is always the same: remove complexity and enable confident decisions.\r\n\r\nIf you are working with Dynamics 365 or the Power Platform and want commercial clarity combined with technical understanding, we should talk.",
+      "tagLine": "mscrm-addons.com, Senior Sales Manager ",
+      "profilePicture": "https://cdn.sessionize.com/image/652f-400o400o1-UwPvcbwg4AA2WCkg5ShoQP.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/alexis-boulgaropoulos-3198a053/",
+          "linkType": "LinkedIn"
+        },
+        {
+          "title": "Company Website",
+          "url": "https://www.mscrm-addons.com",
+          "linkType": "Company_Website"
+        },
+        {
+          "title": "Sessionize",
+          "url": "https://sessionize.com/alexis-boulgaropoulos",
+          "linkType": "Sessionize"
+        }
+      ],
+      "sessions": [
+        1272133
+      ],
+      "fullName": "Alexis Boulgaropoulos",
+      "categoryItems": [
+        451784
+      ],
       "questionAnswers": []
     },
     {
@@ -1364,9 +1745,14 @@
           "linkType": "Blog"
         }
       ],
-      "sessions": [1215640],
+      "sessions": [
+        1215640
+      ],
       "fullName": "Andy Kemp",
-      "categoryItems": [451784, 451789],
+      "categoryItems": [
+        451784,
+        451789
+      ],
       "questionAnswers": []
     },
     {
@@ -1394,9 +1780,13 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1188968],
+      "sessions": [
+        1188968
+      ],
       "fullName": "Anita Squires",
-      "categoryItems": [451784],
+      "categoryItems": [
+        451784
+      ],
       "questionAnswers": []
     },
     {
@@ -1424,9 +1814,14 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1223169],
+      "sessions": [
+        1223169
+      ],
       "fullName": "Anoop Tatti",
-      "categoryItems": [451784, 451786],
+      "categoryItems": [
+        451784,
+        451786
+      ],
       "questionAnswers": []
     },
     {
@@ -1454,9 +1849,15 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1252943],
+      "sessions": [
+        1252943
+      ],
       "fullName": "Anouck Fierens",
-      "categoryItems": [451784, 451786, 451789],
+      "categoryItems": [
+        451784,
+        451786,
+        451789
+      ],
       "questionAnswers": []
     },
     {
@@ -1484,9 +1885,14 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1301878],
+      "sessions": [
+        1301878
+      ],
       "fullName": "Anthony Mashford",
-      "categoryItems": [451784, 451786],
+      "categoryItems": [
+        451784,
+        451786
+      ],
       "questionAnswers": []
     },
     {
@@ -1519,7 +1925,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1252940],
+      "sessions": [
+        1252940
+      ],
       "fullName": "April Dunnam",
       "categoryItems": [],
       "questionAnswers": []
@@ -1554,9 +1962,15 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1196772, 1187551],
+      "sessions": [
+        1196772,
+        1187551
+      ],
       "fullName": "Areti Iles",
-      "categoryItems": [451784, 451786],
+      "categoryItems": [
+        451784,
+        451786
+      ],
       "questionAnswers": []
     },
     {
@@ -1579,9 +1993,14 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1189712],
+      "sessions": [
+        1189712
+      ],
       "fullName": "Björn Zahnow",
-      "categoryItems": [451784, 451786],
+      "categoryItems": [
+        451784,
+        451786
+      ],
       "questionAnswers": []
     },
     {
@@ -1593,9 +2012,13 @@
       "profilePicture": "https://cdn.sessionize.com/image/e895-400o400o1-VUeecJQ2uXjevUU28vDL7a.png",
       "isTopSpeaker": false,
       "links": [],
-      "sessions": [1221284],
+      "sessions": [
+        1221284
+      ],
       "fullName": "Bobby Wessels",
-      "categoryItems": [451783],
+      "categoryItems": [
+        451783
+      ],
       "questionAnswers": []
     },
     {
@@ -1628,7 +2051,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1183522],
+      "sessions": [
+        1183522
+      ],
       "fullName": "Carl Cookson",
       "categoryItems": [],
       "questionAnswers": []
@@ -1663,9 +2088,14 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1193827],
+      "sessions": [
+        1193827
+      ],
       "fullName": "Charles Sexton",
-      "categoryItems": [451784, 451786],
+      "categoryItems": [
+        451784,
+        451786
+      ],
       "questionAnswers": []
     },
     {
@@ -1698,9 +2128,15 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1217055],
+      "sessions": [
+        1217055
+      ],
       "fullName": "Charlie Gough",
-      "categoryItems": [451784, 451786, 451789],
+      "categoryItems": [
+        451784,
+        451786,
+        451789
+      ],
       "questionAnswers": []
     },
     {
@@ -1733,9 +2169,43 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1252946],
+      "sessions": [
+        1252946
+      ],
       "fullName": "Chris Lloyd-Jones",
-      "categoryItems": [451784, 451786],
+      "categoryItems": [
+        451784,
+        451786
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "329a30d1-db15-4e70-82e9-4ea278aac2e7",
+      "firstName": "Christina",
+      "lastName": "Wagner",
+      "bio": "Christina is a Business Technology Evangelist at dox42 with a background in molecular biology and data science. They started coding out of a simple motivation: to automate repetitive work and make systems work smarter – which aligns perfectly with dox42’s mission: to reduce repetitive copy and paste tasks, so people can focus on what really matters. At dox42, Christina focuses on SAP, D365 CRM, Power Platform, and template design. They love to share knowledge around document automation and assisting customers and partners in their quest to make document generation easy, intuitive, and – most importantly – automatic.",
+      "tagLine": "Business Technology Evangelist at dox42",
+      "profilePicture": "https://cdn.sessionize.com/image/b5ab-400o400o1-ws7z5W1z5hrSjRRVaRxQbB.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/christina-wagner-0b7b1a350/",
+          "linkType": "LinkedIn"
+        },
+        {
+          "title": "Sessionize",
+          "url": "https://sessionize.com/christina-wagner",
+          "linkType": "Sessionize"
+        }
+      ],
+      "sessions": [
+        1316329
+      ],
+      "fullName": "Christina Wagner",
+      "categoryItems": [
+        451784
+      ],
       "questionAnswers": []
     },
     {
@@ -1747,9 +2217,13 @@
       "profilePicture": "https://cdn.sessionize.com/image/e373-400o400o1-wkxStGzvHJsW8wfwzxcdu6.jpg",
       "isTopSpeaker": false,
       "links": [],
-      "sessions": [1308273],
+      "sessions": [
+        1308273
+      ],
       "fullName": "Cliodhna Betts",
-      "categoryItems": [451783],
+      "categoryItems": [
+        451783
+      ],
       "questionAnswers": []
     },
     {
@@ -1782,9 +2256,14 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1180217],
+      "sessions": [
+        1180217
+      ],
       "fullName": "Craig White",
-      "categoryItems": [451784, 451786],
+      "categoryItems": [
+        451784,
+        451786
+      ],
       "questionAnswers": []
     },
     {
@@ -1807,9 +2286,14 @@
           "linkType": "Blog"
         }
       ],
-      "sessions": [1215438],
+      "sessions": [
+        1215438
+      ],
       "fullName": "Damien Bird",
-      "categoryItems": [451784, 451787],
+      "categoryItems": [
+        451784,
+        451787
+      ],
       "questionAnswers": []
     },
     {
@@ -1832,9 +2316,15 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1196772, 1183522],
+      "sessions": [
+        1196772,
+        1183522
+      ],
       "fullName": "Dan Barber",
-      "categoryItems": [451784, 451786],
+      "categoryItems": [
+        451784,
+        451786
+      ],
       "questionAnswers": []
     },
     {
@@ -1857,9 +2347,17 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1252940, 1195398, 1177020],
+      "sessions": [
+        1252940,
+        1195398,
+        1177020
+      ],
       "fullName": "Daniel Laskewitz",
-      "categoryItems": [451784, 451787, 451789],
+      "categoryItems": [
+        451784,
+        451787,
+        451789
+      ],
       "questionAnswers": []
     },
     {
@@ -1892,9 +2390,14 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1182943],
+      "sessions": [
+        1182943
+      ],
       "fullName": "Dennes Torres",
-      "categoryItems": [451784, 451789],
+      "categoryItems": [
+        451784,
+        451789
+      ],
       "questionAnswers": []
     },
     {
@@ -1917,9 +2420,13 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1176525],
+      "sessions": [
+        1176525
+      ],
       "fullName": "Dennis Bottjer",
-      "categoryItems": [451784],
+      "categoryItems": [
+        451784
+      ],
       "questionAnswers": []
     },
     {
@@ -1952,9 +2459,14 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1173456],
+      "sessions": [
+        1173456
+      ],
       "fullName": "Edine Olijve-Watkinson",
-      "categoryItems": [451784, 451786],
+      "categoryItems": [
+        451784,
+        451786
+      ],
       "questionAnswers": []
     },
     {
@@ -1977,9 +2489,14 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1180217],
+      "sessions": [
+        1180217
+      ],
       "fullName": "Emma-Claire Shaw",
-      "categoryItems": [451784, 451786],
+      "categoryItems": [
+        451784,
+        451786
+      ],
       "questionAnswers": []
     },
     {
@@ -2012,9 +2529,13 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1183522],
+      "sessions": [
+        1183522
+      ],
       "fullName": "Franco Musso",
-      "categoryItems": [451784],
+      "categoryItems": [
+        451784
+      ],
       "questionAnswers": []
     },
     {
@@ -2042,9 +2563,13 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1182001],
+      "sessions": [
+        1182001
+      ],
       "fullName": "Gemma Adair",
-      "categoryItems": [451784],
+      "categoryItems": [
+        451784
+      ],
       "questionAnswers": []
     },
     {
@@ -2077,9 +2602,14 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1188024],
+      "sessions": [
+        1188024
+      ],
       "fullName": "Hans Muns",
-      "categoryItems": [451784, 451789],
+      "categoryItems": [
+        451784,
+        451789
+      ],
       "questionAnswers": []
     },
     {
@@ -2107,9 +2637,13 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1183522],
+      "sessions": [
+        1183522
+      ],
       "fullName": "Heather Perriam",
-      "categoryItems": [451784],
+      "categoryItems": [
+        451784
+      ],
       "questionAnswers": []
     },
     {
@@ -2142,9 +2676,13 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1196772],
+      "sessions": [
+        1196772
+      ],
       "fullName": "Ian Tweedie",
-      "categoryItems": [451784],
+      "categoryItems": [
+        451784
+      ],
       "questionAnswers": []
     },
     {
@@ -2167,7 +2705,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1173856],
+      "sessions": [
+        1173856
+      ],
       "fullName": "Jay Fitzhenry",
       "categoryItems": [],
       "questionAnswers": []
@@ -2207,9 +2747,15 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1183611],
+      "sessions": [
+        1183611
+      ],
       "fullName": "Joe Griffin",
-      "categoryItems": [451784, 451786, 451789],
+      "categoryItems": [
+        451784,
+        451786,
+        451789
+      ],
       "questionAnswers": []
     },
     {
@@ -2242,9 +2788,15 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1252947, 1199936],
+      "sessions": [
+        1252947,
+        1199936
+      ],
       "fullName": "Jon Jarvis",
-      "categoryItems": [451784, 451786],
+      "categoryItems": [
+        451784,
+        451786
+      ],
       "questionAnswers": []
     },
     {
@@ -2267,9 +2819,14 @@
           "linkType": "Blog"
         }
       ],
-      "sessions": [1252946],
+      "sessions": [
+        1252946
+      ],
       "fullName": "Josh McDonald",
-      "categoryItems": [451784, 451786],
+      "categoryItems": [
+        451784,
+        451786
+      ],
       "questionAnswers": []
     },
     {
@@ -2287,9 +2844,13 @@
           "linkType": "LinkedIn"
         }
       ],
-      "sessions": [1301878],
+      "sessions": [
+        1301878
+      ],
       "fullName": "Joss Mureddu",
-      "categoryItems": [451784],
+      "categoryItems": [
+        451784
+      ],
       "questionAnswers": []
     },
     {
@@ -2322,9 +2883,15 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1308273],
+      "sessions": [
+        1308273
+      ],
       "fullName": "Keith Atherton",
-      "categoryItems": [451784, 451786, 451789],
+      "categoryItems": [
+        451784,
+        451786,
+        451789
+      ],
       "questionAnswers": []
     },
     {
@@ -2357,9 +2924,16 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1252939, 1209086, 1173456],
+      "sessions": [
+        1252939,
+        1209086,
+        1173456
+      ],
       "fullName": "Kevin McDonnell",
-      "categoryItems": [451784, 451786],
+      "categoryItems": [
+        451784,
+        451786
+      ],
       "questionAnswers": []
     },
     {
@@ -2392,9 +2966,14 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1198712],
+      "sessions": [
+        1198712
+      ],
       "fullName": "Kimmo Koski",
-      "categoryItems": [451784, 451786],
+      "categoryItems": [
+        451784,
+        451786
+      ],
       "questionAnswers": []
     },
     {
@@ -2432,9 +3011,14 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1181352],
+      "sessions": [
+        1181352
+      ],
       "fullName": "Laura Kokkarinen",
-      "categoryItems": [451784, 451786],
+      "categoryItems": [
+        451784,
+        451786
+      ],
       "questionAnswers": []
     },
     {
@@ -2467,9 +3051,14 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1221392],
+      "sessions": [
+        1221392
+      ],
       "fullName": "Leon Armston",
-      "categoryItems": [451784, 451786],
+      "categoryItems": [
+        451784,
+        451786
+      ],
       "questionAnswers": []
     },
     {
@@ -2502,9 +3091,46 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1222252],
+      "sessions": [
+        1222252
+      ],
       "fullName": "Lindsay Shelton",
-      "categoryItems": [451784, 451786],
+      "categoryItems": [
+        451784,
+        451786
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "25ef282e-2aff-4b55-98f2-618137778d4b",
+      "firstName": "Lisa",
+      "lastName": "Pulsinger",
+      "bio": "Lisa Pulsinger has a strong background in international IT Sales, Business Development and Strategic Sales & Marketing Planning. Her role as Senior Technical Evangelist and Product Manager at dox42 involves assisting customers and partners to optimise their document processes and to share her knowledge about document automation. You can meet Lisa at various events and conferences as a speaker representing dox42 and sharing wisdom about document generation to broader audiences.",
+      "tagLine": "Senior Technical Evangelist, Product Manager & Document Automation Expert @ dox42",
+      "profilePicture": "https://cdn.sessionize.com/image/c42a-400o400o1-hAe8HowJQb8ALxN5HTfY5x.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/lisapulsinger/",
+          "linkType": "LinkedIn"
+        },
+        {
+          "title": "Company Website",
+          "url": "https://www.dox42.com",
+          "linkType": "Company_Website"
+        },
+        {
+          "title": "Sessionize",
+          "url": "https://sessionize.com/lisapulsinger",
+          "linkType": "Sessionize"
+        }
+      ],
+      "sessions": [
+        1316329
+      ],
+      "fullName": "Lisa Pulsinger",
+      "categoryItems": [],
       "questionAnswers": []
     },
     {
@@ -2527,7 +3153,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1252947],
+      "sessions": [
+        1252947
+      ],
       "fullName": "Luke Evans",
       "categoryItems": [],
       "questionAnswers": []
@@ -2562,9 +3190,14 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1205888],
+      "sessions": [
+        1205888
+      ],
       "fullName": "Marcin Siewnicki",
-      "categoryItems": [451784, 451786],
+      "categoryItems": [
+        451784,
+        451786
+      ],
       "questionAnswers": []
     },
     {
@@ -2597,9 +3230,15 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1252947],
+      "sessions": [
+        1252947
+      ],
       "fullName": "Marcus Burnap",
-      "categoryItems": [451784, 451786, 451789],
+      "categoryItems": [
+        451784,
+        451786,
+        451789
+      ],
       "questionAnswers": []
     },
     {
@@ -2622,9 +3261,15 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1174142],
+      "sessions": [
+        1174142
+      ],
       "fullName": "Marijn Somers",
-      "categoryItems": [451784, 451786, 451789],
+      "categoryItems": [
+        451784,
+        451786,
+        451789
+      ],
       "questionAnswers": []
     },
     {
@@ -2657,9 +3302,15 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1272136, 1213565],
+      "sessions": [
+        1272136,
+        1213565
+      ],
       "fullName": "Mark Carrington",
-      "categoryItems": [451784, 451786],
+      "categoryItems": [
+        451784,
+        451786
+      ],
       "questionAnswers": []
     },
     {
@@ -2692,7 +3343,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1252943],
+      "sessions": [
+        1252943
+      ],
       "fullName": "Markus Franz",
       "categoryItems": [],
       "questionAnswers": []
@@ -2706,7 +3359,9 @@
       "profilePicture": "https://cdn.sessionize.com/image/4b05-400o400o1-fBk8G42KsUExuHXf38FHhi.jpg",
       "isTopSpeaker": false,
       "links": [],
-      "sessions": [1302541],
+      "sessions": [
+        1302541
+      ],
       "fullName": "Martin Woodward",
       "categoryItems": [],
       "questionAnswers": []
@@ -2741,9 +3396,15 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1252940, 1177020],
+      "sessions": [
+        1252940,
+        1177020
+      ],
       "fullName": "Mats Necker",
-      "categoryItems": [451784, 451786],
+      "categoryItems": [
+        451784,
+        451786
+      ],
       "questionAnswers": []
     },
     {
@@ -2771,7 +3432,11 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1253880, 1272136, 1223846],
+      "sessions": [
+        1253880,
+        1223846,
+        1272136
+      ],
       "fullName": "Matt Beard",
       "categoryItems": [],
       "questionAnswers": []
@@ -2801,9 +3466,15 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1221436],
+      "sessions": [
+        1221436
+      ],
       "fullName": "Matt Collins-Jones",
-      "categoryItems": [451784, 451786, 451789],
+      "categoryItems": [
+        451784,
+        451786,
+        451789
+      ],
       "questionAnswers": []
     },
     {
@@ -2826,9 +3497,15 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1195398, 1185280],
+      "sessions": [
+        1195398,
+        1185280
+      ],
       "fullName": "Melissa Hale",
-      "categoryItems": [451784, 451786],
+      "categoryItems": [
+        451784,
+        451786
+      ],
       "questionAnswers": []
     },
     {
@@ -2851,9 +3528,41 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1218279],
+      "sessions": [
+        1218279
+      ],
       "fullName": "Michael Seidl",
       "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "c602e8db-0695-4e02-8848-2a70f6055ed6",
+      "firstName": "Michael",
+      "lastName": "Stephenson",
+      "bio": "Mike Stephenson is the CTO for Turbo360 and a 19 year Microsoft MVP.  In addition to this Mike is a FinOps Certified Practitioner.\r\n\r\nMike has a long term experience of working as an architect with Microsoft Azure technologies but the last few years he has specialized in helping customers tune their Azure environment to minimize waste while maximizing the value they get from their solution.",
+      "tagLine": "CTO @ Turbo360 - Microsoft MVP",
+      "profilePicture": "https://cdn.sessionize.com/image/e09b-400o400o1-LSjRdgQWzBS6qrXavRUSgu.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/michaelstephensonuk1/",
+          "linkType": "LinkedIn"
+        },
+        {
+          "title": "Blog",
+          "url": "https://mikestephenson.me/",
+          "linkType": "Blog"
+        }
+      ],
+      "sessions": [
+        1316851
+      ],
+      "fullName": "Michael Stephenson",
+      "categoryItems": [
+        451784,
+        451786
+      ],
       "questionAnswers": []
     },
     {
@@ -2886,9 +3595,14 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1220619],
+      "sessions": [
+        1220619
+      ],
       "fullName": "Michaël Maillot",
-      "categoryItems": [451784, 451786],
+      "categoryItems": [
+        451784,
+        451786
+      ],
       "questionAnswers": []
     },
     {
@@ -2921,9 +3635,14 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1217798],
+      "sessions": [
+        1217798
+      ],
       "fullName": "Mike Hartley",
-      "categoryItems": [451784, 451786],
+      "categoryItems": [
+        451784,
+        451786
+      ],
       "questionAnswers": []
     },
     {
@@ -2956,9 +3675,14 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1222658],
+      "sessions": [
+        1222658
+      ],
       "fullName": "Myron Helgering",
-      "categoryItems": [451784, 451786],
+      "categoryItems": [
+        451784,
+        451786
+      ],
       "questionAnswers": []
     },
     {
@@ -2986,9 +3710,14 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1210543],
+      "sessions": [
+        1210543
+      ],
       "fullName": "Nathan Sweeney",
-      "categoryItems": [451784, 451786],
+      "categoryItems": [
+        451784,
+        451786
+      ],
       "questionAnswers": []
     },
     {
@@ -3026,9 +3755,15 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1185280],
+      "sessions": [
+        1185280
+      ],
       "fullName": "Nick Doelman",
-      "categoryItems": [451784, 451786, 451789],
+      "categoryItems": [
+        451784,
+        451786,
+        451789
+      ],
       "questionAnswers": []
     },
     {
@@ -3056,9 +3791,14 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1221204],
+      "sessions": [
+        1221204
+      ],
       "fullName": "Nick Woodley",
-      "categoryItems": [451785, 451789],
+      "categoryItems": [
+        451785,
+        451789
+      ],
       "questionAnswers": []
     },
     {
@@ -3086,9 +3826,15 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1188453],
+      "sessions": [
+        1188453
+      ],
       "fullName": "Onyinye Madubuko",
-      "categoryItems": [451784, 451786, 451789],
+      "categoryItems": [
+        451784,
+        451786,
+        451789
+      ],
       "questionAnswers": []
     },
     {
@@ -3121,9 +3867,14 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1217247],
+      "sessions": [
+        1217247
+      ],
       "fullName": "Patrick Wahlmueller",
-      "categoryItems": [451784, 451786],
+      "categoryItems": [
+        451784,
+        451786
+      ],
       "questionAnswers": []
     },
     {
@@ -3151,9 +3902,15 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1210618],
+      "sessions": [
+        1210618
+      ],
       "fullName": "Per-Torben Sørensen",
-      "categoryItems": [451784, 451786, 451789],
+      "categoryItems": [
+        451784,
+        451786,
+        451789
+      ],
       "questionAnswers": []
     },
     {
@@ -3181,9 +3938,16 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1252939, 1212343],
+      "sessions": [
+        1252939,
+        1212343
+      ],
       "fullName": "Rex de Koning",
-      "categoryItems": [451784, 451786, 451789],
+      "categoryItems": [
+        451784,
+        451786,
+        451789
+      ],
       "questionAnswers": []
     },
     {
@@ -3221,9 +3985,14 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1221417],
+      "sessions": [
+        1221417
+      ],
       "fullName": "Rishi Sapra",
-      "categoryItems": [451784, 451786],
+      "categoryItems": [
+        451784,
+        451786
+      ],
       "questionAnswers": []
     },
     {
@@ -3241,9 +4010,13 @@
           "linkType": "LinkedIn"
         }
       ],
-      "sessions": [1301878],
+      "sessions": [
+        1301878
+      ],
       "fullName": "Rutger Kosters",
-      "categoryItems": [451784],
+      "categoryItems": [
+        451784
+      ],
       "questionAnswers": []
     },
     {
@@ -3276,9 +4049,43 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1252943],
+      "sessions": [
+        1252943
+      ],
       "fullName": "Sandra Kiel",
-      "categoryItems": [451784, 451786],
+      "categoryItems": [
+        451784,
+        451786
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "2b1a0f4e-e0b7-44e0-97d6-a27ef40bd755",
+      "firstName": "Sanjay",
+      "lastName": "Limbachya",
+      "bio": "Sanjay and Markus joined forces from different ends of the technology spectrum. Markus was an Implementation Consultant for a consultancy firm and Sanjay was an Subject Matter Expert for a Retail business. \r\n\r\nMarkus has worked for a few large implementation partners as well as contracting directly with clients.\r\n\r\nSanjay has worked as an end-user building his knowledge becoming a subject matter expert, to leading change programmes.\r\n\r\nWe quickly realised that we share a passion for helping organisations navigate the ever-evolving business landscape, and that we want to help them fully realise the potential of their technology.\r\n\r\nOur technology backgrounds are NAV, Business Central, AX, D365. We do also run change projects for organisations working with our technologies. ",
+      "tagLine": "BR One - Embrace Change with Confidence",
+      "profilePicture": "https://cdn.sessionize.com/image/e330-400o400o1-Md25V6a4r8W6MsqWPe3BB6.png",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/sanjay-limbachya-41b77227/",
+          "linkType": "LinkedIn"
+        },
+        {
+          "title": "Company Website",
+          "url": "https://broneconsulting.com",
+          "linkType": "Company_Website"
+        }
+      ],
+      "sessions": [
+        1316750
+      ],
+      "fullName": "Sanjay Limbachya",
+      "categoryItems": [
+        451784
+      ],
       "questionAnswers": []
     },
     {
@@ -3306,7 +4113,9 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1252939],
+      "sessions": [
+        1252939
+      ],
       "fullName": "Sara Fennah",
       "categoryItems": [],
       "questionAnswers": []
@@ -3331,9 +4140,13 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1183522],
+      "sessions": [
+        1183522
+      ],
       "fullName": "Sarah Jones",
-      "categoryItems": [451784],
+      "categoryItems": [
+        451784
+      ],
       "questionAnswers": []
     },
     {
@@ -3361,9 +4174,14 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1221930],
+      "sessions": [
+        1221930
+      ],
       "fullName": "Sari Soinoja",
-      "categoryItems": [451784, 451786],
+      "categoryItems": [
+        451784,
+        451786
+      ],
       "questionAnswers": []
     },
     {
@@ -3396,9 +4214,14 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1222843],
+      "sessions": [
+        1222843
+      ],
       "fullName": "Sebastian Sieber",
-      "categoryItems": [451784, 451786],
+      "categoryItems": [
+        451784,
+        451786
+      ],
       "questionAnswers": []
     },
     {
@@ -3421,9 +4244,13 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1215976],
+      "sessions": [
+        1215976
+      ],
       "fullName": "Selva Pradeep Sathanandam",
-      "categoryItems": [451783],
+      "categoryItems": [
+        451783
+      ],
       "questionAnswers": []
     },
     {
@@ -3441,9 +4268,13 @@
           "linkType": "LinkedIn"
         }
       ],
-      "sessions": [1272136],
+      "sessions": [
+        1272136
+      ],
       "fullName": "Simon Wise",
-      "categoryItems": [451784],
+      "categoryItems": [
+        451784
+      ],
       "questionAnswers": []
     },
     {
@@ -3476,9 +4307,38 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1196885],
+      "sessions": [
+        1196885
+      ],
       "fullName": "Stephan van Rooij",
-      "categoryItems": [451784, 451786],
+      "categoryItems": [
+        451784,
+        451786
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "66177a34-216d-4903-bbe6-878165541f09",
+      "firstName": "Tanja",
+      "lastName": "Gfoeller",
+      "bio": "With over five years of experience in customer engagement at mscrm-addons, I specialize in showcasing our addons based on Dataverse, which can also be used in the Power Platform to automate various processes. I guide potential clients through trial setups and licensing discussions while assisting existing customers directly and through partners, ensuring their needs are met across various industries worldwide. I also take on sales administration tasks as needed, but I truly enjoy helping customers and collaborating with our partners - it's a great community!",
+      "tagLine": "Sales Manager at mscrm-addons",
+      "profilePicture": "https://cdn.sessionize.com/image/a5ff-400o400o1-XeU2omPD9JZCw8TY366X2P.png",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "Sessionize",
+          "url": "https://sessionize.com/tanja-gfoeller",
+          "linkType": "Sessionize"
+        }
+      ],
+      "sessions": [
+        1272133
+      ],
+      "fullName": "Tanja Gfoeller",
+      "categoryItems": [
+        451784
+      ],
       "questionAnswers": []
     },
     {
@@ -3511,9 +4371,14 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1181352],
+      "sessions": [
+        1181352
+      ],
       "fullName": "Tatu Seppälä",
-      "categoryItems": [451784, 451786],
+      "categoryItems": [
+        451784,
+        451786
+      ],
       "questionAnswers": []
     },
     {
@@ -3546,9 +4411,15 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1173694],
+      "sessions": [
+        1173694
+      ],
       "fullName": "Thomas Stensitzki",
-      "categoryItems": [451784, 451786, 451789],
+      "categoryItems": [
+        451784,
+        451786,
+        451789
+      ],
       "questionAnswers": []
     },
     {
@@ -3581,9 +4452,13 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1221417],
+      "sessions": [
+        1221417
+      ],
       "fullName": "Triparna Ray",
-      "categoryItems": [451784],
+      "categoryItems": [
+        451784
+      ],
       "questionAnswers": []
     },
     {
@@ -3611,9 +4486,15 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1173804, 1189712],
+      "sessions": [
+        1173804,
+        1189712
+      ],
       "fullName": "Vivian Voss",
-      "categoryItems": [451784, 451786],
+      "categoryItems": [
+        451784,
+        451786
+      ],
       "questionAnswers": []
     },
     {
@@ -3646,7 +4527,10 @@
           "linkType": "Sessionize"
         }
       ],
-      "sessions": [1253880, 1223846],
+      "sessions": [
+        1253880,
+        1223846
+      ],
       "fullName": "Zoe Wilson",
       "categoryItems": [],
       "questionAnswers": []
