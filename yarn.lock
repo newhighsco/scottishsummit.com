@@ -2536,9 +2536,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/compat@npm:2.1.0":
-  version: 2.1.0
-  resolution: "@eslint/compat@npm:2.1.0"
+"@eslint/compat@npm:2.1.1":
+  version: 2.1.1
+  resolution: "@eslint/compat@npm:2.1.1"
   dependencies:
     "@eslint/core": "npm:^1.2.1"
   peerDependencies:
@@ -2546,7 +2546,7 @@ __metadata:
   peerDependenciesMeta:
     eslint:
       optional: true
-  checksum: 10c0/05b9e54813f124c45a8142571dbc539ea06bfc70a21e28c5d39a145578a62c733a9029850b89e357ee5924b1ea19611bf4d7cfe894595028730f691b86e9815b
+  checksum: 10c0/c1856c72e09a767b74c930c1dc17155c479f8b9dd73067d634408ab26318335736265d5d0feee0466c31d796846939cbf68707a045f46f3a02b7c3ad3a093fc4
   languageName: node
   linkType: hard
 
@@ -3106,11 +3106,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/eslint-config@npm:7.1.46":
-  version: 7.1.46
-  resolution: "@newhighsco/eslint-config@npm:7.1.46"
+"@newhighsco/eslint-config@npm:7.1.47":
+  version: 7.1.47
+  resolution: "@newhighsco/eslint-config@npm:7.1.47"
   dependencies:
-    "@eslint/compat": "npm:2.1.0"
+    "@eslint/compat": "npm:2.1.1"
     "@eslint/js": "npm:10.0.1"
     "@eslint/json": "npm:2.1.0"
     eslint-config-prettier: "npm:10.1.8"
@@ -3135,7 +3135,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10c0/7f502a95446e0c21c2de6994b11438af4974cd39ba6f44a24cb65297c243c86c46eb0cc32c21d0d440efcff301675534dabbf5448add908e9514d9515ff40c65
+  checksum: 10c0/92aba3cf21d47d1a72252c578d1b9c7542f53d63069928527ecf50d9b9f801a1b1c60976273a5883a7e95ac8a15b707b2344619e7e80cbca0e87203926668327
   languageName: node
   linkType: hard
 
@@ -3228,14 +3228,14 @@ __metadata:
     "@newhighsco/chipset": "npm:7.4.2"
     "@newhighsco/commitlint-config": "npm:1.3.6"
     "@newhighsco/editor-config": "npm:1.2.0"
-    "@newhighsco/eslint-config": "npm:7.1.46"
+    "@newhighsco/eslint-config": "npm:7.1.47"
     "@newhighsco/lint-staged-config": "npm:1.1.4"
     "@newhighsco/next-plugin-svgr": "npm:3.0.176"
     "@newhighsco/postcss-config": "npm:4.0.76"
     "@newhighsco/press-start": "npm:2.9.4"
     "@newhighsco/prettier-config": "npm:2.3.14"
     "@newhighsco/release-config": "npm:1.5.10"
-    "@newhighsco/storybook-preset": "npm:10.2.92"
+    "@newhighsco/storybook-preset": "npm:10.2.95"
     "@newhighsco/stylelint-config": "npm:4.0.55"
     "@newhighsco/svgr-config": "npm:1.0.0"
     "@newhighsco/yarn-plugin-preset": "npm:1.1.4"
@@ -3284,9 +3284,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/storybook-preset@npm:10.2.92":
-  version: 10.2.92
-  resolution: "@newhighsco/storybook-preset@npm:10.2.92"
+"@newhighsco/storybook-preset@npm:10.2.95":
+  version: 10.2.95
+  resolution: "@newhighsco/storybook-preset@npm:10.2.95"
   dependencies:
     "@newhighsco/chipset": "npm:7.4.2"
     "@newhighsco/storybook-addon-svgr": "npm:4.0.0"
@@ -3296,16 +3296,16 @@ __metadata:
     "@storybook/addon-styling-webpack": "npm:3.0.2"
     "@storybook/addon-webpack5-compiler-swc": "npm:4.0.3"
     css-loader: "npm:7.1.5"
-    postcss: "npm:8.5.26"
+    postcss: "npm:8.5.28"
     postcss-loader: "npm:8.2.1"
-    sass: "npm:1.103.1"
+    sass: "npm:1.104.0"
     sass-loader: "npm:17.0.1"
     storybook-addon-pseudo-states: "npm:10.6.0"
     style-loader: "npm:4.0.0"
   peerDependencies:
     "@storybook/react-webpack5": ^10
     storybook: ^10
-  checksum: 10c0/f64645a542a44c93fabca5586f127bfb09135fb6f624272ddde46b220222258dbb3553c31597ed5ac4da275e8580f5d90ba41bc30fe2e47549f2c7428c2c707c
+  checksum: 10c0/6b2799038e29cf8a87a1503a9c3fd1b0d6e38c267611822d5d9348d4b9f5a87fe6b415c822bd97b54b749c3acacf4844583dd7dce9f638f9991ecd590b205db1
   languageName: node
   linkType: hard
 
@@ -11564,7 +11564,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nanoid@npm:^3.3.16, nanoid@npm:^3.3.17, nanoid@npm:^3.3.18":
+"nanoid@npm:^3.3.16, nanoid@npm:^3.3.18":
   version: 3.3.18
   resolution: "nanoid@npm:3.3.18"
   bin:
@@ -13380,17 +13380,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.5.26":
-  version: 8.5.26
-  resolution: "postcss@npm:8.5.26"
-  dependencies:
-    nanoid: "npm:^3.3.17"
-    picocolors: "npm:^1.1.1"
-    source-map-js: "npm:^1.2.1"
-  checksum: 10c0/2bdafc00d96bd57b6649a52e458864a4bf58ee56cfdbe4aea1472b5cccc127e6c1ad653bd0bec50d211e650eb0b9270c80e1e72aff2e2fa40d9e7363234d6e43
-  languageName: node
-  linkType: hard
-
 "postcss@npm:8.5.28, postcss@npm:^8.2.14, postcss@npm:^8.4.33, postcss@npm:^8.4.38, postcss@npm:^8.4.40, postcss@npm:^8.4.47, postcss@npm:^8.5.26, postcss@npm:^8.5.8":
   version: 8.5.28
   resolution: "postcss@npm:8.5.28"
@@ -14298,23 +14287,6 @@ __metadata:
     webpack:
       optional: true
   checksum: 10c0/c05886e6f1373eec23b05ea4d2dfc4317385dc3431ec665b611703ea60b4f9337f6547889c7b7f1c8e36d156caf1294e3d28292f104d6499076cf237f3c723bc
-  languageName: node
-  linkType: hard
-
-"sass@npm:1.103.1":
-  version: 1.103.1
-  resolution: "sass@npm:1.103.1"
-  dependencies:
-    "@parcel/watcher": "npm:^2.4.1"
-    chokidar: "npm:^5.0.0"
-    immutable: "npm:^5.1.5"
-    source-map-js: "npm:>=0.6.2 <2.0.0"
-  dependenciesMeta:
-    "@parcel/watcher":
-      optional: true
-  bin:
-    sass: sass.js
-  checksum: 10c0/8c786a201d9484e9968784d672372fabb342f3b4d1c4629ffdcfba92e4f2c00e659f4e32244c870850f7c2d254ce773da3fc1ec40b4282ccd113c0c086fa36bd
   languageName: node
   linkType: hard
 
