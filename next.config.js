@@ -17,6 +17,11 @@ const nextConfig = {
       source: '/sponsor-pack',
       destination:
         'https://scottishsummitwebsite.blob.core.windows.net/resources/Scottish%20Summit%2026%20Sponsor%20Opportunities.pdf'
+    },
+    {
+      source: '/access-pass',
+      destination:
+        'https://scottishsummitwebsite.blob.core.windows.net/resources/Scottish%20Summit%20-%20Access%20Pass%20-%20Saturday.pdf'
     }
   ],
   redirects: () => [
