@@ -1189,6 +1189,31 @@
       "isConfirmed": true
     },
     {
+      "id": "1335942",
+      "title": "Using AI Agents with D365F&O",
+      "description": "This session explores how AI Agents can transform business processes by automating routine tasks, accelerating decision-making, and enhancing user productivity across finance, supply chain, and operations. \r\n\r\nAttendees will gain an understanding of how Microsoft Copilot, AI Agents, and the broader Power Platform and Azure AI ecosystem can integrate with D365 F&O to deliver intelligent results. ",
+      "startsAt": "2026-10-03T15:00:00",
+      "endsAt": "2026-10-03T15:45:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "ffa9ecc3-3d38-4359-93fa-7103a2d05a0d",
+        "e999a460-04a6-48f2-85f2-96da79a89f23"
+      ],
+      "categoryItems": [
+        450221,
+        450340,
+        452078
+      ],
+      "questionAnswers": [],
+      "roomId": 80336,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": false
+    },
+    {
       "id": "1215976",
       "title": "Fantastic Fabric: From Data Chaos to Real-World Insights",
       "description": "Modern data platforms often start in chaos. Multiple tools, disconnected processes, and growing complexity, making it harder to turn data into meaningful insights. Separate tools for ingestion, transformation, storage, and reporting makes solutions harder to manage and slows teams down, making it genuinely difficult to deliver insights efficiently.\r\n\r\nMicrosoft Fabric addresses this challenge by bringing these capabilities together into a unified platform. Built within the familiar Power BI ecosystem, it provides a consistent experience for both business users and data professionals.\r\n\r\nIn this session, we walk through a real-world approach to building an end-to-end data solution in Microsoft Fabric—from ingesting raw data, through transformation and modelling, to delivering insights. Rather than focusing on theory, the session explores practical implementation approaches and the challenges that arise when using Fabric in real scenarios.\r\n\r\nYou will see how core components such as Dataflows, Pipelines, Lakehouse, Warehouse, external tables, and Workspaces (including security roles) fit together in practice, and how to design solutions that are scalable, maintainable, and aligned with business needs.\r\n\r\nThe session also highlights common pitfalls such as inefficient data modelling, orchestration gaps, and performance issues, along with practical ways to avoid them.\r\n\r\nIn addition, it covers key topics such as migration considerations from Azure Synapse to Fabric, Direct Lake reporting, basic PySpark notebooks for data transformation, and the Medallion architecture.\r\n\r\nFrom this session, you'll get a clear and practical understanding of how to build effective solutions in Microsoft Fabric, including design patterns that work, common mistakes to avoid, and techniques to improve performance and delivery.\r\n\r\nThis session is aimed at data professionals and anyone working with data who want to move beyond the basics and start building real-world solutions using Microsoft Fabric.",
@@ -2952,6 +2977,30 @@
       "questionAnswers": []
     },
     {
+      "id": "e999a460-04a6-48f2-85f2-96da79a89f23",
+      "firstName": "Laura",
+      "lastName": "Downs",
+      "bio": "Microsoft Dynamics 365 for Finance and Operations with a touch of Customer Engagement and the Power Platform. \r\n\r\nAfter being a recruiter for a couple of years, I decided to take a leap to the dark side and go into what I'm more passionate about, technology - so far so good. ",
+      "tagLine": "Senior D365F&O Consultant",
+      "profilePicture": "https://cdn.sessionize.com/image/70e9-400o400o1-UVFjoF6JHB7e2u84yGFBUU.png",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/laura-d-9a466a109/",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        1335942
+      ],
+      "fullName": "Laura Downs",
+      "categoryItems": [
+        451783
+      ],
+      "questionAnswers": []
+    },
+    {
       "id": "6282aa05-a6cb-4410-a5e1-d7c11a52ec04",
       "firstName": "Laura",
       "lastName": "Kokkarinen",
@@ -3619,7 +3668,8 @@
         }
       ],
       "sessions": [
-        1210543
+        1210543,
+        1335942
       ],
       "fullName": "Nathan Sweeney",
       "categoryItems": [
