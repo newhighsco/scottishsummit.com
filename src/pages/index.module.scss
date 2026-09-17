@@ -4,7 +4,9 @@
 @use '~styles/mixins';
 
 .ticketCta {
+  align-self: center;
   position: relative;
+  width: fit-content;
 
   .soldOutStamp {
     background: colors.$lychee;
