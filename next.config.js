@@ -24,6 +24,16 @@ const nextConfig = {
       source: '/tickets',
       destination: 'https://fienta.com/scottish-summit-2026',
       permanent: false
+    },
+    {
+      source: '/speakers',
+      destination: '/',
+      permanent: true
+    },
+    {
+      source: '/workshops',
+      destination: '/',
+      permanent: true
     }
   ],
   transpilePackages: ['@newhighsco/chipset', '@newhighsco/press-start'],

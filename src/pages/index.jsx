@@ -30,7 +30,7 @@ const timeline = [
     children: 'Closed'
   },
   { heading: 'Agenda Published', children: 'July 1st, 2026' },
-  { heading: 'Workshops', href: '/workshops', children: 'October 2nd, 2026' },
+  { heading: 'Workshops', children: 'October 2nd, 2026' },
   { heading: 'Event Day', children: 'October 3rd, 2026' }
 ]
 const currentEvent = events.find(({ slug }) => slug === currentEventSlug)
