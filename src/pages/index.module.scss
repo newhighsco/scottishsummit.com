@@ -1,0 +1,38 @@
+@use '~styles/breakpoints.module';
+@use '~styles/colors.module';
+@use '~styles/functions';
+@use '~styles/mixins';
+
+.ticketCta {
+  display: inline-block;
+  position: relative;
+  width: fit-content;
+
+  .soldOutStamp {
+    background: colors.$lychee;
+    border: 3px solid colors.$white;
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px colors.$lychee;
+    color: colors.$white;
+    display: grid;
+    font-size: 0.75rem;
+    font-weight: bold;
+    line-height: 1.1;
+    padding: functions.spacing(1);
+    place-items: center;
+    pointer-events: none;
+    position: absolute;
+    right: functions.spacing(-1);
+    text-align: center;
+    text-transform: uppercase;
+    top: functions.spacing(-2);
+    transform: rotate(10deg);
+    width: functions.spacing(9);
+    z-index: 2;
+
+    @include mixins.mq(breakpoints.$tablet-landscape) {
+      font-size: 0.875rem;
+      width: functions.spacing(11);
+    }
+  }
+}

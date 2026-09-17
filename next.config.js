@@ -17,6 +17,11 @@ const nextConfig = {
       source: '/sponsor-pack',
       destination:
         'https://scottishsummitwebsite.blob.core.windows.net/resources/Scottish%20Summit%2026%20Sponsor%20Opportunities.pdf'
+    },
+    {
+      source: '/access-pass',
+      destination:
+        'https://scottishsummitwebsite.blob.core.windows.net/resources/Scottish%20Summit%20-%20Access%20Pass%20-%20Saturday.pdf'
     }
   ],
   redirects: () => [
@@ -24,6 +29,11 @@ const nextConfig = {
       source: '/tickets',
       destination: 'https://fienta.com/scottish-summit-2026',
       permanent: false
+    },
+    {
+      source: '/workshops',
+      destination: '/',
+      permanent: true
     }
   ],
   transpilePackages: ['@newhighsco/chipset', '@newhighsco/press-start'],

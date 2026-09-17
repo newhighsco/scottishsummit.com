@@ -5,12 +5,13 @@ import React, { Fragment } from 'react'
 import EventHeading from '~components/Events/EventHeading'
 import PageContainer from '~components/PageContainer'
 import Section from '~components/Section'
-import SponsorshipCallToAction from '~components/Sponsors/SponsorshipCallToAction'
 import Video from '~components/Video'
 import config from '~config'
 import events from '~data/events.json'
 import { eventTitle } from '~utils/format'
 import { canonicalUrl } from '~utils/urls'
+
+import styles from './index.module.scss'
 
 const { name, logo, socialLinks, url, currentEventSlug } = config
 const organizer = {
@@ -22,21 +23,14 @@ const organizer = {
 const timeline = [
   {
     heading: 'Call for Sponsors',
-    href: '/#become-a-sponsor',
-    children: (
-      <>
-        Open now
-        <br />
-        <small>Limited Space Remaining</small>
-      </>
-    )
+    children: 'Closed'
   },
   {
     heading: 'Call for Speakers',
     children: 'Closed'
   },
   { heading: 'Agenda Published', children: 'July 1st, 2026' },
-  { heading: 'Workshops', href: '/workshops', children: 'October 2nd, 2026' },
+  { heading: 'Workshops', children: 'October 2nd, 2026' },
   { heading: 'Event Day', children: 'October 3rd, 2026' }
 ]
 const currentEvent = events.find(({ slug }) => slug === currentEventSlug)
@@ -60,9 +54,15 @@ const HomePage = () => (
         </p>
       }
     >
-      <Button href="https://fienta.com/scottish-summit-2026" variant="inverted">
-        Event &amp; Workshop Tickets Available Now
-      </Button>
+      <span className={styles.ticketCta}>
+        <Button
+          href="https://fienta.com/scottish-summit-2026"
+          variant="inverted"
+        >
+          Event &amp; Workshop Tickets Available Now
+        </Button>
+        <span className={styles.soldOutStamp}>Nearly Sold Out!</span>
+      </span>
     </EventHeading>
     <Section id="about" variant="striped">
       <Grid gutter valign="middle">
@@ -86,10 +86,6 @@ const HomePage = () => (
         </Grid.Item>
       </Grid>
     </Section>
-    <SponsorshipCallToAction>
-      <p>Sponsor opportunities for {name} 2026 are selling out fast!</p>
-      <p>Act now before they are all gone.</p>
-    </SponsorshipCallToAction>
     <Section align="center" size="tablet">
       <Prose>
         <h2>Tickets Available Now</h2>
@@ -102,8 +98,12 @@ const HomePage = () => (
         <Button href="https://fienta.com/scottish-summit-2026" variant="primary">
           Get Tickets
         </Button>
-        <Button style={{ pointerEvents: 'none', cursor: 'default' }}>
-          App Coming Soon
+        <Button
+          href="https://app.scottishsummit.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Access the App
         </Button>
       </Button.Group>
     </Section>

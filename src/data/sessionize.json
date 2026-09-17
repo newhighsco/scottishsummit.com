@@ -83,11 +83,10 @@
       "isPlenumSession": false,
       "speakers": [
         "fc3a497e-0843-4c5a-9edb-73fdb916c344",
-        "da32b389-2414-4a36-bf0b-33783c408c93",
         "77f098aa-4fb7-46d0-83ee-6e868dc00616"
       ],
       "categoryItems": [
-        450224
+        450223
       ],
       "questionAnswers": [],
       "roomId": 80334,
@@ -166,6 +165,31 @@
       "status": "Accepted",
       "isInformed": true,
       "isConfirmed": false
+    },
+    {
+      "id": "1195398",
+      "title": "🚀 Copilot Cowork in Action: What It Is, How to Get It & What You Can Do With It",
+      "description": "A lot of people have heard of Cowork, but there is still a gap between hearing about it and actually knowing how to use it. How do you get access? What does it look like in practice? And what can it realistically help you with day to day?\r\n\r\nThis session is here to close that gap. Join us for a practical, demo-driven showcase where we walk through Cowork from the ground up. You will see it in action across real scenarios: managing your inbox, staying on top of meetings, collaborating with your team, and getting things done faster inside Microsoft 365. We will not just tell you what is possible, we will show you the reality.\r\n\r\nWhat makes this session a little different is that you will hear from both the Microsoft side and the partner side. That means you get a balanced view: the vision and direction behind Cowork, alongside real-world experience of adopting and using it in practice. Two perspectives, one session.\r\n\r\nBy the end, you will know exactly how to get access, what to expect when you first open it, and which use cases are worth exploring straight away. We will highlight the features that make the biggest difference in everyday work, demonstrate what those look like live, and give you a clear starting point to take back with you.\r\n\r\nThis session is for anyone who works in Microsoft 365 regularly, whether you are in IT, a power user, or just someone looking to get more out of the tools you already have. No deep technical background required. If you are curious about Cowork and want to leave with something concrete, this is the session for you.",
+      "startsAt": "2026-10-03T10:15:00",
+      "endsAt": "2026-10-03T11:00:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "e5db9e81-c381-49f5-aa43-e593615fecc4",
+        "4c125671-951b-4798-8e48-02a45be346e7"
+      ],
+      "categoryItems": [
+        450222,
+        450339,
+        452078
+      ],
+      "questionAnswers": [],
+      "roomId": 77531,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
     },
     {
       "id": "1301878",
@@ -1190,20 +1214,20 @@
       "isConfirmed": true
     },
     {
-      "id": "1223846",
-      "title": "More To Life Than Work",
-      "description": "Scottish Summit is built by people, and people do not leave their real lives at the door. Behind the scenes of careers, community work, speaking, organising and “doing it all”, many of us are also balancing caring responsibilities, family pressures, health challenges, and the general weight of trying to keep everything moving at once. This panel is an open and honest discussion about that reality.\r\n\r\nHosted by the Scottish Summit organisers, this session is a true safe space for a frank and human conversation about balancing career growth, community involvement, and caring duties while protecting your own wellbeing. We will talk about pressures, compromises, support systems, and the importance of asking for help, in a setting where people can feel heard, understood, and not judged.",
+      "id": "1335942",
+      "title": "Using AI Agents with D365F&O",
+      "description": "This session explores how AI Agents can transform business processes by automating routine tasks, accelerating decision-making, and enhancing user productivity across finance, supply chain, and operations. \r\n\r\nAttendees will gain an understanding of how Microsoft Copilot, AI Agents, and the broader Power Platform and Azure AI ecosystem can integrate with D365 F&O to deliver intelligent results. ",
       "startsAt": "2026-10-03T15:00:00",
       "endsAt": "2026-10-03T15:45:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "fcf4f835-b8b2-46bd-a763-206116a4b143",
-        "53fb6ded-b4e7-40df-8efc-8574bf0788a3"
+        "ffa9ecc3-3d38-4359-93fa-7103a2d05a0d",
+        "e999a460-04a6-48f2-85f2-96da79a89f23"
       ],
       "categoryItems": [
-        450220,
-        450339,
+        450221,
+        450340,
         452078
       ],
       "questionAnswers": [],
@@ -1212,7 +1236,7 @@
       "recordingUrl": null,
       "status": "Accepted",
       "isInformed": true,
-      "isConfirmed": true
+      "isConfirmed": false
     },
     {
       "id": "1215976",
@@ -1536,19 +1560,20 @@
       "isConfirmed": true
     },
     {
-      "id": "1205888",
-      "title": "Teams Meetings: Keep it secret, keep it safe",
-      "description": "Whether you are working on a project with colleagues, talking with customers, planning next year’s budget, or attending an important marketing meeting, Teams meetings have become an essential tool that we use almost automatically. But let’s not forget the risks: data oversharing to the wrong audience, unmanaged recordings and transcripts, external access gaps, and AI tools (for example, third-party AI bots) that can expose sensitive data.\r\n\r\nThis session is a practical guide to securing your Teams meetings. I will map real meeting scenarios to the Teams security architecture: identity, access controls, information protection, and meeting policies. I will also cover risks introduced by unsanctioned AI platforms and tools.\r\n\r\nSession plan:\r\n\r\n    Secure by default: how to create a security baseline for meetings, that will keep data safe and preserve collaboration features.\r\n    Top Secret: how to prepare to host meetings with highly sensitive information.\r\n    Managing AI-related risk: mitigating shadow third-party AI tools and reducing data leaks.",
+      "id": "1223846",
+      "title": "More To Life Than Work",
+      "description": "Scottish Summit is built by people, and people do not leave their real lives at the door. Behind the scenes of careers, community work, speaking, organising and “doing it all”, many of us are also balancing caring responsibilities, family pressures, health challenges, and the general weight of trying to keep everything moving at once. This panel is an open and honest discussion about that reality.\r\n\r\nHosted by the Scottish Summit organisers, this session is a true safe space for a frank and human conversation about balancing career growth, community involvement, and caring duties while protecting your own wellbeing. We will talk about pressures, compromises, support systems, and the importance of asking for help, in a setting where people can feel heard, understood, and not judged.",
       "startsAt": "2026-10-03T17:00:00",
       "endsAt": "2026-10-03T17:45:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "c85af3e6-6543-488a-a5ae-775fc7365535"
+        "fcf4f835-b8b2-46bd-a763-206116a4b143",
+        "53fb6ded-b4e7-40df-8efc-8574bf0788a3"
       ],
       "categoryItems": [
-        450224,
-        450341,
+        450220,
+        450339,
         452078
       ],
       "questionAnswers": [],
@@ -2025,10 +2050,10 @@
       "id": "b2aa67b1-d97b-4687-8613-c24a3f209801",
       "firstName": "Carl",
       "lastName": "Cookson",
-      "bio": "Power Platform seasoned (ex) developer with a passion for community and enabling everyone.\r\nI am a seasoned professional developer who has experience with Dynamics 365 as well as other CRMs for over 20 years.",
-      "tagLine": "Microsoft Architect",
+      "bio": "Power Platform seasoned (ex) developer with a passion for community and enabling everyone.\r\nI am a seasoned professional developer who has experience with Dynamics 365 as well as other CRMs for over 20 years.\r\n",
+      "tagLine": "Architect/Developer",
       "profilePicture": "https://cdn.sessionize.com/image/1efc-400o400o1-p8B7T5EcKXkv843yCUCAvu.png",
-      "isTopSpeaker": false,
+      "isTopSpeaker": true,
       "links": [
         {
           "title": "LinkedIn",
@@ -2977,6 +3002,30 @@
       "questionAnswers": []
     },
     {
+      "id": "e999a460-04a6-48f2-85f2-96da79a89f23",
+      "firstName": "Laura",
+      "lastName": "Downs",
+      "bio": "Microsoft Dynamics 365 for Finance and Operations with a touch of Customer Engagement and the Power Platform. \r\n\r\nAfter being a recruiter for a couple of years, I decided to take a leap to the dark side and go into what I'm more passionate about, technology - so far so good. ",
+      "tagLine": "Senior D365F&O Consultant",
+      "profilePicture": "https://cdn.sessionize.com/image/70e9-400o400o1-UVFjoF6JHB7e2u84yGFBUU.png",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/laura-d-9a466a109/",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        1335942
+      ],
+      "fullName": "Laura Downs",
+      "categoryItems": [
+        451783
+      ],
+      "questionAnswers": []
+    },
+    {
       "id": "6282aa05-a6cb-4410-a5e1-d7c11a52ec04",
       "firstName": "Laura",
       "lastName": "Kokkarinen",
@@ -3171,33 +3220,25 @@
       "links": [
         {
           "title": "LinkedIn",
-          "url": "https://www.linkedin.com/in/marcinsiewnicki/",
+          "url": "https://www.linkedin.com/in/lisapulsinger/",
           "linkType": "LinkedIn"
         },
         {
-          "title": "Blog",
-          "url": "https://modernworkplace.site/",
-          "linkType": "Blog"
-        },
-        {
           "title": "Company Website",
-          "url": "https://www.iscg.pl/en",
+          "url": "https://www.dox42.com",
           "linkType": "Company_Website"
         },
         {
           "title": "Sessionize",
-          "url": "https://sessionize.com/marcin-siewnicki",
+          "url": "https://sessionize.com/lisapulsinger",
           "linkType": "Sessionize"
         }
       ],
       "sessions": [
-        1205888
+        1316329
       ],
-      "fullName": "Marcin Siewnicki",
-      "categoryItems": [
-        451784,
-        451786
-      ],
+      "fullName": "Lisa Pulsinger",
+      "categoryItems": [],
       "questionAnswers": []
     },
     {
@@ -3711,7 +3752,8 @@
         }
       ],
       "sessions": [
-        1210543
+        1210543,
+        1335942
       ],
       "fullName": "Nathan Sweeney",
       "categoryItems": [
