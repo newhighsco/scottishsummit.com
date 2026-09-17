@@ -11,6 +11,8 @@ import events from '~data/events.json'
 import { eventTitle } from '~utils/format'
 import { canonicalUrl } from '~utils/urls'
 
+import styles from './index.module.scss'
+
 const { name, logo, socialLinks, url, currentEventSlug } = config
 const organizer = {
   type: 'Organization',
@@ -53,15 +55,15 @@ const HomePage = () => (
       }
     >
       <Button.Group>
-        <Button
-          href="https://fienta.com/scottish-summit-2026"
-          variant="inverted"
-        >
-          Event &amp; Workshop Tickets Available Now
-        </Button>
-        <Button href="https://fienta.com/scottish-summit-2026">
-          Nearly Sold Out!
-        </Button>
+        <span className={styles.ticketCta}>
+          <Button
+            href="https://fienta.com/scottish-summit-2026"
+            variant="inverted"
+          >
+            Event &amp; Workshop Tickets Available Now
+          </Button>
+          <span className={styles.soldOutStamp}>Nearly Sold Out!</span>
+        </span>
       </Button.Group>
     </EventHeading>
     <Section id="about" variant="striped">
