@@ -54,17 +54,15 @@ const HomePage = () => (
         </p>
       }
     >
-      <Button.Group>
-        <span className={styles.ticketCta}>
-          <Button
-            href="https://fienta.com/scottish-summit-2026"
-            variant="inverted"
-          >
-            Event &amp; Workshop Tickets Available Now
-          </Button>
-          <span className={styles.soldOutStamp}>Nearly Sold Out!</span>
-        </span>
-      </Button.Group>
+      <span className={styles.ticketCta}>
+        <Button
+          href="https://fienta.com/scottish-summit-2026"
+          variant="inverted"
+        >
+          Event &amp; Workshop Tickets Available Now
+        </Button>
+        <span className={styles.soldOutStamp}>Nearly Sold Out!</span>
+      </span>
     </EventHeading>
     <Section id="about" variant="striped">
       <Grid gutter valign="middle">

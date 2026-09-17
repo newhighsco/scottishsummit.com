@@ -4,8 +4,7 @@
 @use '~styles/mixins';
 
 .ticketCta {
-  align-self: center;
-  margin-inline: auto;
+  display: inline-block;
   position: relative;
   width: fit-content;
 
