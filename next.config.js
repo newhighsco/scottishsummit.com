@@ -31,11 +31,6 @@ const nextConfig = {
       permanent: false
     },
     {
-      source: '/speakers',
-      destination: '/',
-      permanent: true
-    },
-    {
       source: '/workshops',
       destination: '/',
       permanent: true
