@@ -315,6 +315,31 @@
       "isConfirmed": true
     },
     {
+      "id": "1195398",
+      "title": "🚀 Copilot Cowork in Action: What It Is, How to Get It & What You Can Do With It",
+      "description": "A lot of people have heard of Cowork, but there is still a gap between hearing about it and actually knowing how to use it. How do you get access? What does it look like in practice? And what can it realistically help you with day to day?\r\n\r\nThis session is here to close that gap. Join us for a practical, demo-driven showcase where we walk through Cowork from the ground up. You will see it in action across real scenarios: managing your inbox, staying on top of meetings, collaborating with your team, and getting things done faster inside Microsoft 365. We will not just tell you what is possible, we will show you the reality.\r\n\r\nWhat makes this session a little different is that you will hear from both the Microsoft side and the partner side. That means you get a balanced view: the vision and direction behind Cowork, alongside real-world experience of adopting and using it in practice. Two perspectives, one session.\r\n\r\nBy the end, you will know exactly how to get access, what to expect when you first open it, and which use cases are worth exploring straight away. We will highlight the features that make the biggest difference in everyday work, demonstrate what those look like live, and give you a clear starting point to take back with you.\r\n\r\nThis session is for anyone who works in Microsoft 365 regularly, whether you are in IT, a power user, or just someone looking to get more out of the tools you already have. No deep technical background required. If you are curious about Cowork and want to leave with something concrete, this is the session for you.",
+      "startsAt": "2026-10-03T11:15:00",
+      "endsAt": "2026-10-03T12:00:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "e5db9e81-c381-49f5-aa43-e593615fecc4",
+        "4c125671-951b-4798-8e48-02a45be346e7"
+      ],
+      "categoryItems": [
+        450222,
+        450339,
+        452078
+      ],
+      "questionAnswers": [],
+      "roomId": 77530,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
       "id": "1180217",
       "title": "From Overwhelmed to In Control: An Essentialist Approach to Running a Power Platform CoE",
       "description": "Running a Power Platform Centre of Enablement can feel like trying to build a plane while you’re mid-flight. New features arrive weekly, demand grows faster than capacity and governance expectations never slow down. No wonder so many Centre of Enablement leads feel overwhelmed before they even start. \r\n\r\nThis session introduces an Essentialist approach to governing and managing Power Platform, inspired by the principles in Greg McKeown’s 'Essentialism'. Instead of trying to do everything - and burning out in the process - you’ll learn how to identify what actually matters, make intentional trade-offs, and build a sustainable, focused CoE practice that works whether you’re a team of ten or a team of one.\r\n\r\nDrawing on years of experience supporting customers and running our own Power Platform CoEs, we will share practical, field-tested strategies for cutting through the noise, creating an environment where makers and stakeholders get what they need - maximising value without driving everyone to burnout.\r\n\r\nKey takeaways include:\r\n1. How to apply Essentialism’s trade-off mindset to governance decisions so you stop chasing everything and start prioritising what truly moves the needle.\r\n2. Simple automated routines to eliminate clutter in your environment and processes, helping you maintain oversight without drowning in dashboards, reports, or manual reviews.\r\n3. How even small organisations can run an effective CoE without needing an enterprise-size budget or team.\r\n\r\nYou’ll leave with a clear sense of direction, renewed confidence, and a set of repeatable routines to help you stay in control - even when the platform seems to be evolving at light speed.",
@@ -3158,6 +3183,65 @@
       "questionAnswers": []
     },
     {
+      "id": "da32b389-2414-4a36-bf0b-33783c408c93",
+      "firstName": "Luke",
+      "lastName": "Evans",
+      "bio": "Luke Evans is a solutions architect currently working at codelooks. Luke is an experienced senior solutiions architect with over 16 years of experience within private and public sectors. Luke has extensive experience in architecture and full end-to-end delivery of cloud digital transformation programmes.\r\n\r\nIn the past 7 years, Luke has immersed himself Microsoft 365 and Azure and the technologies that underpin and support them with a strong focus on security and identity.\r\n\r\nLuke is a Microsoft MVP in M365 Apps and Services.",
+      "tagLine": "Solutions Architect",
+      "profilePicture": "https://cdn.sessionize.com/image/90a4-400o400o1-RhA1WAW4NbWudGtZ6T3QVm.png",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/LukeEvansTech",
+          "linkType": "LinkedIn"
+        },
+        {
+          "title": "Sessionize",
+          "url": "https://sessionize.com/LukeEvansTech",
+          "linkType": "Sessionize"
+        }
+      ],
+      "sessions": [
+        1252947
+      ],
+      "fullName": "Luke Evans",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "c85af3e6-6543-488a-a5ae-775fc7365535",
+      "firstName": "Marcin",
+      "lastName": "Siewnicki",
+      "bio": "I am Microsoft 365 solution architect. I create applications and solutions that improve and facilitate work using Power Platform, SharePoint, and Teams.\r\n\r\nMy adventure in IT began in 2005. Since then I have been creating and implementing business applications based on SharePoint and Microsoft 365 platforms. I am a big fan of task and process automation (Power Automate) and Modern Workplace platforms (Microsoft Teams).\r\n\r\nPrivately a husband, father of 2 sons. Fan of science fiction and cyberpunk, futurist. I co-organize the SharePoint Saturday Warsaw conference and speak at Microsoft's community events.",
+      "tagLine": "Microsoft 365 Solution Architect",
+      "profilePicture": "https://cdn.sessionize.com/image/650d-400o400o1-QzooCrmsZc73qmApaNTkaU.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/lisapulsinger/",
+          "linkType": "LinkedIn"
+        },
+        {
+          "title": "Company Website",
+          "url": "https://www.dox42.com",
+          "linkType": "Company_Website"
+        },
+        {
+          "title": "Sessionize",
+          "url": "https://sessionize.com/lisapulsinger",
+          "linkType": "Sessionize"
+        }
+      ],
+      "sessions": [
+        1316329
+      ],
+      "fullName": "Lisa Pulsinger",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
       "id": "77f098aa-4fb7-46d0-83ee-6e868dc00616",
       "firstName": "Marcus",
       "lastName": "Burnap",
@@ -3391,8 +3475,8 @@
       ],
       "sessions": [
         1253880,
-        1272136,
-        1223846
+        1223846,
+        1272136
       ],
       "fullName": "Matt Beard",
       "categoryItems": [],

@@ -1,3 +1,19 @@
+## [1.19.14](https://github.com/newhighsco/scottishsummit.com/compare/v1.19.13...v1.19.14) (2026-09-12)
+
+## [1.19.13](https://github.com/newhighsco/scottishsummit.com/compare/v1.19.12...v1.19.13) (2026-09-11)
+
+## [1.19.12](https://github.com/newhighsco/scottishsummit.com/compare/v1.19.11...v1.19.12) (2026-09-10)
+
+## [1.19.11](https://github.com/newhighsco/scottishsummit.com/compare/v1.19.10...v1.19.11) (2026-09-04)
+
+## [1.19.10](https://github.com/newhighsco/scottishsummit.com/compare/v1.19.9...v1.19.10) (2026-09-04)
+
+## [1.19.9](https://github.com/newhighsco/scottishsummit.com/compare/v1.19.8...v1.19.9) (2026-09-03)
+
+## [1.19.8](https://github.com/newhighsco/scottishsummit.com/compare/v1.19.7...v1.19.8) (2026-09-02)
+
+## [1.19.7](https://github.com/newhighsco/scottishsummit.com/compare/v1.19.6...v1.19.7) (2026-08-27)
+
 ## [1.19.6](https://github.com/newhighsco/scottishsummit.com/compare/v1.19.5...v1.19.6) (2026-08-21)
 
 ## [1.19.5](https://github.com/newhighsco/scottishsummit.com/compare/v1.19.4...v1.19.5) (2026-08-20)
