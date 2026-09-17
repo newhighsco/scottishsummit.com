@@ -5,7 +5,6 @@ import React, { Fragment } from 'react'
 import EventHeading from '~components/Events/EventHeading'
 import PageContainer from '~components/PageContainer'
 import Section from '~components/Section'
-import SponsorshipCallToAction from '~components/Sponsors/SponsorshipCallToAction'
 import Video from '~components/Video'
 import config from '~config'
 import events from '~data/events.json'
@@ -22,14 +21,7 @@ const organizer = {
 const timeline = [
   {
     heading: 'Call for Sponsors',
-    href: '/#become-a-sponsor',
-    children: (
-      <>
-        Open now
-        <br />
-        <small>Limited Space Remaining</small>
-      </>
-    )
+    children: 'Closed'
   },
   {
     heading: 'Call for Speakers',
@@ -60,9 +52,17 @@ const HomePage = () => (
         </p>
       }
     >
-      <Button href="https://fienta.com/scottish-summit-2026" variant="inverted">
-        Event &amp; Workshop Tickets Available Now
-      </Button>
+      <Button.Group>
+        <Button
+          href="https://fienta.com/scottish-summit-2026"
+          variant="inverted"
+        >
+          Event &amp; Workshop Tickets Available Now
+        </Button>
+        <Button href="https://fienta.com/scottish-summit-2026">
+          Nearly Sold Out!
+        </Button>
+      </Button.Group>
     </EventHeading>
     <Section id="about" variant="striped">
       <Grid gutter valign="middle">
@@ -86,10 +86,6 @@ const HomePage = () => (
         </Grid.Item>
       </Grid>
     </Section>
-    <SponsorshipCallToAction>
-      <p>Sponsor opportunities for {name} 2026 are selling out fast!</p>
-      <p>Act now before they are all gone.</p>
-    </SponsorshipCallToAction>
     <Section align="center" size="tablet">
       <Prose>
         <h2>Tickets Available Now</h2>
@@ -102,8 +98,12 @@ const HomePage = () => (
         <Button href="https://fienta.com/scottish-summit-2026" variant="primary">
           Get Tickets
         </Button>
-        <Button style={{ pointerEvents: 'none', cursor: 'default' }}>
-          App Coming Soon
+        <Button
+          href="https://app.scottishsummit.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Access the App
         </Button>
       </Button.Group>
     </Section>
