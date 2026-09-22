@@ -315,31 +315,6 @@
       "isConfirmed": true
     },
     {
-      "id": "1195398",
-      "title": "🚀 Copilot Cowork in Action: What It Is, How to Get It & What You Can Do With It",
-      "description": "A lot of people have heard of Cowork, but there is still a gap between hearing about it and actually knowing how to use it. How do you get access? What does it look like in practice? And what can it realistically help you with day to day?\r\n\r\nThis session is here to close that gap. Join us for a practical, demo-driven showcase where we walk through Cowork from the ground up. You will see it in action across real scenarios: managing your inbox, staying on top of meetings, collaborating with your team, and getting things done faster inside Microsoft 365. We will not just tell you what is possible, we will show you the reality.\r\n\r\nWhat makes this session a little different is that you will hear from both the Microsoft side and the partner side. That means you get a balanced view: the vision and direction behind Cowork, alongside real-world experience of adopting and using it in practice. Two perspectives, one session.\r\n\r\nBy the end, you will know exactly how to get access, what to expect when you first open it, and which use cases are worth exploring straight away. We will highlight the features that make the biggest difference in everyday work, demonstrate what those look like live, and give you a clear starting point to take back with you.\r\n\r\nThis session is for anyone who works in Microsoft 365 regularly, whether you are in IT, a power user, or just someone looking to get more out of the tools you already have. No deep technical background required. If you are curious about Cowork and want to leave with something concrete, this is the session for you.",
-      "startsAt": "2026-10-03T11:15:00",
-      "endsAt": "2026-10-03T12:00:00",
-      "isServiceSession": false,
-      "isPlenumSession": false,
-      "speakers": [
-        "e5db9e81-c381-49f5-aa43-e593615fecc4",
-        "4c125671-951b-4798-8e48-02a45be346e7"
-      ],
-      "categoryItems": [
-        450222,
-        450339,
-        452078
-      ],
-      "questionAnswers": [],
-      "roomId": 77530,
-      "liveUrl": null,
-      "recordingUrl": null,
-      "status": "Accepted",
-      "isInformed": true,
-      "isConfirmed": true
-    },
-    {
       "id": "1180217",
       "title": "From Overwhelmed to In Control: An Essentialist Approach to Running a Power Platform CoE",
       "description": "Running a Power Platform Centre of Enablement can feel like trying to build a plane while you’re mid-flight. New features arrive weekly, demand grows faster than capacity and governance expectations never slow down. No wonder so many Centre of Enablement leads feel overwhelmed before they even start. \r\n\r\nThis session introduces an Essentialist approach to governing and managing Power Platform, inspired by the principles in Greg McKeown’s 'Essentialism'. Instead of trying to do everything - and burning out in the process - you’ll learn how to identify what actually matters, make intentional trade-offs, and build a sustainable, focused CoE practice that works whether you’re a team of ten or a team of one.\r\n\r\nDrawing on years of experience supporting customers and running our own Power Platform CoEs, we will share practical, field-tested strategies for cutting through the noise, creating an environment where makers and stakeholders get what they need - maximising value without driving everyone to burnout.\r\n\r\nKey takeaways include:\r\n1. How to apply Essentialism’s trade-off mindset to governance decisions so you stop chasing everything and start prioritising what truly moves the needle.\r\n2. Simple automated routines to eliminate clutter in your environment and processes, helping you maintain oversight without drowning in dashboards, reports, or manual reviews.\r\n3. How even small organisations can run an effective CoE without needing an enterprise-size budget or team.\r\n\r\nYou’ll leave with a clear sense of direction, renewed confidence, and a set of repeatable routines to help you stay in control - even when the platform seems to be evolving at light speed.",
@@ -463,19 +438,19 @@
       "isConfirmed": true
     },
     {
-      "id": "1212343",
-      "title": "Azure Virtual Network Manager: Herding Networks the Easy Way",
-      "description": "If you’re running workloads in Azure, you already know the world of Virtual Networks, subnets, IP ranges, and all the moving parts that come with cloud networking. \r\n\r\nBut have you met Azure Virtual Network Manager: the service that finally brings centralized governance and consistency to your network landscape?\r\n\r\nInstead of managing each Virtual Network separately, Azure Virtual Network Manager gives you a single control plane to define, deploy, and enforce network configurations across your entire environment. Even better, it introduces long‑awaited capabilities like built‑in IP Address Management that previously required third‑party tools or custom solutions.\r\n\r\nIn this session, we’ll walk through how to configure Azure Virtual Network Manager from the ground up, explore its strengths, and shine a light on its limitations so you know exactly what to expect before adopting it.\r\n\r\nWhen you head home after the event, your backpack will be filled with:\r\n\t- Guidelines for setting up Azure Virtual Network Manager\r\n\t- A clear understanding of its key features and how to use them effectively\r\n\t- Real-world scenarios where AVNM is not the right choice\r\n\t- All demo code so you can deploy everything in your own environment\r\n\r\nJoin me for a practical, honest, and demo-heavy deep dive into one of Azure’s most powerful new networking tools.",
+      "id": "1199936",
+      "title": "Windows 365 for Agents: Building, Securing, and Operating AI‑Driven Cloud PCs",
+      "description": "Windows 365 for Agents introduces a new way to deliver Cloud PCs purpose‑built for AI‑driven and automated workloads. In this session, we’ll explore what Windows 365 for Agents actually is, how it differs from traditional Windows 365 deployments, and where it makes sense in real customer environments.\r\n\r\nThis will be a practical, IT‑pro focused session with a live demonstration showing how Windows 365 for Agents can be deployed, managed, and secured using the Microsoft Cloud. We’ll walk through architecture considerations, identity and access requirements, networking, security controls, and operational management using Intune and Microsoft security tooling.\r\n\r\nAttendees will see real‑world scenarios including:\r\n- Running agent‑based workloads and automation at scale\r\n- Isolating AI and task‑based compute from user endpoints\r\n- Securing agent environments with Conditional Access and Zero Trust principles\r\n- Understanding licensing, cost considerations, and operational trade‑offs\r\n\r\nThis session is aimed at IT professionals, endpoint engineers, and cloud architects who want to understand how Windows 365 for Agents fits into modern endpoint and AI strategies and how to get started safely and effectively.",
       "startsAt": "2026-10-03T11:15:00",
       "endsAt": "2026-10-03T12:00:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "2308b3b4-c81a-44dd-a531-44002fb5ac90"
+        "fc3a497e-0843-4c5a-9edb-73fdb916c344"
       ],
       "categoryItems": [
-        450225,
-        450341,
+        450222,
+        450340,
         452078
       ],
       "questionAnswers": [],
@@ -487,18 +462,18 @@
       "isConfirmed": true
     },
     {
-      "id": "1217798",
-      "title": "Multiversal Mental Health & Accessibility",
-      "description": "Caught in the Mental Health Multiverse? \r\nSeeking Wisdom from the Forbidden Fount of \"Questions that you've always wanted to ask but never dared to\"? \r\nLooking for Top Tech Tips across the Microsoft Galaxy of Ginormousness ? \r\nOr just wanting to stop off at the Hyperspace Hangout and seek out new connections and new communities?\r\n\r\nJoin a panel of people who live with Mental Health, Neurodiversity, and Disability - but love tech, love life, and love just having fun and sharing all they can.\r\n\r\nFirstly we will be popping in to the Nebula of Knowledge where we will traverse Crucial Copilot Commands, to Intergalactic M365 and Windows Wisdom, and stopping by the Portal of Power Platform Perception.  All giving out invaluable ideas and tips for levelling up your daily accessible life - either as a user or as a developer.\r\n\r\nThen the Oracles of Openness will be taking all questions from the floor (in a filtered way to avoid any mishaps). Ask those questions that you've always wondered but were afraid to ask. Get particular insights and ideas. Hear from the years of experience and challenge.\r\n\r\nYou'll leave with a toolbox of tips and ideas, and a mind full of knowledge and insight - as well as a network of like-minded souls to accompany you on your next mission into unknown space.",
+      "id": "1222802",
+      "title": "Getting started with Customer Insights - Data",
+      "description": "You've heard the term. You've seen it sitting in your Customer Insights – Journeys licence. But what actually is a CDP — and what can it do for your customers?\r\n\r\nCustomer profiles, unification, measures, segments, predictions… if that list feels like alphabet soup, this session is for you. Customer Insights – Data is unfamiliar territory for most consultants and organisations, and that unfamiliarity is exactly why so much of its value goes unused.\r\n\r\nIn 45 minutes we'll cover:\r\n\r\nWhat a Customer Data Platform is, in plain language\r\nWhat Customer Insights – Data can realistically do today\r\nThe business case: why your customers should start using it now\r\nHow to build a working demo you can put in front of a customer\r\nYou'll leave knowing enough to start — and knowing exactly where to go to learn more.",
       "startsAt": "2026-10-03T12:15:00",
       "endsAt": "2026-10-03T13:00:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "8927b4e6-6b26-4306-adad-16f29baf5db9"
+        "0ec05775-0158-44b2-bab2-184dc138427f"
       ],
       "categoryItems": [
-        450220,
+        450221,
         450339,
         452078
       ],
@@ -508,7 +483,7 @@
       "recordingUrl": null,
       "status": "Accepted",
       "isInformed": true,
-      "isConfirmed": true
+      "isConfirmed": false
     },
     {
       "id": "1176525",
@@ -868,6 +843,32 @@
       ],
       "questionAnswers": [],
       "roomId": 80334,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": false
+    },
+    {
+      "id": "1339517",
+      "title": "🚀 Meet the Next Generation of Speakers at Scottish Summit",
+      "description": "What does it take to go from attending a conference to speaking at one?\r\n\r\nJoin our panel with participants from the New Speaker Workshop and hear how they're taking their first steps onto the community stage. We'll talk about the challenges, the opportunities, and the support that helped them get started.\r\n\r\nWhether you're an aspiring speaker looking to follow in their footsteps, or an experienced community member wondering how you can help create more opportunities, this session is for you.\r\n\r\nAnd who knows... You’ll can be the one on stage next time!",
+      "startsAt": "2026-10-03T13:35:00",
+      "endsAt": "2026-10-03T13:55:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "2308b3b4-c81a-44dd-a531-44002fb5ac90",
+        "bf14cd37-d3f2-4684-a367-888dd8ef0adf",
+        "edc9a64f-df3d-47f7-8b19-5d038dfc85c2"
+      ],
+      "categoryItems": [
+        450220,
+        450339,
+        452079
+      ],
+      "questionAnswers": [],
+      "roomId": 80335,
       "liveUrl": null,
       "recordingUrl": null,
       "status": "Accepted",
@@ -1364,19 +1365,19 @@
       "isConfirmed": true
     },
     {
-      "id": "1199936",
-      "title": "Windows 365 for Agents: Building, Securing, and Operating AI‑Driven Cloud PCs",
-      "description": "Windows 365 for Agents introduces a new way to deliver Cloud PCs purpose‑built for AI‑driven and automated workloads. In this session, we’ll explore what Windows 365 for Agents actually is, how it differs from traditional Windows 365 deployments, and where it makes sense in real customer environments.\r\n\r\nThis will be a practical, IT‑pro focused session with a live demonstration showing how Windows 365 for Agents can be deployed, managed, and secured using the Microsoft Cloud. We’ll walk through architecture considerations, identity and access requirements, networking, security controls, and operational management using Intune and Microsoft security tooling.\r\n\r\nAttendees will see real‑world scenarios including:\r\n- Running agent‑based workloads and automation at scale\r\n- Isolating AI and task‑based compute from user endpoints\r\n- Securing agent environments with Conditional Access and Zero Trust principles\r\n- Understanding licensing, cost considerations, and operational trade‑offs\r\n\r\nThis session is aimed at IT professionals, endpoint engineers, and cloud architects who want to understand how Windows 365 for Agents fits into modern endpoint and AI strategies and how to get started safely and effectively.",
+      "id": "1212343",
+      "title": "Azure Virtual Network Manager: Herding Networks the Easy Way",
+      "description": "If you’re running workloads in Azure, you already know the world of Virtual Networks, subnets, IP ranges, and all the moving parts that come with cloud networking. \r\n\r\nBut have you met Azure Virtual Network Manager: the service that finally brings centralized governance and consistency to your network landscape?\r\n\r\nInstead of managing each Virtual Network separately, Azure Virtual Network Manager gives you a single control plane to define, deploy, and enforce network configurations across your entire environment. Even better, it introduces long‑awaited capabilities like built‑in IP Address Management that previously required third‑party tools or custom solutions.\r\n\r\nIn this session, we’ll walk through how to configure Azure Virtual Network Manager from the ground up, explore its strengths, and shine a light on its limitations so you know exactly what to expect before adopting it.\r\n\r\nWhen you head home after the event, your backpack will be filled with:\r\n\t- Guidelines for setting up Azure Virtual Network Manager\r\n\t- A clear understanding of its key features and how to use them effectively\r\n\t- Real-world scenarios where AVNM is not the right choice\r\n\t- All demo code so you can deploy everything in your own environment\r\n\r\nJoin me for a practical, honest, and demo-heavy deep dive into one of Azure’s most powerful new networking tools.",
       "startsAt": "2026-10-03T16:00:00",
       "endsAt": "2026-10-03T16:45:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "fc3a497e-0843-4c5a-9edb-73fdb916c344"
+        "2308b3b4-c81a-44dd-a531-44002fb5ac90"
       ],
       "categoryItems": [
-        450222,
-        450340,
+        450225,
+        450341,
         452078
       ],
       "questionAnswers": [],
@@ -2951,6 +2952,7 @@
       ],
       "sessions": [
         1252939,
+        1339517,
         1209086,
         1173456
       ],
@@ -3183,62 +3185,44 @@
       "questionAnswers": []
     },
     {
-      "id": "da32b389-2414-4a36-bf0b-33783c408c93",
-      "firstName": "Luke",
-      "lastName": "Evans",
-      "bio": "Luke Evans is a solutions architect currently working at codelooks. Luke is an experienced senior solutiions architect with over 16 years of experience within private and public sectors. Luke has extensive experience in architecture and full end-to-end delivery of cloud digital transformation programmes.\r\n\r\nIn the past 7 years, Luke has immersed himself Microsoft 365 and Azure and the technologies that underpin and support them with a strong focus on security and identity.\r\n\r\nLuke is a Microsoft MVP in M365 Apps and Services.",
-      "tagLine": "Solutions Architect",
-      "profilePicture": "https://cdn.sessionize.com/image/90a4-400o400o1-RhA1WAW4NbWudGtZ6T3QVm.png",
+      "id": "0ec05775-0158-44b2-bab2-184dc138427f",
+      "firstName": "Malin",
+      "lastName": "Martnes",
+      "bio": "Malin started as a CRM user with no technical background. In 2014 she got lost in the consultancy world and has stayed there ever since. She now works with the Power Platform and the CRM side of Dynamics 365, primarily focusing on Customer Insights. In 2019 she was awarded the MVP title from Microsoft, an honour that has been re-awarded every year since. Malin is also a sought-after trainer and delivers training throughout the Power Platform and Dynamics 365.",
+      "tagLine": "MVP - MaCoTra AS",
+      "profilePicture": "https://cdn.sessionize.com/image/912b-400o400o1-QcXU89eiRYF8gGvbZNMT5E.png",
       "isTopSpeaker": false,
       "links": [
         {
           "title": "LinkedIn",
-          "url": "https://www.linkedin.com/in/LukeEvansTech",
+          "url": "https://www.linkedin.com/in/malinmartnes/",
           "linkType": "LinkedIn"
         },
         {
-          "title": "Sessionize",
-          "url": "https://sessionize.com/LukeEvansTech",
-          "linkType": "Sessionize"
-        }
-      ],
-      "sessions": [
-        1252947
-      ],
-      "fullName": "Luke Evans",
-      "categoryItems": [],
-      "questionAnswers": []
-    },
-    {
-      "id": "c85af3e6-6543-488a-a5ae-775fc7365535",
-      "firstName": "Marcin",
-      "lastName": "Siewnicki",
-      "bio": "I am Microsoft 365 solution architect. I create applications and solutions that improve and facilitate work using Power Platform, SharePoint, and Teams.\r\n\r\nMy adventure in IT began in 2005. Since then I have been creating and implementing business applications based on SharePoint and Microsoft 365 platforms. I am a big fan of task and process automation (Power Automate) and Modern Workplace platforms (Microsoft Teams).\r\n\r\nPrivately a husband, father of 2 sons. Fan of science fiction and cyberpunk, futurist. I co-organize the SharePoint Saturday Warsaw conference and speak at Microsoft's community events.",
-      "tagLine": "Microsoft 365 Solution Architect",
-      "profilePicture": "https://cdn.sessionize.com/image/650d-400o400o1-QzooCrmsZc73qmApaNTkaU.jpg",
-      "isTopSpeaker": false,
-      "links": [
-        {
-          "title": "LinkedIn",
-          "url": "https://www.linkedin.com/in/lisapulsinger/",
-          "linkType": "LinkedIn"
+          "title": "Blog",
+          "url": "https://malindonosomartnes.com/",
+          "linkType": "Blog"
         },
         {
           "title": "Company Website",
-          "url": "https://www.dox42.com",
+          "url": "https://macotra.no/",
           "linkType": "Company_Website"
         },
         {
           "title": "Sessionize",
-          "url": "https://sessionize.com/lisapulsinger",
+          "url": "https://sessionize.com/malinmartnes",
           "linkType": "Sessionize"
         }
       ],
       "sessions": [
-        1316329
+        1222802
       ],
-      "fullName": "Lisa Pulsinger",
-      "categoryItems": [],
+      "fullName": "Malin Martnes",
+      "categoryItems": [
+        451784,
+        451786,
+        451789
+      ],
       "questionAnswers": []
     },
     {
@@ -3475,8 +3459,8 @@
       ],
       "sessions": [
         1253880,
-        1223846,
-        1272136
+        1272136,
+        1223846
       ],
       "fullName": "Matt Beard",
       "categoryItems": [],
@@ -3640,46 +3624,6 @@
         1220619
       ],
       "fullName": "Michaël Maillot",
-      "categoryItems": [
-        451784,
-        451786
-      ],
-      "questionAnswers": []
-    },
-    {
-      "id": "8927b4e6-6b26-4306-adad-16f29baf5db9",
-      "firstName": "Mike",
-      "lastName": "Hartley",
-      "bio": "Microsoft Business Applications MVP, Founder of 365 a11y - the Accessibility Community and more.\r\n\r\nTechnology veteran who has been there, done that, had the therapy to recover! A vocal Accessibility and Mental Health advocate, very open and honest about his own Mental Health and Disabilities, in an frank, humorous, and entertaining manner.\r\n\r\nWith a lifetime of Microsoft, starting with MS-DOS 3.0 and pretty much all the technologies throughout the years, he is now focussed on Business Applications, Microsoft 365, and not forgetting the omnipresent Copilot and AI - all with a focus on Accessibility, Inclusion, and Community.\r\n\r\nOutside of tech you will find a proud Nerd & Geek who loves Sci-Fi, Fantasy, Technology and more. A family man and a massive petrol head and sports fan (F1, MotoGP, WEC, Rugby, Cricket... to name just a few) - oh, and a massive collector of Funko Pops and Lego!",
-      "tagLine": "Microsoft Business Applications MVP, Founder of 365 a11y, Accessibility Advocate, Mental Health Champion, Community Cheerleader",
-      "profilePicture": "https://cdn.sessionize.com/image/84b8-400o400o1-YRxtH6aYDNLMYtZteV2KvB.png",
-      "isTopSpeaker": false,
-      "links": [
-        {
-          "title": "LinkedIn",
-          "url": "https://www.linkedin.com/in/mikebhartley",
-          "linkType": "LinkedIn"
-        },
-        {
-          "title": "Blog",
-          "url": "https://HartOfTheMidlands.co.uk",
-          "linkType": "Blog"
-        },
-        {
-          "title": "Company Website",
-          "url": "https://HartOfTheMidlands.co.uk",
-          "linkType": "Company_Website"
-        },
-        {
-          "title": "Sessionize",
-          "url": "https://sessionize.com/mike-hartley",
-          "linkType": "Sessionize"
-        }
-      ],
-      "sessions": [
-        1217798
-      ],
-      "fullName": "Mike Hartley",
       "categoryItems": [
         451784,
         451786
@@ -3959,8 +3903,8 @@
       "id": "2308b3b4-c81a-44dd-a531-44002fb5ac90",
       "firstName": "Rex",
       "lastName": "de Koning",
-      "bio": "In IT for over 25 years now, started as developer, switched to system/network admin and now automation consultant and MCT. Primarily working on Azure and Powershell, to help our customers automate their processes and focus on their core-business",
-      "tagLine": "Azure / Powershell Consulant | MVP | MCT",
+      "bio": "Rex de Koning is a Microsoft MVP, consultant, trainer, and community enthusiast who loves helping people get the most out of Microsoft technologies. Whether he's speaking about Microsoft 365, Azure, Copilot, automation, or cloud governance, Rex focuses on turning complex topics into practical takeaways. A frequent speaker at conferences, user groups, and community events across Europe, he is passionate about learning, sharing knowledge, and supporting the next generation of speakers and technology professionals.",
+      "tagLine": "Azure Consulant | MVP",
       "profilePicture": "https://cdn.sessionize.com/image/a611-400o400o1-XiijkcJSGtzP6CpWkmVTj7.jpg",
       "isTopSpeaker": false,
       "links": [
@@ -3982,6 +3926,7 @@
       ],
       "sessions": [
         1252939,
+        1339517,
         1212343
       ],
       "fullName": "Rex de Koning",
@@ -4156,7 +4101,8 @@
         }
       ],
       "sessions": [
-        1252939
+        1252939,
+        1339517
       ],
       "fullName": "Sara Fennah",
       "categoryItems": [],
