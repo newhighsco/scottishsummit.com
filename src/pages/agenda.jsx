@@ -35,13 +35,21 @@ const AgendaPage = () => (
       <Prose>
         <h1>{meta.title}</h1>
         <p>
-          This is your full day agenda — event app coming soon to schedule your
-          day.
+          This is your full day agenda. This is also available in the event app.
         </p>
       </Prose>
-      <Button href="https://fienta.com/scottish-summit-2026" variant="inverted">
-        Get Event Tickets
-      </Button>
+      <Button.Group>
+        <Button href="https://fienta.com/scottish-summit-2026" variant="primary">
+          Get Tickets
+        </Button>
+        <Button
+          href="https://app.scottishsummit.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Access the App
+        </Button>
+      </Button.Group>
     </Section>
     <AgendaSection
       sessions={oct3Sessions}

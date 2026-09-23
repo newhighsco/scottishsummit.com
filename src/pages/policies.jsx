@@ -136,7 +136,7 @@ const PoliciesPage = () => (
           Personal insults, particularly those related to gender, sexual
           orientation, race, religion, or disability.
         </li>
-        <li>Inappropriate photography or recording.</li>
+        <li>Photography or recording.</li>
         <li>
           Taking of photos within the event environment for use on social media,
           without the prior permission of the individuals or owners of the
@@ -172,6 +172,36 @@ const PoliciesPage = () => (
         Volunteers staff will be available to assist those experiencing
         unacceptable behaviour to feel safe for the duration of the event. All
         reports will remain completely confidential.
+      </p>
+      <h3>SESSION RECORDING</h3>
+      <p>
+        Our speakers put significant time and effort into creating and delivering their sessions.
+        Attendees must respect the ownership and originality of that work.
+      </p>
+      <p>
+        Unless a speaker has given their express permission, attendees must not record,
+        transcribe or substantially reproduce a session for publication or redistribution.
+        This includes using audio or video recordings, transcription services, AI tools or
+        similar technology to turn a session into a blog post, article, social media content,
+        training material or other published work that substantially reproduces the speaker's
+        presentation.
+      </p>
+      <p>
+        Taking personal notes and sharing brief quotes, ideas or commentary with appropriate
+        attribution is welcomed. The issue is not discussing or sharing what you learned from
+        a session, but reproducing the speaker's work without their permission.
+      </p>
+      <p>
+        Giving credit to the original speaker does not, by itself, constitute permission to
+        reproduce their session or content.
+      </p>
+      <p>
+        Recording or transcription for personal use or accessibility purposes is permitted
+        where appropriate, but must not subsequently be published, distributed or used to
+        substantially reproduce the session without the speaker's consent.
+      </p>
+      <p>
+        Where you are unsure, please ask the speaker first.
       </p>
       <h3>ATTRIBUTION</h3>
       <p>

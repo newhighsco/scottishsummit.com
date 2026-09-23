@@ -37,6 +37,8 @@
     "serve": "next start --webpack",
     "test": "yarn lint",
     "snapshot": "chromatic --storybook-build-dir storybook --auto-accept-changes main --exit-once-uploaded --only-changed",
+    "commitlint": "commitlint",
+    "lint-staged": "lint-staged",
     "lint": "concurrently 'yarn:lint:*'",
     "lint:js": "eslint --cache .",
     "lint:css": "stylelint --cache --ignore-path .gitignore \"**/*.?(s)css\"",
