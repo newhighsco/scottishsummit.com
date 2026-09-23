@@ -38,15 +38,13 @@ const AgendaPage = () => (
           This is your full day agenda. This is also available in the event app.
         </p>
       </Prose>
-      <Button.Group>
-        <Button
-          href="https://app.scottishsummit.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Access the App
-        </Button>
-      </Button.Group>
+      <Button
+        href="https://app.scottishsummit.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Access the App
+      </Button>
     </Section>
     <AgendaSection
       sessions={oct3Sessions}
