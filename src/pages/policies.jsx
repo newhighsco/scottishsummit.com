@@ -189,76 +189,25 @@ const PoliciesPage = () => (
       <p>
         Our website address is <SmartLink href={url}>{url}</SmartLink>
       </p>
-      <h3>Who we share your data with?</h3>
-      <p>Scottish Summit is made possible through the support of our event sponsors. 
-        Their support allows us to heavily subsidise the cost of the event and keep 
-        it affordable and accessible to the wider community.
+      <h3>Privacy</h3>
+      <p>
+        {name} does not use this website to collect or store attendee personal
+        information.
       </p>
       <p>
-        As part of our sponsorship arrangements, we may share limited attendee 
-        business contact information with our event sponsors. This may include 
-        your name, email address, company name and job title. We do not share 
-        sensitive personal information, accessibility requirements, dietary 
-        information or other special category data with sponsors.
+        We do not operate user accounts, comments or advertising tracking through
+        the website. Basic technical information may be processed automatically by
+        our website hosting and security providers where necessary to operate and
+        protect the site.
       </p>
       <p>
-        We rely on legitimate interests as our lawful basis for this processing. 
-        Our legitimate interests are in operating and funding Scottish Summit 
-        sustainably, maintaining commercial relationships with sponsors who help 
-        make the event possible, and enabling those sponsors to engage with 
-        attendees in connection with their involvement in Scottish Summit. 
-        Sponsors also have a legitimate commercial interest in engaging with 
-        relevant business contacts attending the event.
+        The website may link to external services used for event registration,
+        speaker submissions or other event activities. Information submitted
+        through those services is handled separately and is not collected by this
+        website.
       </p>
       <p>
-        We have considered these interests against the privacy rights and 
-        reasonable expectations of our attendees. We limit the information 
-        shared, clearly explain the arrangement to attendees and provide 
-        attendees with the opportunity to object.
-      </p>
-      <p>
-        Sponsors may use the information they receive for appropriate 
-        follow-up connected with their participation in Scottish Summit 
-        and for relevant business-to-business communications. Sponsors
-        are responsible for ensuring that any subsequent use of attendee 
-        information complies with applicable data protection and electronic 
-        marketing laws, including UK GDPR and PECR.
-      </p>
-      <p>
-        Sponsors must not sell the attendee data or pass it to unrelated
-        third parties. They must keep it secure and must respect any 
-        request from an attendee to stop receiving direct marketing.
-      </p>
-      <p>
-        You have the right to object to your information being shared 
-        with event sponsors. If you would prefer that we do not share 
-        your details, please email contact@scottishsummit.com. Opting 
-        out will have no impact on your ticket or your ability to 
-        participate fully in Scottish Summit.
-      </p>
-      <p>
-        Where information has already been shared, we will pass your 
-        objection to the relevant sponsors. Sponsors may retain 
-        minimal suppression information where necessary to ensure 
-        that you are not contacted again.
-      </p>
-      <p>
-        You can find details of the organisations sponsoring Scottish Summit
-        on our website. Each sponsor is responsible for its own processing of 
-        personal information once received and may provide its own privacy 
-        information explaining how it uses your data.
-      </p>
-      <h4>How long we retain your data</h4>
-      <p>
-        For users that sign up to an event, we will keep your personal details 
-        for a short period of time after the event.
-      </p>
-      <h4>What rights you have over your data</h4>
-      <p>
-        If you have attended an event, you can request to receive a name(s) of 
-        sponsors who have been sent your data. You can also request that we erase 
-        any personal data we hold about you. This does not include any data we are obliged 
-        to keep for administrative, legal, or security purposes.
+        If you have any questions about privacy, please contact <ContactLink />.
       </p>
     </ProseSection>
     <ProseSection heading="Selection" alt>
@@ -396,63 +345,70 @@ const PoliciesPage = () => (
     </ProseSection>
     <ProseSection heading="Data Sharing Policy" alt>
       <p>
-        {name} acknowledges and understands the importance of our attendees'
-        data and is committed to protecting and respecting your privacy. We
-        engage with various sponsors who assist us in offering this event and
-        enhancing your event experience.
+        {name} is made possible through the support of our event sponsors. Their
+        support allows us to heavily subsidise the cost of the event and keep it
+        affordable and accessible to the wider community.
       </p>
       <p>
-        By agreeing to this policy, you accept that certain attendee data may be
-        shared with these sponsors under the following conditions:
+        As part of our sponsorship arrangements, we may share limited attendee
+        business contact information with event sponsors. We rely on legitimate
+        interests as our lawful basis for this sharing.
       </p>
       <ul>
         <li>
-          <strong>Consent:</strong> At the point of registration, attendees will
-          be informed that their data may be shared with event sponsors. Consent
-          will be sought at this stage. Refusal of consent will not impact an
-          attendee's ability to register for, or participate in the event.
+          <strong>Legitimate Interests:</strong> Our legitimate interests are in
+          operating and funding {name} sustainably and maintaining sponsor
+          relationships that help make the event possible. Sponsors also have a
+          legitimate commercial interest in engaging with relevant business
+          contacts attending the event. We have considered these interests against
+          the privacy rights and reasonable expectations of attendees and provide
+          attendees with a straightforward right to object.
         </li>
         <li>
-          <strong>Purpose:</strong> Attendee data will be shared only for
-          purposes related to the {name}, such as event updates, promotions, and
-          offerings that could enrich the attendee's experience. Sponsors are
-          strictly prohibited from using the shared data for any other purposes
-          unless explicit consent is obtained from the attendee.
+          <strong>Data Minimisation:</strong> Only limited business contact
+          information, such as name, email address, company name and job title, may
+          be shared. We do not share accessibility requirements, dietary
+          information or other sensitive or special category personal data with
+          sponsors.
         </li>
         <li>
-          <strong>Data Minimization:</strong> Only necessary data, such as name,
-          email address, company name, and job title, will be shared. We do not
-          share sensitive personal data.
+          <strong>Purpose:</strong> Sponsors may use the information for relevant
+          follow-up connected with their participation in {name} and for
+          appropriate business-to-business communications. Each sponsor is
+          responsible for ensuring that its use of attendee information complies
+          with applicable data protection and electronic marketing laws, including
+          UK GDPR and PECR.
         </li>
         <li>
-          <strong>Security:</strong>All sponsors are required to maintain the
-          confidentiality and security of the shared data, and to comply with
-          applicable data protection laws. Any data breaches must be reported to{' '}
-          {name} immediately.
+          <strong>Security and Sharing:</strong> Sponsors must keep attendee
+          information secure and must not sell it or pass it to unrelated third
+          parties.
         </li>
         <li>
-          <strong>Right to Opt-Out:</strong> Attendees have the right to opt-out
-          of data sharing with sponsors at any time. To opt-out, please send an
-          email to <ContactLink /> stating your request. The {name} team will
-          process your request promptly.
+          <strong>Right to Object:</strong> Attendees have the right to object to
+          their information being shared with sponsors at any time. To object,
+          please email <ContactLink />. This will not affect your ticket or your
+          ability to participate in {name}. Where information has already been
+          shared, we will pass your objection to the relevant sponsors.
         </li>
         <li>
-          <strong>Retention:</strong> Sponsors are required to delete or
-          anonymize the shared data after a specified period or upon conclusion
-          of the event, unless an attendee has expressly consented to the
-          continued use of their data.
+          <strong>Retention:</strong> Sponsors should only retain attendee
+          information for as long as necessary for the purposes for which it was
+          provided. They may retain minimal suppression information where necessary
+          to ensure that an attendee who has objected is not contacted again.
         </li>
       </ul>
       <p>
-        {name} reserves the right to revise this Data Sharing Policy from time
-        to time. All changes will be communicated to attendees in a timely
-        manner.
+        You can find details of the organisations sponsoring {name} on our website.
+        You can also contact us at <ContactLink /> to ask which sponsors have
+        received your information. Each sponsor is responsible for its own
+        processing once the information has been received and may provide its own
+        privacy information explaining how it uses your data.
       </p>
       <p>
-        We encourage attendees to carefully review this policy and reach out to
-        us at <ContactLink /> with any questions or concerns. Your trust is
-        vital to us, and we are dedicated to preserving it by treating your data
-        with the utmost respect and care.
+        {name} may revise this Data Sharing Policy from time to time. Where a
+        change materially affects how attendee information is used or shared, we
+        will take reasonable steps to make attendees aware of it.
       </p>
     </ProseSection>
   </PageContainer>
