@@ -40,17 +40,16 @@ const PoliciesPage = () => (
         event for you.
       </p>
       <p>
-        The venue is fully wheelchair accessible, and service dogs are
-        permitted. If you may require assistance on the day, please let us know
-        and we will accommodate you. There are unfortunately no gender-neutral
-        bathrooms available at the venue this year, except for the disabled
-        access bathrooms. {name} would like to remind all attendees that not all
+        We work with the venues we run to ensure maximum accessibility possible.
+        If you may require assistance on the day, please let us know and we will 
+        accommodate you. Gender-neutral and disabled bathrooms are provided where 
+        possible based on the venues availability.
+        {name} would like to remind all attendees that not all
         disabilities are visible, and that ‘bathroom policing’ in any form is
         not acceptable.
       </p>
       <p>
-        Each session will be auto-captioned, and available for download
-        afterwards. The venue will be very busy on the day, however, there are
+        The venue will be very busy on the day, however, there are
         quiet areas available at the venue if you feel you need a quieter place.
       </p>
       <p>
@@ -190,91 +189,76 @@ const PoliciesPage = () => (
       <p>
         Our website address is <SmartLink href={url}>{url}</SmartLink>
       </p>
-      <h3>What personal data we collect and why we collect it?</h3>
-      <h4>Comments</h4>
-      <p>
-        When visitors leave comments on the site we collect the data shown in
-        the comments form, and also the visitor’s IP address and browser user
-        agent string to help spam detection. An anonymized string created from
-        your email address (also called a hash) may be provided to the Gravatar
-        service to see if you are using it. The Gravatar service privacy policy
-        is available at{' '}
-        <SmartLink href="https://automattic.com/privacy/">
-          https://automattic.com/privacy/
-        </SmartLink>
-        . After approval of your comment, your profile picture is visible to the
-        public in the context of your comment.
-      </p>
-      <h4>Media</h4>
-      <p>
-        If you upload images to the website, you should avoid uploading images
-        with embedded location data (EXIF GPS) included. Visitors to the website
-        can download and extract any location data from images on the website.
-      </p>
-      <h4>Cookies</h4>
-      <p>
-        If you leave a comment on our site you may opt-in to saving your name,
-        email address and website in cookies. These are for your convenience so
-        that you do not have to fill in your details again when you leave
-        another comment. These cookies will last for one year.
-      </p>
-      <p>
-        If you have an account and you log in to this site, we will set a
-        temporary cookie to determine if your browser accepts cookies. This
-        cookie contains no personal data and is discarded when you close your
-        browser.
-      </p>
-      <p>
-        When you log in, we will also set up several cookies to save your login
-        information and your screen display choices. Login cookies last for two
-        days, and screen options cookies last for a year. If you select
-        “Remember Me”, your login will persist for two weeks. If you log out of
-        your account, the login cookies will be removed.
-      </p>
-      <p>
-        If you edit or publish an article, an additional cookie will be saved in
-        your browser. This cookie includes no personal data and simply indicates
-        the post ID of the article you just edited. It expires after 1 day.
-      </p>
-      <h4>Embedded content from other websites</h4>
-      <p>
-        Articles on this site may include embedded content (e.g. videos, images,
-        articles, etc.). Embedded content from other websites behaves in the
-        exact same way as if the visitor has visited the other website.
-      </p>
-      <p>
-        These websites may collect data about you, use cookies, embed additional
-        third-party tracking, and monitor your interaction with that embedded
-        content, including tracking your interaction with the embedded content
-        if you have an account and are logged in to that website.
-      </p>
       <h3>Who we share your data with?</h3>
+      <p>Scottish Summit is made possible through the support of our event sponsors. 
+        Their support allows us to heavily subsidise the cost of the event and keep 
+        it affordable and accessible to the wider community.
+      </p>
+      <p>
+        As part of our sponsorship arrangements, we may share limited attendee 
+        business contact information with our event sponsors. This may include 
+        your name, email address, company name and job title. We do not share 
+        sensitive personal information, accessibility requirements, dietary 
+        information or other special category data with sponsors.
+      </p>
+      <p>
+        We rely on legitimate interests as our lawful basis for this processing. 
+        Our legitimate interests are in operating and funding Scottish Summit 
+        sustainably, maintaining commercial relationships with sponsors who help 
+        make the event possible, and enabling those sponsors to engage with 
+        attendees in connection with their involvement in Scottish Summit. 
+        Sponsors also have a legitimate commercial interest in engaging with 
+        relevant business contacts attending the event.
+      </p>
+      <p>
+        We have considered these interests against the privacy rights and 
+        reasonable expectations of our attendees. We limit the information 
+        shared, clearly explain the arrangement to attendees and provide 
+        attendees with the opportunity to object.
+      </p>
+      <p>
+        Sponsors may use the information they receive for appropriate 
+        follow-up connected with their participation in Scottish Summit 
+        and for relevant business-to-business communications. Sponsors
+        are responsible for ensuring that any subsequent use of attendee 
+        information complies with applicable data protection and electronic 
+        marketing laws, including UK GDPR and PECR.
+      </p>
+      <p>
+        Sponsors must not sell the attendee data or pass it to unrelated
+        third parties. They must keep it secure and must respect any 
+        request from an attendee to stop receiving direct marketing.
+      </p>
+      <p>
+        You have the right to object to your information being shared 
+        with event sponsors. If you would prefer that we do not share 
+        your details, please email contact@scottishsummit.com. Opting 
+        out will have no impact on your ticket or your ability to 
+        participate fully in Scottish Summit.
+      </p>
+      <p>
+        Where information has already been shared, we will pass your 
+        objection to the relevant sponsors. Sponsors may retain 
+        minimal suppression information where necessary to ensure 
+        that you are not contacted again.
+      </p>
+      <p>
+        You can find details of the organisations sponsoring Scottish Summit
+        on our website. Each sponsor is responsible for its own processing of 
+        personal information once received and may provide its own privacy 
+        information explaining how it uses your data.
+      </p>
       <h4>How long we retain your data</h4>
       <p>
-        If you leave a comment, the comment and its metadata are retained
-        indefinitely. This is so we can recognize and approve any follow-up
-        comments automatically instead of holding them in a moderation queue.
-      </p>
-      <p>
-        For users that register on our website (if any), we also store the
-        personal information they provide in their user profiles. All users can
-        see, edit, or delete their personal information at any time (except they
-        cannot change their username). Website administrators can also see and
-        edit that information.
+        For users that sign up to an event, we will keep your personal details 
+        for a short period of time after the event.
       </p>
       <h4>What rights you have over your data</h4>
       <p>
-        If you have an account on this site or have left comments, you can
-        request to receive an exported file of the personal data we hold about
-        you, including any data you have provided to us. You can also request
-        that we erase any personal data we hold about you. This does not include
-        any data we are obliged to keep for administrative, legal, or security
-        purposes.
-      </p>
-      <h4>Where we send your data</h4>
-      <p>
-        Visitor comments may be checked through an automated spam detection
-        service.
+        If you have attended an event, you can request to receive a name(s) of 
+        sponsors who have been sent your data. You can also request that we erase 
+        any personal data we hold about you. This does not include any data we are obliged 
+        to keep for administrative, legal, or security purposes.
       </p>
     </ProseSection>
     <ProseSection heading="Selection" alt>
