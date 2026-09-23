@@ -39,9 +39,6 @@ const AgendaPage = () => (
         </p>
       </Prose>
       <Button.Group>
-        <Button href="https://fienta.com/scottish-summit-2026" variant="primary">
-          Get Tickets
-        </Button>
         <Button
           href="https://app.scottishsummit.com"
           target="_blank"
