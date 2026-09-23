@@ -19,7 +19,7 @@ const leads = [
 const organisers = [
   { name: 'Rex de Koning', role: 'Lead Cloud Engineer', company: 'Capgemini' },
   { name: 'Mike Hartley', role: 'Senior Solutions Architect', company: 'Capgemini' },
-  { name: 'Areti Iles', role: 'Technology Director - AI Business Solutions - AI Business Solutions', company: 'Telefonica Tech' },
+  { name: 'Areti Iles', role: 'Technology Director - AI Business Solutions', company: 'Telefonica Tech' },
   { name: 'Sara Fennah', role: 'Microsoft 365 Consultant/Trainer', company: 'Znrgy Ltd' },
   { name: 'Gemma Adair', role: 'Microsoft Partner Marketing Expert', company: 'Riada Consultancy' },
   { name: 'Paddy Byrne', role: 'Solution Architect', company: 'Kerv Digital' },
