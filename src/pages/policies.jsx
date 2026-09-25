@@ -40,17 +40,16 @@ const PoliciesPage = () => (
         event for you.
       </p>
       <p>
-        The venue is fully wheelchair accessible, and service dogs are
-        permitted. If you may require assistance on the day, please let us know
-        and we will accommodate you. There are unfortunately no gender-neutral
-        bathrooms available at the venue this year, except for the disabled
-        access bathrooms. {name} would like to remind all attendees that not all
+        We work with the venues we run to ensure maximum accessibility possible.
+        If you may require assistance on the day, please let us know and we will 
+        accommodate you. Gender-neutral and disabled bathrooms are provided where 
+        possible based on the venues availability.
+        {name} would like to remind all attendees that not all
         disabilities are visible, and that ‘bathroom policing’ in any form is
         not acceptable.
       </p>
       <p>
-        Each session will be auto-captioned, and available for download
-        afterwards. The venue will be very busy on the day, however, there are
+        The venue will be very busy on the day, however, there are
         quiet areas available at the venue if you feel you need a quieter place.
       </p>
       <p>
@@ -137,7 +136,7 @@ const PoliciesPage = () => (
           Personal insults, particularly those related to gender, sexual
           orientation, race, religion, or disability.
         </li>
-        <li>Inappropriate photography or recording.</li>
+        <li>Photography or recording.</li>
         <li>
           Taking of photos within the event environment for use on social media,
           without the prior permission of the individuals or owners of the
@@ -174,6 +173,36 @@ const PoliciesPage = () => (
         unacceptable behaviour to feel safe for the duration of the event. All
         reports will remain completely confidential.
       </p>
+      <h3>SESSION RECORDING</h3>
+      <p>
+        Our speakers put significant time and effort into creating and delivering their sessions.
+        Attendees must respect the ownership and originality of that work.
+      </p>
+      <p>
+        Unless a speaker has given their express permission, attendees must not record,
+        transcribe or substantially reproduce a session for publication or redistribution.
+        This includes using audio or video recordings, transcription services, AI tools or
+        similar technology to turn a session into a blog post, article, social media content,
+        training material or other published work that substantially reproduces the speaker's
+        presentation.
+      </p>
+      <p>
+        Taking personal notes and sharing brief quotes, ideas or commentary with appropriate
+        attribution is welcomed. The issue is not discussing or sharing what you learned from
+        a session, but reproducing the speaker's work without their permission.
+      </p>
+      <p>
+        Giving credit to the original speaker does not, by itself, constitute permission to
+        reproduce their session or content.
+      </p>
+      <p>
+        Recording or transcription for personal use or accessibility purposes is permitted
+        where appropriate, but must not subsequently be published, distributed or used to
+        substantially reproduce the session without the speaker's consent.
+      </p>
+      <p>
+        Where you are unsure, please ask the speaker first.
+      </p>
       <h3>ATTRIBUTION</h3>
       <p>
         This Code of Conduct is the product of the {name}’s commitment to create
@@ -190,91 +219,25 @@ const PoliciesPage = () => (
       <p>
         Our website address is <SmartLink href={url}>{url}</SmartLink>
       </p>
-      <h3>What personal data we collect and why we collect it?</h3>
-      <h4>Comments</h4>
+      <h3>Privacy</h3>
       <p>
-        When visitors leave comments on the site we collect the data shown in
-        the comments form, and also the visitor’s IP address and browser user
-        agent string to help spam detection. An anonymized string created from
-        your email address (also called a hash) may be provided to the Gravatar
-        service to see if you are using it. The Gravatar service privacy policy
-        is available at{' '}
-        <SmartLink href="https://automattic.com/privacy/">
-          https://automattic.com/privacy/
-        </SmartLink>
-        . After approval of your comment, your profile picture is visible to the
-        public in the context of your comment.
-      </p>
-      <h4>Media</h4>
-      <p>
-        If you upload images to the website, you should avoid uploading images
-        with embedded location data (EXIF GPS) included. Visitors to the website
-        can download and extract any location data from images on the website.
-      </p>
-      <h4>Cookies</h4>
-      <p>
-        If you leave a comment on our site you may opt-in to saving your name,
-        email address and website in cookies. These are for your convenience so
-        that you do not have to fill in your details again when you leave
-        another comment. These cookies will last for one year.
+        {name} does not use this website to collect or store attendee personal
+        information.
       </p>
       <p>
-        If you have an account and you log in to this site, we will set a
-        temporary cookie to determine if your browser accepts cookies. This
-        cookie contains no personal data and is discarded when you close your
-        browser.
+        We do not operate user accounts, comments or advertising tracking through
+        the website. Basic technical information may be processed automatically by
+        our website hosting and security providers where necessary to operate and
+        protect the site.
       </p>
       <p>
-        When you log in, we will also set up several cookies to save your login
-        information and your screen display choices. Login cookies last for two
-        days, and screen options cookies last for a year. If you select
-        “Remember Me”, your login will persist for two weeks. If you log out of
-        your account, the login cookies will be removed.
+        The website may link to external services used for event registration,
+        speaker submissions or other event activities. Information submitted
+        through those services is handled separately and is not collected by this
+        website.
       </p>
       <p>
-        If you edit or publish an article, an additional cookie will be saved in
-        your browser. This cookie includes no personal data and simply indicates
-        the post ID of the article you just edited. It expires after 1 day.
-      </p>
-      <h4>Embedded content from other websites</h4>
-      <p>
-        Articles on this site may include embedded content (e.g. videos, images,
-        articles, etc.). Embedded content from other websites behaves in the
-        exact same way as if the visitor has visited the other website.
-      </p>
-      <p>
-        These websites may collect data about you, use cookies, embed additional
-        third-party tracking, and monitor your interaction with that embedded
-        content, including tracking your interaction with the embedded content
-        if you have an account and are logged in to that website.
-      </p>
-      <h3>Who we share your data with?</h3>
-      <h4>How long we retain your data</h4>
-      <p>
-        If you leave a comment, the comment and its metadata are retained
-        indefinitely. This is so we can recognize and approve any follow-up
-        comments automatically instead of holding them in a moderation queue.
-      </p>
-      <p>
-        For users that register on our website (if any), we also store the
-        personal information they provide in their user profiles. All users can
-        see, edit, or delete their personal information at any time (except they
-        cannot change their username). Website administrators can also see and
-        edit that information.
-      </p>
-      <h4>What rights you have over your data</h4>
-      <p>
-        If you have an account on this site or have left comments, you can
-        request to receive an exported file of the personal data we hold about
-        you, including any data you have provided to us. You can also request
-        that we erase any personal data we hold about you. This does not include
-        any data we are obliged to keep for administrative, legal, or security
-        purposes.
-      </p>
-      <h4>Where we send your data</h4>
-      <p>
-        Visitor comments may be checked through an automated spam detection
-        service.
+        If you have any questions about privacy, please contact <ContactLink />.
       </p>
     </ProseSection>
     <ProseSection heading="Selection" alt>
@@ -412,63 +375,70 @@ const PoliciesPage = () => (
     </ProseSection>
     <ProseSection heading="Data Sharing Policy" alt>
       <p>
-        {name} acknowledges and understands the importance of our attendees'
-        data and is committed to protecting and respecting your privacy. We
-        engage with various sponsors who assist us in offering this event and
-        enhancing your event experience.
+        {name} is made possible through the support of our event sponsors. Their
+        support allows us to heavily subsidise the cost of the event and keep it
+        affordable and accessible to the wider community.
       </p>
       <p>
-        By agreeing to this policy, you accept that certain attendee data may be
-        shared with these sponsors under the following conditions:
+        As part of our sponsorship arrangements, we may share limited attendee
+        business contact information with event sponsors. We rely on legitimate
+        interests as our lawful basis for this sharing.
       </p>
       <ul>
         <li>
-          <strong>Consent:</strong> At the point of registration, attendees will
-          be informed that their data may be shared with event sponsors. Consent
-          will be sought at this stage. Refusal of consent will not impact an
-          attendee's ability to register for, or participate in the event.
+          <strong>Legitimate Interests:</strong> Our legitimate interests are in
+          operating and funding {name} sustainably and maintaining sponsor
+          relationships that help make the event possible. Sponsors also have a
+          legitimate commercial interest in engaging with relevant business
+          contacts attending the event. We have considered these interests against
+          the privacy rights and reasonable expectations of attendees and provide
+          attendees with a straightforward right to object.
         </li>
         <li>
-          <strong>Purpose:</strong> Attendee data will be shared only for
-          purposes related to the {name}, such as event updates, promotions, and
-          offerings that could enrich the attendee's experience. Sponsors are
-          strictly prohibited from using the shared data for any other purposes
-          unless explicit consent is obtained from the attendee.
+          <strong>Data Minimisation:</strong> Only limited business contact
+          information, such as name, email address, company name and job title, may
+          be shared. We do not share accessibility requirements, dietary
+          information or other sensitive or special category personal data with
+          sponsors.
         </li>
         <li>
-          <strong>Data Minimization:</strong> Only necessary data, such as name,
-          email address, company name, and job title, will be shared. We do not
-          share sensitive personal data.
+          <strong>Purpose:</strong> Sponsors may use the information for relevant
+          follow-up connected with their participation in {name} and for
+          appropriate business-to-business communications. Each sponsor is
+          responsible for ensuring that its use of attendee information complies
+          with applicable data protection and electronic marketing laws, including
+          UK GDPR and PECR.
         </li>
         <li>
-          <strong>Security:</strong>All sponsors are required to maintain the
-          confidentiality and security of the shared data, and to comply with
-          applicable data protection laws. Any data breaches must be reported to{' '}
-          {name} immediately.
+          <strong>Security and Sharing:</strong> Sponsors must keep attendee
+          information secure and must not sell it or pass it to unrelated third
+          parties.
         </li>
         <li>
-          <strong>Right to Opt-Out:</strong> Attendees have the right to opt-out
-          of data sharing with sponsors at any time. To opt-out, please send an
-          email to <ContactLink /> stating your request. The {name} team will
-          process your request promptly.
+          <strong>Right to Object:</strong> Attendees have the right to object to
+          their information being shared with sponsors at any time. To object,
+          please email <ContactLink />. This will not affect your ticket or your
+          ability to participate in {name}. Where information has already been
+          shared, we will pass your objection to the relevant sponsors.
         </li>
         <li>
-          <strong>Retention:</strong> Sponsors are required to delete or
-          anonymize the shared data after a specified period or upon conclusion
-          of the event, unless an attendee has expressly consented to the
-          continued use of their data.
+          <strong>Retention:</strong> Sponsors should only retain attendee
+          information for as long as necessary for the purposes for which it was
+          provided. They may retain minimal suppression information where necessary
+          to ensure that an attendee who has objected is not contacted again.
         </li>
       </ul>
       <p>
-        {name} reserves the right to revise this Data Sharing Policy from time
-        to time. All changes will be communicated to attendees in a timely
-        manner.
+        You can find details of the organisations sponsoring {name} on our website.
+        You can also contact us at <ContactLink /> to ask which sponsors have
+        received your information. Each sponsor is responsible for its own
+        processing once the information has been received and may provide its own
+        privacy information explaining how it uses your data.
       </p>
       <p>
-        We encourage attendees to carefully review this policy and reach out to
-        us at <ContactLink /> with any questions or concerns. Your trust is
-        vital to us, and we are dedicated to preserving it by treating your data
-        with the utmost respect and care.
+        {name} may revise this Data Sharing Policy from time to time. Where a
+        change materially affects how attendee information is used or shared, we
+        will take reasonable steps to make attendees aware of it.
       </p>
     </ProseSection>
   </PageContainer>

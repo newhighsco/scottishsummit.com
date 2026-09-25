@@ -17,9 +17,9 @@ const leads = [
 ]
 
 const organisers = [
-  { name: 'Rex de Koning', role: 'Senior Cloud Engineer', company: 'InSpark B.V.' },
+  { name: 'Rex de Koning', role: 'Lead Cloud Engineer', company: 'Capgemini' },
   { name: 'Mike Hartley', role: 'Senior Solutions Architect', company: 'Capgemini' },
-  { name: 'Areti Iles', role: 'Head of Professional Services - AI Business Solutions', company: 'Telefonica Tech' },
+  { name: 'Areti Iles', role: 'Technology Director - AI Business Solutions', company: 'Telefonica Tech' },
   { name: 'Sara Fennah', role: 'Microsoft 365 Consultant/Trainer', company: 'Znrgy Ltd' },
   { name: 'Gemma Adair', role: 'Microsoft Partner Marketing Expert', company: 'Riada Consultancy' },
   { name: 'Paddy Byrne', role: 'Solution Architect', company: 'Kerv Digital' },
@@ -27,12 +27,6 @@ const organisers = [
 ]
 
 const contentTeam = [
-  { name: 'Amy Stewart', role: 'Content Team' },
-  { name: 'Michael Grant', role: 'Content Team' },
-  { name: 'Rachel MacLeod', role: 'Content Team' },
-  { name: 'Tom Henderson', role: 'Content Team' },
-  { name: 'Kate Morrison', role: 'Content Team' },
-  { name: 'Alan Murray', role: 'Content Team' }
 ]
 
 const TeamPage = () => (
