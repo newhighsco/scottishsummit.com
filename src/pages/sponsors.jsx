@@ -150,7 +150,7 @@ const SponsorsPage = () => (
       id="silver"
       size="desktopMedium"
       sponsors={silver}
-      columns={['one-half', 'tablet-one-fifth']}
+      columns={['one-half', 'tablet-landscape-one-fifth']}
       square
     />
     <SponsorsSection
