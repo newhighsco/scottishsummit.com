@@ -87,16 +87,13 @@ const silver = [
     }
   },
   {
-   name: 'BrightSolid',
-   logo: {
-     src: '/images/sponsors/2026/silver/brightsolid.jpeg',
-     width: 1250,
-     height: 1250
-   }
-  },
-  {},
-  {},
-  {}
+    name: 'BrightSolid',
+    logo: {
+      src: '/images/sponsors/2026/silver/brightsolid.jpeg',
+      width: 1250,
+      height: 1250
+    }
+  }
 ]
 
 const media = [
@@ -151,9 +148,9 @@ const SponsorsPage = () => (
     <SponsorsSection
       title="Silver"
       id="silver"
-      size="desktop"
+      size="desktopMedium"
       sponsors={silver}
-      columns={['one-half', 'tablet-one-quarter']}
+      columns={['one-half', 'tablet-landscape-one-fifth']}
       square
     />
     <SponsorsSection
