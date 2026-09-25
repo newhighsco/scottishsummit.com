@@ -148,7 +148,7 @@ const SponsorsPage = () => (
     <SponsorsSection
       title="Silver"
       id="silver"
-      size="desktop"
+      size="desktopMedium"
       sponsors={silver}
       columns={['one-half', 'tablet-one-fifth']}
       square
