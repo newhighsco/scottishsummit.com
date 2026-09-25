@@ -706,6 +706,30 @@
       "isConfirmed": true
     },
     {
+      "id": "1341666",
+      "title": "From Delivery Team to Delivery Community: Scaling Power Platform across NHS Wales",
+      "description": "Most organisations don't struggle to build their first Power Platform solution. They struggle to build their fiftieth. As demand grows, delivery teams face a familiar challenge: balancing governance, consistency and quality whilst enabling more teams to innovate. In NHS Wales, that challenge spans multiple boards, teams and priorities, requiring a shift from individual project delivery to a sustainable delivery community.\r\n\r\nIn this session, we'll share the practical lessons from scaling Power Platform in a centrally governed environment, including what works, what doesn't and what we're doing differently. You'll learn:\r\n- How we are planning, prioritising and governing delivery across multiple NHS organisations\r\n- The delivery patterns, component libraries and reusable assets that help scale without reinventing the wheel\r\n- Why co-production is becoming a force multiplier for capability building and adoption\r\n- How to move from a small delivery team mindset to a thriving delivery community\r\n\r\nRather than focusing on individual solutions, we'll explore how NHS Wales is building the people, practices and platform foundations needed to scale innovation across an entire health system.",
+      "startsAt": "2026-10-03T13:05:00",
+      "endsAt": "2026-10-03T13:25:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "235959b9-8417-4591-982b-2e1368c5aff0"
+      ],
+      "categoryItems": [
+        450221,
+        450339,
+        452079
+      ],
+      "questionAnswers": [],
+      "roomId": 80334,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": false
+    },
+    {
       "id": "1221284",
       "title": "Would You Trust This Agent?",
       "description": "Copilot and agent experiences can create real value, but only when they fit the way people actually work. In operational services, users do not just need speed. They need confidence, context, and a clear sense of when to trust the AI, when to check it, and when a human should take over.\r\n\r\nThis session focuses on one practical question: what makes an AI-assisted workflow feel trustworthy enough to use? Using realistic service scenarios, it will show where human-in-the-loop matters, why happy-path demos are not enough, and how poor workflow design can make Copilot or agents feel risky instead of useful. It will cover a handful of common use cases such as summarisation, triage support, knowledge retrieval, and next-best-action prompts, and show how to assess whether they genuinely reduce effort or simply add another layer of uncertainty.\r\n\r\nAttendees will leave with a lightweight trust checklist they can apply before building. The goal is to help teams design Copilot and agent experiences that support operational work in a clearer, safer, and more adoptable way.\r\n\r\nKey takeaways\r\nAttendees will learn how to identify stronger and weaker Copilot or agent use cases, where human review matters most, how to design for exceptions rather than just happy paths, and how to make AI-assisted workflows easier for users to understand and adopt.",
@@ -1962,8 +1986,8 @@
       "id": "aeb980aa-db9e-4699-b10e-4089d78b2847",
       "firstName": "Areti",
       "lastName": "Iles",
-      "bio": "With over 15 years in the technology sector, Areti Iles is currently the Head of Professional Services at Telefónica Tech’s AI Business Solutions division and a Microsoft MVP in Customer Experience and Power Apps. Throughout her career as a Dynamics 365 and Power Platform solution architect and consultant, she has delivered a wide range of complex projects for FTSE 250 and FTSE 500 companies across multiple sectors. Beyond her professional role, she actively volunteers within the Microsoft community. She serves on Microsoft’s Global User Groups Committee representing Europe and is the Co‑Chair of the UK Dynamics 365 and Power Platform User Groups. She also leads both the Reading and London All Day user groups and is part of the Scottish Summit organising committee. Areti co‑hosts the Power Delivery podcast alongside two fellow Microsoft MVPs, offering guidance on project delivery and best practices. She is also a mentor for the Women in Power Platform group. In addition, she participates annually as part of the United Nations UK delegation for the Commission on the Status of Women (CSW) and speaks internationally on AI legislation, AI tools, and their adoption.",
-      "tagLine": "Head of Professional Services - AI Business Solutions @ Telefonica Tech | Speaker | Mentor | User Group Leader | Microsoft MVP",
+      "bio": "With 15+ years in the technology sector, Areti Iles is the Technology Director of the UK AI Business Solutions division of Microsoft Inner Circle Partner Telefonica Tech. Her role is focused on providing strategic technical leadership across AI Business Solutions with overall responsibility for shaping the Microsoft technology strategy, driving technical excellence and developing the technical capability required to support the continued growth of the business. Throughout her career as a Dynamics 365 and Power Platform consultant, solution architect and Head of Delivery, she has overseen and delivered a wide range of complex projects for FTSE 250 and FTSE 500 companies across multiple sectors. \r\n\r\nBeyond her professional role, she actively volunteers within the Microsoft community and is a Business Applications Microsoft MVP. She serves on Microsoft’s Global User Groups Committee representing Europe, leads user groups within the UK and is on the organising committee of both the Scottish Summit and South Coast Summit conferences. Areti also co‑hosts the Power Delivery podcast and is a long-standing mentor for the Women in Power Platform group as well as an annual participant at the United Nations' Commission on the Status of Women (CSW).",
+      "tagLine": "Technology Director - AI Business Solutions @ Telefonica Tech | Speaker | Mentor | User Group Leader | Microsoft MVP",
       "profilePicture": "https://cdn.sessionize.com/image/52fb-400o400o1-RB3ZuhowpzXe63Sz6JgPbt.jpg",
       "isTopSpeaker": false,
       "links": [
@@ -3396,7 +3420,7 @@
       "firstName": "Mats",
       "lastName": "Necker",
       "bio": "I like lots of stuff 👉 Power Platform 💘 Dynamics 365 🚀 Azure 🧙‍♂️\r\n\r\nMicrosoft MVP ✍ blogs at https://nckr.de 🚀 Founded https://dhino.io\r\n\r\nI worked for over 15 years with Microsoft Biz Apps as a solution architect / developer, starting with Business Central, nowadays loving the Power Platform & Azure \r\n\r\nBuilding repeatable software has always been my passion and I'm continuing to talk about the best ways to do that 🙂",
-      "tagLine": "Co-Founder @dhino, Microsoft MVP / Solution Architect / Developer",
+      "tagLine": "Co-Founder @dhino, Former Microsoft MVP / Solution Architect / Developer",
       "profilePicture": "https://cdn.sessionize.com/image/f895-400o400o1-48kxVmXurXauBCScnL8gst.jpg",
       "isTopSpeaker": false,
       "links": [
@@ -4238,6 +4262,35 @@
       "fullName": "Selva Pradeep Sathanandam",
       "categoryItems": [
         451783
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "235959b9-8417-4591-982b-2e1368c5aff0",
+      "firstName": "Sheena",
+      "lastName": "McHardy",
+      "bio": "Microsoft 365 and Power Platform specialist with a proven track record of putting people at the heart of digital transformation and project leadership. Experienced in designing and delivering transformation and technology solutions with productivity-improving processes at their core. \r\n\r\nTrusted advisor to senior leadership and key sponsors with industry experience in Oil & Gas, third-sector customers and governing bodies. Passionate about life-long learning, knowledge sharing and giving back as part of a thriving community. \r\n\r\n",
+      "tagLine": "Solution Architect",
+      "profilePicture": "https://cdn.sessionize.com/image/1f94-400o400o1-LnsbR9SPCW3UEXcX5pF7My.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/sheenamchardy/",
+          "linkType": "LinkedIn"
+        },
+        {
+          "title": "Sessionize",
+          "url": "https://sessionize.com/sheena-mchardy",
+          "linkType": "Sessionize"
+        }
+      ],
+      "sessions": [
+        1341666
+      ],
+      "fullName": "Sheena McHardy",
+      "categoryItems": [
+        451784
       ],
       "questionAnswers": []
     },
