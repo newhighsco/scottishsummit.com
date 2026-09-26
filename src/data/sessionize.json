@@ -883,8 +883,7 @@
       "isPlenumSession": false,
       "speakers": [
         "2308b3b4-c81a-44dd-a531-44002fb5ac90",
-        "bf14cd37-d3f2-4684-a367-888dd8ef0adf",
-        "edc9a64f-df3d-47f7-8b19-5d038dfc85c2"
+        "bf14cd37-d3f2-4684-a367-888dd8ef0adf"
       ],
       "categoryItems": [
         450220,
@@ -924,19 +923,19 @@
       "isConfirmed": true
     },
     {
-      "id": "1223169",
-      "title": "Agent Inception: Using AI to Build AI for Microsoft 365",
-      "description": "Using an AI to build an AI agent. It sounds like a circular logic puzzle, but it is actually the most efficient way to build for Microsoft 365 Copilot today. \r\n\r\nIn this demo-heavy session, we explore the \"Inception Workflow\": combining GitHub Copilot with the new Microsoft 365 Agents Toolkit Skills.\r\n\r\nWe will transition from zero to a fully deployed, high-quality declarative agent in under 20 minutes without manually authoring a single JSON manifest or instruction file.\r\n\r\nYou will learn how \"Skills\" provide coding agents with the deep schema knowledge and guardrails needed to scaffold projects, integrate API plugins and craft sophisticated system instructions. Stop hand-coding your manifests and start shipping with the power of the AI.\r\n\r\nKey Takeaways\r\n- The Power of Skills: Understand how curated knowledge modules eliminate \"hallucinations\" in agent manifest creation.\r\n- Master the Prompt-Scaffold-Iterate workflow to collapse development time from hours to minutes.\r\n- Instruction Engineering: See how to use AI to write robust, safe and professional personality instructions for your agents.\r\n- Zero-Friction Deployment: Watch a live transformation from a natural language prompt to a deployed agent running in Copilot.",
+      "id": "1342684",
+      "title": "Microsoft's AI Contact Centre in 20 Minutes (What Could Possibly Go Wrong?)",
+      "description": "Microsoft has barged into the contact centre market, and the CCaaS industry is finally being dragged out of bed. This topic needs a full day. William has 20 minutes, a clicker, and misplaced confidence.\r\n\r\nCome and watch him try to cover all of Dynamics 365 Contact Center before the timer wins. Worst case, you'll see a man lose a fight with a clock. Best case, you'll learn/see:\r\n- Self-service customers don't scream \"ESCALATE TO HUMAN!\" at,\r\n- How AI can make Customer Service Reps faster, not add another tab to ignore,\r\n- How it all plugs into the wider Microsoft Business Platform\r\n- Real AI disasters, and why Responsible AI is cheaper than a lawyer\r\n\r\nHold music not included. Your attendance is important to us. You are currently first in the queue.",
       "startsAt": "2026-10-03T13:35:00",
       "endsAt": "2026-10-03T13:55:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "a11cc35c-8ebc-4cad-8a41-19699948a3e3"
+        "98e32efa-ba0f-4f16-8191-f12a4f672e92"
       ],
       "categoryItems": [
-        450222,
-        450340,
+        450221,
+        450339,
         452079
       ],
       "questionAnswers": [],
@@ -945,7 +944,7 @@
       "recordingUrl": null,
       "status": "Accepted",
       "isInformed": true,
-      "isConfirmed": true
+      "isConfirmed": false
     },
     {
       "id": "1222843",
@@ -1836,41 +1835,6 @@
       "fullName": "Anita Squires",
       "categoryItems": [
         451784
-      ],
-      "questionAnswers": []
-    },
-    {
-      "id": "a11cc35c-8ebc-4cad-8a41-19699948a3e3",
-      "firstName": "Anoop",
-      "lastName": "Tatti",
-      "bio": "Anoop is a Microsoft MVP in the M365 Development category and works as a Microsoft 365 Developer Architect at Content + Cloud Ltd in London, UK. With 10+ years of experience in Microsoft 365 development, particularly with SharePoint Online, SharePoint 2013, and 2010, he has a solid understanding of the full project lifecycle. Anoop is a core member of the Microsoft Platform Community formerly known as Patterns and Practices (PnP) team and regularly contributes to their projects on GitHub. He also shares his knowledge and insights through his blog at https://anoopt.medium.com.",
-      "tagLine": "Working on it...",
-      "profilePicture": "https://cdn.sessionize.com/image/65e1-400o400o1-fM6o5HgCxaoZTAieC3Hr7Q.jpg",
-      "isTopSpeaker": false,
-      "links": [
-        {
-          "title": "LinkedIn",
-          "url": "https://www.linkedin.com/in/anooptatti",
-          "linkType": "LinkedIn"
-        },
-        {
-          "title": "Blog",
-          "url": "https://anoopt.medium.com",
-          "linkType": "Blog"
-        },
-        {
-          "title": "Sessionize",
-          "url": "https://sessionize.com/anoop",
-          "linkType": "Sessionize"
-        }
-      ],
-      "sessions": [
-        1223169
-      ],
-      "fullName": "Anoop Tatti",
-      "categoryItems": [
-        451784,
-        451786
       ],
       "questionAnswers": []
     },
@@ -2976,7 +2940,6 @@
       ],
       "sessions": [
         1252939,
-        1339517,
         1209086,
         1173456
       ],
@@ -4532,6 +4495,46 @@
         1189712
       ],
       "fullName": "Vivian Voss",
+      "categoryItems": [
+        451784,
+        451786
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": "98e32efa-ba0f-4f16-8191-f12a4f672e92",
+      "firstName": "William",
+      "lastName": "Dorrington",
+      "bio": "I am an enthusiastic storyteller who focuses on strategy and the bigger picture of enabling organisations to adopt the latest technological advancements. \r\n\r\nI have over 12 years of experience primarily in consulting with large global enterprise clients at the C-Suite level within the Microsoft Ecosystem (Azure, Power Platform, Dynamics 365 and M365). \r\n\r\nI am a passionate fan of the Microsoft community and committed to uplifting others!",
+      "tagLine": "Kerv - CTO, Microsoft MVP - Business Applications",
+      "profilePicture": "https://cdn.sessionize.com/image/a6b6-400o400o1-SKU9xm16ywvox7oRJ2ahd6.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/williamdorrington/",
+          "linkType": "LinkedIn"
+        },
+        {
+          "title": "Blog",
+          "url": "https://dynamics365society.uk/",
+          "linkType": "Blog"
+        },
+        {
+          "title": "Company Website",
+          "url": "https://datasciencefrontiers.co.uk/",
+          "linkType": "Company_Website"
+        },
+        {
+          "title": "Sessionize",
+          "url": "https://sessionize.com/williamdorrington",
+          "linkType": "Sessionize"
+        }
+      ],
+      "sessions": [
+        1342684
+      ],
+      "fullName": "William Dorrington",
       "categoryItems": [
         451784,
         451786
