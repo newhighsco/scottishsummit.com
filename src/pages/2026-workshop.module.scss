@@ -1,0 +1,10 @@
+@use '~styles/colors.module';
+
+.cabaretCta {
+  display: flex;
+  justify-content: center;
+}
+
+.cabaretCta :global(a).cabaretButton {
+  color: colors.$white;
+}

@@ -95,9 +95,6 @@ const HomePage = () => (
         </p>
       </Prose>
       <Button.Group>
-        <Button href="https://fienta.com/scottish-summit-2026" variant="primary">
-          Get Tickets
-        </Button>
         <Button
           href="https://app.scottishsummit.com"
           target="_blank"
@@ -105,6 +102,7 @@ const HomePage = () => (
         >
           Access the App
         </Button>
+        <Button href="/2026-attendee">Know Before You Go</Button>
       </Button.Group>
     </Section>
     <Section align="center" size="desktop" variant="striped">
