@@ -1,10 +1,12 @@
-import { Image, Prose } from '@newhighsco/chipset'
+import { Button, Image, Prose } from '@newhighsco/chipset'
 import React from 'react'
 
 import PageContainer from '~components/PageContainer'
 import ProseSection from '~components/ProseSection'
 import Section from '~components/Section'
 import { canonicalUrl } from '~utils/urls'
+
+import styles from './2026-workshop.module.scss'
 
 const meta = {
   canonical: canonicalUrl('/2026-workshop'),
@@ -164,16 +166,17 @@ const WorkshopPage = () => (
         Very limited tickets are still available for Saturday night’s cabaret.
         The evening includes the Community Awards, a street-food buffet, a
         Scottish ceilidh band, and an acoustic performance from April Dunnam
-        and Dennis Bottjer.{' '}
-        <a
-          href="https://fienta.com/scottish-summit-2026"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Get cabaret tickets
-        </a>
-        .
+        and Dennis Bottjer.
       </p>
+      <div className={styles.cabaretCta}>
+        <Button
+          className={styles.cabaretButton}
+          href="https://fienta.com/scottish-summit-2026"
+          variant="primary"
+        >
+          Get Cabaret Tickets
+        </Button>
+      </div>
     </ProseSection>
     <ProseSection heading="Code of Conduct and Event Policies" alt>
       <p>
