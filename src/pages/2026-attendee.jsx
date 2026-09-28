@@ -7,6 +7,8 @@ import Section from '~components/Section'
 import config from '~config'
 import { canonicalUrl } from '~utils/urls'
 
+import styles from './2026-attendee.module.scss'
+
 const { socialLinks } = config
 const meta = {
   canonical: canonicalUrl('/2026-attendee'),
@@ -140,9 +142,15 @@ const AttendeePage = () => (
         April Dunnam and Dennis Bottjer. Tickets are very limited and sold
         separately.
       </p>
-      <Button href="https://fienta.com/scottish-summit-2026" variant="primary">
-        Get Cabaret Tickets
-      </Button>
+      <div className={styles.cabaretCta}>
+        <Button
+          className={styles.cabaretButton}
+          href="https://fienta.com/scottish-summit-2026"
+          variant="primary"
+        >
+          Get Cabaret Tickets
+        </Button>
+      </div>
     </ProseSection>
     <ProseSection heading="Questions and Updates" alt>
       <p>
