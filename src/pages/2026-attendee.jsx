@@ -25,6 +25,10 @@ const AttendeePage = () => (
           Murrayfield Stadium, Edinburgh.
         </p>
         <p>
+          Attending a workshop on Friday? Read the{' '}
+          <a href="/2026-workshop">Friday Know Before You Go</a>.
+        </p>
+        <p>
           <strong>You must have a valid ticket to attend the conference.</strong>
         </p>
       </Prose>
