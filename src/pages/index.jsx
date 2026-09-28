@@ -105,6 +105,7 @@ const HomePage = () => (
         >
           Access the App
         </Button>
+        <Button href="/2026-attendee">Attendee Know Before You Go</Button>
       </Button.Group>
     </Section>
     <Section align="center" size="desktop" variant="striped">
