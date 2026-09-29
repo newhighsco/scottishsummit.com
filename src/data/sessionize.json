@@ -714,7 +714,8 @@
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "235959b9-8417-4591-982b-2e1368c5aff0"
+        "6b3e13ba-28b8-45b8-8101-3bb206745743",
+        "f1c4818b-192d-4359-ba47-e0bfb40de5ae"
       ],
       "categoryItems": [
         450221,
@@ -1388,19 +1389,20 @@
       "isConfirmed": true
     },
     {
-      "id": "1212343",
-      "title": "Azure Virtual Network Manager: Herding Networks the Easy Way",
-      "description": "If you’re running workloads in Azure, you already know the world of Virtual Networks, subnets, IP ranges, and all the moving parts that come with cloud networking. \r\n\r\nBut have you met Azure Virtual Network Manager: the service that finally brings centralized governance and consistency to your network landscape?\r\n\r\nInstead of managing each Virtual Network separately, Azure Virtual Network Manager gives you a single control plane to define, deploy, and enforce network configurations across your entire environment. Even better, it introduces long‑awaited capabilities like built‑in IP Address Management that previously required third‑party tools or custom solutions.\r\n\r\nIn this session, we’ll walk through how to configure Azure Virtual Network Manager from the ground up, explore its strengths, and shine a light on its limitations so you know exactly what to expect before adopting it.\r\n\r\nWhen you head home after the event, your backpack will be filled with:\r\n\t- Guidelines for setting up Azure Virtual Network Manager\r\n\t- A clear understanding of its key features and how to use them effectively\r\n\t- Real-world scenarios where AVNM is not the right choice\r\n\t- All demo code so you can deploy everything in your own environment\r\n\r\nJoin me for a practical, honest, and demo-heavy deep dive into one of Azure’s most powerful new networking tools.",
+      "id": "1223846",
+      "title": "More To Life Than Work",
+      "description": "Scottish Summit is built by people, and people do not leave their real lives at the door. Behind the scenes of careers, community work, speaking, organising and “doing it all”, many of us are also balancing caring responsibilities, family pressures, health challenges, and the general weight of trying to keep everything moving at once. This panel is an open and honest discussion about that reality.\r\n\r\nHosted by the Scottish Summit organisers, this session is a true safe space for a frank and human conversation about balancing career growth, community involvement, and caring duties while protecting your own wellbeing. We will talk about pressures, compromises, support systems, and the importance of asking for help, in a setting where people can feel heard, understood, and not judged.",
       "startsAt": "2026-10-03T16:00:00",
       "endsAt": "2026-10-03T16:45:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "2308b3b4-c81a-44dd-a531-44002fb5ac90"
+        "fcf4f835-b8b2-46bd-a763-206116a4b143",
+        "53fb6ded-b4e7-40df-8efc-8574bf0788a3"
       ],
       "categoryItems": [
-        450225,
-        450341,
+        450220,
+        450339,
         452078
       ],
       "questionAnswers": [],
@@ -1584,20 +1586,19 @@
       "isConfirmed": true
     },
     {
-      "id": "1223846",
-      "title": "More To Life Than Work",
-      "description": "Scottish Summit is built by people, and people do not leave their real lives at the door. Behind the scenes of careers, community work, speaking, organising and “doing it all”, many of us are also balancing caring responsibilities, family pressures, health challenges, and the general weight of trying to keep everything moving at once. This panel is an open and honest discussion about that reality.\r\n\r\nHosted by the Scottish Summit organisers, this session is a true safe space for a frank and human conversation about balancing career growth, community involvement, and caring duties while protecting your own wellbeing. We will talk about pressures, compromises, support systems, and the importance of asking for help, in a setting where people can feel heard, understood, and not judged.",
+      "id": "1212343",
+      "title": "Azure Virtual Network Manager: Herding Networks the Easy Way",
+      "description": "If you’re running workloads in Azure, you already know the world of Virtual Networks, subnets, IP ranges, and all the moving parts that come with cloud networking. \r\n\r\nBut have you met Azure Virtual Network Manager: the service that finally brings centralized governance and consistency to your network landscape?\r\n\r\nInstead of managing each Virtual Network separately, Azure Virtual Network Manager gives you a single control plane to define, deploy, and enforce network configurations across your entire environment. Even better, it introduces long‑awaited capabilities like built‑in IP Address Management that previously required third‑party tools or custom solutions.\r\n\r\nIn this session, we’ll walk through how to configure Azure Virtual Network Manager from the ground up, explore its strengths, and shine a light on its limitations so you know exactly what to expect before adopting it.\r\n\r\nWhen you head home after the event, your backpack will be filled with:\r\n\t- Guidelines for setting up Azure Virtual Network Manager\r\n\t- A clear understanding of its key features and how to use them effectively\r\n\t- Real-world scenarios where AVNM is not the right choice\r\n\t- All demo code so you can deploy everything in your own environment\r\n\r\nJoin me for a practical, honest, and demo-heavy deep dive into one of Azure’s most powerful new networking tools.",
       "startsAt": "2026-10-03T17:00:00",
       "endsAt": "2026-10-03T17:45:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "fcf4f835-b8b2-46bd-a763-206116a4b143",
-        "53fb6ded-b4e7-40df-8efc-8574bf0788a3"
+        "2308b3b4-c81a-44dd-a531-44002fb5ac90"
       ],
       "categoryItems": [
-        450220,
-        450339,
+        450225,
+        450341,
         452078
       ],
       "questionAnswers": [],
@@ -2652,6 +2653,7 @@
         }
       ],
       "sessions": [
+        1341666,
         1183522
       ],
       "fullName": "Heather Perriam",
@@ -3994,6 +3996,22 @@
       "questionAnswers": []
     },
     {
+      "id": "f1c4818b-192d-4359-ba47-e0bfb40de5ae",
+      "firstName": "Sam",
+      "lastName": "Jackson",
+      "bio": null,
+      "tagLine": "Power Platform Manager, NHS",
+      "profilePicture": null,
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1341666
+      ],
+      "fullName": "Sam Jackson",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
       "id": "8f6ce371-38c5-40f5-b471-ea4a7a463c16",
       "firstName": "Sandra",
       "lastName": "Kiel",
@@ -4225,35 +4243,6 @@
       "fullName": "Selva Pradeep Sathanandam",
       "categoryItems": [
         451783
-      ],
-      "questionAnswers": []
-    },
-    {
-      "id": "235959b9-8417-4591-982b-2e1368c5aff0",
-      "firstName": "Sheena",
-      "lastName": "McHardy",
-      "bio": "Microsoft 365 and Power Platform specialist with a proven track record of putting people at the heart of digital transformation and project leadership. Experienced in designing and delivering transformation and technology solutions with productivity-improving processes at their core. \r\n\r\nTrusted advisor to senior leadership and key sponsors with industry experience in Oil & Gas, third-sector customers and governing bodies. Passionate about life-long learning, knowledge sharing and giving back as part of a thriving community. \r\n\r\n",
-      "tagLine": "Solution Architect",
-      "profilePicture": "https://cdn.sessionize.com/image/1f94-400o400o1-LnsbR9SPCW3UEXcX5pF7My.jpg",
-      "isTopSpeaker": false,
-      "links": [
-        {
-          "title": "LinkedIn",
-          "url": "https://www.linkedin.com/in/sheenamchardy/",
-          "linkType": "LinkedIn"
-        },
-        {
-          "title": "Sessionize",
-          "url": "https://sessionize.com/sheena-mchardy",
-          "linkType": "Sessionize"
-        }
-      ],
-      "sessions": [
-        1341666
-      ],
-      "fullName": "Sheena McHardy",
-      "categoryItems": [
-        451784
       ],
       "questionAnswers": []
     },
