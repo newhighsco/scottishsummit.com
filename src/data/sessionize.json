@@ -122,15 +122,16 @@
     },
     {
       "id": "1253880",
-      "title": "Scottish Summit 2026 Keynote",
-      "description": null,
+      "title": "Welcome to Scottish Summit 2026",
+      "description": "Kick off Scottish Summit with Zoe and Matt as they welcome everyone to Murrayfield, share a few useful pointers and set the scene for the day ahead. They’ll also be joined by our Platinum Sponsor, NetApp, to help officially get things underway. A short introduction to help everyone get settled, know what to expect, and get ready for a full day of sessions, conversations and community.",
       "startsAt": "2026-10-03T09:00:00",
       "endsAt": "2026-10-03T09:10:00",
       "isServiceSession": false,
       "isPlenumSession": true,
       "speakers": [
         "53fb6ded-b4e7-40df-8efc-8574bf0788a3",
-        "fcf4f835-b8b2-46bd-a763-206116a4b143"
+        "fcf4f835-b8b2-46bd-a763-206116a4b143",
+        "40dc422d-39d2-444a-b4c6-513f77ab738a"
       ],
       "categoryItems": [
         450220
@@ -715,7 +716,7 @@
       "isPlenumSession": false,
       "speakers": [
         "6b3e13ba-28b8-45b8-8101-3bb206745743",
-        "f1c4818b-192d-4359-ba47-e0bfb40de5ae"
+        "33d4c647-352c-4253-9de8-302d3220a097"
       ],
       "categoryItems": [
         450221,
@@ -724,6 +725,30 @@
       ],
       "questionAnswers": [],
       "roomId": 80334,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": false
+    },
+    {
+      "id": "1346612",
+      "title": "Demystifying the NetApp Azure storage portfolio",
+      "description": "Azure customers are faced with an increasing number of storage choices. In this session, we'll demystify Azure NetApp Files, Cloud Volumes ONTAP, and Azure NetApp Files Elastic ZRS by exploring their architectures, strengths, and ideal use cases. We'll conclude with a sneak peek at an upcoming addition to the portfolio and how it could further enhance storage design on Azure.\r\n",
+      "startsAt": "2026-10-03T13:05:00",
+      "endsAt": "2026-10-03T13:25:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "34072a46-c0d6-4e5d-a35c-f3332c448a71"
+      ],
+      "categoryItems": [
+        450225,
+        450339,
+        452079
+      ],
+      "questionAnswers": [],
+      "roomId": 80335,
       "liveUrl": null,
       "recordingUrl": null,
       "status": "Accepted",
@@ -1901,7 +1926,8 @@
         }
       ],
       "sessions": [
-        1301878
+        1301878,
+        1346612
       ],
       "fullName": "Anthony Mashford",
       "categoryItems": [
@@ -1986,6 +2012,22 @@
         451784,
         451786
       ],
+      "questionAnswers": []
+    },
+    {
+      "id": "40dc422d-39d2-444a-b4c6-513f77ab738a",
+      "firstName": "Beth",
+      "lastName": "Casani",
+      "bio": null,
+      "tagLine": "NetApp",
+      "profilePicture": "https://cdn.sessionize.com/image/7889-400o400o1-WUR34MLHyt5ACAHXprQ2Ee.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1253880
+      ],
+      "fullName": "Beth Casani",
+      "categoryItems": [],
       "questionAnswers": []
     },
     {
@@ -3996,19 +4038,27 @@
       "questionAnswers": []
     },
     {
-      "id": "f1c4818b-192d-4359-ba47-e0bfb40de5ae",
-      "firstName": "Sam",
+      "id": "33d4c647-352c-4253-9de8-302d3220a097",
+      "firstName": "Samuel",
       "lastName": "Jackson",
-      "bio": null,
+      "bio": "Power Platform manager within NHS Wales, driving modern, sustainable digital transformation. Passionate about enabling teams to work smarter by designing, implementing and supporting the implementation, and adoption of high value business and clinical adjacent processes through the Power platform",
       "tagLine": "Power Platform Manager, NHS",
-      "profilePicture": null,
+      "profilePicture": "https://cdn.sessionize.com/image/256a-400o400o1-LHLx7FRaddtnFCsefRyHs1.jpg",
       "isTopSpeaker": false,
-      "links": [],
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "HTTPS://www.LinkedIn.com/in/samuel-jackson-87384b244",
+          "linkType": "LinkedIn"
+        }
+      ],
       "sessions": [
         1341666
       ],
-      "fullName": "Sam Jackson",
-      "categoryItems": [],
+      "fullName": "Samuel Jackson",
+      "categoryItems": [
+        451784
+      ],
       "questionAnswers": []
     },
     {
