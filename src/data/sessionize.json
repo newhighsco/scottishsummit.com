@@ -740,7 +740,8 @@
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "34072a46-c0d6-4e5d-a35c-f3332c448a71"
+        "34072a46-c0d6-4e5d-a35c-f3332c448a71",
+        "33124233-fed9-454b-a6c8-ffaf487f9f83"
       ],
       "categoryItems": [
         450225,
@@ -753,7 +754,7 @@
       "recordingUrl": null,
       "status": "Accepted",
       "isInformed": true,
-      "isConfirmed": false
+      "isConfirmed": true
     },
     {
       "id": "1221284",
@@ -1389,31 +1390,6 @@
       "isConfirmed": true
     },
     {
-      "id": "1221417",
-      "title": "From Actuals to Intent: Designing AI Agents That Understand Business Goals",
-      "description": "Your data platform tells AI what happened - but not what you intended to achieve. Budgets, targets, and forecasts are often trapped in disconnected spreadsheets, leaving AI agents to operate without an understanding of business goals.\r\n\r\nIn this session, we introduce the “intent gap” - the disconnect between historical data and business planning - and show how closing it transforms what AI can do. Using Fabric IQ, we demonstrate how planning data can be written back into governed SQL tables, making business intent accessible, structured, and queryable by AI agents.\r\n\r\nWe’ll build the full stack live: a planning layer, semantic model, ontology, and AI agent - and explore how each layer contributes to making intent machine-readable. You’ll see firsthand how agents behave differently when they can reason not just over actuals, but against targets, forecasts, and strategic goals.\r\n\r\nBy the end of this session, you’ll understand how to move from hindsight-driven analytics to intent-aware AI systems,  and why giving AI access to your plans is the key to unlocking more meaningful, goal-driven outcomes.\r\n",
-      "startsAt": "2026-10-03T16:00:00",
-      "endsAt": "2026-10-03T16:45:00",
-      "isServiceSession": false,
-      "isPlenumSession": false,
-      "speakers": [
-        "2b5d7991-1509-49be-aebd-057fd70806b2",
-        "3392ea59-94ba-406f-a640-0e4497d67002"
-      ],
-      "categoryItems": [
-        450222,
-        450340,
-        452078
-      ],
-      "questionAnswers": [],
-      "roomId": 80334,
-      "liveUrl": null,
-      "recordingUrl": null,
-      "status": "Accepted",
-      "isInformed": true,
-      "isConfirmed": true
-    },
-    {
       "id": "1223846",
       "title": "More To Life Than Work",
       "description": "Scottish Summit is built by people, and people do not leave their real lives at the door. Behind the scenes of careers, community work, speaking, organising and “doing it all”, many of us are also balancing caring responsibilities, family pressures, health challenges, and the general weight of trying to keep everything moving at once. This panel is an open and honest discussion about that reality.\r\n\r\nHosted by the Scottish Summit organisers, this session is a true safe space for a frank and human conversation about balancing career growth, community involvement, and caring duties while protecting your own wellbeing. We will talk about pressures, compromises, support systems, and the importance of asking for help, in a setting where people can feel heard, understood, and not judged.",
@@ -1428,6 +1404,31 @@
       "categoryItems": [
         450220,
         450339,
+        452078
+      ],
+      "questionAnswers": [],
+      "roomId": 80334,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1221417",
+      "title": "From Actuals to Intent: Designing AI Agents That Understand Business Goals",
+      "description": "Your data platform tells AI what happened - but not what you intended to achieve. Budgets, targets, and forecasts are often trapped in disconnected spreadsheets, leaving AI agents to operate without an understanding of business goals.\r\n\r\nIn this session, we introduce the “intent gap” - the disconnect between historical data and business planning - and show how closing it transforms what AI can do. Using Fabric IQ, we demonstrate how planning data can be written back into governed SQL tables, making business intent accessible, structured, and queryable by AI agents.\r\n\r\nWe’ll build the full stack live: a planning layer, semantic model, ontology, and AI agent - and explore how each layer contributes to making intent machine-readable. You’ll see firsthand how agents behave differently when they can reason not just over actuals, but against targets, forecasts, and strategic goals.\r\n\r\nBy the end of this session, you’ll understand how to move from hindsight-driven analytics to intent-aware AI systems,  and why giving AI access to your plans is the key to unlocking more meaningful, goal-driven outcomes.\r\n",
+      "startsAt": "2026-10-03T16:00:00",
+      "endsAt": "2026-10-03T16:45:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "2b5d7991-1509-49be-aebd-057fd70806b2",
+        "3392ea59-94ba-406f-a640-0e4497d67002"
+      ],
+      "categoryItems": [
+        450222,
+        450340,
         452078
       ],
       "questionAnswers": [],
@@ -1805,7 +1806,7 @@
       "firstName": "Andy",
       "lastName": "Kemp",
       "bio": "Andy works across Microsoft 365, Azure, and modern workplace environments, helping organisations make sense of how everything fits together in the real world, not just on paper.\r\n\r\nWith over 20 years in the Microsoft ecosystem, his focus spans identity, security, and cloud architecture, particularly where design, usability, and risk collide. Much of his work centres on a simple reality: the biggest problems rarely come from missing features, but from how those features are used in practice.\r\n\r\nA Microsoft Certified Trainer, Andy is known for practical, honest sessions that focus less on product features and more on what actually works. Expect real-world scenarios, familiar challenges, and the occasional analogy that probably shouldn’t make sense, but somehow does.",
-      "tagLine": "Zero Trust & Microsoft 365 Security Architect",
+      "tagLine": "Zero Trust & Microsoft 365 Security Architect & Microsoft MVP",
       "profilePicture": "https://cdn.sessionize.com/image/c9d9-400o400o1-4xsFtH884wL1SVm1tadLDv.jpg",
       "isTopSpeaker": false,
       "links": [
@@ -1826,6 +1827,7 @@
       "fullName": "Andy Kemp",
       "categoryItems": [
         451784,
+        451786,
         451789
       ],
       "questionAnswers": []
@@ -2318,8 +2320,7 @@
       ],
       "fullName": "Craig White",
       "categoryItems": [
-        451784,
-        451786
+        451784
       ],
       "questionAnswers": []
     },
@@ -2903,7 +2904,8 @@
         }
       ],
       "sessions": [
-        1301878
+        1301878,
+        1346612
       ],
       "fullName": "Joss Mureddu",
       "categoryItems": [
@@ -3458,8 +3460,7 @@
       ],
       "fullName": "Mats Necker",
       "categoryItems": [
-        451784,
-        451786
+        451784
       ],
       "questionAnswers": []
     },
@@ -3494,7 +3495,9 @@
         1223846
       ],
       "fullName": "Matt Beard",
-      "categoryItems": [],
+      "categoryItems": [
+        451786
+      ],
       "questionAnswers": []
     },
     {
@@ -3588,7 +3591,9 @@
         1218279
       ],
       "fullName": "Michael Seidl",
-      "categoryItems": [],
+      "categoryItems": [
+        451786
+      ],
       "questionAnswers": []
     },
     {
@@ -4160,7 +4165,9 @@
         1339517
       ],
       "fullName": "Sara Fennah",
-      "categoryItems": [],
+      "categoryItems": [
+        451786
+      ],
       "questionAnswers": []
     },
     {
@@ -4615,7 +4622,9 @@
         1223846
       ],
       "fullName": "Zoe Wilson",
-      "categoryItems": [],
+      "categoryItems": [
+        451786
+      ],
       "questionAnswers": []
     }
   ],
