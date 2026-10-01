@@ -12,7 +12,13 @@ const meta = { canonical: canonicalUrl('/speakers'), title: 'Speakers' }
 const sessionMap = Object.fromEntries(
   sessionize.sessions.map(s => [s.id, s])
 )
-const speakers = sessionize.speakers
+const mvpCategoryItem = sessionize.categories
+  .flatMap(category => category.items)
+  .find(item => item.name === 'MVP')
+const speakers = sessionize.speakers.map(speaker => ({
+  ...speaker,
+  isMvp: speaker.categoryItems?.includes(mvpCategoryItem?.id)
+}))
 
 const SpeakersPage = () => (
   <PageContainer meta={meta}>

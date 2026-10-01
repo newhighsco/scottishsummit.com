@@ -163,6 +163,15 @@ const SpeakersSection = ({ title, speakers, sessionMap }) => {
                   </div>
                   <div className={styles.info}>
                     <p className={styles.name}>{speaker.fullName}</p>
+                    {speaker.isMvp && (
+                      <NextImage
+                        src="/images/microsoft/mvp.jpg"
+                        alt="Microsoft MVP"
+                        width={32}
+                        height={32}
+                        className={styles.mvpLogo}
+                      />
+                    )}
                     {speaker.tagLine && (
                       <p className={styles.tagLine}>{speaker.tagLine}</p>
                     )}
