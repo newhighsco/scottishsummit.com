@@ -617,8 +617,8 @@
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "ef0edfec-5000-4385-b237-967eea1cec33",
-        "f479e0cd-f61c-4e58-8a40-08bb261664a6"
+        "f479e0cd-f61c-4e58-8a40-08bb261664a6",
+        "620c157e-37bb-4284-86e7-bbfbd6c4aadd"
       ],
       "categoryItems": [
         450222,
@@ -2148,6 +2148,7 @@
         }
       ],
       "sessions": [
+        1308273,
         1193827
       ],
       "fullName": "Charles Sexton",
@@ -2910,47 +2911,6 @@
       "fullName": "Joss Mureddu",
       "categoryItems": [
         451784
-      ],
-      "questionAnswers": []
-    },
-    {
-      "id": "ef0edfec-5000-4385-b237-967eea1cec33",
-      "firstName": "Keith",
-      "lastName": "Atherton",
-      "bio": "Power Platform Solution Architect, Microsoft MVP for Business Applications, Microsoft Certified Trainer (MCT), 11x Microsoft certified, published LinkedIn Learning instructor, public speaker, Power Platform Community High Five user group founder, On Air in the Cloud podcast host, blogger, and mentor.\r\n\r\nVersatile solution architect with over 25 years' international experience of leading and developing software solutions in permanent and contract roles for sectors including finance, legal, manufacturing, construction, game development, retail, healthcare, travel, and charity.\r\n\r\nFind me online: https://linktr.ee/keithatherton",
-      "tagLine": "Power Platform Solution Architect | Microsoft MVP | MCT | 11x Microsoft Certified | User Group Leader | LinkedIn Learning Instructor | Speaker | Podcaster",
-      "profilePicture": "https://cdn.sessionize.com/image/ab15-400o400o1-ngtatcAF3X9oVy3hZJDb1s.png",
-      "isTopSpeaker": false,
-      "links": [
-        {
-          "title": "LinkedIn",
-          "url": "https://www.linkedin.com/in/keith-atherton",
-          "linkType": "LinkedIn"
-        },
-        {
-          "title": "Blog",
-          "url": "https://www.keithatherton.com/",
-          "linkType": "Blog"
-        },
-        {
-          "title": "Company Website",
-          "url": "https://www.keithatherton.com/",
-          "linkType": "Company_Website"
-        },
-        {
-          "title": "Sessionize",
-          "url": "https://sessionize.com/keith-atherton",
-          "linkType": "Sessionize"
-        }
-      ],
-      "sessions": [
-        1308273
-      ],
-      "fullName": "Keith Atherton",
-      "categoryItems": [
-        451784,
-        451786,
-        451789
       ],
       "questionAnswers": []
     },
