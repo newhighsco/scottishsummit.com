@@ -219,18 +219,19 @@
       "isConfirmed": false
     },
     {
-      "id": "1182943",
-      "title": "Designing Intelligent Tool-Driven Agents",
-      "description": "Modern Copilot Studio agents can do far more than answer questions—they can reason, act, collaborate with humans, and make controlled decisions.\r\nIn this session, we will build an agent step-by-step to demonstrate how Copilot Studio’s expanding toolset enables powerful, safe, and flexible automation scenarios.\r\n\r\nWe’ll walk through how to use each tool individually and then combine them into a coordinated workflow:\r\n\r\nAI Prompt to generate dynamic content and chain reasoning\r\n\r\nAI Approval to introduce governed decision points\r\n\r\nHuman-in-the-Loop to collect user input or expert confirmation\r\n\r\nAdaptive output tools to shape responses\r\n\r\nOther Copilot Studio tools that enable integrations, data actions, and workflow branching\r\n\r\nBy the end of the session, you’ll understand how to orchestrate these capabilities inside a single agent, enabling it to make automated decisions, request human oversight where needed, and produce high-quality, context-aware outputs.\r\n\r\nAttendees will leave with a clear blueprint for constructing robust Copilot Studio agents that blend AI automation with responsible controls—ideal for enterprise use cases such as approvals, content generation, customer support, data processing, and more.",
+      "id": "1181352",
+      "title": "Closing the Loop: How a Small Security Team Refined an Enterprise-grade DLP solution",
+      "description": "Managing an enterprise-grade DLP solution tends to mean getting buried under an endless mountain of audit logs, scrambling to apply exclusions and refinements to controls based on sporadic incident tickets, end user complaints and assorted dumpster fires. For example, when users are constantly uploading files to an ever-changing array of cloud services, keeping your Endpoint DLP authorized domain list accurate to exclude approved services from file upload controls can rapidly overwhelm a small security team.\r\n \r\nThis session introduces a practical, automated approach to solving this issue, based on a solution adopted successfully by real security teams in the field. We will explore how to set up a continuous refinement loop that does the heavy lifting for you, leveraging smart Endpoint DLP audit rules, the Graph API runHuntingQuery endpoint and Azure Logic Apps to bring actionable intelligence directly to security responsibles, right in the flow of everyday work in Teams.\r\n \r\nIn this session, you will learn how to:\r\n- Set up dedicated Endpoint DLP rules and other pre-requisites to silently monitor file uploads against your baseline of approved domains.\r\n- Use Logic Apps to automatically query the Graph API runHuntingQuery endpoint and gather audit events of unauthorized file uploads.\r\n- Filter weekly audit findings into a clean, concise and actionable report, supported by a more comprehensive CSV dataset.\r\n- Deliver these insights straight into a Teams channel so admins can effortlessly review and update allowed domains in minutes.\r\n\r\nThe proven pattern explained and demonstrated in this session is one you can apply to countless other security and governance scenarios going forward, helping manage sprawl and helping keep your organization secure with less friction.\r\n \r\nThis session is well-suited for security responsibles and admins, IT Pros as well as anyone interested in effectively operationalizing security solution refinement with limited resources.",
       "startsAt": "2026-10-03T10:15:00",
       "endsAt": "2026-10-03T11:00:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "e8ad406b-9b1b-4e48-a7a6-cf84b616f2d9"
+        "f15c2bcd-a2d0-4b80-afd0-6daf884b1dd9",
+        "6282aa05-a6cb-4410-a5e1-d7c11a52ec04"
       ],
       "categoryItems": [
-        450222,
+        450223,
         450341,
         452078
       ],
@@ -267,19 +268,18 @@
       "isConfirmed": true
     },
     {
-      "id": "1181352",
-      "title": "Closing the Loop: How a Small Security Team Refined an Enterprise-grade DLP solution",
-      "description": "Managing an enterprise-grade DLP solution tends to mean getting buried under an endless mountain of audit logs, scrambling to apply exclusions and refinements to controls based on sporadic incident tickets, end user complaints and assorted dumpster fires. For example, when users are constantly uploading files to an ever-changing array of cloud services, keeping your Endpoint DLP authorized domain list accurate to exclude approved services from file upload controls can rapidly overwhelm a small security team.\r\n \r\nThis session introduces a practical, automated approach to solving this issue, based on a solution adopted successfully by real security teams in the field. We will explore how to set up a continuous refinement loop that does the heavy lifting for you, leveraging smart Endpoint DLP audit rules, the Graph API runHuntingQuery endpoint and Azure Logic Apps to bring actionable intelligence directly to security responsibles, right in the flow of everyday work in Teams.\r\n \r\nIn this session, you will learn how to:\r\n- Set up dedicated Endpoint DLP rules and other pre-requisites to silently monitor file uploads against your baseline of approved domains.\r\n- Use Logic Apps to automatically query the Graph API runHuntingQuery endpoint and gather audit events of unauthorized file uploads.\r\n- Filter weekly audit findings into a clean, concise and actionable report, supported by a more comprehensive CSV dataset.\r\n- Deliver these insights straight into a Teams channel so admins can effortlessly review and update allowed domains in minutes.\r\n\r\nThe proven pattern explained and demonstrated in this session is one you can apply to countless other security and governance scenarios going forward, helping manage sprawl and helping keep your organization secure with less friction.\r\n \r\nThis session is well-suited for security responsibles and admins, IT Pros as well as anyone interested in effectively operationalizing security solution refinement with limited resources.",
+      "id": "1182943",
+      "title": "Designing Intelligent Tool-Driven Agents",
+      "description": "Modern Copilot Studio agents can do far more than answer questions—they can reason, act, collaborate with humans, and make controlled decisions.\r\nIn this session, we will build an agent step-by-step to demonstrate how Copilot Studio’s expanding toolset enables powerful, safe, and flexible automation scenarios.\r\n\r\nWe’ll walk through how to use each tool individually and then combine them into a coordinated workflow:\r\n\r\nAI Prompt to generate dynamic content and chain reasoning\r\n\r\nAI Approval to introduce governed decision points\r\n\r\nHuman-in-the-Loop to collect user input or expert confirmation\r\n\r\nAdaptive output tools to shape responses\r\n\r\nOther Copilot Studio tools that enable integrations, data actions, and workflow branching\r\n\r\nBy the end of the session, you’ll understand how to orchestrate these capabilities inside a single agent, enabling it to make automated decisions, request human oversight where needed, and produce high-quality, context-aware outputs.\r\n\r\nAttendees will leave with a clear blueprint for constructing robust Copilot Studio agents that blend AI automation with responsible controls—ideal for enterprise use cases such as approvals, content generation, customer support, data processing, and more.",
       "startsAt": "2026-10-03T10:15:00",
       "endsAt": "2026-10-03T11:00:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "f15c2bcd-a2d0-4b80-afd0-6daf884b1dd9",
-        "6282aa05-a6cb-4410-a5e1-d7c11a52ec04"
+        "e8ad406b-9b1b-4e48-a7a6-cf84b616f2d9"
       ],
       "categoryItems": [
-        450223,
+        450222,
         450341,
         452078
       ],
@@ -463,18 +463,20 @@
       "isConfirmed": true
     },
     {
-      "id": "1222802",
-      "title": "Getting started with Customer Insights - Data",
-      "description": "You've heard the term. You've seen it sitting in your Customer Insights – Journeys licence. But what actually is a CDP — and what can it do for your customers?\r\n\r\nCustomer profiles, unification, measures, segments, predictions… if that list feels like alphabet soup, this session is for you. Customer Insights – Data is unfamiliar territory for most consultants and organisations, and that unfamiliarity is exactly why so much of its value goes unused.\r\n\r\nIn 45 minutes we'll cover:\r\n\r\nWhat a Customer Data Platform is, in plain language\r\nWhat Customer Insights – Data can realistically do today\r\nThe business case: why your customers should start using it now\r\nHow to build a working demo you can put in front of a customer\r\nYou'll leave knowing enough to start — and knowing exactly where to go to learn more.",
+      "id": "1196772",
+      "title": "The Human Hack: Rebooting Consulting Culture",
+      "description": "This isn’t about tools, templates, frameworks, or even just the latest AI technologies it’s about people and mindset. In this honest and practical session, we explore how as consultants and delivery leads, we can rediscover and develop better consulting cultures in a world obsessed with tools and delivery speed.  \r\n\r\nExpect a candid conversation as two seasoned leaders in the Microsoft consulting community are interviewed by a fellow highly experienced leader. The session will be filled with, stories, audience Q&A, and actionable advice you can put straight into action back on your projects and in your teams.  Bring your questions and get involved. \r\n\r\nYou’ll leave with new ways to:  \r\n\r\n- Sharpen your critical thinking skills and learn how to ask the right questions to get to the true root of a problem. \r\n\r\n- Build strong, trusting relationships with clients by encouraging open communication, curiosity, and teamwork. \r\n\r\n- Make sure your work delivers clear, measurable business value by considering its impact on people, processes, and technology. \r\n\r\nIf you’ve ever felt like your work was technically perfect but somehow missed the mark, this session will show you why and how to fix it. Take away new ways to think, lead, and consult that make your engagements more rewarding, your impact more visible, and your career genuinely fulfilling.   \r\n\r\nAI is driving a significant shift in the consulting landscape, encouraging a heightened focus on tools, templates, and frameworks risking the loss of the human experience and mindset. Don’t let yourself drift into transactional delivery. Join us to reclaim the mission, rebuild the mindset, and become the kind of consultant the industry desperately needs. \r\n",
       "startsAt": "2026-10-03T12:15:00",
       "endsAt": "2026-10-03T13:00:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "0ec05775-0158-44b2-bab2-184dc138427f"
+        "aeb980aa-db9e-4699-b10e-4089d78b2847",
+        "85cbafc5-4f92-4c90-8676-630fa395a16f",
+        "01a88416-06f6-4fca-96ed-7320a05f0b4c"
       ],
       "categoryItems": [
-        450221,
+        450220,
         450339,
         452078
       ],
@@ -484,7 +486,7 @@
       "recordingUrl": null,
       "status": "Accepted",
       "isInformed": true,
-      "isConfirmed": false
+      "isConfirmed": true
     },
     {
       "id": "1176525",
@@ -559,20 +561,18 @@
       "isConfirmed": true
     },
     {
-      "id": "1196772",
-      "title": "The Human Hack: Rebooting Consulting Culture",
-      "description": "This isn’t about tools, templates, frameworks, or even just the latest AI technologies it’s about people and mindset. In this honest and practical session, we explore how as consultants and delivery leads, we can rediscover and develop better consulting cultures in a world obsessed with tools and delivery speed.  \r\n\r\nExpect a candid conversation as two seasoned leaders in the Microsoft consulting community are interviewed by a fellow highly experienced leader. The session will be filled with, stories, audience Q&A, and actionable advice you can put straight into action back on your projects and in your teams.  Bring your questions and get involved. \r\n\r\nYou’ll leave with new ways to:  \r\n\r\n- Sharpen your critical thinking skills and learn how to ask the right questions to get to the true root of a problem. \r\n\r\n- Build strong, trusting relationships with clients by encouraging open communication, curiosity, and teamwork. \r\n\r\n- Make sure your work delivers clear, measurable business value by considering its impact on people, processes, and technology. \r\n\r\nIf you’ve ever felt like your work was technically perfect but somehow missed the mark, this session will show you why and how to fix it. Take away new ways to think, lead, and consult that make your engagements more rewarding, your impact more visible, and your career genuinely fulfilling.   \r\n\r\nAI is driving a significant shift in the consulting landscape, encouraging a heightened focus on tools, templates, and frameworks risking the loss of the human experience and mindset. Don’t let yourself drift into transactional delivery. Join us to reclaim the mission, rebuild the mindset, and become the kind of consultant the industry desperately needs. \r\n",
+      "id": "1222802",
+      "title": "Getting started with Customer Insights - Data",
+      "description": "You've heard the term. You've seen it sitting in your Customer Insights – Journeys licence. But what actually is a CDP — and what can it do for your customers?\r\n\r\nCustomer profiles, unification, measures, segments, predictions… if that list feels like alphabet soup, this session is for you. Customer Insights – Data is unfamiliar territory for most consultants and organisations, and that unfamiliarity is exactly why so much of its value goes unused.\r\n\r\nIn 45 minutes we'll cover:\r\n\r\nWhat a Customer Data Platform is, in plain language\r\nWhat Customer Insights – Data can realistically do today\r\nThe business case: why your customers should start using it now\r\nHow to build a working demo you can put in front of a customer\r\nYou'll leave knowing enough to start — and knowing exactly where to go to learn more.",
       "startsAt": "2026-10-03T12:15:00",
       "endsAt": "2026-10-03T13:00:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "aeb980aa-db9e-4699-b10e-4089d78b2847",
-        "85cbafc5-4f92-4c90-8676-630fa395a16f",
-        "01a88416-06f6-4fca-96ed-7320a05f0b4c"
+        "0ec05775-0158-44b2-bab2-184dc138427f"
       ],
       "categoryItems": [
-        450220,
+        450221,
         450339,
         452078
       ],
@@ -582,7 +582,7 @@
       "recordingUrl": null,
       "status": "Accepted",
       "isInformed": true,
-      "isConfirmed": true
+      "isConfirmed": false
     },
     {
       "id": "1222658",
@@ -617,8 +617,8 @@
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "ef0edfec-5000-4385-b237-967eea1cec33",
-        "f479e0cd-f61c-4e58-8a40-08bb261664a6"
+        "f479e0cd-f61c-4e58-8a40-08bb261664a6",
+        "620c157e-37bb-4284-86e7-bbfbd6c4aadd"
       ],
       "categoryItems": [
         450222,
@@ -634,19 +634,20 @@
       "isConfirmed": true
     },
     {
-      "id": "1173856",
-      "title": "Building a Responsible AI Centre of Excellence That Actually Delivers",
-      "description": "AI adoption is accelerating across every organisation, but very few have the structures in place to scale it safely, ethically and sustainably.\r\n\r\nIn this session, we move beyond theory and explore how to design and operationalise a Responsible AI framework through a practical AI Centre of Excellence model.\r\n\r\nThis session will cover:\r\n\r\n• What Responsible AI really means in a Microsoft ecosystem\r\n• How to establish an AI Centre of Excellence that enables innovation without creating bottlenecks\r\n• Balancing compliance, governance and commercial pressure\r\n• Practical guardrails for Copilot, Azure AI Foundry and AI agents\r\n• Managing risk, drift and misuse in production AI systems\r\n• Embedding monitoring and observability using Azure Monitor and Purview\r\n• Defining roles, ownership and decision rights across IT, security and the business\r\n\r\nAttendees will leave with:\r\n\r\n• A blueprint for launching an AI CoE\r\n• A practical governance operating model\r\n• Real-world patterns for scaling AI responsibly\r\n• A clear view of how to align Responsible AI principles with measurable business value\r\n\r\nThis session is ideal for architects, technical leaders, security professionals and decision-makers who want to move from experimentation to enterprise-scale AI with confidence.",
+      "id": "1185280",
+      "title": "Productivity Hack Battle: Top 10 tips for busy (and easily distracted) tech professionals",
+      "description": "Are you drowning in tasks, messages, and meetings? It's time to take back control of your workday.\r\n\r\nEasy? Just point your task list and calendar at your favorite Copilot/AI agent and it'll take care of it, right? Right?!\r\n\r\nHmm, maybe not.\r\n\r\nInstead of another boring set of slides or wild vendor promises (ahem, Microsoft), our two presenters face off in... (big announcer voice):\r\n\r\nTHE PRODUCTIVITY HACK BATTLE!\r\n\r\nEach presenter shares 5 killer productivity hacks, tools, and agents that help them work smarter, not harder. Not just the \"what,\" but the \"how.\"\r\n\r\nFrom time management tricks to automation secrets to focus techniques that actually work when your brain won't cooperate, you'll get a rapid-fire tour of 10 proven tips. Some are tested traditional methods. Some are AI and agents done right. All of them are built for how real brains actually work, not how productivity gurus wish they did.\r\n\r\nBut this isn't just another talk: YOU get to be the judge.\r\n\r\nAfter the hacks are revealed, the audience votes live on which ones are the most game-changing.\r\n\r\nYou'll walk away with new tools and habits to boost your efficiency without burning out, and without needing to force yourself into a system that was never built for you.\r\n\r\nDon't miss this chance to level up your productivity and find out which hack wins the ultimate showdown.",
       "startsAt": "2026-10-03T13:05:00",
       "endsAt": "2026-10-03T13:25:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "8ca492a2-c473-40d9-bbce-599f930766c4"
+        "01a94a88-cb24-4b81-b176-27c469bf8d29",
+        "e5db9e81-c381-49f5-aa43-e593615fecc4"
       ],
       "categoryItems": [
-        450222,
-        450339,
+        450220,
+        450340,
         452079
       ],
       "questionAnswers": [],
@@ -682,19 +683,18 @@
       "isConfirmed": true
     },
     {
-      "id": "1185280",
-      "title": "Productivity Hack Battle: Top 10 tips for busy (and easily distracted) tech professionals",
-      "description": "Are you drowning in tasks, messages, and meetings? It's time to take back control of your workday.\r\n\r\nEasy? Just point your task list and calendar at your favorite Copilot/AI agent and it'll take care of it, right? Right?!\r\n\r\nHmm, maybe not.\r\n\r\nInstead of another boring set of slides or wild vendor promises (ahem, Microsoft), our two presenters face off in... (big announcer voice):\r\n\r\nTHE PRODUCTIVITY HACK BATTLE!\r\n\r\nEach presenter shares 5 killer productivity hacks, tools, and agents that help them work smarter, not harder. Not just the \"what,\" but the \"how.\"\r\n\r\nFrom time management tricks to automation secrets to focus techniques that actually work when your brain won't cooperate, you'll get a rapid-fire tour of 10 proven tips. Some are tested traditional methods. Some are AI and agents done right. All of them are built for how real brains actually work, not how productivity gurus wish they did.\r\n\r\nBut this isn't just another talk: YOU get to be the judge.\r\n\r\nAfter the hacks are revealed, the audience votes live on which ones are the most game-changing.\r\n\r\nYou'll walk away with new tools and habits to boost your efficiency without burning out, and without needing to force yourself into a system that was never built for you.\r\n\r\nDon't miss this chance to level up your productivity and find out which hack wins the ultimate showdown.",
+      "id": "1221284",
+      "title": "Would You Trust This Agent?",
+      "description": "Copilot and agent experiences can create real value, but only when they fit the way people actually work. In operational services, users do not just need speed. They need confidence, context, and a clear sense of when to trust the AI, when to check it, and when a human should take over.\r\n\r\nThis session focuses on one practical question: what makes an AI-assisted workflow feel trustworthy enough to use? Using realistic service scenarios, it will show where human-in-the-loop matters, why happy-path demos are not enough, and how poor workflow design can make Copilot or agents feel risky instead of useful. It will cover a handful of common use cases such as summarisation, triage support, knowledge retrieval, and next-best-action prompts, and show how to assess whether they genuinely reduce effort or simply add another layer of uncertainty.\r\n\r\nAttendees will leave with a lightweight trust checklist they can apply before building. The goal is to help teams design Copilot and agent experiences that support operational work in a clearer, safer, and more adoptable way.\r\n\r\nKey takeaways\r\nAttendees will learn how to identify stronger and weaker Copilot or agent use cases, where human review matters most, how to design for exceptions rather than just happy paths, and how to make AI-assisted workflows easier for users to understand and adopt.",
       "startsAt": "2026-10-03T13:05:00",
       "endsAt": "2026-10-03T13:25:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "01a94a88-cb24-4b81-b176-27c469bf8d29",
-        "e5db9e81-c381-49f5-aa43-e593615fecc4"
+        "c81e9beb-4be3-4139-b4f7-cf4985713af4"
       ],
       "categoryItems": [
-        450220,
+        450222,
         450340,
         452079
       ],
@@ -757,19 +757,19 @@
       "isConfirmed": true
     },
     {
-      "id": "1221284",
-      "title": "Would You Trust This Agent?",
-      "description": "Copilot and agent experiences can create real value, but only when they fit the way people actually work. In operational services, users do not just need speed. They need confidence, context, and a clear sense of when to trust the AI, when to check it, and when a human should take over.\r\n\r\nThis session focuses on one practical question: what makes an AI-assisted workflow feel trustworthy enough to use? Using realistic service scenarios, it will show where human-in-the-loop matters, why happy-path demos are not enough, and how poor workflow design can make Copilot or agents feel risky instead of useful. It will cover a handful of common use cases such as summarisation, triage support, knowledge retrieval, and next-best-action prompts, and show how to assess whether they genuinely reduce effort or simply add another layer of uncertainty.\r\n\r\nAttendees will leave with a lightweight trust checklist they can apply before building. The goal is to help teams design Copilot and agent experiences that support operational work in a clearer, safer, and more adoptable way.\r\n\r\nKey takeaways\r\nAttendees will learn how to identify stronger and weaker Copilot or agent use cases, where human review matters most, how to design for exceptions rather than just happy paths, and how to make AI-assisted workflows easier for users to understand and adopt.",
+      "id": "1173856",
+      "title": "Building a Responsible AI Centre of Excellence That Actually Delivers",
+      "description": "AI adoption is accelerating across every organisation, but very few have the structures in place to scale it safely, ethically and sustainably.\r\n\r\nIn this session, we move beyond theory and explore how to design and operationalise a Responsible AI framework through a practical AI Centre of Excellence model.\r\n\r\nThis session will cover:\r\n\r\n• What Responsible AI really means in a Microsoft ecosystem\r\n• How to establish an AI Centre of Excellence that enables innovation without creating bottlenecks\r\n• Balancing compliance, governance and commercial pressure\r\n• Practical guardrails for Copilot, Azure AI Foundry and AI agents\r\n• Managing risk, drift and misuse in production AI systems\r\n• Embedding monitoring and observability using Azure Monitor and Purview\r\n• Defining roles, ownership and decision rights across IT, security and the business\r\n\r\nAttendees will leave with:\r\n\r\n• A blueprint for launching an AI CoE\r\n• A practical governance operating model\r\n• Real-world patterns for scaling AI responsibly\r\n• A clear view of how to align Responsible AI principles with measurable business value\r\n\r\nThis session is ideal for architects, technical leaders, security professionals and decision-makers who want to move from experimentation to enterprise-scale AI with confidence.",
       "startsAt": "2026-10-03T13:05:00",
       "endsAt": "2026-10-03T13:25:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "c81e9beb-4be3-4139-b4f7-cf4985713af4"
+        "8ca492a2-c473-40d9-bbce-599f930766c4"
       ],
       "categoryItems": [
         450222,
-        450340,
+        450339,
         452079
       ],
       "questionAnswers": [],
@@ -805,18 +805,18 @@
       "isConfirmed": true
     },
     {
-      "id": "1173694",
-      "title": "Hidden Disabilities – Courage, Awareness & the Challenge of Speaking Up in IT",
-      "description": "IT culture celebrates resilience. \"Always on.\" Always performing. Always available. But what happens when the person behind the keyboard is fighting something invisible?\r\n\r\nIn 2024, I was diagnosed with lymphoma, incurable, and now a permanent part of my life. That diagnosis forced a choice: hide it until I couldn't, or speak openly. I chose openness. And it changed everything about how I show up at work.\r\nThis session explores the intersection of hidden disabilities and IT culture,  a space where vulnerability rarely fits into sprint cycles or incident queues, and where the pressure to appear \"operational\" can silence struggles that deserve to be heard.\r\n\r\nWe'll examine:\r\nWhy do IT professionals, especially men, find it so hard to speak up about health challenges\r\nThe bias that equates illness with unreliability in technical roles\r\nThe emotional cost of masking a disability while solving everyone else's problems\r\nWhat leaders, teams, and individuals can do to create genuinely inclusive workplaces\r\n\r\nYou'll leave with personal insights, practical guidance, and a new perspective on what strength really looks like in tech.\r\n\r\nBecause strength and vulnerability aren't opposites. They're allies.",
+      "id": "1316750",
+      "title": "Live but Not Landing: Why adoption stalls and how to sort it",
+      "description": "Projects go live. Far fewer actually land. Working in after go-live, we see the same handful of things separate the rollouts people love from the ones they quietly work around. This session is those patterns, the ones worth doing, and the ones worth avoiding, so more of your projects become the success stories worth talking about.",
       "startsAt": "2026-10-03T13:35:00",
       "endsAt": "2026-10-03T13:55:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "e139c7aa-50a3-4fb5-bc8a-6985bbe37646"
+        "2b1a0f4e-e0b7-44e0-97d6-a27ef40bd755"
       ],
       "categoryItems": [
-        450220,
+        450221,
         450339,
         452079
       ],
@@ -826,7 +826,7 @@
       "recordingUrl": null,
       "status": "Accepted",
       "isInformed": true,
-      "isConfirmed": true
+      "isConfirmed": false
     },
     {
       "id": "1188453",
@@ -853,18 +853,18 @@
       "isConfirmed": true
     },
     {
-      "id": "1316750",
-      "title": "Live but Not Landing: Why adoption stalls and how to sort it",
-      "description": "Projects go live. Far fewer actually land. Working in after go-live, we see the same handful of things separate the rollouts people love from the ones they quietly work around. This session is those patterns, the ones worth doing, and the ones worth avoiding, so more of your projects become the success stories worth talking about.",
+      "id": "1173694",
+      "title": "Hidden Disabilities – Courage, Awareness & the Challenge of Speaking Up in IT",
+      "description": "IT culture celebrates resilience. \"Always on.\" Always performing. Always available. But what happens when the person behind the keyboard is fighting something invisible?\r\n\r\nIn 2024, I was diagnosed with lymphoma, incurable, and now a permanent part of my life. That diagnosis forced a choice: hide it until I couldn't, or speak openly. I chose openness. And it changed everything about how I show up at work.\r\nThis session explores the intersection of hidden disabilities and IT culture,  a space where vulnerability rarely fits into sprint cycles or incident queues, and where the pressure to appear \"operational\" can silence struggles that deserve to be heard.\r\n\r\nWe'll examine:\r\nWhy do IT professionals, especially men, find it so hard to speak up about health challenges\r\nThe bias that equates illness with unreliability in technical roles\r\nThe emotional cost of masking a disability while solving everyone else's problems\r\nWhat leaders, teams, and individuals can do to create genuinely inclusive workplaces\r\n\r\nYou'll leave with personal insights, practical guidance, and a new perspective on what strength really looks like in tech.\r\n\r\nBecause strength and vulnerability aren't opposites. They're allies.",
       "startsAt": "2026-10-03T13:35:00",
       "endsAt": "2026-10-03T13:55:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "2b1a0f4e-e0b7-44e0-97d6-a27ef40bd755"
+        "e139c7aa-50a3-4fb5-bc8a-6985bbe37646"
       ],
       "categoryItems": [
-        450221,
+        450220,
         450339,
         452079
       ],
@@ -874,7 +874,7 @@
       "recordingUrl": null,
       "status": "Accepted",
       "isInformed": true,
-      "isConfirmed": false
+      "isConfirmed": true
     },
     {
       "id": "1316851",
@@ -1047,19 +1047,19 @@
       "isConfirmed": true
     },
     {
-      "id": "1182001",
-      "title": "The LinkedIn Blueprint: Building Your Brand and Network in the Microsoft Ecosystem",
-      "description": "Building a career in the Microsoft space can feel like doing great work in a crowded room where no one can hear you. Technical expertise grows, projects succeed, and knowledge deepens - yet recognition and MVP nominations don’t always follow. Many highly skilled professionals remain “Invisible Experts,” missing opportunities not because they lack ability, but because their professional presence is hidden.\r\n\r\nIn this session, you’ll discover how to use LinkedIn as a professional identity layer to showcase your expertise and build authentic connections without turning it into a second job. Through practical examples and a live profile walkthrough, we’ll bridge the gap between deep technical competence and community visibility.\r\n\r\nKey Takeaways:\r\n\r\n- Practical steps to make your technical skills, achievements, and project wins stand out to the Microsoft community.\r\n\r\n- A simple framework for sharing technical insights and lessons learned without the “social media cringe.”\r\n\r\n- Techniques for building meaningful relationships with internal teams, MVPs, and the wider community.\r\n\r\n- Habits for maintaining a strong professional presence in just minutes each week.\r\n\r\nJoin this session and ensure you are never the “best-kept secret” in the Microsoft space again.",
+      "id": "1217055",
+      "title": "Replacing VPN with Entra Private Access: The Bits That Worked and the Bits That Bit Back",
+      "description": "The VPN is the bit of infrastructure everyone wants gone but nobody fancies replacing. Entra Private Access is meant to fix that. In places it does. In others it makes you realise how much your tired old VPN was quietly carrying.\r\nThis session is what a production migration actually looks like once the slide deck is shut. Connector group design that survives a single failure. Conditional Access patterns for private apps. The discovery work most rollouts underestimate, because half the apps are doing things over protocols nobody documented.\r\nLive demo of Per-App Access end to end, gated by Conditional Access. Then the failure modes. Legacy apps that don't behave, DNS pointing at the wrong place, licensing that turns into a small spreadsheet by accident. Plus where Private Access sits inside Global Secure Access, and the cases where the honest answer is to keep the VPN around for another six months.\r\nAttendees leave with a deployment plan that survives contact with reality, a Conditional Access policy set worth copying, and a clearer view of what Private Access actually does well versus what's still not there.\r\nAimed at identity and security folk who know Entra ID and Conditional Access and are either looking at Private Access seriously or partway through a rollout that's started raising awkward questions.\r\nTech & tooling: Microsoft Entra Private Access, Global Secure Access, Conditional Access, Entra ID, Entra Internet Access.",
       "startsAt": "2026-10-03T14:00:00",
       "endsAt": "2026-10-03T14:45:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "e9db87c2-f8f0-4afc-b52f-27cf7c4499b5"
+        "853563e5-81e5-49d2-b2f7-fc0c399bd6da"
       ],
       "categoryItems": [
-        450220,
-        450339,
+        450223,
+        450341,
         452078
       ],
       "questionAnswers": [],
@@ -1094,19 +1094,19 @@
       "isConfirmed": false
     },
     {
-      "id": "1217055",
-      "title": "Replacing VPN with Entra Private Access: The Bits That Worked and the Bits That Bit Back",
-      "description": "The VPN is the bit of infrastructure everyone wants gone but nobody fancies replacing. Entra Private Access is meant to fix that. In places it does. In others it makes you realise how much your tired old VPN was quietly carrying.\r\nThis session is what a production migration actually looks like once the slide deck is shut. Connector group design that survives a single failure. Conditional Access patterns for private apps. The discovery work most rollouts underestimate, because half the apps are doing things over protocols nobody documented.\r\nLive demo of Per-App Access end to end, gated by Conditional Access. Then the failure modes. Legacy apps that don't behave, DNS pointing at the wrong place, licensing that turns into a small spreadsheet by accident. Plus where Private Access sits inside Global Secure Access, and the cases where the honest answer is to keep the VPN around for another six months.\r\nAttendees leave with a deployment plan that survives contact with reality, a Conditional Access policy set worth copying, and a clearer view of what Private Access actually does well versus what's still not there.\r\nAimed at identity and security folk who know Entra ID and Conditional Access and are either looking at Private Access seriously or partway through a rollout that's started raising awkward questions.\r\nTech & tooling: Microsoft Entra Private Access, Global Secure Access, Conditional Access, Entra ID, Entra Internet Access.",
+      "id": "1182001",
+      "title": "The LinkedIn Blueprint: Building Your Brand and Network in the Microsoft Ecosystem",
+      "description": "Building a career in the Microsoft space can feel like doing great work in a crowded room where no one can hear you. Technical expertise grows, projects succeed, and knowledge deepens - yet recognition and MVP nominations don’t always follow. Many highly skilled professionals remain “Invisible Experts,” missing opportunities not because they lack ability, but because their professional presence is hidden.\r\n\r\nIn this session, you’ll discover how to use LinkedIn as a professional identity layer to showcase your expertise and build authentic connections without turning it into a second job. Through practical examples and a live profile walkthrough, we’ll bridge the gap between deep technical competence and community visibility.\r\n\r\nKey Takeaways:\r\n\r\n- Practical steps to make your technical skills, achievements, and project wins stand out to the Microsoft community.\r\n\r\n- A simple framework for sharing technical insights and lessons learned without the “social media cringe.”\r\n\r\n- Techniques for building meaningful relationships with internal teams, MVPs, and the wider community.\r\n\r\n- Habits for maintaining a strong professional presence in just minutes each week.\r\n\r\nJoin this session and ensure you are never the “best-kept secret” in the Microsoft space again.",
       "startsAt": "2026-10-03T14:00:00",
       "endsAt": "2026-10-03T14:45:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "853563e5-81e5-49d2-b2f7-fc0c399bd6da"
+        "e9db87c2-f8f0-4afc-b52f-27cf7c4499b5"
       ],
       "categoryItems": [
-        450223,
-        450341,
+        450220,
+        450339,
         452078
       ],
       "questionAnswers": [],
@@ -1166,47 +1166,24 @@
       "isConfirmed": true
     },
     {
-      "id": "1173804",
-      "title": "Stop Sending Journeys. Start Conversations. Building AI-Driven Customer Dialogues in Dynamics 365",
-      "description": "Most “customer journeys” are still one-way broadcasts dressed up as personalization. We send emails, wait for clicks, and call it engagement.\r\nWith Conversational Journeys, Dynamics 365 Customer Insights finally enables something different: real, adaptive customer dialogue.\r\n\r\nIn this session, I take you behind the scenes of building intelligent, conversation-driven journeys that react to customer intent, behavior, and context in real time.\r\n\r\nYou’ll learn how to:\r\n* Design conversational journeys\r\n* Integrate AI agents\r\n* Connect Contact Center interactions\r\n\r\nFocused demos and real life experience, this session gives architects and consultants practical guidance for turning “AI-powered engagement” into potentially scalable, reliable solutions.\r\nLeave with the mindset, patterns, and technical foundations to move from campaigns to conversations.",
+      "id": "1210618",
+      "title": "Urgent access without security compromise!",
+      "description": "Imagine this: Your Lead Architect is on holiday abroad. A major incident hits your home base, requiring their immediate intervention on a highly sensitive project. The clock is ticking. Do you compromise your security standards to let them in, or keep the door locked and risk the project?\r\n\r\nYou don't have to choose.\r\n\r\nJoin your presenters as they reveal how to solve the \"Security vs. Availability\" paradox. Learn how to leverage the integration of Microsoft Entra and Microsoft Purview to create a dynamic access solution that adapts to crises without lowering the drawbridge.\r\n\r\nKey takeaways include:\r\n\r\n- Dynamic Geo-Filtering: Configuring Conditional Access to adapt to user location without exposing the environment.\r\n- Label-Based Logic: utilizing Sensitivity Labels as the trigger for granular access controls.\r\n- Global Governance: Implementing Microsoft Information Protection (MIP) to secure data assets everywhere, from the corporate office to a hotel Wi-Fi.",
       "startsAt": "2026-10-03T15:00:00",
       "endsAt": "2026-10-03T15:45:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "76f6b34d-e530-4a49-a5ae-e0ab3d03b14d"
+        "2db4d3f6-13f8-4f1d-a805-82ea3513e82e",
+        "1826202b-6cf1-48d8-a0a7-ae594b978c0e"
       ],
       "categoryItems": [
-        450221,
-        450340,
+        450223,
+        450341,
         452078
       ],
       "questionAnswers": [],
       "roomId": 77531,
-      "liveUrl": null,
-      "recordingUrl": null,
-      "status": "Accepted",
-      "isInformed": true,
-      "isConfirmed": true
-    },
-    {
-      "id": "1174142",
-      "title": "Spark joy in Microsoft 365: Marie Kondo your data",
-      "description": "Join us for an engaging, life-changing, and sometimes “on no do I need to delete things” session where we apply the principles of Marie Kondo's KonMari Method™ to declutter and organize your Microsoft 365. In this session we will guide you through a step-by-step process to tidy up your digital workspace, ensuring that every email, document, folder, site, and Team sparks joy and serves a clear purpose.\r\n\r\nObjectives:\r\n•\tUnderstand the core principles of the KonMari Method™ and how they can be applied to digital spaces.\r\n•\tLearn practical techniques for assessing and organizing your content.\r\n•\tDevelop a personalized plan to maintain a tidy and efficient place to store your and your team's data.\r\n\r\nBy the end of this session, you'll have a clear and actionable plan to transform your workplace into a well-organized, efficient, and joyful digital workspace. Say goodbye to clutter and hello to productivity!\r\n",
-      "startsAt": "2026-10-03T15:00:00",
-      "endsAt": "2026-10-03T15:45:00",
-      "isServiceSession": false,
-      "isPlenumSession": false,
-      "speakers": [
-        "88ca0c9d-751c-4d65-b837-ec2993dedecd"
-      ],
-      "categoryItems": [
-        450224,
-        450340,
-        452078
-      ],
-      "questionAnswers": [],
-      "roomId": 77532,
       "liveUrl": null,
       "recordingUrl": null,
       "status": "Accepted",
@@ -1232,7 +1209,7 @@
         452078
       ],
       "questionAnswers": [],
-      "roomId": 80334,
+      "roomId": 77532,
       "liveUrl": null,
       "recordingUrl": null,
       "status": "Accepted",
@@ -1240,20 +1217,44 @@
       "isConfirmed": false
     },
     {
-      "id": "1210618",
-      "title": "Urgent access without security compromise!",
-      "description": "Imagine this: Your Lead Architect is on holiday abroad. A major incident hits your home base, requiring their immediate intervention on a highly sensitive project. The clock is ticking. Do you compromise your security standards to let them in, or keep the door locked and risk the project?\r\n\r\nYou don't have to choose.\r\n\r\nJoin your presenters as they reveal how to solve the \"Security vs. Availability\" paradox. Learn how to leverage the integration of Microsoft Entra and Microsoft Purview to create a dynamic access solution that adapts to crises without lowering the drawbridge.\r\n\r\nKey takeaways include:\r\n\r\n- Dynamic Geo-Filtering: Configuring Conditional Access to adapt to user location without exposing the environment.\r\n- Label-Based Logic: utilizing Sensitivity Labels as the trigger for granular access controls.\r\n- Global Governance: Implementing Microsoft Information Protection (MIP) to secure data assets everywhere, from the corporate office to a hotel Wi-Fi.",
+      "id": "1215976",
+      "title": "Fantastic Fabric: From Data Chaos to Real-World Insights",
+      "description": "Modern data platforms often start in chaos. Multiple tools, disconnected processes, and growing complexity, making it harder to turn data into meaningful insights. Separate tools for ingestion, transformation, storage, and reporting makes solutions harder to manage and slows teams down, making it genuinely difficult to deliver insights efficiently.\r\n\r\nMicrosoft Fabric addresses this challenge by bringing these capabilities together into a unified platform. Built within the familiar Power BI ecosystem, it provides a consistent experience for both business users and data professionals.\r\n\r\nIn this session, we walk through a real-world approach to building an end-to-end data solution in Microsoft Fabric—from ingesting raw data, through transformation and modelling, to delivering insights. Rather than focusing on theory, the session explores practical implementation approaches and the challenges that arise when using Fabric in real scenarios.\r\n\r\nYou will see how core components such as Dataflows, Pipelines, Lakehouse, Warehouse, external tables, and Workspaces (including security roles) fit together in practice, and how to design solutions that are scalable, maintainable, and aligned with business needs.\r\n\r\nThe session also highlights common pitfalls such as inefficient data modelling, orchestration gaps, and performance issues, along with practical ways to avoid them.\r\n\r\nIn addition, it covers key topics such as migration considerations from Azure Synapse to Fabric, Direct Lake reporting, basic PySpark notebooks for data transformation, and the Medallion architecture.\r\n\r\nFrom this session, you'll get a clear and practical understanding of how to build effective solutions in Microsoft Fabric, including design patterns that work, common mistakes to avoid, and techniques to improve performance and delivery.\r\n\r\nThis session is aimed at data professionals and anyone working with data who want to move beyond the basics and start building real-world solutions using Microsoft Fabric.",
       "startsAt": "2026-10-03T15:00:00",
       "endsAt": "2026-10-03T15:45:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "2db4d3f6-13f8-4f1d-a805-82ea3513e82e",
-        "1826202b-6cf1-48d8-a0a7-ae594b978c0e"
+        "37e3c8f0-d7fa-4351-a0c6-886bf4cbc1cc"
       ],
       "categoryItems": [
-        450223,
-        450341,
+        450225,
+        450339,
+        452078,
+        452079
+      ],
+      "questionAnswers": [],
+      "roomId": 80334,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1174142",
+      "title": "Spark joy in Microsoft 365: Marie Kondo your data",
+      "description": "Join us for an engaging, life-changing, and sometimes “on no do I need to delete things” session where we apply the principles of Marie Kondo's KonMari Method™ to declutter and organize your Microsoft 365. In this session we will guide you through a step-by-step process to tidy up your digital workspace, ensuring that every email, document, folder, site, and Team sparks joy and serves a clear purpose.\r\n\r\nObjectives:\r\n•\tUnderstand the core principles of the KonMari Method™ and how they can be applied to digital spaces.\r\n•\tLearn practical techniques for assessing and organizing your content.\r\n•\tDevelop a personalized plan to maintain a tidy and efficient place to store your and your team's data.\r\n\r\nBy the end of this session, you'll have a clear and actionable plan to transform your workplace into a well-organized, efficient, and joyful digital workspace. Say goodbye to clutter and hello to productivity!\r\n",
+      "startsAt": "2026-10-03T15:00:00",
+      "endsAt": "2026-10-03T15:45:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "88ca0c9d-751c-4d65-b837-ec2993dedecd"
+      ],
+      "categoryItems": [
+        450224,
+        450340,
         452078
       ],
       "questionAnswers": [],
@@ -1290,21 +1291,20 @@
       "isConfirmed": false
     },
     {
-      "id": "1215976",
-      "title": "Fantastic Fabric: From Data Chaos to Real-World Insights",
-      "description": "Modern data platforms often start in chaos. Multiple tools, disconnected processes, and growing complexity, making it harder to turn data into meaningful insights. Separate tools for ingestion, transformation, storage, and reporting makes solutions harder to manage and slows teams down, making it genuinely difficult to deliver insights efficiently.\r\n\r\nMicrosoft Fabric addresses this challenge by bringing these capabilities together into a unified platform. Built within the familiar Power BI ecosystem, it provides a consistent experience for both business users and data professionals.\r\n\r\nIn this session, we walk through a real-world approach to building an end-to-end data solution in Microsoft Fabric—from ingesting raw data, through transformation and modelling, to delivering insights. Rather than focusing on theory, the session explores practical implementation approaches and the challenges that arise when using Fabric in real scenarios.\r\n\r\nYou will see how core components such as Dataflows, Pipelines, Lakehouse, Warehouse, external tables, and Workspaces (including security roles) fit together in practice, and how to design solutions that are scalable, maintainable, and aligned with business needs.\r\n\r\nThe session also highlights common pitfalls such as inefficient data modelling, orchestration gaps, and performance issues, along with practical ways to avoid them.\r\n\r\nIn addition, it covers key topics such as migration considerations from Azure Synapse to Fabric, Direct Lake reporting, basic PySpark notebooks for data transformation, and the Medallion architecture.\r\n\r\nFrom this session, you'll get a clear and practical understanding of how to build effective solutions in Microsoft Fabric, including design patterns that work, common mistakes to avoid, and techniques to improve performance and delivery.\r\n\r\nThis session is aimed at data professionals and anyone working with data who want to move beyond the basics and start building real-world solutions using Microsoft Fabric.",
+      "id": "1173804",
+      "title": "Stop Sending Journeys. Start Conversations. Building AI-Driven Customer Dialogues in Dynamics 365",
+      "description": "Most “customer journeys” are still one-way broadcasts dressed up as personalization. We send emails, wait for clicks, and call it engagement.\r\nWith Conversational Journeys, Dynamics 365 Customer Insights finally enables something different: real, adaptive customer dialogue.\r\n\r\nIn this session, I take you behind the scenes of building intelligent, conversation-driven journeys that react to customer intent, behavior, and context in real time.\r\n\r\nYou’ll learn how to:\r\n* Design conversational journeys\r\n* Integrate AI agents\r\n* Connect Contact Center interactions\r\n\r\nFocused demos and real life experience, this session gives architects and consultants practical guidance for turning “AI-powered engagement” into potentially scalable, reliable solutions.\r\nLeave with the mindset, patterns, and technical foundations to move from campaigns to conversations.",
       "startsAt": "2026-10-03T15:00:00",
       "endsAt": "2026-10-03T15:45:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "37e3c8f0-d7fa-4351-a0c6-886bf4cbc1cc"
+        "76f6b34d-e530-4a49-a5ae-e0ab3d03b14d"
       ],
       "categoryItems": [
-        450225,
-        450339,
-        452078,
-        452079
+        450221,
+        450340,
+        452078
       ],
       "questionAnswers": [],
       "roomId": 80337,
@@ -1365,31 +1365,6 @@
       "isConfirmed": true
     },
     {
-      "id": "1189712",
-      "title": "The Rise of Marketing Agents: MCP, APIs and the Future of Customer Insights",
-      "description": "Marketing is changing faster than most teams can keep up, and the teams that win won't be the ones with the biggest budgets, but the ones who move the fastest. What if building, activating, and managing your entire customer journey was as simple as asking for it?\r\n \r\nWe going to make that a reality. Live, in front of you, we build an AI-powered marketing agent using Copilot Studio, the new MCP Server for Customer Insights, and the Customer Insights APIs. We show how natural language turns into real, actionable outcomes across the entire marketing workflow: from creating and activating a segment with the Segment API, to launching a personalized journey with the Journeys API, to registering and managing a CI-J event with the Event Management API. One agent, one conversation, end to end.\r\n \r\nBut this isn't just a demo. We'll explore what this shift actually means for the way marketing teams work every day: less dependency on technical resources, faster time to value, and the freedom to experiment at a pace that was not possible before. Whether you're an architect designing the next generation of marketing infrastructure or a practitioner tired of waiting weeks for a segment to have all data, this session is built for you.\r\n \r\nYou'll walk away with:\r\nA clear understanding of how the new CI-MCP enables agents to use your data in CI.\r\nA technical and functional view of how the Segment, Journeys, and Event Management APIs together unlock a new way of marketing automation\r\nReal-world patterns for designing AI agents that simplify segment & journey creation and event management",
-      "startsAt": "2026-10-03T16:00:00",
-      "endsAt": "2026-10-03T16:45:00",
-      "isServiceSession": false,
-      "isPlenumSession": false,
-      "speakers": [
-        "8a1f9d31-5905-4441-8ebd-e127ea97cbc7",
-        "76f6b34d-e530-4a49-a5ae-e0ab3d03b14d"
-      ],
-      "categoryItems": [
-        450222,
-        450340,
-        452078
-      ],
-      "questionAnswers": [],
-      "roomId": 77532,
-      "liveUrl": null,
-      "recordingUrl": null,
-      "status": "Accepted",
-      "isInformed": true,
-      "isConfirmed": true
-    },
-    {
       "id": "1223846",
       "title": "More To Life Than Work",
       "description": "Scottish Summit is built by people, and people do not leave their real lives at the door. Behind the scenes of careers, community work, speaking, organising and “doing it all”, many of us are also balancing caring responsibilities, family pressures, health challenges, and the general weight of trying to keep everything moving at once. This panel is an open and honest discussion about that reality.\r\n\r\nHosted by the Scottish Summit organisers, this session is a true safe space for a frank and human conversation about balancing career growth, community involvement, and caring duties while protecting your own wellbeing. We will talk about pressures, compromises, support systems, and the importance of asking for help, in a setting where people can feel heard, understood, and not judged.",
@@ -1404,6 +1379,30 @@
       "categoryItems": [
         450220,
         450339,
+        452078
+      ],
+      "questionAnswers": [],
+      "roomId": 77532,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1221930",
+      "title": "From experience to insight: capturing tacit knowledge with AI in M365",
+      "description": "SharePoint is a full-blooded knowledge management platform, and with AI it's more capable than ever. So why do so many organisations still treat it as complex, old-fashioned, or no longer fit for purpose?\r\n\r\nExpectations for finding, using, and governing knowledge are rising fast. Copilot, agents, and AI-powered search are reshaping everyday work with information. That's a huge opportunity for organisations that understand what modern SharePoint can actually do.\r\n\r\nIn this session, I'll show you how to apply AI in SharePoint in a controlled, practical way. Through real-life examples and demos, you'll see how to prepare sites and libraries for AI, what to prioritise first, and how to make Copilot genuinely useful for end users, all without breaking existing governance or introducing new information risks.\r\n\r\nDrawing on over ten years of building knowledge management solutions in SharePoint, I'll demo how to combine structure and governance with AI-driven support for users, without losing control of your information.\r\n\r\nYou'll learn how you can leverage AI in SharePoint to:\r\n\t• Enrich content with metadata and intelligent classification\r\n\t• Support everyday knowledge work through Copilot and SharePoint agents\r\n\t• Share knowledge more easily & securely with the next generation of sharing features\r\n\t• Create an AI-ready knowledge foundation that scales\r\n\r\nYou'll leave with a clear picture of what AI in SharePoint really means today, how the platform has evolved, and how to position it as a modern, intelligent knowledge management solution.",
+      "startsAt": "2026-10-03T16:00:00",
+      "endsAt": "2026-10-03T16:45:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "279a7ce4-87e9-4099-b121-a39ebad80fb0"
+      ],
+      "categoryItems": [
+        450224,
+        450340,
         452078
       ],
       "questionAnswers": [],
@@ -1440,18 +1439,19 @@
       "isConfirmed": true
     },
     {
-      "id": "1221930",
-      "title": "From experience to insight: capturing tacit knowledge with AI in M365",
-      "description": "SharePoint is a full-blooded knowledge management platform, and with AI it's more capable than ever. So why do so many organisations still treat it as complex, old-fashioned, or no longer fit for purpose?\r\n\r\nExpectations for finding, using, and governing knowledge are rising fast. Copilot, agents, and AI-powered search are reshaping everyday work with information. That's a huge opportunity for organisations that understand what modern SharePoint can actually do.\r\n\r\nIn this session, I'll show you how to apply AI in SharePoint in a controlled, practical way. Through real-life examples and demos, you'll see how to prepare sites and libraries for AI, what to prioritise first, and how to make Copilot genuinely useful for end users, all without breaking existing governance or introducing new information risks.\r\n\r\nDrawing on over ten years of building knowledge management solutions in SharePoint, I'll demo how to combine structure and governance with AI-driven support for users, without losing control of your information.\r\n\r\nYou'll learn how you can leverage AI in SharePoint to:\r\n\t• Enrich content with metadata and intelligent classification\r\n\t• Support everyday knowledge work through Copilot and SharePoint agents\r\n\t• Share knowledge more easily & securely with the next generation of sharing features\r\n\t• Create an AI-ready knowledge foundation that scales\r\n\r\nYou'll leave with a clear picture of what AI in SharePoint really means today, how the platform has evolved, and how to position it as a modern, intelligent knowledge management solution.",
+      "id": "1189712",
+      "title": "The Rise of Marketing Agents: MCP, APIs and the Future of Customer Insights",
+      "description": "Marketing is changing faster than most teams can keep up, and the teams that win won't be the ones with the biggest budgets, but the ones who move the fastest. What if building, activating, and managing your entire customer journey was as simple as asking for it?\r\n \r\nWe going to make that a reality. Live, in front of you, we build an AI-powered marketing agent using Copilot Studio, the new MCP Server for Customer Insights, and the Customer Insights APIs. We show how natural language turns into real, actionable outcomes across the entire marketing workflow: from creating and activating a segment with the Segment API, to launching a personalized journey with the Journeys API, to registering and managing a CI-J event with the Event Management API. One agent, one conversation, end to end.\r\n \r\nBut this isn't just a demo. We'll explore what this shift actually means for the way marketing teams work every day: less dependency on technical resources, faster time to value, and the freedom to experiment at a pace that was not possible before. Whether you're an architect designing the next generation of marketing infrastructure or a practitioner tired of waiting weeks for a segment to have all data, this session is built for you.\r\n \r\nYou'll walk away with:\r\nA clear understanding of how the new CI-MCP enables agents to use your data in CI.\r\nA technical and functional view of how the Segment, Journeys, and Event Management APIs together unlock a new way of marketing automation\r\nReal-world patterns for designing AI agents that simplify segment & journey creation and event management",
       "startsAt": "2026-10-03T16:00:00",
       "endsAt": "2026-10-03T16:45:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "279a7ce4-87e9-4099-b121-a39ebad80fb0"
+        "8a1f9d31-5905-4441-8ebd-e127ea97cbc7",
+        "76f6b34d-e530-4a49-a5ae-e0ab3d03b14d"
       ],
       "categoryItems": [
-        450224,
+        450222,
         450340,
         452078
       ],
@@ -2148,6 +2148,7 @@
         }
       ],
       "sessions": [
+        1308273,
         1193827
       ],
       "fullName": "Charles Sexton",
@@ -2910,47 +2911,6 @@
       "fullName": "Joss Mureddu",
       "categoryItems": [
         451784
-      ],
-      "questionAnswers": []
-    },
-    {
-      "id": "ef0edfec-5000-4385-b237-967eea1cec33",
-      "firstName": "Keith",
-      "lastName": "Atherton",
-      "bio": "Power Platform Solution Architect, Microsoft MVP for Business Applications, Microsoft Certified Trainer (MCT), 11x Microsoft certified, published LinkedIn Learning instructor, public speaker, Power Platform Community High Five user group founder, On Air in the Cloud podcast host, blogger, and mentor.\r\n\r\nVersatile solution architect with over 25 years' international experience of leading and developing software solutions in permanent and contract roles for sectors including finance, legal, manufacturing, construction, game development, retail, healthcare, travel, and charity.\r\n\r\nFind me online: https://linktr.ee/keithatherton",
-      "tagLine": "Power Platform Solution Architect | Microsoft MVP | MCT | 11x Microsoft Certified | User Group Leader | LinkedIn Learning Instructor | Speaker | Podcaster",
-      "profilePicture": "https://cdn.sessionize.com/image/ab15-400o400o1-ngtatcAF3X9oVy3hZJDb1s.png",
-      "isTopSpeaker": false,
-      "links": [
-        {
-          "title": "LinkedIn",
-          "url": "https://www.linkedin.com/in/keith-atherton",
-          "linkType": "LinkedIn"
-        },
-        {
-          "title": "Blog",
-          "url": "https://www.keithatherton.com/",
-          "linkType": "Blog"
-        },
-        {
-          "title": "Company Website",
-          "url": "https://www.keithatherton.com/",
-          "linkType": "Company_Website"
-        },
-        {
-          "title": "Sessionize",
-          "url": "https://sessionize.com/keith-atherton",
-          "linkType": "Sessionize"
-        }
-      ],
-      "sessions": [
-        1308273
-      ],
-      "fullName": "Keith Atherton",
-      "categoryItems": [
-        451784,
-        451786,
-        451789
       ],
       "questionAnswers": []
     },
@@ -4779,17 +4739,17 @@
     },
     {
       "id": 77532,
-      "name": "Moncreiff 1 (33)",
+      "name": "Moncreiff 1 (40)",
       "sort": 2
     },
     {
       "id": 80334,
-      "name": "Moncreiff 2 (33)",
+      "name": "Moncreiff 2 (20)",
       "sort": 3
     },
     {
       "id": 80335,
-      "name": "Moncreiff 3 (33)",
+      "name": "Moncreiff 3 (20)",
       "sort": 4
     },
     {
