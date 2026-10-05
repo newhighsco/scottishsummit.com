@@ -1,11 +1,10 @@
-import { Button, Card, Grid, Prose } from '@newhighsco/chipset'
+import { Card, Grid, Prose } from '@newhighsco/chipset'
 import { LogoJsonLd, SocialProfileJsonLd } from 'next-seo'
 import React, { Fragment } from 'react'
 
 import EventHeading from '~components/Events/EventHeading'
 import PageContainer from '~components/PageContainer'
 import Section from '~components/Section'
-import Video from '~components/Video'
 import config from '~config'
 import events from '~data/events.json'
 import { eventTitle } from '~utils/format'
@@ -53,17 +52,7 @@ const HomePage = () => (
           365, Power Platform, M365 and Azure.
         </p>
       }
-    >
-      <span className={styles.ticketCta}>
-        <Button
-          href="https://fienta.com/scottish-summit-2026"
-          variant="inverted"
-        >
-          Event &amp; Workshop Tickets Available Now
-        </Button>
-        <span className={styles.soldOutStamp}>Nearly Sold Out!</span>
-      </span>
-    </EventHeading>
+    />
     <Section id="about" variant="striped">
       <Grid gutter valign="middle">
         <Grid.Item sizes="desktop-one-half">
@@ -82,28 +71,27 @@ const HomePage = () => (
           <br />
         </Grid.Item>
         <Grid.Item sizes="desktop-one-half">
-          <Video id="4sYYhZ2xQP0" title={`${name} 2024 Keynote`} />
+          <div className={styles.teasers}>
+            <div className={styles.teaser}>
+              <p>Coming Soon</p>
+              <h2>Keynote Recording</h2>
+            </div>
+            <div className={styles.teaser}>
+              <p>Coming Soon</p>
+              <h2>Event Gallery</h2>
+            </div>
+          </div>
         </Grid.Item>
       </Grid>
     </Section>
     <Section align="center" size="tablet">
       <Prose>
-        <h2>Tickets Available Now</h2>
+        <h2>Thank You</h2>
         <p>
-          Secure your place at {name} 2026 — two days of expert sessions,
-          workshops and community at Murrayfield Stadium, Edinburgh.
+          The organisers of {name} thank everyone who made the time to attend,
+          speak at, or sponsor {name} 2026.
         </p>
       </Prose>
-      <Button.Group>
-        <Button
-          href="https://app.scottishsummit.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Access the App
-        </Button>
-        <Button href="/2026-attendee">Know Before You Go</Button>
-      </Button.Group>
     </Section>
     <Section align="center" size="desktop" variant="striped">
       <Prose>
