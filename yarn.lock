@@ -3297,7 +3297,7 @@ __metadata:
     next: "npm:16.3.8"
     next-compose-plugins: "npm:2.2.1"
     next-sitemap: "npm:4.2.3"
-    postcss: "npm:8.5.28"
+    postcss: "npm:8.5.29"
     prettier: "npm:3.9.9"
     react: "npm:19.3.0"
     react-dom: "npm:19.3.0"
