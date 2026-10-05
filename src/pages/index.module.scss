@@ -1,5 +1,6 @@
 @use '~styles/colors.module';
 @use '~styles/functions';
+@use '~styles/mixins';
 
 .teasers {
   display: grid;
@@ -16,6 +17,8 @@
   min-height: 16rem;
   padding: functions.spacing(4);
   text-align: center;
+
+  @include mixins.stitches(colors.$lychee, 0.5);
 
   p {
     color: colors.$lychee;
