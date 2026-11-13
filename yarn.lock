@@ -3299,7 +3299,7 @@ __metadata:
     prettier: "npm:3.9.10"
     react: "npm:19.3.1"
     react-dom: "npm:19.3.1"
-    sass: "npm:1.108.1"
+    sass: "npm:1.108.2"
     semantic-release: "npm:25.0.9"
     storybook: "npm:10.6.7"
     stylelint: "npm:18.0.0"
@@ -14215,23 +14215,6 @@ __metadata:
     webpack:
       optional: true
   checksum: 10c0/c05886e6f1373eec23b05ea4d2dfc4317385dc3431ec665b611703ea60b4f9337f6547889c7b7f1c8e36d156caf1294e3d28292f104d6499076cf237f3c723bc
-  languageName: node
-  linkType: hard
-
-"sass@npm:1.108.1":
-  version: 1.108.1
-  resolution: "sass@npm:1.108.1"
-  dependencies:
-    "@parcel/watcher": "npm:^2.4.1"
-    chokidar: "npm:^5.0.0"
-    immutable: "npm:^5.1.5"
-    source-map-js: "npm:>=0.6.2 <2.0.0"
-  dependenciesMeta:
-    "@parcel/watcher":
-      optional: true
-  bin:
-    sass: sass.js
-  checksum: 10c0/4a7bc41997b0a3b5ec14947571babb84a56587fab155f26af12a4dadf359139e642c1c368e9bbacc7ba874283e821bc600c5d85e1aeb103fb5462cce2491d0a5
   languageName: node
   linkType: hard
 
